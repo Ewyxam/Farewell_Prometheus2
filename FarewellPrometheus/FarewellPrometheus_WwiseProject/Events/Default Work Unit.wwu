@@ -107,6 +107,28 @@
 										</Action>
 									</ChildrenList>
 								</Event>
+								<Event Name="VS1_Screen_Glass_Tap_Event" ID="{C19F1F54-C948-412A-B202-ADE61CF814DA}">
+									<ChildrenList>
+										<Action Name="" ID="{4AF70229-C924-44C1-88D5-8FC8BFACD3E6}" ShortID="255783223">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="VS1_Screen_Tap_SFX" ID="{49C3FD5F-49F2-4601-B93A-FEEDA5BB0410}" WorkUnitID="{A8E75F14-F187-4E76-95DF-06D886D3E997}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="VS1_Volga_Glass_Tap_Event" ID="{046028F5-4CFA-4D46-95C9-7DF93102AF37}">
+									<ChildrenList>
+										<Action Name="" ID="{A1DCE346-8C87-4D50-AF72-28AF3EF14FAD}" ShortID="730951291">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="VS1_Volga_Glass_Tap_SFX" ID="{535C9B7D-2FB0-47DD-B65B-F37C2ECA547E}" WorkUnitID="{A8E75F14-F187-4E76-95DF-06D886D3E997}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
 							</ChildrenList>
 						</Folder>
 						<Folder Name="Ambience" ID="{12BB601B-55B0-45F1-A721-28A48A6B893C}" ShortID="293723572">
@@ -203,12 +225,81 @@
 						</Folder>
 						<Folder Name="Music" ID="{979B07BE-BC00-4986-9591-5C9317CAA6EB}" ShortID="773073344">
 							<ChildrenList>
-								<Event Name="Ship_Music" ID="{554FE7CA-B67C-4EE8-BDC3-B01C23AA0CA6}">
+								<Event Name="Music_Event" ID="{554FE7CA-B67C-4EE8-BDC3-B01C23AA0CA6}">
 									<ChildrenList>
 										<Action Name="" ID="{5CA98A05-6FC6-4814-A28E-CC068AB33DCA}" ShortID="358765448">
 											<ReferenceList>
 												<Reference Name="Target">
-													<ObjectRef Name="Ship_Music" ID="{07B14880-7DA3-4EB8-B782-616371C6F1C8}" WorkUnitID="{92EF9D4C-2820-4B90-B46D-F68F64F96557}"/>
+													<ObjectRef Name="Music_Switch" ID="{07B14880-7DA3-4EB8-B782-616371C6F1C8}" WorkUnitID="{92EF9D4C-2820-4B90-B46D-F68F64F96557}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="VS1_Radio_Music_Play" ID="{34326E1A-6B17-4BC4-BEB5-245D67271183}">
+									<ChildrenList>
+										<Action Name="" ID="{62C0FC3E-6071-4C13-93E8-3296E58A7F9B}" ShortID="345104165">
+											<PropertyList>
+												<Property Name="ActionType" Type="int16" Value="7"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Music_Switch" ID="{07B14880-7DA3-4EB8-B782-616371C6F1C8}" WorkUnitID="{92EF9D4C-2820-4B90-B46D-F68F64F96557}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+										<Action Name="" ID="{C166B2AE-1F30-42EA-AFBE-ED8740BA1601}" ShortID="7286790">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="VS1_Radio_Music" ID="{442F9AF1-FCAF-4F4B-B024-B3718A46FCDC}" WorkUnitID="{92EF9D4C-2820-4B90-B46D-F68F64F96557}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="VS1_Radio_Button_Play" ID="{577EC144-C33B-4944-A602-110B5665D253}">
+									<ChildrenList>
+										<Action Name="" ID="{D89E79E0-CFDF-45D3-A037-9698A9E85B43}" ShortID="398504100">
+											<PropertyList>
+												<Property Name="ActionType" Type="int16" Value="9"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="VS1_Radio_Music" ID="{442F9AF1-FCAF-4F4B-B024-B3718A46FCDC}" WorkUnitID="{92EF9D4C-2820-4B90-B46D-F68F64F96557}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+										<Action Name="" ID="{BA694EE6-B66F-4544-82EA-670757F8A39A}" ShortID="778112364">
+											<PropertyList>
+												<Property Name="ActionType" Type="int16" Value="7"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Music_Switch" ID="{07B14880-7DA3-4EB8-B782-616371C6F1C8}" WorkUnitID="{92EF9D4C-2820-4B90-B46D-F68F64F96557}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="VS1_Radio_Button_Pause" ID="{FFCD2ABB-56AD-451D-AC3F-2C4A8B2DBCD4}">
+									<ChildrenList>
+										<Action Name="" ID="{F5395CF4-EEB8-4ED9-9594-E86AB4848A39}" ShortID="164223251">
+											<PropertyList>
+												<Property Name="ActionType" Type="int16" Value="9"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Music_Switch" ID="{07B14880-7DA3-4EB8-B782-616371C6F1C8}" WorkUnitID="{92EF9D4C-2820-4B90-B46D-F68F64F96557}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+										<Action Name="" ID="{12000833-584A-47BB-B173-C6AA17A83E8C}" ShortID="928657065">
+											<PropertyList>
+												<Property Name="ActionType" Type="int16" Value="7"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="VS1_Radio_Music" ID="{442F9AF1-FCAF-4F4B-B024-B3718A46FCDC}" WorkUnitID="{92EF9D4C-2820-4B90-B46D-F68F64F96557}"/>
 												</Reference>
 											</ReferenceList>
 										</Action>

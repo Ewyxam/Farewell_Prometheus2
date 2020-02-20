@@ -20,6 +20,7 @@ namespace AK
         static const AkUniqueID CALENDAR_HANDLE = 2242625264U;
         static const AkUniqueID COMPUTER_SCAN = 1307820710U;
         static const AkUniqueID COMPUTER_START = 2806985083U;
+        static const AkUniqueID MUSIC_EVENT = 55565095U;
         static const AkUniqueID PASSWORD_RIGHT = 2063851173U;
         static const AkUniqueID PASSWORD_WRONG = 368709004U;
         static const AkUniqueID POST_IT_HANDLE = 3878117114U;
@@ -29,9 +30,10 @@ namespace AK
         static const AkUniqueID ROBOT_SCANNING = 1184261795U;
         static const AkUniqueID ROBOT_SHUTDOWN = 926426176U;
         static const AkUniqueID ROBOT_VALID_COMMAND = 3910889982U;
-        static const AkUniqueID SHIP_MUSIC = 53190359U;
         static const AkUniqueID VOLGA_DIAL_P1 = 1059721737U;
         static const AkUniqueID VOLGA_DIAL_STOP_ALL = 110909812U;
+        static const AkUniqueID VS1_SCREEN_GLASS_TAP_EVENT = 2535003186U;
+        static const AkUniqueID VS1_VOLGA_GLASS_TAP_EVENT = 1731494341U;
     } // namespace EVENTS
 
     namespace STATES
@@ -48,16 +50,28 @@ namespace AK
             } // namespace STATE
         } // namespace LOCATION
 
-        namespace STASIS_OR_AWAKE
+        namespace MUSIC
         {
-            static const AkUniqueID GROUP = 851633200U;
+            static const AkUniqueID GROUP = 3991942870U;
 
             namespace STATE
             {
                 static const AkUniqueID AWAKE = 1151176110U;
                 static const AkUniqueID STASIS = 1274150312U;
+                static const AkUniqueID TITLE = 3705726509U;
             } // namespace STATE
-        } // namespace STASIS_OR_AWAKE
+        } // namespace MUSIC
+
+        namespace RADIO
+        {
+            static const AkUniqueID GROUP = 2548238350U;
+
+            namespace STATE
+            {
+                static const AkUniqueID BOSSA = 2253511143U;
+                static const AkUniqueID MISSION = 375726501U;
+            } // namespace STATE
+        } // namespace RADIO
 
         namespace SUIT_ON_OFF
         {
@@ -136,7 +150,8 @@ namespace AK
     namespace BANKS
     {
         static const AkUniqueID INIT = 1355168291U;
-        static const AkUniqueID MAIN = 3161908922U;
+        static const AkUniqueID PHASE1_2 = 3356867608U;
+        static const AkUniqueID PHASE3_4 = 2282805768U;
     } // namespace BANKS
 
     namespace BUSSES

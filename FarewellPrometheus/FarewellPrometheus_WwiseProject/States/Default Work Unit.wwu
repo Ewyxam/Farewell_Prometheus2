@@ -3,11 +3,12 @@
 	<States>
 		<WorkUnit Name="Default Work Unit" ID="{04E6CDEF-2B40-4892-B1CE-603A3A26D722}" PersistMode="Standalone">
 			<ChildrenList>
-				<StateGroup Name="Stasis_or_Awake" ID="{B8517491-B715-4BA9-9D20-2E7DB8611B7F}">
+				<StateGroup Name="Music" ID="{B8517491-B715-4BA9-9D20-2E7DB8611B7F}">
 					<ChildrenList>
 						<State Name="None" ID="{769CC542-2216-4659-81A0-DBB3DAE07576}"/>
 						<State Name="Stasis" ID="{806C9E29-42F0-44C5-9A31-22E662A07694}"/>
 						<State Name="Awake" ID="{093108E1-95FD-4F58-AE8B-B19AFBA38D28}"/>
+						<State Name="Title" ID="{F82D068D-3A2B-46B7-9189-F85120402FD1}"/>
 					</ChildrenList>
 				</StateGroup>
 				<StateGroup Name="Suit_On_Off" ID="{BF2F218D-F478-47B4-AD4E-F2D1D22E25C2}">
@@ -26,6 +27,13 @@
 						<State Name="VS1" ID="{915C022C-5E20-4234-893D-200581D9EED3}"/>
 						<State Name="CL1" ID="{A52FD4E8-5952-44BC-AD78-377F05751CF6}"/>
 						<State Name="JG1" ID="{27C4737B-4C59-4DFE-9438-C9A1F5A7CACA}"/>
+					</ChildrenList>
+				</StateGroup>
+				<StateGroup Name="Radio" ID="{1D03DE61-F3BE-4339-B724-113C85A6042F}">
+					<ChildrenList>
+						<State Name="None" ID="{E9FA133D-CD4C-4127-96B1-34CF21FFB77B}"/>
+						<State Name="Bossa" ID="{4966CB9E-C4BC-498F-9D7F-53CCE0EDD4B3}"/>
+						<State Name="Mission" ID="{BC91BE6F-41E1-46F2-9319-DA2BD5C1F807}"/>
 					</ChildrenList>
 				</StateGroup>
 			</ChildrenList>

@@ -297,10 +297,6 @@
 					<ShortName>Paper_Handle_03_SFX.wav</ShortName>
 					<Path>SFX\Paper_Handle_03_SFX_6296B0F9.wem</Path>
 				</File>
-				<File Id="706870103" Language="SFX">
-					<ShortName>JG1_Chimes_01_AMB_SFX.wav</ShortName>
-					<Path>SFX\JG1_Chimes_01_AMB_SFX_9B96ECC7.wem</Path>
-				</File>
 				<File Id="713839033" Language="SFX">
 					<ShortName>Paper_Handle_ 01_SFX.wav</ShortName>
 					<Path>SFX\Paper_Handle_ 01_SFX_6296B0F9.wem</Path>
@@ -316,10 +312,6 @@
 				<File Id="729253935" Language="English(US)">
 					<ShortName>Volga_P1_Dial_04-01.wav</ShortName>
 					<Path>Voices\English(US)\Volga_P1_Dial_04-01_6296B0F9.wem</Path>
-				</File>
-				<File Id="742518365" Language="SFX">
-					<ShortName>CL1_Insects_01_AMB_SFX.wav</ShortName>
-					<Path>SFX\CL1_Insects_01_AMB_SFX_6296B0F9.wem</Path>
 				</File>
 				<File Id="743703861" Language="SFX">
 					<ShortName>Jungle_Birds_AMB_SFX_10.wav</ShortName>

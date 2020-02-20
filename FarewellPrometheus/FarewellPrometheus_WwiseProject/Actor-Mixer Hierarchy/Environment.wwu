@@ -1307,6 +1307,13 @@
 											</ChildrenList>
 										</RandomSequenceContainer>
 										<Sound Name="CL1_Insects_01_AMB_SFX" ID="{90EBA66C-F40D-4832-88D3-B386543B16CB}" ShortID="286050303">
+											<PropertyList>
+												<Property Name="Inclusion" Type="bool">
+													<ValueList>
+														<Value>False</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{910AC7EE-841B-4C93-A9B7-752C4BD6AD66}"/>
@@ -1344,33 +1351,6 @@
 												<ActiveSource Name="CL1_Insects_02_AMB_SFX" ID="{BB4092A5-7694-4C9F-800E-95361A7D45F8}" Platform="Linked"/>
 											</ActiveSourceList>
 										</Sound>
-										<Sound Name="CL1_Insects_03_AMB_SFX" ID="{7DE411CB-91BD-4043-9FAA-19A2CE108E0C}" ShortID="596225720">
-											<PropertyList>
-												<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
-												<Property Name="Volume" Type="Real64">
-													<ValueList>
-														<Value>-9</Value>
-													</ValueList>
-												</Property>
-											</PropertyList>
-											<ReferenceList>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{910AC7EE-841B-4C93-A9B7-752C4BD6AD66}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="Environments" ID="{69F32401-4587-4C3F-A5F9-6A990215D69B}" WorkUnitID="{D799538D-0932-442A-AAA6-5525C92EAF70}"/>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<AudioFileSource Name="CL1_Insects_03_AMB_SFX" ID="{5CCB1BC5-A105-4FA1-8571-4CEB3D9A62FC}" ShortID="413517149">
-													<Language>SFX</Language>
-													<AudioFile>CL1_Insects_03_AMB_SFX.wav</AudioFile>
-												</AudioFileSource>
-											</ChildrenList>
-											<ActiveSourceList>
-												<ActiveSource Name="CL1_Insects_03_AMB_SFX" ID="{5CCB1BC5-A105-4FA1-8571-4CEB3D9A62FC}" Platform="Linked"/>
-											</ActiveSourceList>
-										</Sound>
 										<Sound Name="CL1_Wind_AMB_SFX" ID="{9B99FB73-C70A-4C6B-8F66-890A59B3A5A5}" ShortID="107022885">
 											<PropertyList>
 												<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
@@ -1402,15 +1382,19 @@
 								</BlendContainer>
 								<BlendContainer Name="JG1_AMB_SFX" ID="{63DE4AD6-B605-4850-9C13-87A9BDA4E6C7}" ShortID="292055268">
 									<PropertyList>
+										<Property Name="OverrideEffect" Type="bool" Value="True"/>
 										<Property Name="Volume" Type="Real64">
 											<ValueList>
-												<Value>-12</Value>
+												<Value>-7</Value>
 											</ValueList>
 										</Property>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{910AC7EE-841B-4C93-A9B7-752C4BD6AD66}"/>
+										</Reference>
+										<Reference Name="Effect0" CompanyID="4095" PluginID="65535" PluginType="15">
+											<ObjectRef Name="Have_U_Ever_Been_Outside" ID="{FE29AE8D-FD86-4652-A95D-68D32F5760EC}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
 										</Reference>
 										<Reference Name="OutputBus">
 											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D799538D-0932-442A-AAA6-5525C92EAF70}"/>
@@ -1453,7 +1437,7 @@
 															<Modifier Name="" ID="{C022C3E8-E8A1-44ED-8FE4-3EADA95C0AD6}">
 																<PropertyList>
 																	<Property Name="Enabled" Type="bool" Value="True"/>
-																	<Property Name="Max" Type="Real64" Value="4"/>
+																	<Property Name="Max" Type="Real64" Value="2"/>
 																</PropertyList>
 															</Modifier>
 														</ModifierInfo>
@@ -1462,14 +1446,14 @@
 												<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
 												<Property Name="Volume" Type="Real64">
 													<ValueList>
-														<Value>-25</Value>
+														<Value>-7</Value>
 													</ValueList>
 													<ModifierList>
 														<ModifierInfo>
 															<Modifier Name="" ID="{68D27650-59DF-4606-9913-C2CD6FF3DF9A}">
 																<PropertyList>
 																	<Property Name="Enabled" Type="bool" Value="True"/>
-																	<Property Name="Min" Type="Real64" Value="-15"/>
+																	<Property Name="Min" Type="Real64" Value="-10"/>
 																</PropertyList>
 															</Modifier>
 														</ModifierInfo>
@@ -1797,9 +1781,27 @@
 										</RandomSequenceContainer>
 										<RandomSequenceContainer Name="JG1_Bushes_Rustles_SFX" ID="{CA851F39-E7FC-4704-BCB5-6B860B6B3310}" ShortID="328200598">
 											<PropertyList>
+												<Property Name="3DPosition" Type="int16" Value="1"/>
+												<Property Name="3DSpatialization" Type="int16" Value="2"/>
+												<Property Name="Lowpass" Type="int16">
+													<ValueList>
+														<Value>10</Value>
+													</ValueList>
+													<ModifierList>
+														<ModifierInfo>
+															<Modifier Name="" ID="{016F975A-3D3F-471D-9F15-D567F5F8F0A9}">
+																<PropertyList>
+																	<Property Name="Enabled" Type="bool" Value="True"/>
+																	<Property Name="Max" Type="Real64" Value="45"/>
+																</PropertyList>
+															</Modifier>
+														</ModifierInfo>
+													</ModifierList>
+												</Property>
+												<Property Name="OverridePositioning" Type="bool" Value="True"/>
 												<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
 												<Property Name="PlayMechanismSpecialTransitionsType" Type="int16" Value="3"/>
-												<Property Name="PlayMechanismSpecialTransitionsValue" Type="Real64" Value="4">
+												<Property Name="PlayMechanismSpecialTransitionsValue" Type="Real64" Value="6">
 													<ModifierList>
 														<ModifierInfo>
 															<Modifier Name="" ID="{6B1608C4-A60D-43A0-84E1-B770737DD50D}">
@@ -1813,6 +1815,22 @@
 													</ModifierList>
 												</Property>
 												<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>-12</Value>
+													</ValueList>
+													<ModifierList>
+														<ModifierInfo>
+															<Modifier Name="" ID="{3A49F4CE-A7E9-4C6C-9BA7-5E313C6E66FF}">
+																<PropertyList>
+																	<Property Name="Enabled" Type="bool" Value="True"/>
+																	<Property Name="Max" Type="Real64" Value="3"/>
+																	<Property Name="Min" Type="Real64" Value="-8"/>
+																</PropertyList>
+															</Modifier>
+														</ModifierInfo>
+													</ModifierList>
+												</Property>
 											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Conversion">
@@ -1881,10 +1899,48 @@
 													</ActiveSourceList>
 												</Sound>
 											</ChildrenList>
+											<PositioningInfo>
+												<Position Name="" ID="{C56D9638-6654-4FC3-955C-8C2160626C43}">
+													<PropertyList>
+														<Property Name="PlayMechanismRandomOrSequence" Type="int16" Value="1"/>
+														<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+													</PropertyList>
+													<ChildrenList>
+														<Path2D Name="JG1_Bushes_Rustles_SFX_Path" ID="{F1542A84-5B2C-420F-AA4B-404CEE069DFA}">
+															<PropertyList>
+																<Property Name="RandomX" Type="Real64" Value="60"/>
+															</PropertyList>
+															<PointList>
+																<Point>
+																	<XPos>0</XPos>
+																	<YPos>100</YPos>
+																	<Flags>12</Flags>
+																	<Time>0</Time>
+																</Point>
+															</PointList>
+														</Path2D>
+													</ChildrenList>
+												</Position>
+											</PositioningInfo>
 										</RandomSequenceContainer>
 										<Sound Name="JG1_Chimes_01_AMB_SFX" ID="{831BF287-2AEA-4523-AA29-1144E31EC501}" ShortID="458880493">
 											<PropertyList>
+												<Property Name="Inclusion" Type="bool">
+													<ValueList>
+														<Value>False</Value>
+													</ValueList>
+												</Property>
 												<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+												<Property Name="Lowpass" Type="int16">
+													<ValueList>
+														<Value>35</Value>
+													</ValueList>
+												</Property>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>-15</Value>
+													</ValueList>
+												</Property>
 											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Conversion">
@@ -1907,6 +1963,16 @@
 										<Sound Name="JG1_Chimes_02_AMB_SFX" ID="{1488D0A6-BCC5-438B-A6D6-F60096350057}" ShortID="252611587">
 											<PropertyList>
 												<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+												<Property Name="Lowpass" Type="int16">
+													<ValueList>
+														<Value>35</Value>
+													</ValueList>
+												</Property>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>-17</Value>
+													</ValueList>
+												</Property>
 											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Conversion">
@@ -1929,6 +1995,11 @@
 										<Sound Name="JG1_Wind_01_AMB_SFX" ID="{C06F38AE-0D3E-4704-BF0C-888D6E1CAECD}" ShortID="383585333">
 											<PropertyList>
 												<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>-5</Value>
+													</ValueList>
+												</Property>
 											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Conversion">
@@ -1946,6 +2017,33 @@
 											</ChildrenList>
 											<ActiveSourceList>
 												<ActiveSource Name="JG1_Wind_01_AMB_SFX" ID="{4CD2778B-03CD-47CB-A1B3-C6EBFD86DE06}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="JG1_Insects_01_AMB_SFX" ID="{7DE411CB-91BD-4043-9FAA-19A2CE108E0C}" ShortID="596225720">
+											<PropertyList>
+												<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>-25</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="AMB" ID="{0B3FCEDC-AD1D-43E0-8330-66D515AA0D95}" WorkUnitID="{910AC7EE-841B-4C93-A9B7-752C4BD6AD66}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D799538D-0932-442A-AAA6-5525C92EAF70}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="CL1_Insects_03_AMB_SFX" ID="{5CCB1BC5-A105-4FA1-8571-4CEB3D9A62FC}" ShortID="413517149">
+													<Language>SFX</Language>
+													<AudioFile>CL1_Insects_03_AMB_SFX.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="CL1_Insects_03_AMB_SFX" ID="{5CCB1BC5-A105-4FA1-8571-4CEB3D9A62FC}" Platform="Linked"/>
 											</ActiveSourceList>
 										</Sound>
 									</ChildrenList>

@@ -1,0 +1,497 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{77951EF6-4978-416C-AA34-3188A981DCD3}" SchemaVersion="94">
+	<Events>
+		<WorkUnit Name="Default Work Unit" ID="{77951EF6-4978-416C-AA34-3188A981DCD3}" PersistMode="Standalone">
+			<ChildrenList>
+				<Folder Name="Ship" ID="{A192BDBE-8377-463F-9965-1355FDC6015E}" ShortID="280223260">
+					<ChildrenList>
+						<Folder Name="Computer" ID="{D0D00BD0-0AAB-469C-B786-4389E45981D2}" ShortID="507759077">
+							<ChildrenList>
+								<Folder Name="Button" ID="{C11B386C-F29C-4F16-B030-1B24C4A35E74}" ShortID="1065874534">
+									<ChildrenList>
+										<Event Name="Button_Click" ID="{FF2B30C1-A316-46EC-B131-A75ECABBBEDE}">
+											<ChildrenList>
+												<Action Name="" ID="{8072577C-7052-45A6-9D11-320350F4B861}" ShortID="282619431">
+													<ReferenceList>
+														<Reference Name="Target">
+															<ObjectRef Name="VS1_Button_Click_SFX" ID="{CB73D4C0-1DE1-478F-BE51-B5ACF0274D03}" WorkUnitID="{A8E75F14-F187-4E76-95DF-06D886D3E997}"/>
+														</Reference>
+													</ReferenceList>
+												</Action>
+											</ChildrenList>
+										</Event>
+										<Event Name="Button_Hover" ID="{FE659B0C-7D7C-43AA-8F65-1B98FD1C71C9}">
+											<ChildrenList>
+												<Action Name="" ID="{5563E341-DA6F-4C74-A813-2AAE63C0CA87}" ShortID="29603127">
+													<ReferenceList>
+														<Reference Name="Target">
+															<ObjectRef Name="VS1_Button_Hover_SFX" ID="{78EB92B5-179B-4BDA-80C3-5670BFC2FEB9}" WorkUnitID="{A8E75F14-F187-4E76-95DF-06D886D3E997}"/>
+														</Reference>
+													</ReferenceList>
+												</Action>
+											</ChildrenList>
+										</Event>
+									</ChildrenList>
+								</Folder>
+								<Folder Name="Password" ID="{A3C9E173-33C9-41B6-81ED-E70C820A24CF}" ShortID="1020477200">
+									<ChildrenList>
+										<Event Name="Password_Right" ID="{B4D7F35F-50E3-4E19-B803-BFCF7E440196}">
+											<ChildrenList>
+												<Action Name="" ID="{E96685EF-EFB6-41B0-822C-02C9DE0B04F9}" ShortID="504207819">
+													<ReferenceList>
+														<Reference Name="Target">
+															<ObjectRef Name="Computer_Right_Password_SFX" ID="{A04AA4D8-4228-4B5A-A17A-92CCD0EE3905}" WorkUnitID="{A8E75F14-F187-4E76-95DF-06D886D3E997}"/>
+														</Reference>
+													</ReferenceList>
+												</Action>
+											</ChildrenList>
+										</Event>
+										<Event Name="Password_Wrong" ID="{70062BE2-420A-4A0E-9AB7-E45A1F537C7C}">
+											<ChildrenList>
+												<Action Name="" ID="{3113A97A-213B-4A51-AF2A-379CBD60E949}" ShortID="89712127">
+													<ReferenceList>
+														<Reference Name="Target">
+															<ObjectRef Name="Computer_Wrong_Password_SFX" ID="{8C6484CF-43F4-4261-B93C-4F9315E5E8D6}" WorkUnitID="{A8E75F14-F187-4E76-95DF-06D886D3E997}"/>
+														</Reference>
+													</ReferenceList>
+												</Action>
+											</ChildrenList>
+										</Event>
+									</ChildrenList>
+								</Folder>
+								<Event Name="Computer_Start" ID="{2CB3D1F0-8644-406F-80F0-B66CB5883201}">
+									<ChildrenList>
+										<Action Name="" ID="{62270735-72F0-47EE-B0FF-89A833BC03A0}" ShortID="687523565">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="VS1_Computer_On_SFX" ID="{7BAAC27E-FC24-4D37-AAE4-F284B96ECCA6}" WorkUnitID="{A8E75F14-F187-4E76-95DF-06D886D3E997}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Computer_Scan" ID="{2AD47356-3189-4EBA-9D05-6E32A370D785}">
+									<ChildrenList>
+										<Action Name="" ID="{41A906B4-7FA8-4DF6-A8A9-32A0F9C72125}" ShortID="931248248">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="VS1_Computer_processing_SFX" ID="{3B2ED0C9-8816-4C52-8B26-2057D3C0199B}" WorkUnitID="{A8E75F14-F187-4E76-95DF-06D886D3E997}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+							</ChildrenList>
+						</Folder>
+						<Folder Name="Objects" ID="{32AC24BE-79FC-4E9B-AB94-65A8E59CBD48}" ShortID="480323805">
+							<ChildrenList>
+								<Event Name="Post_it_Handle" ID="{5A243A84-0E71-4784-B305-83A0CD98A497}">
+									<ChildrenList>
+										<Action Name="" ID="{EC7F0525-629C-4503-9C11-786BBF46F4ED}" ShortID="455903868">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="VS1_Post-it_Handle_SFX" ID="{E33088EF-1289-442B-8618-0114926741CB}" WorkUnitID="{A8E75F14-F187-4E76-95DF-06D886D3E997}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Calendar_Handle" ID="{46DC1F05-2B20-4681-973A-E3D27230AAA8}">
+									<ChildrenList>
+										<Action Name="" ID="{9A090F6D-F419-4403-A12C-1C5E4D23E359}" ShortID="266852576">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="VS1_Calendar_Handle_SFX" ID="{133AD5BF-D225-462E-AFE0-141A2E61FDC7}" WorkUnitID="{A8E75F14-F187-4E76-95DF-06D886D3E997}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+							</ChildrenList>
+						</Folder>
+						<Folder Name="Ambience" ID="{12BB601B-55B0-45F1-A721-28A48A6B893C}" ShortID="293723572">
+							<ChildrenList>
+								<Event Name="Ambiance_Bed" ID="{D567E1FE-6114-4C09-BB24-0055A9247D0B}">
+									<ChildrenList>
+										<Action Name="" ID="{FF8E9995-D983-4E8D-AC1D-97FB33629569}" ShortID="184108715">
+											<PropertyList>
+												<Property Name="Inclusion" Type="bool">
+													<ValueList>
+														<Value>False</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="CL1_Birds_SFX" ID="{8556281E-87FA-4B74-A606-9A9F99890237}" WorkUnitID="{0976A159-B45B-49AD-A20F-D8E27B741149}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+										<Action Name="" ID="{16944863-8A93-4A51-A565-C0824C1A53B9}" ShortID="1016068132">
+											<PropertyList>
+												<Property Name="Inclusion" Type="bool">
+													<ValueList>
+														<Value>False</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="VS1_Ship_Rain_AMB_SFX" ID="{BC55DB97-6B78-4AC5-9421-A08CB8769243}" WorkUnitID="{0976A159-B45B-49AD-A20F-D8E27B741149}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+										<Action Name="" ID="{7D35278B-DCCA-4240-991E-27798ADC9706}" ShortID="484649452">
+											<PropertyList>
+												<Property Name="Inclusion" Type="bool">
+													<ValueList>
+														<Value>False</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="CL1_Wind_AMB_SFX" ID="{9B99FB73-C70A-4C6B-8F66-890A59B3A5A5}" WorkUnitID="{0976A159-B45B-49AD-A20F-D8E27B741149}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+										<Action Name="" ID="{C136F067-635B-45A3-AA6D-142654F4BC6E}" ShortID="498766703">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="VS1_Ship_Drone_AMB_SFX" ID="{9F6E6F7B-F3AC-425A-B540-0939029706A5}" WorkUnitID="{0976A159-B45B-49AD-A20F-D8E27B741149}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+										<Action Name="" ID="{C08A4582-3FEF-4779-BD10-F60A8F5EDD32}" ShortID="536315969">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="VS1_Beeps_SFX" ID="{022BD303-1D00-44A2-A972-1BEA8592ABAE}" WorkUnitID="{0976A159-B45B-49AD-A20F-D8E27B741149}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+										<Action Name="" ID="{BBB879EB-AA14-46E8-803F-8AB4A180592C}" ShortID="298268674">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="VS1_Ship_Drone_AMB_03_SFX" ID="{7F95E436-21EA-4C8A-A0BB-63C54020ACB5}" WorkUnitID="{0976A159-B45B-49AD-A20F-D8E27B741149}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+										<Action Name="" ID="{5BE51EDB-452C-447F-9BD5-E81A26D2E0D3}" ShortID="800263071">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="VS1_Ship_Drone_AMB_02_SFX" ID="{6BFAF4A9-738D-46B3-B6FA-1913FB2A2DF9}" WorkUnitID="{0976A159-B45B-49AD-A20F-D8E27B741149}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+										<Action Name="" ID="{5826BBFB-50F3-4E85-9739-B07CDB5C58CC}" ShortID="127583634">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="VS1_Electric_Zaps_SFX" ID="{7D8431C1-9FA5-44B7-9292-4C565EF80168}" WorkUnitID="{0976A159-B45B-49AD-A20F-D8E27B741149}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+										<Action Name="" ID="{FCCCBB1F-3B20-42A8-AB61-20C3169B42AE}" ShortID="630857496">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="VS1_Metallic_Rakes_SFX" ID="{F23091F7-5387-420E-B861-71EBD9125D00}" WorkUnitID="{0976A159-B45B-49AD-A20F-D8E27B741149}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+							</ChildrenList>
+						</Folder>
+						<Folder Name="Music" ID="{979B07BE-BC00-4986-9591-5C9317CAA6EB}" ShortID="773073344">
+							<ChildrenList>
+								<Event Name="Ship_Music" ID="{554FE7CA-B67C-4EE8-BDC3-B01C23AA0CA6}">
+									<ChildrenList>
+										<Action Name="" ID="{5CA98A05-6FC6-4814-A28E-CC068AB33DCA}" ShortID="358765448">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Ship_Music" ID="{07B14880-7DA3-4EB8-B782-616371C6F1C8}" WorkUnitID="{92EF9D4C-2820-4B90-B46D-F68F64F96557}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+							</ChildrenList>
+						</Folder>
+						<Folder Name="Dialog" ID="{7201484C-B740-4F91-B4FE-B072F4AB8A58}" ShortID="826488558">
+							<ChildrenList>
+								<Event Name="Volga_Dial_P1_01" ID="{21ABEE69-0F60-4D08-9E59-A072D133DBAA}">
+									<ChildrenList>
+										<Action Name="" ID="{F600F4AA-F1C1-4F18-889E-E349BFA93415}" ShortID="388922109">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Volga_P1_Dial_01" ID="{DA2B3B45-C63E-4E3A-BF0D-A89F20CF1D8A}" WorkUnitID="{8B5CC8D1-983C-408E-A73A-BF68B6A9EC52}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Volga_Dial_P1_02" ID="{49135DB4-045F-4C30-916D-EA0A50A28356}">
+									<ChildrenList>
+										<Action Name="" ID="{14F1F4C2-BC5D-47F1-854C-90507C7FF9EF}" ShortID="843308934">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Volga_P1_Dial_02" ID="{91958735-B1F5-4242-8D2A-5010FEE87EF2}" WorkUnitID="{8B5CC8D1-983C-408E-A73A-BF68B6A9EC52}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Volga_Dial_P1_03" ID="{26E92C66-5255-4EAA-801E-19A5FAACEF12}">
+									<ChildrenList>
+										<Action Name="" ID="{F9A1BC99-FFC5-42F7-91B3-5AEE1A96FF19}" ShortID="1002173391">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Volga_P1_Dial_03" ID="{C0FE5B25-324C-44E5-A8EB-E6A51AE54455}" WorkUnitID="{8B5CC8D1-983C-408E-A73A-BF68B6A9EC52}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Volga_Dial_P1_04" ID="{59D25A12-EED9-498B-AE2D-AFE4358AC6EC}">
+									<ChildrenList>
+										<Action Name="" ID="{26AD75CE-519D-42F8-A93F-6ED175906B8A}" ShortID="72608271">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Volga_P1_Dial_04" ID="{A3655C60-AA56-40E4-86AC-51425824087B}" WorkUnitID="{8B5CC8D1-983C-408E-A73A-BF68B6A9EC52}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Volga_Dial_P1_05" ID="{9310EF71-C95B-4A28-ABC7-EF00ADFA8B8A}">
+									<ChildrenList>
+										<Action Name="" ID="{482FCF2B-D976-46FD-A274-FAA0E272FEC3}" ShortID="556533535">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Volga_P1_Dial_05" ID="{8F99E6A8-0DE3-44D4-953B-E74D04648034}" WorkUnitID="{8B5CC8D1-983C-408E-A73A-BF68B6A9EC52}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Volga_Dial_P1_06" ID="{8733A73F-5171-4EB1-915B-423B85377FA2}">
+									<ChildrenList>
+										<Action Name="" ID="{2BF184F5-0CB2-4EE4-906E-0EC65DE87021}" ShortID="921448602">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Volga_P1_Dial_06" ID="{A704D2B5-3A27-4DCB-9AC8-000C0D34C002}" WorkUnitID="{8B5CC8D1-983C-408E-A73A-BF68B6A9EC52}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Volga_Dial_P1_07" ID="{44503BAF-E349-403A-8A99-D4DC936EDD84}">
+									<ChildrenList>
+										<Action Name="" ID="{65344A4A-CF72-4CC5-858B-05E4A351DEC3}" ShortID="95918539">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Volga_P1_Dial_07" ID="{056A0F27-1324-4AB3-806A-D0B71A084A23}" WorkUnitID="{8B5CC8D1-983C-408E-A73A-BF68B6A9EC52}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Volga_Dial_P1_08" ID="{3DD2BB22-393E-4E04-9E0A-FDB4DF1B417E}">
+									<ChildrenList>
+										<Action Name="" ID="{B2EE5A83-E4DC-49B8-A90A-758152E54CE1}" ShortID="326539915">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Volga_P1_Dial_08" ID="{64E63AC8-EC12-493D-BA0C-0E3C0CC2B63F}" WorkUnitID="{8B5CC8D1-983C-408E-A73A-BF68B6A9EC52}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Volga_Dial_Stop_All" ID="{505AA7E7-1115-4814-A218-A6769614BDE7}">
+									<ChildrenList>
+										<Action Name="" ID="{E4904F8D-97C8-4BB3-8191-7B3252B8DBEE}" ShortID="359758280">
+											<PropertyList>
+												<Property Name="ActionType" Type="int16" Value="2"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Volga_P1_Dial_04" ID="{A3655C60-AA56-40E4-86AC-51425824087B}" WorkUnitID="{8B5CC8D1-983C-408E-A73A-BF68B6A9EC52}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+										<Action Name="" ID="{7B98C562-5DEE-41B0-9B55-F5646DB4DA5D}" ShortID="564380047">
+											<PropertyList>
+												<Property Name="ActionType" Type="int16" Value="2"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Volga_P1_Dial_02" ID="{91958735-B1F5-4242-8D2A-5010FEE87EF2}" WorkUnitID="{8B5CC8D1-983C-408E-A73A-BF68B6A9EC52}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+										<Action Name="" ID="{1935ED35-C5C4-4E89-9E62-8ACA34539C22}" ShortID="871785716">
+											<PropertyList>
+												<Property Name="ActionType" Type="int16" Value="2"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Volga_P1_Dial_03" ID="{C0FE5B25-324C-44E5-A8EB-E6A51AE54455}" WorkUnitID="{8B5CC8D1-983C-408E-A73A-BF68B6A9EC52}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+										<Action Name="" ID="{47640631-8F85-4F97-B75D-51A9FD2A125D}" ShortID="460912856">
+											<PropertyList>
+												<Property Name="ActionType" Type="int16" Value="2"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Volga_P1_Dial_05" ID="{8F99E6A8-0DE3-44D4-953B-E74D04648034}" WorkUnitID="{8B5CC8D1-983C-408E-A73A-BF68B6A9EC52}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+										<Action Name="" ID="{06D65CC7-985B-4B97-B2E3-AE1C81169894}" ShortID="918637515">
+											<PropertyList>
+												<Property Name="ActionType" Type="int16" Value="2"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Volga_P1_Dial_06" ID="{A704D2B5-3A27-4DCB-9AC8-000C0D34C002}" WorkUnitID="{8B5CC8D1-983C-408E-A73A-BF68B6A9EC52}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+										<Action Name="" ID="{0B295014-A88D-4EE4-AD7A-0D3F3BB3850D}" ShortID="1066858447">
+											<PropertyList>
+												<Property Name="ActionType" Type="int16" Value="2"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Volga_P1_Dial_07" ID="{056A0F27-1324-4AB3-806A-D0B71A084A23}" WorkUnitID="{8B5CC8D1-983C-408E-A73A-BF68B6A9EC52}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+										<Action Name="" ID="{61BB6F9C-0B40-4F52-95BC-65A39E0135F6}" ShortID="966355045">
+											<PropertyList>
+												<Property Name="ActionType" Type="int16" Value="2"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Volga_P1_Dial_08" ID="{64E63AC8-EC12-493D-BA0C-0E3C0CC2B63F}" WorkUnitID="{8B5CC8D1-983C-408E-A73A-BF68B6A9EC52}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+										<Action Name="" ID="{BF40A818-D56E-4800-9571-BF5D724A9CF0}" ShortID="674239148">
+											<PropertyList>
+												<Property Name="ActionType" Type="int16" Value="2"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Volga_P1_Dial_01" ID="{DA2B3B45-C63E-4E3A-BF0D-A89F20CF1D8A}" WorkUnitID="{8B5CC8D1-983C-408E-A73A-BF68B6A9EC52}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Volga_Dial_P1" ID="{F245C172-AF85-49B2-A86B-F6716AA22253}">
+									<ChildrenList>
+										<Action Name="" ID="{519990F7-AA1E-439A-B415-922326342E38}" ShortID="263120566">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Volga_Dial_P1" ID="{5D33C1ED-63DB-49BE-B540-F91077ED69D9}" WorkUnitID="{8B5CC8D1-983C-408E-A73A-BF68B6A9EC52}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="DIAL_Switch_Volga" ID="{832A6055-7629-4EDB-9718-CDE419E7C3FF}">
+									<ChildrenList>
+										<Action Name="" ID="{E37A14E0-14CD-4D4F-8872-752D1A00A240}" ShortID="859924914">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="DIAL_Switch_Volga" ID="{93972DE6-7822-4F43-A5D0-B6C72DD1EFBB}" WorkUnitID="{8B5CC8D1-983C-408E-A73A-BF68B6A9EC52}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+							</ChildrenList>
+						</Folder>
+						<Folder Name="Robot" ID="{9492DBA1-5E1B-4EE9-A3CA-3209833B3EC8}" ShortID="267008457">
+							<ChildrenList>
+								<Event Name="Robot_Operational" ID="{0EC2F8E1-F9FE-41E6-9299-1B971607BDFF}">
+									<ChildrenList>
+										<Action Name="" ID="{40EE3EE8-64D5-4A60-87BA-2F5EAAAB111A}" ShortID="367169952">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="VS2_Robot_Operational_SFX" ID="{25DA1398-04EB-4388-942B-7A787071BD9D}" WorkUnitID="{A8E75F14-F187-4E76-95DF-06D886D3E997}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Robot_Moving" ID="{57F9D0EA-3DCD-448D-809A-470E0796F684}">
+									<ChildrenList>
+										<Action Name="" ID="{13CBC522-5009-4DE8-B1F0-1084A674A9EB}" ShortID="557226027">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="VS2_Robot_Moving_SFX" ID="{2EDF669D-F869-4C62-A305-C7CDE83DD9F9}" WorkUnitID="{A8E75F14-F187-4E76-95DF-06D886D3E997}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Robot_Invalid_Command" ID="{34D61002-18C4-49BB-B6B5-856B4762A972}">
+									<ChildrenList>
+										<Action Name="" ID="{DB99CCE3-B0EA-4A93-9839-18CFDEC1D462}" ShortID="613944077">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="VS2_Robot_Invalid_Command_SFX" ID="{025E53D2-5843-46E8-8B83-F0FF7DB43172}" WorkUnitID="{A8E75F14-F187-4E76-95DF-06D886D3E997}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Robot_Valid_Command" ID="{05C990DC-B436-4F08-9419-0AD7A1F613EF}">
+									<ChildrenList>
+										<Action Name="" ID="{83BD25F5-B31B-406E-BC23-05809FAC7537}" ShortID="727779492">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="VS2_Robot_Valid_Command_SFX" ID="{19185EB8-5DFD-47F0-B5D0-8FA7BFB10A22}" WorkUnitID="{A8E75F14-F187-4E76-95DF-06D886D3E997}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Robot_Scanning" ID="{B17E508C-B070-4F7C-821A-5446D5C9814F}">
+									<ChildrenList>
+										<Action Name="" ID="{5A1F6704-D938-4E91-B140-0120E85E29B0}" ShortID="573758860">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="VS2_Robot_Scan_SFX" ID="{B50649F5-9A0D-43E3-B82E-1F649D7A9F4B}" WorkUnitID="{A8E75F14-F187-4E76-95DF-06D886D3E997}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Robot_Shutdown" ID="{0E44F1E8-8633-4765-8C4A-6FB8C80659FD}">
+									<ChildrenList>
+										<Action Name="" ID="{81EF2A79-F7F2-4B23-B4CA-404A31417754}" ShortID="1042096538">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="VS2_Robot_Shutdown_SFX" ID="{197B56C3-D021-4439-89E8-2F9E0082CB69}" WorkUnitID="{A8E75F14-F187-4E76-95DF-06D886D3E997}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+							</ChildrenList>
+						</Folder>
+					</ChildrenList>
+				</Folder>
+				<WorkUnit Name="Element" ID="{1DEF96DB-F126-4FBE-952F-7DE39489AD6E}" PersistMode="Reference"/>
+				<WorkUnit Name="Environment" ID="{715DFDB0-4E78-47C3-BD3C-FBFE54BDC937}" PersistMode="Reference"/>
+				<WorkUnit Name="Footstep" ID="{43A24C5B-F0F8-4488-9677-F6568898C8B5}" PersistMode="Reference"/>
+				<WorkUnit Name="UI" ID="{D8F3CB73-123A-4CCC-899C-0E4C0F14C176}" PersistMode="Reference"/>
+				<WorkUnit Name="Vocal" ID="{BABC5BE6-49EF-4526-BB5D-ED39CDCD21B0}" PersistMode="Reference"/>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

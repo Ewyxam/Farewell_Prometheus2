@@ -1,23 +1,86 @@
-﻿using UnityEngine;
+﻿using System.Collections;
+using UnityEngine;
 using UnityEngine.SceneManagement;
 
 public class SceneTransition : MonoBehaviour
 {
-    public Animator animator;
+    public Animator transition;
 
-    private int sceneToLoad;
-   
-    public void FadeToNextLevel()
+
+    public float transitionTime = 1f;
+
+    public GameObject manager;
+    public GameObject currentPanel;
+    public GameObject transitionPanel;
+    public GameObject nextPanel;
+    public GameObject continueButton;
+
+    public int tabNum;
+
+    public void Start()
     {
-        FadeToLevel(SceneManager.GetActiveScene().buildIndex + 1);
+        tabNum = manager.GetComponent<CollisionManager>().tabNum;
     }
-    public void FadeToLevel (int levelIndex)
+    public void LoadNextScene()
     {
-        animator.SetTrigger("FadeOUt");
+        StartCoroutine(LoadLevel(SceneManager.GetActiveScene().buildIndex + 1));
     }
 
-    public void OnFadeComplete()
+    IEnumerator LoadLevel(int levelIndex)
     {
-        SceneManager.LoadScene(sceneToLoad);
+        // Play Animation
+        transition.SetTrigger("Start");
+
+        // Wait
+        yield return new WaitForSeconds(transitionTime);
+
+        // Load scene
+        SceneManager.LoadScene(levelIndex);
     }
+
+    public void LoadTransitionPanel()
+    {
+        StartCoroutine(LoadTransPanel(1f));
+    }
+
+    IEnumerator LoadTransPanel(float transTime)
+    {
+        transition.SetTrigger("Start");
+
+        yield return new WaitForSeconds(transTime);
+
+        currentPanel = manager.GetComponent<CollisionManager>().tab[tabNum];
+        currentPanel.SetActive(false);
+
+        transitionPanel.SetActive(true);
+
+        transition.SetTrigger("End");
+
+        yield return new WaitForSeconds(5f);
+
+        continueButton.SetActive(true);
+    }
+
+    public void LoadNextPanel()
+    {
+        tabNum = manager.GetComponent<CollisionManager>().tabNum;
+        StartCoroutine(LoadPanel(1f));
+    }
+
+    IEnumerator LoadPanel(float nextTransTime)
+    {
+        transition.SetTrigger("Start");
+
+        transitionPanel.SetActive(false);
+
+        yield return new WaitForSeconds(nextTransTime);
+
+        nextPanel.SetActive(true);
+
+        continueButton.SetActive(false);
+
+        transitionPanel.SetActive(false);
+
+        transition.SetTrigger("End");
+    } 
 }

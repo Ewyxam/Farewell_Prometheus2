@@ -19,7 +19,14 @@ public class SceneTransition : MonoBehaviour
 
     public void Start()
     {
-        tabNum = manager.GetComponent<CollisionManager>().tabNum;
+        Scene currentScene = SceneManager.GetActiveScene();
+
+        int buildIndex = currentScene.buildIndex;
+
+        if (buildIndex == 1)
+        {
+            tabNum = manager.GetComponent<CollisionManager>().tabNum;
+        }
     }
     public void LoadNextScene()
     {

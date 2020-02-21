@@ -2491,6 +2491,7 @@ MonoBehaviour:
   - {fileID: 2052176623}
   transition: {fileID: 523723220}
   tabNum: 0
+  discovered: 00000000
 --- !u!1 &748243972
 GameObject:
   m_ObjectHideFlags: 0

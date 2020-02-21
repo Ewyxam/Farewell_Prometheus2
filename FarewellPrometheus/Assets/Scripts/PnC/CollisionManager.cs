@@ -7,6 +7,7 @@ public class CollisionManager : MonoBehaviour
     public GameObject[] tab;
     public GameObject transition;
     public int tabNum;
+    public bool[] discovered;
 
     public void Start()
     {
@@ -14,7 +15,7 @@ public class CollisionManager : MonoBehaviour
     }
     public void ClToJg()
     {
-        
+        discovered[tabNum] = true;
         tabNum += 1;
         transition.GetComponent<SceneTransition>().LoadTransitionPanel();
         
@@ -23,7 +24,7 @@ public class CollisionManager : MonoBehaviour
 
     public void JgToCl()
     {
-        
+        discovered[tabNum] = true;
         tabNum -= 1;
         transition.GetComponent<SceneTransition>().LoadTransitionPanel();
 
@@ -31,7 +32,7 @@ public class CollisionManager : MonoBehaviour
 
     public void JgToRv()
     {
-
+        discovered[tabNum] = true;
         tabNum += 1;
         transition.GetComponent<SceneTransition>().LoadTransitionPanel();
 
@@ -40,7 +41,7 @@ public class CollisionManager : MonoBehaviour
 
     public void RvToJg()
     {
-
+        discovered[tabNum] = true;
         tabNum -= 1;
         transition.GetComponent<SceneTransition>().LoadTransitionPanel();
 
@@ -49,7 +50,7 @@ public class CollisionManager : MonoBehaviour
 
     public void RvToCp()
     {
-
+        discovered[tabNum] = true;
         tabNum += 1;
         transition.GetComponent<SceneTransition>().LoadTransitionPanel();
 
@@ -58,7 +59,7 @@ public class CollisionManager : MonoBehaviour
 
     public void CpToRv()
     {
-
+        discovered[tabNum] = true;
         tabNum -= 1;
         transition.GetComponent<SceneTransition>().LoadTransitionPanel();
 

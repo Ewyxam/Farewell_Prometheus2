@@ -5,25 +5,27 @@ using UnityEngine;
 public class CollisionManager : MonoBehaviour
 {
     public GameObject[] tab;
+    public GameObject transition;
     public int tabNum;
 
     public void Start()
     {
-        tabNum = 0;
+        tabNum = 0; //0 CL   1JG  2RV   3CP
     }
     public void ClToJg()
     {
-        tab[tabNum].SetActive(false);
+        
         tabNum += 1;
-        tab[tabNum].SetActive(true);
+        transition.GetComponent<SceneTransition>().LoadTransitionPanel();
+        
 
     }
 
     public void JgToCl()
     {
-        tab[tabNum].SetActive(false);
+        
         tabNum -= 1;
-        tab[tabNum].SetActive(true);
+        transition.GetComponent<SceneTransition>().LoadTransitionPanel();
 
     }
 

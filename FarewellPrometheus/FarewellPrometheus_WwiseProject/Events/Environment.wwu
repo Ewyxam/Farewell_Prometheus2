@@ -41,6 +41,31 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Folder Name="Transitions" ID="{DD37C66D-2A2F-4727-84E2-AC2014B17665}" ShortID="891756569">
+					<ChildrenList>
+						<Event Name="VS1_to_CL1" ID="{4BE2ACF3-A745-461D-AA3F-D84780610627}">
+							<ChildrenList>
+								<Action Name="" ID="{3F18B561-B84D-4656-BE75-7381CF7F35C8}" ShortID="238362853">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="VS1_to_CL1" ID="{1B77726D-4DB4-42A6-9EB3-C18CB8377561}" WorkUnitID="{0976A159-B45B-49AD-A20F-D8E27B741149}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{75A2B886-3DD5-4523-B1E0-64300C83D870}" ShortID="201567434">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="22"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="CL1" ID="{A52FD4E8-5952-44BC-AD78-377F05751CF6}" WorkUnitID="{04E6CDEF-2B40-4892-B1CE-603A3A26D722}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

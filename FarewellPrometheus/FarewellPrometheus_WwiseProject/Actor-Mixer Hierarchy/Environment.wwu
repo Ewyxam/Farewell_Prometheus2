@@ -2121,6 +2121,49 @@
 						</SwitchContainer>
 					</ChildrenList>
 				</ActorMixer>
+				<ActorMixer Name="Transitions" ID="{67EAB75A-BD80-4EAE-B4BD-971658D9ED39}" ShortID="428771988">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{910AC7EE-841B-4C93-A9B7-752C4BD6AD66}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Environments" ID="{69F32401-4587-4C3F-A5F9-6A990215D69B}" WorkUnitID="{D799538D-0932-442A-AAA6-5525C92EAF70}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<BlendContainer Name="VS1_to_CL1" ID="{1B77726D-4DB4-42A6-9EB3-C18CB8377561}" ShortID="839429958">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{910AC7EE-841B-4C93-A9B7-752C4BD6AD66}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D799538D-0932-442A-AAA6-5525C92EAF70}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="VS1_Open_Ship_Door_SFX" ID="{74428666-84BF-453F-9F24-4F76C01290BD}" ShortID="25838613">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{910AC7EE-841B-4C93-A9B7-752C4BD6AD66}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D799538D-0932-442A-AAA6-5525C92EAF70}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="VS1_Open_Ship_Door_SFX" ID="{DFF1443C-F25C-4AB7-B87E-DFC759079912}" ShortID="809769655">
+											<Language>SFX</Language>
+											<AudioFile>VS1_Open_Ship_Door_SFX.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="VS1_Open_Ship_Door_SFX" ID="{DFF1443C-F25C-4AB7-B87E-DFC759079912}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</BlendContainer>
+					</ChildrenList>
+				</ActorMixer>
 			</ChildrenList>
 		</WorkUnit>
 	</AudioObjects>

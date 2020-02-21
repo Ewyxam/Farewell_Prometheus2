@@ -1397,35 +1397,6 @@
 												<ActiveSource Name="Ship_Wind_AMB_SFX" ID="{7298CB71-903B-469A-83C3-ABCA4090794B}" Platform="Linked"/>
 											</ActiveSourceList>
 										</Sound>
-										<Sound Name="RV1_Herbivores_01_SFX-001" ID="{783AE49B-5832-4D6B-9ADD-AFB139E6D1E8}" ShortID="565702405">
-											<PropertyList>
-												<Property Name="Inclusion" Type="bool">
-													<ValueList>
-														<Value>False</Value>
-													</ValueList>
-												</Property>
-											</PropertyList>
-											<ReferenceList>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{910AC7EE-841B-4C93-A9B7-752C4BD6AD66}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D799538D-0932-442A-AAA6-5525C92EAF70}"/>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<AudioFileSource Name="RV1_Herbivores_01_SFX-001" ID="{ED623696-93F1-45D5-A934-7E27A01D4A23}" ShortID="707348507">
-													<Language>SFX</Language>
-													<AudioFile>RV1_Herbivores_01_SFX-001.wav</AudioFile>
-													<ConvertedFileIDList>
-														<File ID="90212084"/>
-													</ConvertedFileIDList>
-												</AudioFileSource>
-											</ChildrenList>
-											<ActiveSourceList>
-												<ActiveSource Name="RV1_Herbivores_01_SFX-001" ID="{ED623696-93F1-45D5-A934-7E27A01D4A23}" Platform="Linked"/>
-											</ActiveSourceList>
-										</Sound>
 									</ChildrenList>
 								</BlendContainer>
 								<BlendContainer Name="JG1_AMB_SFX" ID="{63DE4AD6-B605-4850-9C13-87A9BDA4E6C7}" ShortID="292055268">
@@ -3086,7 +3057,7 @@
 				<ActorMixer Name="Transitions" ID="{67EAB75A-BD80-4EAE-B4BD-971658D9ED39}" ShortID="428771988">
 					<ReferenceList>
 						<Reference Name="Conversion">
-							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{910AC7EE-841B-4C93-A9B7-752C4BD6AD66}"/>
+							<ObjectRef Name="AMB" ID="{0B3FCEDC-AD1D-43E0-8330-66D515AA0D95}" WorkUnitID="{910AC7EE-841B-4C93-A9B7-752C4BD6AD66}"/>
 						</Reference>
 						<Reference Name="OutputBus">
 							<ObjectRef Name="Environments" ID="{69F32401-4587-4C3F-A5F9-6A990215D69B}" WorkUnitID="{D799538D-0932-442A-AAA6-5525C92EAF70}"/>
@@ -3124,6 +3095,32 @@
 								</Sound>
 							</ChildrenList>
 						</BlendContainer>
+						<Sound Name="Woosh_Trans_SFX" ID="{7E4EA850-B7D6-4942-B0B0-34194C1EC369}" ShortID="619122055">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-6</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{910AC7EE-841B-4C93-A9B7-752C4BD6AD66}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D799538D-0932-442A-AAA6-5525C92EAF70}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Woosh_Trans_SFX" ID="{EA0E3EA0-DD5C-4716-9271-8C83CC6057C0}" ShortID="802449665">
+									<Language>SFX</Language>
+									<AudioFile>Woosh_Trans_SFX.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Woosh_Trans_SFX" ID="{EA0E3EA0-DD5C-4716-9271-8C83CC6057C0}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
 					</ChildrenList>
 				</ActorMixer>
 			</ChildrenList>

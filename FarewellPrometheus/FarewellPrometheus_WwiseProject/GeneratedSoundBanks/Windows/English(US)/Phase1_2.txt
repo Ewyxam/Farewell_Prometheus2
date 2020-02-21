@@ -10,6 +10,7 @@ Event	ID	Name			Wwise Object Path	Notes
 	1307820710	Computer_Scan			\Default Work Unit\Ship\Computer\Computer_Scan	
 	1701177942	Button_Hover			\Default Work Unit\Ship\Computer\Button\Button_Hover	
 	1731494341	VS1_Volga_Glass_Tap_Event			\Default Work Unit\Ship\Objects\VS1_Volga_Glass_Tap_Event	
+	1823100709	Woosh_Trans_Event			\Default Work Unit\Environment\Transitions\Woosh_Trans_Event	
 	2063851173	Password_Right			\Default Work Unit\Ship\Computer\Password\Password_Right	
 	2118619802	Robot_Operational			\Default Work Unit\Ship\Robot\Robot_Operational	
 	2242625264	Calendar_Handle			\Default Work Unit\Ship\Objects\Calendar_Handle	
@@ -18,6 +19,7 @@ Event	ID	Name			Wwise Object Path	Notes
 	2535003186	VS1_Screen_Glass_Tap_Event			\Default Work Unit\Ship\Objects\VS1_Screen_Glass_Tap_Event	
 	2806985083	Computer_Start			\Default Work Unit\Ship\Computer\Computer_Start	
 	3429733933	Ambiance_Bed			\Default Work Unit\Ship\Ambience\Ambiance_Bed	
+	3867008365	VS1_to_CL1_Event			\Default Work Unit\Environment\Transitions\VS1_to_CL1_Event	
 	3878117114	Post_it_Handle			\Default Work Unit\Ship\Objects\Post_it_Handle	
 	3910889982	Robot_Valid_Command			\Default Work Unit\Ship\Robot\Robot_Valid_Command	
 
@@ -138,6 +140,8 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	762012689	VS2_Robot_Invalid_Command_SFX	D:\Farewell_Backup\Farewell_Prometheus2\FarewellPrometheus\FarewellPrometheus_WwiseProject\.cache\Windows\SFX\Robot_Command_Not_Valid_SFX_6296B0F9.wem		\Actor-Mixer Hierarchy\Default Work Unit\Element\VS2\VS2\VS2_Robot_Invalid_Command_SFX		11108
 	776657558	Volga_P1_Dial_06-02	D:\Farewell_Backup\Farewell_Prometheus2\FarewellPrometheus\FarewellPrometheus_WwiseProject\.cache\Windows\Voices\English(US)\Volga_P1_Dial_06-02_6296B0F9.wem		\Actor-Mixer Hierarchy\Default Work Unit\Vocal\Phase_1\Phase_1\Volga\Volga_Dial_P1\Volga_P1_Dial_06\Volga_P1_Dial_06-02		37720
 	796825715	Volga_P1_Dial_01	D:\Farewell_Backup\Farewell_Prometheus2\FarewellPrometheus\FarewellPrometheus_WwiseProject\.cache\Windows\Voices\English(US)\Volga_P1_Dial_01_6296B0F9.wem		\Actor-Mixer Hierarchy\Default Work Unit\Vocal\Phase_1\Phase_1\Volga\Volga_Dial_P1\Volga_P1_Dial_01		49975
+	802449665	Woosh_Trans_SFX	D:\Farewell_Backup\Farewell_Prometheus2\FarewellPrometheus\FarewellPrometheus_WwiseProject\.cache\Windows\SFX\Woosh_Trans_SFX_6296B0F9.wem		\Actor-Mixer Hierarchy\Default Work Unit\Environment\Transitions\Woosh_Trans_SFX		18361
+	809769655	VS1_Open_Ship_Door_SFX	D:\Farewell_Backup\Farewell_Prometheus2\FarewellPrometheus\FarewellPrometheus_WwiseProject\.cache\Windows\SFX\VS1_Open_Ship_Door_SFX_6296B0F9.wem		\Actor-Mixer Hierarchy\Default Work Unit\Environment\Transitions\VS1_to_CL1\VS1_Open_Ship_Door_SFX		212467
 	825089419	VS1_Computer_On_SFX	D:\Farewell_Backup\Farewell_Prometheus2\FarewellPrometheus\FarewellPrometheus_WwiseProject\.cache\Windows\SFX\Computer_On_SFX_6296B0F9.wem		\Actor-Mixer Hierarchy\Default Work Unit\Element\VS1\VS1\Computer\VS1_Computer_On_SFX		140251
 	827925329	Volga_P1_Dial_04-04	D:\Farewell_Backup\Farewell_Prometheus2\FarewellPrometheus\FarewellPrometheus_WwiseProject\.cache\Windows\Voices\English(US)\Volga_P1_Dial_04-04_6296B0F9.wem		\Actor-Mixer Hierarchy\Default Work Unit\Vocal\Phase_1\Phase_1\Volga\Volga_Dial_P1\Volga_P1_Dial_04\Volga_P1_Dial_04-04		7423
 	836031310	CL1_Insects_02_AMB_SFX	D:\Farewell_Backup\Farewell_Prometheus2\FarewellPrometheus\FarewellPrometheus_WwiseProject\.cache\Windows\SFX\CL1_Insects_02_AMB_SFX_9B96ECC7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Environment\Ambience\Ambience_Switch\CL1_AMB_SFX\CL1_Insects_02_AMB_SFX		233045

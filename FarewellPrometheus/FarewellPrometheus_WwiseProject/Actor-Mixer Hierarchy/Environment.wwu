@@ -677,6 +677,7 @@
 														</ModifierInfo>
 													</ModifierList>
 												</Property>
+												<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
 												<Property Name="OverridePositioning" Type="bool" Value="True"/>
 												<Property Name="Pitch" Type="int32">
 													<ModifierList>
@@ -1032,8 +1033,6 @@
 										</RandomSequenceContainer>
 										<RandomSequenceContainer Name="CL1_Lemurs_AMB_SFX" ID="{5A3B53C6-63D1-40BD-B59D-E059A0EC4E8F}" ShortID="938234065">
 											<PropertyList>
-												<Property Name="3DPosition" Type="int16" Value="1"/>
-												<Property Name="3DSpatialization" Type="int16" Value="2"/>
 												<Property Name="Lowpass" Type="int16">
 													<ModifierList>
 														<ModifierInfo>
@@ -1062,6 +1061,7 @@
 													</ModifierList>
 												</Property>
 												<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+												<Property Name="SpeakerPanning" Type="int16" Value="1"/>
 												<Property Name="Volume" Type="Real64">
 													<ValueList>
 														<Value>-7</Value>
@@ -1146,6 +1146,12 @@
 												</Sound>
 											</ChildrenList>
 											<PositioningInfo>
+												<Panner Name="" ID="{B6F7DEC5-8F6F-4308-B4CD-FBD8668C25C8}">
+													<PropertyList>
+														<Property Name="PanX" Type="Real64" Value="21.6867469879518"/>
+														<Property Name="PanY" Type="Real64" Value="100"/>
+													</PropertyList>
+												</Panner>
 												<Position Name="" ID="{562F7E86-1C7A-453E-8049-29FB1DA81A8B}">
 													<ChildrenList>
 														<Path2D Name="CL1_Lemurs_AMB_SFX_Path" ID="{7C3BC1A3-377B-49B5-9B9D-AE633CF6C805}">
@@ -1333,6 +1339,19 @@
 											</ActiveSourceList>
 										</Sound>
 										<Sound Name="CL1_Insects_02_AMB_SFX" ID="{6B3DE390-35E5-4A94-9D63-2CD1449D37B5}" ShortID="727601879">
+											<PropertyList>
+												<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+												<Property Name="Lowpass" Type="int16">
+													<ValueList>
+														<Value>20</Value>
+													</ValueList>
+												</Property>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>-5</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{910AC7EE-841B-4C93-A9B7-752C4BD6AD66}"/>
@@ -1376,6 +1395,35 @@
 											</ChildrenList>
 											<ActiveSourceList>
 												<ActiveSource Name="Ship_Wind_AMB_SFX" ID="{7298CB71-903B-469A-83C3-ABCA4090794B}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="RV1_Herbivores_01_SFX-001" ID="{783AE49B-5832-4D6B-9ADD-AFB139E6D1E8}" ShortID="565702405">
+											<PropertyList>
+												<Property Name="Inclusion" Type="bool">
+													<ValueList>
+														<Value>False</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{910AC7EE-841B-4C93-A9B7-752C4BD6AD66}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D799538D-0932-442A-AAA6-5525C92EAF70}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="RV1_Herbivores_01_SFX-001" ID="{ED623696-93F1-45D5-A934-7E27A01D4A23}" ShortID="707348507">
+													<Language>SFX</Language>
+													<AudioFile>RV1_Herbivores_01_SFX-001.wav</AudioFile>
+													<ConvertedFileIDList>
+														<File ID="90212084"/>
+													</ConvertedFileIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="RV1_Herbivores_01_SFX-001" ID="{ED623696-93F1-45D5-A934-7E27A01D4A23}" Platform="Linked"/>
 											</ActiveSourceList>
 										</Sound>
 									</ChildrenList>

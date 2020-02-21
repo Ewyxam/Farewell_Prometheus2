@@ -10,7 +10,16 @@ public class SoundManager : MonoBehaviour
     {
         location = collisionManager.GetComponent<CollisionManager>().tabNum;
         AkSoundEngine.SetState("Music", "Title");
-        AkSoundEngine.SetState("Location", "None");
+        if(location == 0)
+        {
+            AkSoundEngine.SetState("Location", "CL1");
+            Debug.Log("CL1 AMB");
+        }
+        else
+        {
+            AkSoundEngine.SetState("Location", "None");
+        }
+
         AkSoundEngine.PostEvent("Ambience_Event", gameObject);
     }
 
@@ -41,13 +50,22 @@ public class SoundManager : MonoBehaviour
         AkSoundEngine.SetState("Location", "VS1");
     }
 
-    public void SetAmbienceCL1()
+    public void SetAmbience()
     {
-        AkSoundEngine.SetState("Location", "CL1");
-    }
-    public void SetAmbienceJG1()
-    {
-        AkSoundEngine.SetState("Location", "JG1");
+        if(location == 0)
+        {
+            AkSoundEngine.SetState("Location", "CL1");
+        }
+
+        if (location == 1)
+        {
+            AkSoundEngine.SetState("Location", "JG1");
+        }
+
+        if (location == 2)
+        {
+            AkSoundEngine.SetState("Location", "RV1");
+        }
     }
 
 

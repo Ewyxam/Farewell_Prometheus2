@@ -8,9 +8,9 @@ public class DialogueManager : MonoBehaviour
     public Text nameText;
     public Text dialogueText;
     private Queue<string> sentences; //queue c'est comme list mais ça charge différement, contient les dialogues
-    public Animator animator,volgaAnim;
+    public Animator animator,volgaAnim,postIt;
     public int choicenumber = 0, a = 0, b = 0, c = 0, d = 0, errorpass = 0, volga; // en public pour debug
-    public GameObject continuebutton, inputpassword, login;
+    public GameObject continuebutton, inputpassword, login,alphaPostIt;
     public DialogueTrigger dialtrig;
     private string password, getpassword;
     public InputField inputfieldpassword;
@@ -226,4 +226,17 @@ public class DialogueManager : MonoBehaviour
         animator.SetBool("IsOpen4", false);
     }
 
+    public void PostIt()
+    {
+        if (postIt.GetBool("zoom") == false)
+        {
+            postIt.SetBool("zoom", true);
+            alphaPostIt.SetActive(true);
+        }
+        else
+        {
+            postIt.SetBool("zoom", false);
+            alphaPostIt.SetActive(false);
+        }
+    }
 }

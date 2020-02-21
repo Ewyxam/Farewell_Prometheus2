@@ -17,7 +17,8 @@ public class CollisionManager : MonoBehaviour
         
         tabNum += 1;
         transition.GetComponent<SceneTransition>().LoadTransitionPanel();
-        
+        AkSoundEngine.SetState("Location", "JG1");
+
 
     }
 
@@ -26,6 +27,7 @@ public class CollisionManager : MonoBehaviour
         
         tabNum -= 1;
         transition.GetComponent<SceneTransition>().LoadTransitionPanel();
+        AkSoundEngine.SetState("Location", "CL1");
 
     }
 
@@ -34,6 +36,7 @@ public class CollisionManager : MonoBehaviour
 
         tabNum += 1;
         transition.GetComponent<SceneTransition>().LoadTransitionPanel();
+        AkSoundEngine.SetState("Location", "RV1");
 
 
     }
@@ -43,7 +46,7 @@ public class CollisionManager : MonoBehaviour
 
         tabNum -= 1;
         transition.GetComponent<SceneTransition>().LoadTransitionPanel();
-
+        AkSoundEngine.SetState("Location", "JG1");
 
     }
 
@@ -52,7 +55,7 @@ public class CollisionManager : MonoBehaviour
 
         tabNum += 1;
         transition.GetComponent<SceneTransition>().LoadTransitionPanel();
-
+        AkSoundEngine.SetState("Location", "CP1");
 
     }
 
@@ -61,7 +64,7 @@ public class CollisionManager : MonoBehaviour
 
         tabNum -= 1;
         transition.GetComponent<SceneTransition>().LoadTransitionPanel();
-
+        AkSoundEngine.SetState("Location", "RV1");
 
     }
 

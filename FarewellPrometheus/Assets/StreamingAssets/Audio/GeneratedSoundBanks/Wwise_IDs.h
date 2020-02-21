@@ -33,7 +33,9 @@ namespace AK
         static const AkUniqueID VOLGA_DIAL_P1 = 1059721737U;
         static const AkUniqueID VOLGA_DIAL_STOP_ALL = 110909812U;
         static const AkUniqueID VS1_SCREEN_GLASS_TAP_EVENT = 2535003186U;
+        static const AkUniqueID VS1_TO_CL1_EVENT = 3867008365U;
         static const AkUniqueID VS1_VOLGA_GLASS_TAP_EVENT = 1731494341U;
+        static const AkUniqueID WOOSH_TRANS_EVENT = 1823100709U;
     } // namespace EVENTS
 
     namespace STATES

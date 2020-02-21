@@ -37,6 +37,7 @@ public class SceneTransition : MonoBehaviour
     {
         // Play Animation
         transition.SetTrigger("Start");
+        AkSoundEngine.PostEvent("Woosh_Trans_Event", gameObject);
 
         // Wait
         yield return new WaitForSeconds(transitionTime);
@@ -54,6 +55,8 @@ public class SceneTransition : MonoBehaviour
     {
         transition.SetTrigger("Start");
 
+        AkSoundEngine.PostEvent("Woosh_Trans_Event", gameObject);
+
         yield return new WaitForSeconds(transTime);
 
         currentPanel = manager.GetComponent<CollisionManager>().tab[tabNum];
@@ -62,6 +65,7 @@ public class SceneTransition : MonoBehaviour
         transitionPanel.SetActive(true);
 
         transition.SetTrigger("End");
+        AkSoundEngine.PostEvent("Woosh_Trans_Event", gameObject);
 
         yield return new WaitForSeconds(2f);
 
@@ -78,7 +82,7 @@ public class SceneTransition : MonoBehaviour
     {
         transition.SetTrigger("Start");
 
-        
+        AkSoundEngine.PostEvent("Woosh_Trans_Event", gameObject);
 
         yield return new WaitForSeconds(nextTransTime);
 
@@ -92,5 +96,7 @@ public class SceneTransition : MonoBehaviour
         transitionPanel.SetActive(false);
 
         transition.SetTrigger("End");
+
+        AkSoundEngine.PostEvent("Woosh_Trans_Event", gameObject);
     } 
 }

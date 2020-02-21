@@ -521,6 +521,21 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7512095669666488825, guid: dff229d9d9792b74eb2bd9d47ae02dee,
+        type: 3}
+      propertyPath: LargeModePositions.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7512095669666488826, guid: dff229d9d9792b74eb2bd9d47ae02dee,
+        type: 3}
+      propertyPath: LargeModePositions.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7512095669666488830, guid: dff229d9d9792b74eb2bd9d47ae02dee,
+        type: 3}
+      propertyPath: collisionManager
+      value: 
+      objectReference: {fileID: 686089049}
     m_RemovedComponents:
     - {fileID: 7512095667959333654, guid: dff229d9d9792b74eb2bd9d47ae02dee, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: dff229d9d9792b74eb2bd9d47ae02dee, type: 3}

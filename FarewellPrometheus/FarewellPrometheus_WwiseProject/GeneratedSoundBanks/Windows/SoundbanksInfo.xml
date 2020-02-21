@@ -73,6 +73,10 @@
 					<ShortName>Jungle_Birds_AMB_SFX_04.wav</ShortName>
 					<Path>SFX\Jungle_Birds_AMB_SFX_04_6296B0F9.wem</Path>
 				</File>
+				<File Id="79711780" Language="SFX">
+					<ShortName>RV1_Herbivores_03_SFX-002.wav</ShortName>
+					<Path>SFX\RV1_Herbivores_03_SFX-002_6296B0F9.wem</Path>
+				</File>
 				<File Id="95564716" Language="SFX">
 					<ShortName>Ship_Drone_AMB_03_SFX.wav</ShortName>
 					<Path>SFX\Ship_Drone_AMB_03_SFX_9B96ECC7.wem</Path>
@@ -117,6 +121,18 @@
 					<ShortName>Computer_button_click_8kHz_02_SFX.wav</ShortName>
 					<Path>SFX\Computer_button_click_8kHz_02_SFX_6296B0F9.wem</Path>
 				</File>
+				<File Id="179070147" Language="SFX">
+					<ShortName>RV1_River_Fall_01_SFX.wav</ShortName>
+					<Path>SFX\RV1_River_Fall_01_SFX_9B96ECC7.wem</Path>
+				</File>
+				<File Id="186001920" Language="SFX">
+					<ShortName>RV1_Herbivores_03_SFX-003.wav</ShortName>
+					<Path>SFX\RV1_Herbivores_03_SFX-003_6296B0F9.wem</Path>
+				</File>
+				<File Id="193175859" Language="SFX">
+					<ShortName>RV1_Herbivores_02_SFX-003.wav</ShortName>
+					<Path>SFX\RV1_Herbivores_02_SFX-003_6296B0F9.wem</Path>
+				</File>
 				<File Id="203544195" Language="SFX">
 					<ShortName>Ship_Metal_Raking_SFX_02.wav</ShortName>
 					<Path>SFX\Ship_Metal_Raking_SFX_02_6296B0F9.wem</Path>
@@ -141,6 +157,10 @@
 					<ShortName>Jungle_Birds_AMB_SFX_07.wav</ShortName>
 					<Path>SFX\Jungle_Birds_AMB_SFX_07_6296B0F9.wem</Path>
 				</File>
+				<File Id="308205771" Language="SFX">
+					<ShortName>RV1_Herbivores_03_SFX-001.wav</ShortName>
+					<Path>SFX\RV1_Herbivores_03_SFX-001_6296B0F9.wem</Path>
+				</File>
 				<File Id="311442277" Language="SFX">
 					<ShortName>Jungle_Birds_AMB_SFX_02.wav</ShortName>
 					<Path>SFX\Jungle_Birds_AMB_SFX_02_6296B0F9.wem</Path>
@@ -156,6 +176,14 @@
 				<File Id="323038935" Language="SFX">
 					<ShortName>Jungle_Birds_AMB_SFX_03.wav</ShortName>
 					<Path>SFX\Jungle_Birds_AMB_SFX_03_6296B0F9.wem</Path>
+				</File>
+				<File Id="336549232" Language="SFX">
+					<ShortName>RV1_River_Stream_01_SFX.wav</ShortName>
+					<Path>SFX\RV1_River_Stream_01_SFX_9B96ECC7.wem</Path>
+				</File>
+				<File Id="366017084" Language="SFX">
+					<ShortName>RV1_Frogs_01_SFX.wav</ShortName>
+					<Path>SFX\RV1_Frogs_01_SFX_9B96ECC7.wem</Path>
 				</File>
 				<File Id="367872868" Language="SFX">
 					<ShortName>Calendar_Handle_02_SFX.wav</ShortName>
@@ -221,6 +249,10 @@
 					<ShortName>Volga_P1_Dial_08-03.wav</ShortName>
 					<Path>Voices\English(US)\Volga_P1_Dial_08-03_6296B0F9.wem</Path>
 				</File>
+				<File Id="523997991" Language="SFX">
+					<ShortName>RV1_Herbivores_03_SFX-004.wav</ShortName>
+					<Path>SFX\RV1_Herbivores_03_SFX-004_6296B0F9.wem</Path>
+				</File>
 				<File Id="551593222" Language="SFX">
 					<ShortName>Robot_Scan_SFX.wav</ShortName>
 					<Path>SFX\Robot_Scan_SFX_6296B0F9.wem</Path>
@@ -244,6 +276,10 @@
 				<File Id="579876913" Language="English(US)">
 					<ShortName>Volga_P1_Dial_03-01.wav</ShortName>
 					<Path>Voices\English(US)\Volga_P1_Dial_03-01_6296B0F9.wem</Path>
+				</File>
+				<File Id="593860231" Language="SFX">
+					<ShortName>RV1_Herbivores_02_SFX-001.wav</ShortName>
+					<Path>SFX\RV1_Herbivores_02_SFX-001_6296B0F9.wem</Path>
 				</File>
 				<File Id="598820659" Language="SFX">
 					<ShortName>JG1_Bush_Rustle_03_AMB_SFX.wav</ShortName>
@@ -400,6 +436,10 @@
 				<File Id="967619636" Language="SFX">
 					<ShortName>Calendar_Handle_01_SFX.wav</ShortName>
 					<Path>SFX\Calendar_Handle_01_SFX_6296B0F9.wem</Path>
+				</File>
+				<File Id="971501856" Language="SFX">
+					<ShortName>RV1_Herbivores_02_SFX-002.wav</ShortName>
+					<Path>SFX\RV1_Herbivores_02_SFX-002_6296B0F9.wem</Path>
 				</File>
 				<File Id="975210841" Language="SFX">
 					<ShortName>Beep_01_SFX.wav</ShortName>

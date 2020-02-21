@@ -45,7 +45,11 @@ namespace AK
             namespace STATE
             {
                 static const AkUniqueID CL1 = 1033349305U;
+                static const AkUniqueID CP1 = 697796925U;
+                static const AkUniqueID CP2 = 697796926U;
+                static const AkUniqueID GR1 = 864881503U;
                 static const AkUniqueID JG1 = 679886441U;
+                static const AkUniqueID RV1 = 695384066U;
                 static const AkUniqueID VS1 = 879246361U;
             } // namespace STATE
         } // namespace LOCATION

@@ -10,6 +10,10 @@ State	ID	Name	State Group			Notes
 	2507003792	Suit_Off	Suit_On_Off			
 	0	None	Location			
 	679886441	JG1	Location			
+	695384066	RV1	Location			
+	697796925	CP1	Location			
+	697796926	CP2	Location			
+	864881503	GR1	Location			
 	879246361	VS1	Location			
 	1033349305	CL1	Location			
 	0	None	Radio			

@@ -4,8 +4,11 @@ using UnityEngine;
 
 public class SoundManager : MonoBehaviour
 {
+    public GameObject collisionManager;
+    public int location; 
     void Start()
     {
+        location = collisionManager.GetComponent<CollisionManager>().tabNum;
         AkSoundEngine.SetState("Music", "Title");
         AkSoundEngine.SetState("Location", "None");
         AkSoundEngine.PostEvent("Ambience_Event", gameObject);
@@ -46,4 +49,6 @@ public class SoundManager : MonoBehaviour
     {
         AkSoundEngine.SetState("Location", "JG1");
     }
+
+
 }

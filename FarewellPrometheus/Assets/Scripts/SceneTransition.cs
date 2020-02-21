@@ -71,10 +71,13 @@ public class SceneTransition : MonoBehaviour
     {
         transition.SetTrigger("Start");
 
-        transitionPanel.SetActive(false);
+        
 
         yield return new WaitForSeconds(nextTransTime);
 
+        
+
+        nextPanel = manager.GetComponent<CollisionManager>().tab[tabNum];
         nextPanel.SetActive(true);
 
         continueButton.SetActive(false);

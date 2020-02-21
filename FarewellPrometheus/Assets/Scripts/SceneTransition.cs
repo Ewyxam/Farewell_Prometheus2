@@ -56,7 +56,7 @@ public class SceneTransition : MonoBehaviour
 
         transition.SetTrigger("End");
 
-        yield return new WaitForSeconds(5f);
+        yield return new WaitForSeconds(2f);
 
         continueButton.SetActive(true);
     }

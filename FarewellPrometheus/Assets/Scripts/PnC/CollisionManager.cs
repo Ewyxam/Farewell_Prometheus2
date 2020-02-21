@@ -29,6 +29,42 @@ public class CollisionManager : MonoBehaviour
 
     }
 
+    public void JgToRv()
+    {
+
+        tabNum += 1;
+        transition.GetComponent<SceneTransition>().LoadTransitionPanel();
+
+
+    }
+
+    public void RvToJg()
+    {
+
+        tabNum -= 1;
+        transition.GetComponent<SceneTransition>().LoadTransitionPanel();
+
+
+    }
+
+    public void RvToCp()
+    {
+
+        tabNum += 1;
+        transition.GetComponent<SceneTransition>().LoadTransitionPanel();
+
+
+    }
+
+    public void CpToRv()
+    {
+
+        tabNum -= 1;
+        transition.GetComponent<SceneTransition>().LoadTransitionPanel();
+
+
+    }
+
 
 
 }

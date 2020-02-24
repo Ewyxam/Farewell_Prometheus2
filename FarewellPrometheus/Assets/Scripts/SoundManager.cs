@@ -18,6 +18,7 @@ public class SoundManager : MonoBehaviour
         if (buildIndex == 0)
         {
             AkSoundEngine.SetState("Location", "None");
+            AkSoundEngine.SetState("Music", "Title");
         }
         else if (buildIndex == 1)
         {

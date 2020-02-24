@@ -3,6 +3,7 @@
 	<UserProjectSettingsInfo>
 		<UserProjectSettings Name="" ID="{72720089-1E8B-4482-B9A2-3358973FB7D0}">
 			<PropertyList>
+				<Property Name="AudioFilesImporter\Path" Type="string" Value="C:\Users\Antonin\Desktop\Farewell_Prometheus\Soundbank\GR1"/>
 				<Property Name="Event Action List\{5A243A84-0E71-4784-B305-83A0CD98A497}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{832A6055-7629-4EDB-9718-CDE419E7C3FF}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{D567E1FE-6114-4C09-BB24-0055A9247D0B}\x64_Expand States" Type="string" Value=""/>
@@ -38,7 +39,7 @@
 				<Property Name="MonitoringManager\WatchMgr\x64_Watches" Type="string" Value=""/>
 				<Property Name="ProjectExplorer\FirstVisible_10_1" Type="string" Value="{4C96B38B-3DB4-40C7-91C9-665510E38993}"/>
 				<Property Name="ProjectExplorer\FirstVisible_11_1" Type="string" Value="{23EC2DE3-3ED8-4B82-AC99-92E25F2E4C6B}"/>
-				<Property Name="ProjectExplorer\FirstVisible_1_1" Type="string" Value="{A8E75F14-F187-4E76-95DF-06D886D3E997}"/>
+				<Property Name="ProjectExplorer\FirstVisible_1_1" Type="string" Value="{FCE376C3-D441-4F11-BD31-807A60058EE3}"/>
 				<Property Name="ProjectExplorer\FirstVisible_3_1" Type="string" Value="{D8F3CB73-123A-4CCC-899C-0E4C0F14C176}"/>
 				<Property Name="ProjectExplorer\FirstVisible_4_1" Type="string" Value="{CB6175F1-6080-4A23-92EF-0807E304D0C1}"/>
 				<Property Name="ProjectExplorer\FirstVisible_6_1" Type="string" Value="{C98E673F-A24C-48A8-960F-10565FFE70A0}"/>
@@ -53,10 +54,10 @@
 				<Property Name="ProjectExplorer\x64_Expanded_17_1" Type="string" Value=""/>
 				<Property Name="ProjectExplorer\x64_Expanded_18_1" Type="string" Value=""/>
 				<Property Name="ProjectExplorer\x64_Expanded_19_1" Type="string" Value=""/>
-				<Property Name="ProjectExplorer\x64_Expanded_1_1" Type="string" Value=""/>
+				<Property Name="ProjectExplorer\x64_Expanded_1_1" Type="string" Value="2KQUFaYdKkGhfnXKDCFJ841TmdcyCSpEqqZVJckur3ApJT4Wt4gIR7JSZejwLe1PASTzaYdFP0yl+WqZAhXWmw=="/>
 				<Property Name="ProjectExplorer\x64_Expanded_20_1" Type="string" Value=""/>
 				<Property Name="ProjectExplorer\x64_Expanded_21_1" Type="string" Value=""/>
-				<Property Name="ProjectExplorer\x64_Expanded_2_1" Type="string" Value="0chcizyYjkCnOr9otqnsUnTPArkOh65Auh5nrVUpnUk/ps7tHWeDQbHZN+HVJRuU1LPtTEtL7Eax1iL30KdMvRBrD9CZ4nhHlBWfu4sGgIDmLZeTInhDT6XQtsct0e+7"/>
+				<Property Name="ProjectExplorer\x64_Expanded_2_1" Type="string" Value="0chcizyYjkCnOr9otqnsUlD4BG3zjrpBi20WW0a4deXvV1n5Fn/CRZMh5INGbKDJ1LPtTEtL7Eax1iL30KdMvbgtnLy4uCpIgngn2VyUt6F4b1VSXeAxSYBb1TPeu/3tWaF2CVu0rUmiD9jie3QRSRRf56iH8XZOld8G2IbT6Zdat+pngL2uTrS9lxZY2e055i2XkyJ4Q0+l0LbHLdHvuw=="/>
 				<Property Name="ProjectExplorer\x64_Expanded_3_1" Type="string" Value="9h6Vd3hJbEGqNDGIqYHc03PhyaPJM7ZBge3nDIIKJM++vZKhd4M/RpllE1X9xgFe0AvQ0KsKnEa3hkOJ5FmB0mw4G8Gc8hZPsDAbJMSjXnRMSAFyQLeRT7T+sHL0q4pY"/>
 				<Property Name="ProjectExplorer\x64_Expanded_4_1" Type="string" Value="MdYPvlafeUGSrHQDgBAj2bwgZ+dyLYNEig/Yz0F9UJCOD5CDb0xjTq9BbKlbtpmQ"/>
 				<Property Name="ProjectExplorer\x64_Expanded_5_1" Type="string" Value=""/>
@@ -95,6 +96,7 @@
 						<Value Platform="Windows"></Value>
 					</ValueList>
 				</Property>
+				<Property Name="SoundEngine\BusMapping\{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" Type="string" Value=""/>
 			</PropertyList>
 		</UserProjectSettings>
 	</UserProjectSettingsInfo>

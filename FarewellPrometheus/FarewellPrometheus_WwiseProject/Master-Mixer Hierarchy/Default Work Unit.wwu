@@ -15,6 +15,15 @@
 								<Property Name="Color" Type="int16" Value="18"/>
 								<Property Name="OverrideColor" Type="bool" Value="True"/>
 							</PropertyList>
+							<ChildrenList>
+								<AuxBus Name="GR1_Reverb" ID="{163E2529-88B7-4708-B252-65E8F02DED4F}">
+									<ReferenceList>
+										<Reference Name="Effect0" PluginName="Wwise RoomVerb" CompanyID="0" PluginID="118" PluginType="3">
+											<ObjectRef Name="Hall_Medium_Bright" ID="{3C3845B2-C76E-4634-9108-83FA43A5A7BC}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
+										</Reference>
+									</ReferenceList>
+								</AuxBus>
+							</ChildrenList>
 						</Bus>
 						<Bus Name="Music" ID="{9C76647C-EE1C-4DEC-AFF7-64AE2884B0DB}">
 							<PropertyList>

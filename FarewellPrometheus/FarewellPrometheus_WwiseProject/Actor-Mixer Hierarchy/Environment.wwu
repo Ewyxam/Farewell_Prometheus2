@@ -2972,6 +2972,309 @@
 										</RandomSequenceContainer>
 									</ChildrenList>
 								</BlendContainer>
+								<BlendContainer Name="GR1_AMB_SFX" ID="{78D2A855-307C-4181-A60D-4F1034995ECA}" ShortID="326065204">
+									<PropertyList>
+										<Property Name="OverrideEffect" Type="bool" Value="True"/>
+										<Property Name="OverrideOutput" Type="bool" Value="True"/>
+										<Property Name="OverrideUserAuxSends" Type="bool" Value="True"/>
+										<Property Name="UserAuxSendVolume0" Type="Real64">
+											<ValueList>
+												<Value>-16</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{910AC7EE-841B-4C93-A9B7-752C4BD6AD66}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Environments" ID="{69F32401-4587-4C3F-A5F9-6A990215D69B}" WorkUnitID="{D799538D-0932-442A-AAA6-5525C92EAF70}"/>
+										</Reference>
+										<Reference Name="UserAuxSend0">
+											<ObjectRef Name="GR1_Reverb" ID="{163E2529-88B7-4708-B252-65E8F02DED4F}" WorkUnitID="{D799538D-0932-442A-AAA6-5525C92EAF70}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="GR1_Brook_AMB_01_SFX" ID="{0462C2B6-D74F-4B12-A615-D824F562C910}" ShortID="442097992">
+											<PropertyList>
+												<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+												<Property Name="OverridePositioning" Type="bool" Value="True"/>
+												<Property Name="SpeakerPanning" Type="int16" Value="1"/>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>-20</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{910AC7EE-841B-4C93-A9B7-752C4BD6AD66}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D799538D-0932-442A-AAA6-5525C92EAF70}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="GR1_Brook_AMB_01_SFX" ID="{58745D73-EA37-4651-BA8C-777B2ADE9A88}" ShortID="999820324">
+													<Language>SFX</Language>
+													<AudioFile>GR1_Brook_AMB_01_SFX.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<PositioningInfo>
+												<Panner Name="" ID="{2A1A94ED-9A3D-4208-A63C-CF7071F8965B}">
+													<PropertyList>
+														<Property Name="PanX" Type="Real64" Value="64.5066273932253"/>
+														<Property Name="PanY" Type="Real64" Value="100"/>
+													</PropertyList>
+												</Panner>
+											</PositioningInfo>
+											<ActiveSourceList>
+												<ActiveSource Name="GR1_Brook_AMB_01_SFX" ID="{58745D73-EA37-4651-BA8C-777B2ADE9A88}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="GR1_Drone_AMB_01_SFX" ID="{4A6A65B3-E41B-40A1-B893-B81A87FF3A53}" ShortID="691845317">
+											<PropertyList>
+												<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>-23</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{910AC7EE-841B-4C93-A9B7-752C4BD6AD66}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D799538D-0932-442A-AAA6-5525C92EAF70}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="GR1_Drone_AMB_01_SFX" ID="{99D90973-CEBC-4F6F-9337-A75C0583A9A6}" ShortID="663151553">
+													<Language>SFX</Language>
+													<AudioFile>GR1_Drone_AMB_01_SFX.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="GR1_Drone_AMB_01_SFX" ID="{99D90973-CEBC-4F6F-9337-A75C0583A9A6}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="GR1_Drone_AMB_02_SFX" ID="{3C4C88F9-4693-4117-9D72-5DEDA79DA69E}" ShortID="645642909">
+											<PropertyList>
+												<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>-28</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{910AC7EE-841B-4C93-A9B7-752C4BD6AD66}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D799538D-0932-442A-AAA6-5525C92EAF70}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="GR1_Drone_AMB_02_SFX" ID="{835B2FF2-D1FA-458D-B725-10ECBB988051}" ShortID="377581180">
+													<Language>SFX</Language>
+													<AudioFile>GR1_Drone_AMB_02_SFX.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="GR1_Drone_AMB_02_SFX" ID="{835B2FF2-D1FA-458D-B725-10ECBB988051}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<RandomSequenceContainer Name="GR1_Water_Droplets_SFX" ID="{98C25B3A-27EA-4ACE-B25A-5E4976C93253}" ShortID="606005123">
+											<PropertyList>
+												<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
+												<Property Name="PlayMechanismSpecialTransitionsType" Type="int16" Value="3"/>
+												<Property Name="PlayMechanismSpecialTransitionsValue" Type="Real64" Value="3">
+													<ModifierList>
+														<ModifierInfo>
+															<Modifier Name="" ID="{C6CDAE18-04DE-4321-8BA3-827CBDBAB4A2}">
+																<PropertyList>
+																	<Property Name="Enabled" Type="bool" Value="True"/>
+																	<Property Name="Max" Type="Real64" Value="3"/>
+																	<Property Name="Min" Type="Real64" Value="-3"/>
+																</PropertyList>
+															</Modifier>
+														</ModifierInfo>
+													</ModifierList>
+												</Property>
+												<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>-16</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{910AC7EE-841B-4C93-A9B7-752C4BD6AD66}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D799538D-0932-442A-AAA6-5525C92EAF70}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="GR1_Water_Droplets_AMB_01_SFX-001" ID="{13AB12B0-5A4B-4B84-BA66-599DB09705E2}" ShortID="845771664">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="AMB" ID="{0B3FCEDC-AD1D-43E0-8330-66D515AA0D95}" WorkUnitID="{910AC7EE-841B-4C93-A9B7-752C4BD6AD66}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Environments" ID="{69F32401-4587-4C3F-A5F9-6A990215D69B}" WorkUnitID="{D799538D-0932-442A-AAA6-5525C92EAF70}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="GR1_Water_Droplets_AMB_01_SFX-001" ID="{CDE1D5C2-2056-464A-8C1D-E38C79F93823}" ShortID="423537014">
+															<Language>SFX</Language>
+															<AudioFile>GR1_Water_Droplets_AMB_01_SFX-001.wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="GR1_Water_Droplets_AMB_01_SFX-001" ID="{CDE1D5C2-2056-464A-8C1D-E38C79F93823}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="GR1_Water_Droplets_AMB_01_SFX-002" ID="{09FAAAD0-8260-41D1-ABAE-5D9361AF091D}" ShortID="69131808">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="AMB" ID="{0B3FCEDC-AD1D-43E0-8330-66D515AA0D95}" WorkUnitID="{910AC7EE-841B-4C93-A9B7-752C4BD6AD66}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Environments" ID="{69F32401-4587-4C3F-A5F9-6A990215D69B}" WorkUnitID="{D799538D-0932-442A-AAA6-5525C92EAF70}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="GR1_Water_Droplets_AMB_01_SFX-002" ID="{6B18D901-9538-4AC6-AC97-9D8E7EB309D7}" ShortID="553620555">
+															<Language>SFX</Language>
+															<AudioFile>GR1_Water_Droplets_AMB_01_SFX-002.wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="GR1_Water_Droplets_AMB_01_SFX-002" ID="{6B18D901-9538-4AC6-AC97-9D8E7EB309D7}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="GR1_Water_Droplets_AMB_01_SFX-003" ID="{83714C4D-DB41-4272-B1E9-39C8527AC35D}" ShortID="365528905">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="AMB" ID="{0B3FCEDC-AD1D-43E0-8330-66D515AA0D95}" WorkUnitID="{910AC7EE-841B-4C93-A9B7-752C4BD6AD66}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Environments" ID="{69F32401-4587-4C3F-A5F9-6A990215D69B}" WorkUnitID="{D799538D-0932-442A-AAA6-5525C92EAF70}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="GR1_Water_Droplets_AMB_01_SFX-003" ID="{E19D1A92-0BA1-4B33-84E3-ACFD665A0DFD}" ShortID="826579952">
+															<Language>SFX</Language>
+															<AudioFile>GR1_Water_Droplets_AMB_01_SFX-003.wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="GR1_Water_Droplets_AMB_01_SFX-003" ID="{E19D1A92-0BA1-4B33-84E3-ACFD665A0DFD}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="GR1_Water_Droplets_AMB_01_SFX-004" ID="{CC256837-2715-4E43-B0E1-9A98FD1180AD}" ShortID="587388299">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="AMB" ID="{0B3FCEDC-AD1D-43E0-8330-66D515AA0D95}" WorkUnitID="{910AC7EE-841B-4C93-A9B7-752C4BD6AD66}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Environments" ID="{69F32401-4587-4C3F-A5F9-6A990215D69B}" WorkUnitID="{D799538D-0932-442A-AAA6-5525C92EAF70}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="GR1_Water_Droplets_AMB_01_SFX-004" ID="{DFC670BE-8DA7-4D70-A9CC-2AF0DD9A0F37}" ShortID="319512119">
+															<Language>SFX</Language>
+															<AudioFile>GR1_Water_Droplets_AMB_01_SFX-004.wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="GR1_Water_Droplets_AMB_01_SFX-004" ID="{DFC670BE-8DA7-4D70-A9CC-2AF0DD9A0F37}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="GR1_Water_Droplets_AMB_01_SFX-005" ID="{061E1C53-327B-42DA-8625-4CAEC4B525E1}" ShortID="39369944">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="AMB" ID="{0B3FCEDC-AD1D-43E0-8330-66D515AA0D95}" WorkUnitID="{910AC7EE-841B-4C93-A9B7-752C4BD6AD66}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Environments" ID="{69F32401-4587-4C3F-A5F9-6A990215D69B}" WorkUnitID="{D799538D-0932-442A-AAA6-5525C92EAF70}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="GR1_Water_Droplets_AMB_01_SFX-005" ID="{8487AEA0-3CAA-45B1-83CD-6563F77FACA0}" ShortID="1003678410">
+															<Language>SFX</Language>
+															<AudioFile>GR1_Water_Droplets_AMB_01_SFX-005.wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="GR1_Water_Droplets_AMB_01_SFX-005" ID="{8487AEA0-3CAA-45B1-83CD-6563F77FACA0}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="GR1_Water_Droplets_AMB_01_SFX-006" ID="{E9BB355A-57B2-4265-A645-A4D168769C3E}" ShortID="165070509">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="AMB" ID="{0B3FCEDC-AD1D-43E0-8330-66D515AA0D95}" WorkUnitID="{910AC7EE-841B-4C93-A9B7-752C4BD6AD66}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Environments" ID="{69F32401-4587-4C3F-A5F9-6A990215D69B}" WorkUnitID="{D799538D-0932-442A-AAA6-5525C92EAF70}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="GR1_Water_Droplets_AMB_01_SFX-006" ID="{4D3185DA-D363-47B0-B521-8ED81B09B2AB}" ShortID="772294689">
+															<Language>SFX</Language>
+															<AudioFile>GR1_Water_Droplets_AMB_01_SFX-006.wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="GR1_Water_Droplets_AMB_01_SFX-006" ID="{4D3185DA-D363-47B0-B521-8ED81B09B2AB}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="GR1_Water_Droplets_AMB_01_SFX-007" ID="{389DD17F-3AC1-40E8-9E3B-5344265DF6FF}" ShortID="626830279">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="AMB" ID="{0B3FCEDC-AD1D-43E0-8330-66D515AA0D95}" WorkUnitID="{910AC7EE-841B-4C93-A9B7-752C4BD6AD66}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Environments" ID="{69F32401-4587-4C3F-A5F9-6A990215D69B}" WorkUnitID="{D799538D-0932-442A-AAA6-5525C92EAF70}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="GR1_Water_Droplets_AMB_01_SFX-007" ID="{EA23FE31-E6DB-4985-B670-15C70375FFD9}" ShortID="76551083">
+															<Language>SFX</Language>
+															<AudioFile>GR1_Water_Droplets_AMB_01_SFX-007.wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="GR1_Water_Droplets_AMB_01_SFX-007" ID="{EA23FE31-E6DB-4985-B670-15C70375FFD9}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="GR1_Water_Droplets_AMB_01_SFX-008" ID="{9BEE310C-F2A9-44C0-ACAC-462FD0865789}" ShortID="1040320267">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="AMB" ID="{0B3FCEDC-AD1D-43E0-8330-66D515AA0D95}" WorkUnitID="{910AC7EE-841B-4C93-A9B7-752C4BD6AD66}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Environments" ID="{69F32401-4587-4C3F-A5F9-6A990215D69B}" WorkUnitID="{D799538D-0932-442A-AAA6-5525C92EAF70}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="GR1_Water_Droplets_AMB_01_SFX-008" ID="{E89D329B-71F7-4C72-88CF-715A50868AD8}" ShortID="360212279">
+															<Language>SFX</Language>
+															<AudioFile>GR1_Water_Droplets_AMB_01_SFX-008.wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="GR1_Water_Droplets_AMB_01_SFX-008" ID="{E89D329B-71F7-4C72-88CF-715A50868AD8}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+										</RandomSequenceContainer>
+									</ChildrenList>
+								</BlendContainer>
 							</ChildrenList>
 							<GroupingInfo>
 								<GroupingBehaviorList>
@@ -2989,6 +3292,9 @@
 												</ValueList>
 											</Property>
 										</PropertyList>
+									</GroupingBehavior>
+									<GroupingBehavior>
+										<ItemRef Name="GR1_AMB_SFX" ID="{78D2A855-307C-4181-A60D-4F1034995ECA}"/>
 									</GroupingBehavior>
 									<GroupingBehavior>
 										<ItemRef Name="VS1_AMB_SFX" ID="{FF489468-B7B7-4D3B-85BF-0FF6B4A00608}"/>
@@ -3029,6 +3335,12 @@
 										<SwitchRef Name="VS1" ID="{915C022C-5E20-4234-893D-200581D9EED3}"/>
 										<ItemList>
 											<ItemRef Name="VS1_AMB_SFX" ID="{FF489468-B7B7-4D3B-85BF-0FF6B4A00608}"/>
+										</ItemList>
+									</Grouping>
+									<Grouping>
+										<SwitchRef Name="GR1" ID="{72697C44-3272-407C-8A29-522EEB6672B4}"/>
+										<ItemList>
+											<ItemRef Name="GR1_AMB_SFX" ID="{78D2A855-307C-4181-A60D-4F1034995ECA}"/>
 										</ItemList>
 									</Grouping>
 									<Grouping>

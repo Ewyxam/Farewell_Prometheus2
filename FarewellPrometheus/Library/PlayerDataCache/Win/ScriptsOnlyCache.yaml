@@ -16,6 +16,7 @@ ScriptsOnlyBuild:
     - DescriptionTrigger
     - DialogueManager
     - DialogueTrigger
+    - DontDestroy
     - Introduction_Animations
     - ScanTrigger
     - SceneLoader
@@ -35,12 +36,6 @@ ScriptsOnlyBuild:
     - UnityEditor.Tilemaps.TileDragAndDropManager
     Unity.Rider.Editor.dll:
     - Packages.Rider.Editor.UnitTesting.CallbackData
-    UnityEditor.Graphs.dll:
-    - UnityEditor.Graphs.AnimationBlendTree.Graph
-    - UnityEditor.Graphs.AnimationBlendTree.GraphGUI
-    - UnityEditor.Graphs.AnimationStateMachine.Graph
-    - UnityEditor.Graphs.AnimationStateMachine.GraphGUI
-    - UnityEditor.Graphs.AnimatorControllerTool
     UnityEditor.TestRunner.dll:
     - UnityEditor.TestTools.TestRunner.Api.CallbacksHolder
     - UnityEditor.TestTools.TestRunner.TestListCacheData
@@ -135,25 +130,27 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 13096}
     - Class: 114
-      Script: {instanceID: 13380}
+      Script: {instanceID: 13126}
     - Class: 114
-      Script: {instanceID: 13424}
+      Script: {instanceID: 13382}
     - Class: 114
-      Script: {instanceID: 13496}
+      Script: {instanceID: 13426}
     - Class: 114
-      Script: {instanceID: 13522}
+      Script: {instanceID: 13498}
     - Class: 114
-      Script: {instanceID: 13706}
+      Script: {instanceID: 13524}
     - Class: 114
-      Script: {instanceID: 13814}
+      Script: {instanceID: 13708}
     - Class: 114
-      Script: {instanceID: 13932}
+      Script: {instanceID: 13816}
     - Class: 114
-      Script: {instanceID: 13966}
+      Script: {instanceID: 13934}
     - Class: 114
-      Script: {instanceID: 14014}
+      Script: {instanceID: 13968}
     - Class: 114
-      Script: {instanceID: 14064}
+      Script: {instanceID: 14016}
+    - Class: 114
+      Script: {instanceID: 14066}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -172,6 +169,8 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 224
       Script: {instanceID: 0}
+    - Class: 225
+      Script: {instanceID: 0}
     - Class: 328
       Script: {instanceID: 0}
     - Class: 329
@@ -183,16 +182,32 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 20
       Script: {instanceID: 0}
+    - Class: 21
+      Script: {instanceID: 0}
     - Class: 28
       Script: {instanceID: 0}
+    - Class: 48
+      Script: {instanceID: 0}
     - Class: 61
+      Script: {instanceID: 0}
+    - Class: 74
+      Script: {instanceID: 0}
+    - Class: 91
+      Script: {instanceID: 0}
+    - Class: 95
       Script: {instanceID: 0}
     - Class: 104
       Script: {instanceID: 0}
     - Class: 114
       Script: {instanceID: 11378}
     - Class: 114
+      Script: {instanceID: 11482}
+    - Class: 114
       Script: {instanceID: 11492}
+    - Class: 114
+      Script: {instanceID: 11526}
+    - Class: 114
+      Script: {instanceID: 11628}
     - Class: 114
       Script: {instanceID: 11678}
     - Class: 114
@@ -202,20 +217,38 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 12206}
     - Class: 114
+      Script: {instanceID: 12218}
+    - Class: 114
       Script: {instanceID: 12222}
     - Class: 114
       Script: {instanceID: 12258}
     - Class: 114
+      Script: {instanceID: 12352}
+    - Class: 114
+      Script: {instanceID: 12616}
+    - Class: 114
+      Script: {instanceID: 12840}
+    - Class: 114
       Script: {instanceID: 12884}
     - Class: 114
-      Script: {instanceID: 13496}
+      Script: {instanceID: 13126}
     - Class: 114
-      Script: {instanceID: 13932}
+      Script: {instanceID: 13382}
     - Class: 114
-      Script: {instanceID: 13966}
+      Script: {instanceID: 13426}
     - Class: 114
-      Script: {instanceID: 14014}
+      Script: {instanceID: 13498}
+    - Class: 114
+      Script: {instanceID: 13524}
+    - Class: 114
+      Script: {instanceID: 13934}
+    - Class: 114
+      Script: {instanceID: 13968}
+    - Class: 114
+      Script: {instanceID: 14016}
     - Class: 115
+      Script: {instanceID: 0}
+    - Class: 128
       Script: {instanceID: 0}
     - Class: 157
       Script: {instanceID: 0}
@@ -228,6 +261,8 @@ ScriptsOnlyBuild:
     - Class: 223
       Script: {instanceID: 0}
     - Class: 224
+      Script: {instanceID: 0}
+    - Class: 225
       Script: {instanceID: 0}
   scriptHashData:
   - hash:
@@ -286,7 +321,7 @@ ScriptsOnlyBuild:
     className: SoundDialogueManager
   - hash:
       serializedVersion: 2
-      Hash: 7b8da7310544e24c381d4d70d2e738d9
+      Hash: aedbea720a93c454fbf4cd2c2fd20e51
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: CollisionManager
@@ -634,7 +669,7 @@ ScriptsOnlyBuild:
     className: AkSurfaceReflector
   - hash:
       serializedVersion: 2
-      Hash: 30f3213a6e218a461fa00e428f22d3eb
+      Hash: 7e2108bec221dea4eddb306d7303df1b
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: SceneTransition
@@ -742,6 +777,12 @@ ScriptsOnlyBuild:
     className: SignalReceiver
   - hash:
       serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: DontDestroy
+  - hash:
+      serializedVersion: 2
       Hash: 5ad4aa237d47ac2bab17bacb672edf7a
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.UI
@@ -796,7 +837,7 @@ ScriptsOnlyBuild:
     className: TextMeshProUGUI
   - hash:
       serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+      Hash: b1e2a28a533e9258ea016a9dc4c0767e
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: SoundManager
@@ -868,7 +909,7 @@ ScriptsOnlyBuild:
     className: AkSwitch
   - hash:
       serializedVersion: 2
-      Hash: 0e8a7f180ef183122c393d590f17a2ed
+      Hash: a24ef2911467fa14f9b9060013666b3a
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: DialogueManager
@@ -1020,4 +1061,4 @@ ScriptsOnlyBuild:
   scenePathNames:
   - Assets/Scenes/PhaseOne.unity
   - Assets/Scenes/PhasePnC.unity
-  playerPath: D:/FarewellPrometheus2/Build/FarewellPrometheus.exe
+  playerPath: D:/build/FarewellPrometheus.exe

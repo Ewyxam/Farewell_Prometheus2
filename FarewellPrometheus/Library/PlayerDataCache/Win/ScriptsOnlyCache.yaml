@@ -11,6 +11,7 @@ ScriptsOnlyBuild:
     - AkMacSettings
     - AkWindowsSettings
     - AkWwiseInitializationSettings
+    - CameraMovement
     - CollisionManager
     - DescriptionManager
     - DescriptionTrigger
@@ -120,37 +121,37 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 12616}
     - Class: 114
-      Script: {instanceID: 12840}
+      Script: {instanceID: 12842}
     - Class: 114
-      Script: {instanceID: 12866}
+      Script: {instanceID: 12868}
     - Class: 114
-      Script: {instanceID: 12878}
+      Script: {instanceID: 12880}
     - Class: 114
-      Script: {instanceID: 12884}
+      Script: {instanceID: 12886}
     - Class: 114
-      Script: {instanceID: 13096}
+      Script: {instanceID: 13098}
     - Class: 114
-      Script: {instanceID: 13126}
+      Script: {instanceID: 13128}
     - Class: 114
-      Script: {instanceID: 13382}
+      Script: {instanceID: 13384}
     - Class: 114
-      Script: {instanceID: 13426}
+      Script: {instanceID: 13428}
     - Class: 114
-      Script: {instanceID: 13498}
+      Script: {instanceID: 13500}
     - Class: 114
-      Script: {instanceID: 13524}
+      Script: {instanceID: 13526}
     - Class: 114
-      Script: {instanceID: 13708}
+      Script: {instanceID: 13710}
     - Class: 114
-      Script: {instanceID: 13816}
+      Script: {instanceID: 13818}
     - Class: 114
-      Script: {instanceID: 13934}
+      Script: {instanceID: 13936}
     - Class: 114
-      Script: {instanceID: 13968}
+      Script: {instanceID: 13970}
     - Class: 114
-      Script: {instanceID: 14016}
+      Script: {instanceID: 14018}
     - Class: 114
-      Script: {instanceID: 14066}
+      Script: {instanceID: 14068}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -227,25 +228,27 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 12616}
     - Class: 114
-      Script: {instanceID: 12840}
+      Script: {instanceID: 12624}
     - Class: 114
-      Script: {instanceID: 12884}
+      Script: {instanceID: 12842}
     - Class: 114
-      Script: {instanceID: 13126}
+      Script: {instanceID: 12886}
     - Class: 114
-      Script: {instanceID: 13382}
+      Script: {instanceID: 13128}
     - Class: 114
-      Script: {instanceID: 13426}
+      Script: {instanceID: 13384}
     - Class: 114
-      Script: {instanceID: 13498}
+      Script: {instanceID: 13428}
     - Class: 114
-      Script: {instanceID: 13524}
+      Script: {instanceID: 13500}
     - Class: 114
-      Script: {instanceID: 13934}
+      Script: {instanceID: 13526}
     - Class: 114
-      Script: {instanceID: 13968}
+      Script: {instanceID: 13936}
     - Class: 114
-      Script: {instanceID: 14016}
+      Script: {instanceID: 13970}
+    - Class: 114
+      Script: {instanceID: 14018}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -673,6 +676,12 @@ ScriptsOnlyBuild:
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: SceneTransition
+  - hash:
+      serializedVersion: 2
+      Hash: dfdf071491894e9584ebf921ad04a7ab
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: CameraMovement
   - hash:
       serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f

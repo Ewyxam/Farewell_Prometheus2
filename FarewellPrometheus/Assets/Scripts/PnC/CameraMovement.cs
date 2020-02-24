@@ -6,10 +6,16 @@ public class CameraMovement : MonoBehaviour
 {
     public float speedH = 1.0f;
     public float speedV = 1.0f;
+    private Vector3 posInit;
 
     private float yaw = 0.0f;
     private float pitch = 0.0f;
 
+    private void Start()
+    {
+        //voir comment recup position initiale
+        posInit = new Vector3();
+    }
     // Update is called once per frame
     void Update()
     {

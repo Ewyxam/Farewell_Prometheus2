@@ -15,7 +15,7 @@ public class SceneTransition : MonoBehaviour
     public GameObject nextPanel;
     public GameObject continueButton;
 
-    public int tabNum;
+    public int tabNum,transActive;
     private Scene currentScene;
     int buildIndex;
     
@@ -75,6 +75,7 @@ public class SceneTransition : MonoBehaviour
         currentPanel.SetActive(false);
 
         transitionPanel.SetActive(true);
+        transActive = 1;
 
         transition.SetTrigger("End");
         AkSoundEngine.PostEvent("Woosh_Trans_Event", gameObject);
@@ -106,6 +107,7 @@ public class SceneTransition : MonoBehaviour
         continueButton.SetActive(false);
 
         transitionPanel.SetActive(false);
+        transActive = 0; 
 
         transition.SetTrigger("End");
 

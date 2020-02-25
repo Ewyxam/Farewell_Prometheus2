@@ -5,8 +5,8 @@ using UnityEngine.SceneManagement;
 
 public class SoundManager : MonoBehaviour
 {
-   // private GameObject collisionManager;
-    public int location; 
+  
+    
     void Start()
     {
         // Create a temporary reference to the current scene.
@@ -22,22 +22,12 @@ public class SoundManager : MonoBehaviour
         }
         else if (buildIndex == 1)
         {
-           // collisionManager = GameObject.Find("CollisionManager");
+          
             AkSoundEngine.SetState("Location", "CL1");
             Debug.Log("CL1 AMB");
         }
 
-        /*location = collisionManager.GetComponent<CollisionManager>().tabNum;
-        AkSoundEngine.SetState("Music", "Title");
-        if(location == 0)
-        {
-            AkSoundEngine.SetState("Location", "CL1");
-            Debug.Log("CL1 AMB");
-        }
-        else
-        {
-            AkSoundEngine.SetState("Location", "None");
-        }*/
+        
 
         AkSoundEngine.PostEvent("Ambience_Event", gameObject);
     }
@@ -69,23 +59,7 @@ public class SoundManager : MonoBehaviour
         AkSoundEngine.SetState("Location", "VS1");
     }
 
-    /*public void SetAmbience()
-    {
-        if(location == 0)
-        {
-            AkSoundEngine.SetState("Location", "CL1");
-        }
-
-        if (location == 1)
-        {
-            AkSoundEngine.SetState("Location", "JG1");
-        }
-
-        if (location == 2)
-        {
-            AkSoundEngine.SetState("Location", "RV1");
-        }
-    }*/
+   
 
 
 }

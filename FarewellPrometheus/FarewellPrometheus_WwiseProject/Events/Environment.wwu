@@ -33,6 +33,16 @@
 				<Event Name="Ambience_Event" ID="{388E70D7-6083-4A0C-82D3-08C6E906F4B4}">
 					<ChildrenList>
 						<Action Name="" ID="{553D7B70-266B-4DF0-8235-B2873D9E6224}" ShortID="664331514">
+							<PropertyList>
+								<Property Name="FadeInCurve" Type="int16" Value="6"/>
+								<Property Name="FadeTime" Type="Real64" Value="5">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{917A52A0-948C-4819-A6AD-6E84A92D5C91}"/>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Target">
 									<ObjectRef Name="Ambience_Switch" ID="{6D04F850-8EF3-41BA-8B6D-165B46B875E5}" WorkUnitID="{0976A159-B45B-49AD-A20F-D8E27B741149}"/>
@@ -66,10 +76,28 @@
 						</Event>
 						<Event Name="Woosh_Trans_Event" ID="{4B9CEA33-58EB-425F-ABCE-9DA252CDEB8A}">
 							<ChildrenList>
-								<Action Name="" ID="{712F41F0-1DA8-4A02-9EAC-D952954367E3}" ShortID="935398142">
+								<Action Name="" ID="{6CC4AFCE-446B-4D54-B649-B92A8636502B}" ShortID="780431518">
 									<ReferenceList>
 										<Reference Name="Target">
-											<ObjectRef Name="Woosh_Trans_SFX" ID="{7E4EA850-B7D6-4942-B0B0-34194C1EC369}" WorkUnitID="{0976A159-B45B-49AD-A20F-D8E27B741149}"/>
+											<ObjectRef Name="Woosh_Trans_02_SFX" ID="{CBFCAEE4-9CFC-4883-AB94-91D1FBEC1AE5}" WorkUnitID="{0976A159-B45B-49AD-A20F-D8E27B741149}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Woosh_Mus_Event" ID="{D6DCA802-E0B9-4601-A8B7-AD577BCC3C07}">
+							<ChildrenList>
+								<Action Name="" ID="{F0894643-079C-4CEA-86D0-897B0E0E6CDA}" ShortID="17643986">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Mus_Trans_SFX" ID="{8A81A9A0-8BA6-4346-89CF-9FC51A118EAD}" WorkUnitID="{0976A159-B45B-49AD-A20F-D8E27B741149}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{5B075C4D-CE63-41D4-8D61-295A4A35B93B}" ShortID="814659874">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Woosh_Trans_02_SFX" ID="{CBFCAEE4-9CFC-4883-AB94-91D1FBEC1AE5}" WorkUnitID="{0976A159-B45B-49AD-A20F-D8E27B741149}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>

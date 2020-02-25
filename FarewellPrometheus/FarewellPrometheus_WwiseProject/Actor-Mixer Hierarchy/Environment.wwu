@@ -3295,6 +3295,18 @@
 									</GroupingBehavior>
 									<GroupingBehavior>
 										<ItemRef Name="GR1_AMB_SFX" ID="{78D2A855-307C-4181-A60D-4F1034995ECA}"/>
+										<PropertyList>
+											<Property Name="FadeInTime" Type="Real64">
+												<ValueList>
+													<Value>5</Value>
+												</ValueList>
+											</Property>
+											<Property Name="FadeOutTime" Type="Real64">
+												<ValueList>
+													<Value>5</Value>
+												</ValueList>
+											</Property>
+										</PropertyList>
 									</GroupingBehavior>
 									<GroupingBehavior>
 										<ItemRef Name="VS1_AMB_SFX" ID="{FF489468-B7B7-4D3B-85BF-0FF6B4A00608}"/>
@@ -3313,6 +3325,18 @@
 									</GroupingBehavior>
 									<GroupingBehavior>
 										<ItemRef Name="RV1_AMB_SFX" ID="{E1830D6F-1150-4B5B-AEF8-859B690D4E27}"/>
+										<PropertyList>
+											<Property Name="FadeInTime" Type="Real64">
+												<ValueList>
+													<Value>5</Value>
+												</ValueList>
+											</Property>
+											<Property Name="FadeOutTime" Type="Real64">
+												<ValueList>
+													<Value>5</Value>
+												</ValueList>
+											</Property>
+										</PropertyList>
 									</GroupingBehavior>
 									<GroupingBehavior>
 										<ItemRef Name="JG1_AMB_SFX" ID="{63DE4AD6-B605-4850-9C13-87A9BDA4E6C7}"/>
@@ -3433,6 +3457,229 @@
 								<ActiveSource Name="Woosh_Trans_SFX" ID="{EA0E3EA0-DD5C-4716-9271-8C83CC6057C0}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
+						<Sound Name="Woosh_Trans_02_SFX" ID="{CBFCAEE4-9CFC-4883-AB94-91D1FBEC1AE5}" ShortID="166185904">
+							<PropertyList>
+								<Property Name="Highpass" Type="int16">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{DA397440-187D-4765-904D-308208511977}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Max" Type="Real64" Value="25"/>
+													<Property Name="Min" Type="Real64" Value="-20"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+								<Property Name="Lowpass" Type="int16">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{0EE5C354-1F5B-4B9D-BAD7-D860D6183590}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Max" Type="Real64" Value="25"/>
+													<Property Name="Min" Type="Real64" Value="-25"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+								<Property Name="Pitch" Type="int32">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{E2D6470A-93D2-431D-AEA1-838FCBE3784B}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Max" Type="Real64" Value="200"/>
+													<Property Name="Min" Type="Real64" Value="-200"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-9</Value>
+									</ValueList>
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{A668B5E2-F49C-430F-B439-9EBEE036D352}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Max" Type="Real64" Value="2"/>
+													<Property Name="Min" Type="Real64" Value="-2"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{910AC7EE-841B-4C93-A9B7-752C4BD6AD66}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D799538D-0932-442A-AAA6-5525C92EAF70}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Woosh_Trans_02_SFX" ID="{BFF832FE-B948-42B9-B7AE-E2D01AF7AD72}" ShortID="235575294">
+									<Language>SFX</Language>
+									<AudioFile>Woosh_Trans_02_SFX.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Woosh_Trans_02_SFX" ID="{BFF832FE-B948-42B9-B7AE-E2D01AF7AD72}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<RandomSequenceContainer Name="Mus_Trans_SFX" ID="{8A81A9A0-8BA6-4346-89CF-9FC51A118EAD}" ShortID="29966644">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-10</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{910AC7EE-841B-4C93-A9B7-752C4BD6AD66}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D799538D-0932-442A-AAA6-5525C92EAF70}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="Mus_Trans_SFX-001" ID="{73FC6A5E-C408-4C4F-8E2D-30E893E4441B}" ShortID="776480831">
+									<PropertyList>
+										<Property Name="Inclusion" Type="bool">
+											<ValueList>
+												<Value>False</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="AMB" ID="{0B3FCEDC-AD1D-43E0-8330-66D515AA0D95}" WorkUnitID="{910AC7EE-841B-4C93-A9B7-752C4BD6AD66}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Environments" ID="{69F32401-4587-4C3F-A5F9-6A990215D69B}" WorkUnitID="{D799538D-0932-442A-AAA6-5525C92EAF70}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Mus_Trans_SFX-001" ID="{B872458F-3803-4E1E-9BF4-C4E01820EB86}" ShortID="616974522">
+											<Language>SFX</Language>
+											<AudioFile>Mus_Trans_SFX-001.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Mus_Trans_SFX-001" ID="{B872458F-3803-4E1E-9BF4-C4E01820EB86}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Mus_Trans_SFX-002" ID="{A7CD708E-8EC3-4DED-A2FA-AE2BC75779F7}" ShortID="585491906">
+									<PropertyList>
+										<Property Name="Inclusion" Type="bool">
+											<ValueList>
+												<Value>False</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="AMB" ID="{0B3FCEDC-AD1D-43E0-8330-66D515AA0D95}" WorkUnitID="{910AC7EE-841B-4C93-A9B7-752C4BD6AD66}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Environments" ID="{69F32401-4587-4C3F-A5F9-6A990215D69B}" WorkUnitID="{D799538D-0932-442A-AAA6-5525C92EAF70}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Mus_Trans_SFX-002" ID="{CF3538D6-0B06-457A-BEDF-D03EDDBA5844}" ShortID="192035663">
+											<Language>SFX</Language>
+											<AudioFile>Mus_Trans_SFX-002.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Mus_Trans_SFX-002" ID="{CF3538D6-0B06-457A-BEDF-D03EDDBA5844}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Mus_Trans_SFX-003" ID="{B866A39F-0A4B-45F0-B970-9750B7F4AECE}" ShortID="43463330">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="AMB" ID="{0B3FCEDC-AD1D-43E0-8330-66D515AA0D95}" WorkUnitID="{910AC7EE-841B-4C93-A9B7-752C4BD6AD66}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Environments" ID="{69F32401-4587-4C3F-A5F9-6A990215D69B}" WorkUnitID="{D799538D-0932-442A-AAA6-5525C92EAF70}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Mus_Trans_SFX-003" ID="{1D14E857-332D-4928-92DF-A2DDA5302160}" ShortID="150775946">
+											<Language>SFX</Language>
+											<AudioFile>Mus_Trans_SFX-003.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Mus_Trans_SFX-003" ID="{1D14E857-332D-4928-92DF-A2DDA5302160}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Mus_Trans_SFX-004" ID="{F9A9D6DE-86F6-4E3B-B095-50A8C5E541F9}" ShortID="822670866">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="AMB" ID="{0B3FCEDC-AD1D-43E0-8330-66D515AA0D95}" WorkUnitID="{910AC7EE-841B-4C93-A9B7-752C4BD6AD66}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Environments" ID="{69F32401-4587-4C3F-A5F9-6A990215D69B}" WorkUnitID="{D799538D-0932-442A-AAA6-5525C92EAF70}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Mus_Trans_SFX-004" ID="{CE41F671-EFBC-4828-93C1-AF6D8605421B}" ShortID="980506493">
+											<Language>SFX</Language>
+											<AudioFile>Mus_Trans_SFX-004.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Mus_Trans_SFX-004" ID="{CE41F671-EFBC-4828-93C1-AF6D8605421B}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Mus_Trans_SFX-005" ID="{4AB9DA27-2FFD-4229-BF8D-D36875375E86}" ShortID="555046796">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="AMB" ID="{0B3FCEDC-AD1D-43E0-8330-66D515AA0D95}" WorkUnitID="{910AC7EE-841B-4C93-A9B7-752C4BD6AD66}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Environments" ID="{69F32401-4587-4C3F-A5F9-6A990215D69B}" WorkUnitID="{D799538D-0932-442A-AAA6-5525C92EAF70}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Mus_Trans_SFX-005" ID="{3874AE42-B791-4A54-BFCC-E0EF2F753C1F}" ShortID="899146801">
+											<Language>SFX</Language>
+											<AudioFile>Mus_Trans_SFX-005.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Mus_Trans_SFX-005" ID="{3874AE42-B791-4A54-BFCC-E0EF2F753C1F}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Mus_Trans_SFX-006" ID="{A0D88335-1A7C-4CB3-A0A3-0A2D326FD427}" ShortID="283084230">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="AMB" ID="{0B3FCEDC-AD1D-43E0-8330-66D515AA0D95}" WorkUnitID="{910AC7EE-841B-4C93-A9B7-752C4BD6AD66}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Environments" ID="{69F32401-4587-4C3F-A5F9-6A990215D69B}" WorkUnitID="{D799538D-0932-442A-AAA6-5525C92EAF70}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Mus_Trans_SFX-006" ID="{FB271B11-F77F-4BB1-9302-3771DCAE56B8}" ShortID="579255407">
+											<Language>SFX</Language>
+											<AudioFile>Mus_Trans_SFX-006.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Mus_Trans_SFX-006" ID="{FB271B11-F77F-4BB1-9302-3771DCAE56B8}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</RandomSequenceContainer>
 					</ChildrenList>
 				</ActorMixer>
 			</ChildrenList>

@@ -20,6 +20,7 @@
 						<ObjectRef Name="Woosh_Trans_Event" ID="{4B9CEA33-58EB-425F-ABCE-9DA252CDEB8A}" WorkUnitID="{715DFDB0-4E78-47C3-BD3C-FBFE54BDC937}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Button_Hover" ID="{FE659B0C-7D7C-43AA-8F65-1B98FD1C71C9}" WorkUnitID="{77951EF6-4978-416C-AA34-3188A981DCD3}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Robot_Moving" ID="{57F9D0EA-3DCD-448D-809A-470E0796F684}" WorkUnitID="{77951EF6-4978-416C-AA34-3188A981DCD3}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Woosh_Mus_Event" ID="{D6DCA802-E0B9-4601-A8B7-AD577BCC3C07}" WorkUnitID="{715DFDB0-4E78-47C3-BD3C-FBFE54BDC937}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="VS1_to_CL1_Event" ID="{4BE2ACF3-A745-461D-AA3F-D84780610627}" WorkUnitID="{715DFDB0-4E78-47C3-BD3C-FBFE54BDC937}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Calendar_Handle" ID="{46DC1F05-2B20-4681-973A-E3D27230AAA8}" WorkUnitID="{77951EF6-4978-416C-AA34-3188A981DCD3}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Button_Click" ID="{FF2B30C1-A316-46EC-B131-A75ECABBBEDE}" WorkUnitID="{77951EF6-4978-416C-AA34-3188A981DCD3}" Filter="7" Origin="Manual"/>

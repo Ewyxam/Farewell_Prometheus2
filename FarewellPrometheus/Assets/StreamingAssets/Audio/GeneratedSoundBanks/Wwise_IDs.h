@@ -35,6 +35,7 @@ namespace AK
         static const AkUniqueID VS1_SCREEN_GLASS_TAP_EVENT = 2535003186U;
         static const AkUniqueID VS1_TO_CL1_EVENT = 3867008365U;
         static const AkUniqueID VS1_VOLGA_GLASS_TAP_EVENT = 1731494341U;
+        static const AkUniqueID WOOSH_MUS_EVENT = 4138927606U;
         static const AkUniqueID WOOSH_TRANS_EVENT = 1823100709U;
     } // namespace EVENTS
 
@@ -67,6 +68,17 @@ namespace AK
                 static const AkUniqueID TITLE = 3705726509U;
             } // namespace STATE
         } // namespace MUSIC
+
+        namespace PAUSE
+        {
+            static const AkUniqueID GROUP = 3092587493U;
+
+            namespace STATE
+            {
+                static const AkUniqueID NOT_PAUSE = 251826647U;
+                static const AkUniqueID PAUSED = 319258907U;
+            } // namespace STATE
+        } // namespace PAUSE
 
         namespace RADIO
         {
@@ -152,6 +164,11 @@ namespace AK
         } // namespace VOLGA_DIAL_P1
 
     } // namespace SWITCHES
+
+    namespace GAME_PARAMETERS
+    {
+        static const AkUniqueID TRANSITION = 1865857008U;
+    } // namespace GAME_PARAMETERS
 
     namespace BANKS
     {

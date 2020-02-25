@@ -2,6 +2,7 @@ State Group	ID	Name			Wwise Object Path	Notes
 	486208800	Suit_On_Off			\Default Work Unit\Suit_On_Off	
 	1176052424	Location			\Default Work Unit\Location	
 	2548238350	Radio			\Default Work Unit\Radio	
+	3092587493	Pause			\Default Work Unit\Pause	
 	3991942870	Music			\Default Work Unit\Music	
 
 State	ID	Name	State Group			Notes
@@ -19,10 +20,22 @@ State	ID	Name	State Group			Notes
 	0	None	Radio			
 	375726501	Mission	Radio			
 	2253511143	Bossa	Radio			
+	0	None	Pause			
+	251826647	Not_Pause	Pause			
+	319258907	Paused	Pause			
 	0	None	Music			
 	1151176110	Awake	Music			
 	1274150312	Stasis	Music			
 	3705726509	Title	Music			
+
+Custom State	ID	Name	State Group	Owner		Notes
+	328841288	Paused	Pause	\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Music		
+	414772684	Paused	Pause	\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\VO		
+	561073275	Paused	Pause	\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Environments		
+	1014138168	Paused	Pause	\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\SFX		
+
+Game Parameter	ID	Name			Wwise Object Path	Notes
+	1865857008	Transition			\Default Work Unit\Transition	
 
 Audio Bus	ID	Name			Wwise Object Path	Notes
 	393239870	SFX			\Default Work Unit\Master Audio Bus\SFX	
@@ -40,6 +53,7 @@ Auxiliary Bus	ID	Name			Wwise Object Path	Notes
 	1325898718	GR1_Reverb			\Default Work Unit\Master Audio Bus\Environments\GR1_Reverb	
 
 Effect plug-ins	ID	Name	Type				Notes
+	197906949	Wwise_Parametric_EQ_(Custom)	Wwise Parametric EQ			
 	1520064353	Hall_Medium_Bright	Wwise RoomVerb			
 
 Audio Devices	ID	Name	Type				Notes

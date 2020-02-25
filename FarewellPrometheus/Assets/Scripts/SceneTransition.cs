@@ -42,7 +42,7 @@ public class SceneTransition : MonoBehaviour
             tabNum = manager.GetComponent<CollisionManager>().tabNum;
         }
         AkSoundEngine.SetState("Location", "CL1");
-        AkSoundEngine.PostEvent("Ambience_Event", gameObject);
+        AkSoundEngine.SetState("Music", "None");
     }
 
     IEnumerator LoadLevel(int levelIndex)
@@ -67,7 +67,7 @@ public class SceneTransition : MonoBehaviour
     {
         transition.SetTrigger("Start");
 
-        AkSoundEngine.PostEvent("Woosh_Trans_Event", gameObject);
+        AkSoundEngine.PostEvent("Woosh_Mus_Event", gameObject);
 
         yield return new WaitForSeconds(transTime);
 
@@ -77,7 +77,6 @@ public class SceneTransition : MonoBehaviour
         transitionPanel.SetActive(true);
 
         transition.SetTrigger("End");
-        AkSoundEngine.PostEvent("Woosh_Trans_Event", gameObject);
 
         yield return new WaitForSeconds(2f);
 
@@ -108,7 +107,5 @@ public class SceneTransition : MonoBehaviour
         transitionPanel.SetActive(false);
 
         transition.SetTrigger("End");
-
-        AkSoundEngine.PostEvent("Woosh_Trans_Event", gameObject);
     } 
 }

@@ -48,7 +48,8 @@
 				<Event Id="2535003186" Name="VS1_Screen_Glass_Tap_Event" ObjectPath="\Events\Default Work Unit\Ship\Objects\VS1_Screen_Glass_Tap_Event" DurationType="OneShot" DurationMin="0.079160" DurationMax="0.085775"/>
 				<Event Id="3867008365" Name="VS1_to_CL1_Event" ObjectPath="\Events\Default Work Unit\Environment\Transitions\VS1_to_CL1_Event" DurationType="OneShot" DurationMin="17.076313" DurationMax="17.076313"/>
 				<Event Id="1731494341" Name="VS1_Volga_Glass_Tap_Event" ObjectPath="\Events\Default Work Unit\Ship\Objects\VS1_Volga_Glass_Tap_Event" DurationType="OneShot" DurationMin="0.055438" DurationMax="0.066390"/>
-				<Event Id="1823100709" Name="Woosh_Trans_Event" ObjectPath="\Events\Default Work Unit\Environment\Transitions\Woosh_Trans_Event" DurationType="OneShot" DurationMin="2.000000" DurationMax="2.000000"/>
+				<Event Id="4138927606" Name="Woosh_Mus_Event" ObjectPath="\Events\Default Work Unit\Environment\Transitions\Woosh_Mus_Event" DurationType="OneShot" DurationMin="3.824271" DurationMax="4.248125"/>
+				<Event Id="1823100709" Name="Woosh_Trans_Event" ObjectPath="\Events\Default Work Unit\Environment\Transitions\Woosh_Trans_Event" DurationType="OneShot" DurationMin="2.262326" DurationMax="2.850352"/>
 			</IncludedEvents>
 			<IncludedMemoryFiles>
 				<File Id="12419280" Language="SFX">
@@ -115,6 +116,10 @@
 					<ShortName>Jungle_Birds_AMB_SFX_05.wav</ShortName>
 					<Path>SFX\Jungle_Birds_AMB_SFX_05_6296B0F9.wem</Path>
 				</File>
+				<File Id="150775946" Language="SFX">
+					<ShortName>Mus_Trans_SFX-003.wav</ShortName>
+					<Path>SFX\Mus_Trans_SFX-003_6296B0F9.wem</Path>
+				</File>
 				<File Id="168695386" Language="SFX">
 					<ShortName>Computer_Wrong_Password_SFX.wav</ShortName>
 					<Path>SFX\Computer_Wrong_Password_SFX_6296B0F9.wem</Path>
@@ -142,6 +147,10 @@
 				<File Id="203544195" Language="SFX">
 					<ShortName>Ship_Metal_Raking_SFX_02.wav</ShortName>
 					<Path>SFX\Ship_Metal_Raking_SFX_02_6296B0F9.wem</Path>
+				</File>
+				<File Id="235575294" Language="SFX">
+					<ShortName>Woosh_Trans_02_SFX.wav</ShortName>
+					<Path>SFX\Woosh_Trans_02_SFX_6296B0F9.wem</Path>
 				</File>
 				<File Id="243976750" Language="English(US)">
 					<ShortName>Volga_P1_Dial_05-01.wav</ShortName>
@@ -299,6 +308,10 @@
 					<ShortName>Volga_P1_Dial_05-02.wav</ShortName>
 					<Path>Voices\English(US)\Volga_P1_Dial_05-02_6296B0F9.wem</Path>
 				</File>
+				<File Id="579255407" Language="SFX">
+					<ShortName>Mus_Trans_SFX-006.wav</ShortName>
+					<Path>SFX\Mus_Trans_SFX-006_6296B0F9.wem</Path>
+				</File>
 				<File Id="579876913" Language="English(US)">
 					<ShortName>Volga_P1_Dial_03-01.wav</ShortName>
 					<Path>Voices\English(US)\Volga_P1_Dial_03-01_6296B0F9.wem</Path>
@@ -407,10 +420,6 @@
 					<ShortName>Volga_P1_Dial_01.wav</ShortName>
 					<Path>Voices\English(US)\Volga_P1_Dial_01_6296B0F9.wem</Path>
 				</File>
-				<File Id="802449665" Language="SFX">
-					<ShortName>Woosh_Trans_SFX.wav</ShortName>
-					<Path>SFX\Woosh_Trans_SFX_6296B0F9.wem</Path>
-				</File>
 				<File Id="809769655" Language="SFX">
 					<ShortName>VS1_Open_Ship_Door_SFX.wav</ShortName>
 					<Path>SFX\VS1_Open_Ship_Door_SFX_6296B0F9.wem</Path>
@@ -463,6 +472,10 @@
 					<ShortName>Paper_Handle_02_SFX.wav</ShortName>
 					<Path>SFX\Paper_Handle_02_SFX_6296B0F9.wem</Path>
 				</File>
+				<File Id="899146801" Language="SFX">
+					<ShortName>Mus_Trans_SFX-005.wav</ShortName>
+					<Path>SFX\Mus_Trans_SFX-005_6296B0F9.wem</Path>
+				</File>
 				<File Id="912199970" Language="English(US)">
 					<ShortName>Volga_P1_Dial_04-03.wav</ShortName>
 					<Path>Voices\English(US)\Volga_P1_Dial_04-03_6296B0F9.wem</Path>
@@ -490,6 +503,10 @@
 				<File Id="975210841" Language="SFX">
 					<ShortName>Beep_01_SFX.wav</ShortName>
 					<Path>SFX\Beep_01_SFX_6296B0F9.wem</Path>
+				</File>
+				<File Id="980506493" Language="SFX">
+					<ShortName>Mus_Trans_SFX-004.wav</ShortName>
+					<Path>SFX\Mus_Trans_SFX-004_6296B0F9.wem</Path>
 				</File>
 				<File Id="999820324" Language="SFX">
 					<ShortName>GR1_Brook_AMB_01_SFX.wav</ShortName>

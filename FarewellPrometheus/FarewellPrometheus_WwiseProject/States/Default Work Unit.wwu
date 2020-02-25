@@ -32,12 +32,51 @@
 						<State Name="CP2" ID="{6746E730-6F84-462D-A63F-8B1FD531D52B}"/>
 						<State Name="GR1" ID="{72697C44-3272-407C-8A29-522EEB6672B4}"/>
 					</ChildrenList>
+					<TransitionList>
+						<Transition>
+							<StartState Name="VS1" ID="{915C022C-5E20-4234-893D-200581D9EED3}"/>
+							<EndState Name="CL1" ID="{A52FD4E8-5952-44BC-AD78-377F05751CF6}"/>
+							<Time>10</Time>
+							<IsShared>true</IsShared>
+						</Transition>
+						<Transition>
+							<StartState Name="CL1" ID="{A52FD4E8-5952-44BC-AD78-377F05751CF6}"/>
+							<EndState Name="JG1" ID="{27C4737B-4C59-4DFE-9438-C9A1F5A7CACA}"/>
+							<Time>10</Time>
+							<IsShared>true</IsShared>
+						</Transition>
+						<Transition>
+							<StartState Name="JG1" ID="{27C4737B-4C59-4DFE-9438-C9A1F5A7CACA}"/>
+							<EndState Name="RV1" ID="{8A68FFE0-AB96-4E24-B094-0CA88113ACD6}"/>
+							<Time>10</Time>
+							<IsShared>true</IsShared>
+						</Transition>
+						<Transition>
+							<StartState Name="RV1" ID="{8A68FFE0-AB96-4E24-B094-0CA88113ACD6}"/>
+							<EndState Name="CP1" ID="{4FC79DD7-B41E-4A58-9A12-FB38D8EB798F}"/>
+							<Time>10</Time>
+							<IsShared>true</IsShared>
+						</Transition>
+						<Transition>
+							<StartState Name="RV1" ID="{8A68FFE0-AB96-4E24-B094-0CA88113ACD6}"/>
+							<EndState Name="GR1" ID="{72697C44-3272-407C-8A29-522EEB6672B4}"/>
+							<Time>10</Time>
+							<IsShared>true</IsShared>
+						</Transition>
+					</TransitionList>
 				</StateGroup>
 				<StateGroup Name="Radio" ID="{1D03DE61-F3BE-4339-B724-113C85A6042F}">
 					<ChildrenList>
 						<State Name="None" ID="{E9FA133D-CD4C-4127-96B1-34CF21FFB77B}"/>
 						<State Name="Bossa" ID="{4966CB9E-C4BC-498F-9D7F-53CCE0EDD4B3}"/>
 						<State Name="Mission" ID="{BC91BE6F-41E1-46F2-9319-DA2BD5C1F807}"/>
+					</ChildrenList>
+				</StateGroup>
+				<StateGroup Name="Pause" ID="{2E672AD9-CD8D-47E8-990C-C313BA4C58FF}">
+					<ChildrenList>
+						<State Name="None" ID="{A352A262-8D34-444E-B9B2-6620C9666456}"/>
+						<State Name="Paused" ID="{120774C0-7122-47F5-A70D-9B058B860E95}"/>
+						<State Name="Not_Pause" ID="{D9BDCFD1-80A0-4CD5-9AC3-F8D1646B05AD}"/>
 					</ChildrenList>
 				</StateGroup>
 			</ChildrenList>

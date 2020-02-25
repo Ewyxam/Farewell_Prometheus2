@@ -13,15 +13,7 @@ ScriptsOnlyBuild:
     - AkWwiseInitializationSettings
     - CameraMovement
     - CollisionManager
-    - DescriptionManager
-    - DescriptionTrigger
-    - DialogueManager
-    - DialogueTrigger
     - DontDestroy
-    - Introduction_Animations
-    - MouseFollow
-    - ScanTrigger
-    - SceneLoader
     - SceneTransition
     - SoundDialogueManager
     - SoundManager
@@ -50,133 +42,8 @@ ScriptsOnlyBuild:
     - UnityEngine.UI.CanvasScaler
     - UnityEngine.UI.GraphicRaycaster
     - UnityEngine.UI.Image
-    - UnityEngine.UI.InputField
-    - UnityEngine.UI.RawImage
     - UnityEngine.UI.Text
   sceneClasses:
-    Assets/Scenes/PhaseOne.unity:
-    - Class: 1
-      Script: {instanceID: 0}
-    - Class: 4
-      Script: {instanceID: 0}
-    - Class: 20
-      Script: {instanceID: 0}
-    - Class: 21
-      Script: {instanceID: 0}
-    - Class: 23
-      Script: {instanceID: 0}
-    - Class: 28
-      Script: {instanceID: 0}
-    - Class: 33
-      Script: {instanceID: 0}
-    - Class: 43
-      Script: {instanceID: 0}
-    - Class: 48
-      Script: {instanceID: 0}
-    - Class: 74
-      Script: {instanceID: 0}
-    - Class: 84
-      Script: {instanceID: 0}
-    - Class: 91
-      Script: {instanceID: 0}
-    - Class: 95
-      Script: {instanceID: 0}
-    - Class: 104
-      Script: {instanceID: 0}
-    - Class: 108
-      Script: {instanceID: 0}
-    - Class: 114
-      Script: {instanceID: 11380}
-    - Class: 114
-      Script: {instanceID: 11484}
-    - Class: 114
-      Script: {instanceID: 11528}
-    - Class: 114
-      Script: {instanceID: 11630}
-    - Class: 114
-      Script: {instanceID: 11680}
-    - Class: 114
-      Script: {instanceID: 11788}
-    - Class: 114
-      Script: {instanceID: 11838}
-    - Class: 114
-      Script: {instanceID: 12072}
-    - Class: 114
-      Script: {instanceID: 12152}
-    - Class: 114
-      Script: {instanceID: 12192}
-    - Class: 114
-      Script: {instanceID: 12208}
-    - Class: 114
-      Script: {instanceID: 12220}
-    - Class: 114
-      Script: {instanceID: 12224}
-    - Class: 114
-      Script: {instanceID: 12248}
-    - Class: 114
-      Script: {instanceID: 12260}
-    - Class: 114
-      Script: {instanceID: 12354}
-    - Class: 114
-      Script: {instanceID: 12374}
-    - Class: 114
-      Script: {instanceID: 12618}
-    - Class: 114
-      Script: {instanceID: 12844}
-    - Class: 114
-      Script: {instanceID: 12870}
-    - Class: 114
-      Script: {instanceID: 12882}
-    - Class: 114
-      Script: {instanceID: 12888}
-    - Class: 114
-      Script: {instanceID: 13100}
-    - Class: 114
-      Script: {instanceID: 13130}
-    - Class: 114
-      Script: {instanceID: 13386}
-    - Class: 114
-      Script: {instanceID: 13430}
-    - Class: 114
-      Script: {instanceID: 13502}
-    - Class: 114
-      Script: {instanceID: 13528}
-    - Class: 114
-      Script: {instanceID: 13712}
-    - Class: 114
-      Script: {instanceID: 13820}
-    - Class: 114
-      Script: {instanceID: 13940}
-    - Class: 114
-      Script: {instanceID: 13974}
-    - Class: 114
-      Script: {instanceID: 14022}
-    - Class: 114
-      Script: {instanceID: 14072}
-    - Class: 115
-      Script: {instanceID: 0}
-    - Class: 128
-      Script: {instanceID: 0}
-    - Class: 157
-      Script: {instanceID: 0}
-    - Class: 196
-      Script: {instanceID: 0}
-    - Class: 212
-      Script: {instanceID: 0}
-    - Class: 213
-      Script: {instanceID: 0}
-    - Class: 222
-      Script: {instanceID: 0}
-    - Class: 223
-      Script: {instanceID: 0}
-    - Class: 224
-      Script: {instanceID: 0}
-    - Class: 225
-      Script: {instanceID: 0}
-    - Class: 328
-      Script: {instanceID: 0}
-    - Class: 329
-      Script: {instanceID: 0}
     Assets/Scenes/PhasePnC.unity:
     - Class: 1
       Script: {instanceID: 0}
@@ -201,57 +68,59 @@ ScriptsOnlyBuild:
     - Class: 104
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 11380}
+      Script: {instanceID: 11378}
     - Class: 114
-      Script: {instanceID: 11484}
+      Script: {instanceID: 11482}
     - Class: 114
-      Script: {instanceID: 11494}
+      Script: {instanceID: 11492}
     - Class: 114
-      Script: {instanceID: 11528}
+      Script: {instanceID: 11526}
     - Class: 114
-      Script: {instanceID: 11630}
+      Script: {instanceID: 11628}
     - Class: 114
-      Script: {instanceID: 11680}
+      Script: {instanceID: 11678}
     - Class: 114
-      Script: {instanceID: 12152}
+      Script: {instanceID: 12150}
     - Class: 114
-      Script: {instanceID: 12192}
+      Script: {instanceID: 12190}
     - Class: 114
-      Script: {instanceID: 12208}
+      Script: {instanceID: 12206}
     - Class: 114
-      Script: {instanceID: 12220}
+      Script: {instanceID: 12218}
     - Class: 114
-      Script: {instanceID: 12224}
+      Script: {instanceID: 12222}
     - Class: 114
-      Script: {instanceID: 12260}
+      Script: {instanceID: 12246}
     - Class: 114
-      Script: {instanceID: 12354}
+      Script: {instanceID: 12258}
     - Class: 114
-      Script: {instanceID: 12618}
+      Script: {instanceID: 12352}
     - Class: 114
-      Script: {instanceID: 12626}
+      Script: {instanceID: 12616}
     - Class: 114
-      Script: {instanceID: 12844}
+      Script: {instanceID: 12624}
     - Class: 114
-      Script: {instanceID: 12888}
+      Script: {instanceID: 12842}
     - Class: 114
-      Script: {instanceID: 13130}
+      Script: {instanceID: 12886}
     - Class: 114
-      Script: {instanceID: 13386}
+      Script: {instanceID: 13128}
     - Class: 114
-      Script: {instanceID: 13430}
+      Script: {instanceID: 13382}
     - Class: 114
-      Script: {instanceID: 13502}
+      Script: {instanceID: 13426}
     - Class: 114
-      Script: {instanceID: 13528}
+      Script: {instanceID: 13498}
     - Class: 114
-      Script: {instanceID: 13888}
+      Script: {instanceID: 13524}
     - Class: 114
-      Script: {instanceID: 13940}
+      Script: {instanceID: 13936}
     - Class: 114
-      Script: {instanceID: 13974}
+      Script: {instanceID: 13970}
     - Class: 114
-      Script: {instanceID: 14022}
+      Script: {instanceID: 14018}
+    - Class: 114
+      Script: {instanceID: 14068}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -259,8 +128,6 @@ ScriptsOnlyBuild:
     - Class: 157
       Script: {instanceID: 0}
     - Class: 196
-      Script: {instanceID: 0}
-    - Class: 212
       Script: {instanceID: 0}
     - Class: 213
       Script: {instanceID: 0}
@@ -1079,6 +946,5 @@ ScriptsOnlyBuild:
     className: PlayableTrack
   platform: 5
   scenePathNames:
-  - Assets/Scenes/PhaseOne.unity
   - Assets/Scenes/PhasePnC.unity
-  playerPath: D:/build/FarewellPrometheus.exe
+  playerPath: D:/Build/FarewellPrometheus.exe

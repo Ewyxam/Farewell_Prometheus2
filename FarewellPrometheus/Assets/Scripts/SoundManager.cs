@@ -5,7 +5,7 @@ using UnityEngine.SceneManagement;
 
 public class SoundManager : MonoBehaviour
 {
-    public GameObject collisionManager;
+   // private GameObject collisionManager;
     public int location; 
     void Start()
     {
@@ -22,6 +22,7 @@ public class SoundManager : MonoBehaviour
         }
         else if (buildIndex == 1)
         {
+           // collisionManager = GameObject.Find("CollisionManager");
             AkSoundEngine.SetState("Location", "CL1");
             Debug.Log("CL1 AMB");
         }

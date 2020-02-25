@@ -2495,7 +2495,7 @@ MonoBehaviour:
   decodeBank: 0
   loadAsynchronous: 0
   saveDecodedBank: 0
-  unloadTriggerList: 958ca0ea
+  unloadTriggerList: 
   bankNameInternal: 
   valueGuidInternal: 
 --- !u!95 &519420034
@@ -10526,7 +10526,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &1992535719
 RectTransform:
   m_ObjectHideFlags: 0
@@ -11254,6 +11254,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1153792781734673221, guid: d170f83c38cfeb24db6c8832a8b3b568,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1618077869390071578, guid: d170f83c38cfeb24db6c8832a8b3b568,
         type: 3}
       propertyPath: m_Name
@@ -11318,6 +11323,11 @@ PrefabInstance:
         type: 3}
       propertyPath: animator
       value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 2086458083826549373, guid: d170f83c38cfeb24db6c8832a8b3b568,
+        type: 3}
+      propertyPath: m_Alpha
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3831250256780748508, guid: d170f83c38cfeb24db6c8832a8b3b568,
         type: 3}

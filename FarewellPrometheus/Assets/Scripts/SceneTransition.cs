@@ -16,12 +16,16 @@ public class SceneTransition : MonoBehaviour
     public GameObject continueButton;
 
     public int tabNum;
+    private Scene currentScene;
+    int buildIndex;
+    
 
     public void Start()
     {
-        Scene currentScene = SceneManager.GetActiveScene();
+        buildIndex = currentScene.buildIndex;
+        currentScene = SceneManager.GetActiveScene();
 
-        int buildIndex = currentScene.buildIndex;
+        
 
         if (buildIndex == 1)
         {
@@ -30,7 +34,15 @@ public class SceneTransition : MonoBehaviour
     }
     public void LoadNextScene()
     {
+       
         StartCoroutine(LoadLevel(SceneManager.GetActiveScene().buildIndex + 1));
+        buildIndex = currentScene.buildIndex;
+        if (buildIndex == 1)
+        {
+            tabNum = manager.GetComponent<CollisionManager>().tabNum;
+        }
+        AkSoundEngine.SetState("Location", "CL1");
+        AkSoundEngine.PostEvent("Ambience_Event", gameObject);
     }
 
     IEnumerator LoadLevel(int levelIndex)

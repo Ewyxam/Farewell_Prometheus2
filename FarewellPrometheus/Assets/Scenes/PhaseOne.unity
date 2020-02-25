@@ -2495,7 +2495,7 @@ MonoBehaviour:
   decodeBank: 0
   loadAsynchronous: 0
   saveDecodedBank: 0
-  unloadTriggerList: 958ca0ea
+  unloadTriggerList: 
   bankNameInternal: 
   valueGuidInternal: 
 --- !u!95 &519420034
@@ -11327,11 +11327,6 @@ PrefabInstance:
     - target: {fileID: 2086458083826549373, guid: d170f83c38cfeb24db6c8832a8b3b568,
         type: 3}
       propertyPath: m_Alpha
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2086458083826549373, guid: d170f83c38cfeb24db6c8832a8b3b568,
-        type: 3}
-      propertyPath: m_BlocksRaycasts
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3831250256780748508, guid: d170f83c38cfeb24db6c8832a8b3b568,

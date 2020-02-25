@@ -114,8 +114,8 @@
 										<StateRef Name="Paused" ID="{120774C0-7122-47F5-A70D-9B058B860E95}"/>
 										<CustomState Name="" ID="{BA7DB83E-BE04-4969-BCD8-81FF74DF06C5}" ShortID="561073275">
 											<PropertyList>
-												<Property Name="Highpass" Type="int16" Value="50"/>
-												<Property Name="Lowpass" Type="int16" Value="50"/>
+												<Property Name="Highpass" Type="int16" Value="40"/>
+												<Property Name="Lowpass" Type="int16" Value="40"/>
 											</PropertyList>
 										</CustomState>
 									</CustomState>
@@ -142,8 +142,8 @@
 										<StateRef Name="Paused" ID="{120774C0-7122-47F5-A70D-9B058B860E95}"/>
 										<CustomState Name="" ID="{0379C2F2-6E49-42C7-8650-794AA3D723F4}" ShortID="328841288">
 											<PropertyList>
-												<Property Name="Highpass" Type="int16" Value="50"/>
-												<Property Name="Lowpass" Type="int16" Value="50"/>
+												<Property Name="Highpass" Type="int16" Value="40"/>
+												<Property Name="Lowpass" Type="int16" Value="40"/>
 											</PropertyList>
 										</CustomState>
 									</CustomState>
@@ -202,8 +202,8 @@
 										<StateRef Name="Paused" ID="{120774C0-7122-47F5-A70D-9B058B860E95}"/>
 										<CustomState Name="" ID="{17EF2E04-BD0E-4EF2-8FF4-48BDB0F13CDC}" ShortID="1014138168">
 											<PropertyList>
-												<Property Name="Highpass" Type="int16" Value="50"/>
-												<Property Name="Lowpass" Type="int16" Value="50"/>
+												<Property Name="Highpass" Type="int16" Value="40"/>
+												<Property Name="Lowpass" Type="int16" Value="40"/>
 											</PropertyList>
 										</CustomState>
 									</CustomState>
@@ -230,8 +230,8 @@
 										<StateRef Name="Paused" ID="{120774C0-7122-47F5-A70D-9B058B860E95}"/>
 										<CustomState Name="" ID="{46C11A09-D6BA-4174-BB87-185EEBA0BEAF}" ShortID="414772684">
 											<PropertyList>
-												<Property Name="Highpass" Type="int16" Value="50"/>
-												<Property Name="Lowpass" Type="int16" Value="50"/>
+												<Property Name="Highpass" Type="int16" Value="40"/>
+												<Property Name="Lowpass" Type="int16" Value="40"/>
 											</PropertyList>
 										</CustomState>
 									</CustomState>

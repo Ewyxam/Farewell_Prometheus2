@@ -784,6 +784,16 @@
 							</ChildrenList>
 						</Folder>
 					</ChildrenList>
+					<StateInfo>
+						<StatePropertyList>
+							<Property Name="BypassEffect1"/>
+							<Property Name="Highpass"/>
+							<Property Name="Lowpass"/>
+							<Property Name="MakeUpGain"/>
+							<Property Name="Pitch"/>
+							<Property Name="Volume"/>
+						</StatePropertyList>
+					</StateInfo>
 				</ActorMixer>
 				<ActorMixer Name="VS2" ID="{52556F78-E05D-4931-805B-D533DEBBFDED}" ShortID="252367105">
 					<ReferenceList>

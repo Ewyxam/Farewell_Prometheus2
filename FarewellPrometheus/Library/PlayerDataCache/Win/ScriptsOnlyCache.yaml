@@ -1,6 +1,7 @@
 ScriptsOnlyBuild:
   usedScripts:
     Assembly-CSharp-Editor.dll:
+    - AkWwisePicker
     - AkWwiseProjectData
     Assembly-CSharp.dll:
     - AkAmbient

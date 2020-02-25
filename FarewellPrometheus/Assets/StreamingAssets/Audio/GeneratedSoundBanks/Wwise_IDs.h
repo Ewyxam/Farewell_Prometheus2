@@ -174,6 +174,11 @@ namespace AK
         static const AkUniqueID VOCAL = 3138142872U;
     } // namespace BUSSES
 
+    namespace AUX_BUSSES
+    {
+        static const AkUniqueID GR1_REVERB = 1325898718U;
+    } // namespace AUX_BUSSES
+
     namespace AUDIO_DEVICES
     {
         static const AkUniqueID NO_OUTPUT = 2317455096U;

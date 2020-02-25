@@ -24,24 +24,46 @@ MonoBehaviour:
     ParentPhysicalPath: 
     guid: 8d5399d732092a44aaa65525c92eaf70
     GuidInternal: 
-    m_lastTime: -8586202550966761856
-    List: []
+    m_lastTime: -8586189845025739302
+    List:
+    - name: GR1_Reverb
+      guid: 29253e16b7880847b25265e8f02ded4f
+      id: 1325898718
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Master Audio Bus
+        ObjectType: 2
+      - ElementName: Environments
+        ObjectType: 2
+      - ElementName: GR1_Reverb
+        ObjectType: 1
+      Path: Default Work Unit\Master Audio Bus\Environments\GR1_Reverb
   BankWwu:
   - PhysicalPath: SoundBanks\Default Work Unit.wwu
     ParentPhysicalPath: 
     guid: 3d131c57e597ee47b4d167c503625a09
     GuidInternal: 
-    m_lastTime: -8586199108817680658
+    m_lastTime: -8586193054620163511
     List:
-    - name: Main
+    - name: Phase1_2
       guid: b5750d12ebf75c4b8067bf551228f3d7
-      id: 3161908922
+      id: 3356867608
       PathAndIcons:
       - ElementName: Default Work Unit
         ObjectType: 12
-      - ElementName: Main
+      - ElementName: Phase1_2
         ObjectType: 7
-      Path: Default Work Unit\Main
+      Path: Default Work Unit\Phase1_2
+    - name: Phase3_4
+      guid: 3148dc986455b540a3e4d957da76855c
+      id: 2282805768
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Phase3_4
+        ObjectType: 7
+      Path: Default Work Unit\Phase3_4
   EventWwu:
   - PhysicalPath: Events\Advisor.wwu
     ParentPhysicalPath: 
@@ -53,7 +75,7 @@ MonoBehaviour:
     ParentPhysicalPath: 
     guid: f61e957778496c41aa343188a981dcd3
     GuidInternal: 
-    m_lastTime: -8586199108817695536
+    m_lastTime: -8586194024691882809
     List:
     - name: Ambiance_Bed
       guid: fee167d51461094cbb240055a9247d0b
@@ -168,6 +190,22 @@ MonoBehaviour:
       - ElementName: DIAL_Switch_Volga
         ObjectType: 3
       Path: Default Work Unit\Ship\Dialog\DIAL_Switch_Volga
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Music_Event
+      guid: cae74f557cb6e84ebdc3b01c23aa0ca6
+      id: 55565095
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Ship
+        ObjectType: 4
+      - ElementName: Music
+        ObjectType: 4
+      - ElementName: Music_Event
+        ObjectType: 3
+      Path: Default Work Unit\Ship\Music\Music_Event
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
@@ -316,22 +354,6 @@ MonoBehaviour:
       - ElementName: Robot_Valid_Command
         ObjectType: 3
       Path: Default Work Unit\Ship\Robot\Robot_Valid_Command
-      maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
-    - name: Ship_Music
-      guid: cae74f557cb6e84ebdc3b01c23aa0ca6
-      id: 53190359
-      PathAndIcons:
-      - ElementName: Default Work Unit
-        ObjectType: 12
-      - ElementName: Ship
-        ObjectType: 4
-      - ElementName: Music
-        ObjectType: 4
-      - ElementName: Ship_Music
-        ObjectType: 3
-      Path: Default Work Unit\Ship\Music\Ship_Music
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
@@ -495,6 +517,86 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
+    - name: VS1_Radio_Button_Pause
+      guid: bb2acdffad561d45ac3f2c4a8b2dbcd4
+      id: 2817419859
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Ship
+        ObjectType: 4
+      - ElementName: Music
+        ObjectType: 4
+      - ElementName: VS1_Radio_Button_Pause
+        ObjectType: 3
+      Path: Default Work Unit\Ship\Music\VS1_Radio_Button_Pause
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: VS1_Radio_Button_Play
+      guid: 44c17e573bc34449a602110b5665d253
+      id: 3899676549
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Ship
+        ObjectType: 4
+      - ElementName: Music
+        ObjectType: 4
+      - ElementName: VS1_Radio_Button_Play
+        ObjectType: 3
+      Path: Default Work Unit\Ship\Music\VS1_Radio_Button_Play
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: VS1_Radio_Music_Play
+      guid: 1a6e3234176bc44bbeb5245d67271183
+      id: 3398107266
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Ship
+        ObjectType: 4
+      - ElementName: Music
+        ObjectType: 4
+      - ElementName: VS1_Radio_Music_Play
+        ObjectType: 3
+      Path: Default Work Unit\Ship\Music\VS1_Radio_Music_Play
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: VS1_Screen_Glass_Tap_Event
+      guid: 541f9fc148c92a41b202ade61cf814da
+      id: 2535003186
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Ship
+        ObjectType: 4
+      - ElementName: Objects
+        ObjectType: 4
+      - ElementName: VS1_Screen_Glass_Tap_Event
+        ObjectType: 3
+      Path: Default Work Unit\Ship\Objects\VS1_Screen_Glass_Tap_Event
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: VS1_Volga_Glass_Tap_Event
+      guid: f5286004fa4c464d95c97df93102af37
+      id: 1731494341
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Ship
+        ObjectType: 4
+      - ElementName: Objects
+        ObjectType: 4
+      - ElementName: VS1_Volga_Glass_Tap_Event
+        ObjectType: 3
+      Path: Default Work Unit\Ship\Objects\VS1_Volga_Glass_Tap_Event
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
   - PhysicalPath: Events\Element.wwu
     ParentPhysicalPath: Events\Default Work Unit.wwu
     guid: db96ef1d26f1be4f952f7de39489ad6e
@@ -505,8 +607,86 @@ MonoBehaviour:
     ParentPhysicalPath: Events\Default Work Unit.wwu
     guid: b0fd5d71784ec347bd3cfbfe54bdc937
     GuidInternal: 
-    m_lastTime: -8586199108818345299
-    List: []
+    m_lastTime: -8586193054765446893
+    List:
+    - name: Ambience_Event
+      guid: d7708e3883600c4a82d308c6e906f4b4
+      id: 2466005164
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Environment
+        ObjectType: 12
+      - ElementName: Ambience_Event
+        ObjectType: 3
+      Path: Default Work Unit\Environment\Ambience_Event
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: CL1_Ambience_Event
+      guid: 70e197f3d4536d40b7b9ce734e841f37
+      id: 775512737
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Environment
+        ObjectType: 12
+      - ElementName: CL1
+        ObjectType: 4
+      - ElementName: CL1_Ambience_Event
+        ObjectType: 3
+      Path: Default Work Unit\Environment\CL1\CL1_Ambience_Event
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: JG1_Ambience_Event
+      guid: 4746e92358e06842ae6c175b76f40993
+      id: 3392845169
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Environment
+        ObjectType: 12
+      - ElementName: JG1
+        ObjectType: 4
+      - ElementName: JG1_Ambience_Event
+        ObjectType: 3
+      Path: Default Work Unit\Environment\JG1\JG1_Ambience_Event
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: VS1_to_CL1_Event
+      guid: f3ace24b45a71d46aa3fd84780610627
+      id: 3867008365
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Environment
+        ObjectType: 12
+      - ElementName: Transitions
+        ObjectType: 4
+      - ElementName: VS1_to_CL1_Event
+        ObjectType: 3
+      Path: Default Work Unit\Environment\Transitions\VS1_to_CL1_Event
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Woosh_Trans_Event
+      guid: 33ea9c4beb585f42abce9da252cdeb8a
+      id: 1823100709
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Environment
+        ObjectType: 12
+      - ElementName: Transitions
+        ObjectType: 4
+      - ElementName: Woosh_Trans_Event
+        ObjectType: 3
+      Path: Default Work Unit\Environment\Transitions\Woosh_Trans_Event
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
   - PhysicalPath: Events\Footstep.wwu
     ParentPhysicalPath: Events\Default Work Unit.wwu
     guid: 5b4ca243f8f088449677f6568898c8b5
@@ -537,17 +717,78 @@ MonoBehaviour:
     ParentPhysicalPath: 
     guid: efcde604402b9248b1ce603a3a26d722
     GuidInternal: 
-    m_lastTime: -8586201061777256642
+    m_lastTime: -8586193158466334302
     List:
-    - name: Stasis_or_Awake
-      guid: 917451b815b7a94b9d202e7db8611b7f
-      id: 851633200
+    - name: Location
+      guid: a32bc347fbb6ff4997185e40b104619d
+      id: 1176052424
       PathAndIcons:
       - ElementName: Default Work Unit
         ObjectType: 12
-      - ElementName: Stasis_or_Awake
+      - ElementName: Location
         ObjectType: 9
-      Path: Default Work Unit\Stasis_or_Awake
+      Path: Default Work Unit\Location
+      values:
+      - name: CL1
+        guid: e8d42fa55259bc44ad78377f05751cf6
+        id: 1033349305
+        PathAndIcons:
+        - ElementName: CL1
+          ObjectType: 8
+      - name: CP1
+        guid: d79dc74f1eb4584a9a12fb38d8eb798f
+        id: 697796925
+        PathAndIcons:
+        - ElementName: CP1
+          ObjectType: 8
+      - name: CP2
+        guid: 30e74667846f2d46a63f8b1fd531d52b
+        id: 697796926
+        PathAndIcons:
+        - ElementName: CP2
+          ObjectType: 8
+      - name: GR1
+        guid: 447c697272327c408a29522eeb6672b4
+        id: 864881503
+        PathAndIcons:
+        - ElementName: GR1
+          ObjectType: 8
+      - name: JG1
+        guid: 7b73c427594cfe4d9438c9a1f5a7caca
+        id: 679886441
+        PathAndIcons:
+        - ElementName: JG1
+          ObjectType: 8
+      - name: None
+        guid: 0af1ed1b7ce53a4ca02d8662b360cb44
+        id: 748895195
+        PathAndIcons:
+        - ElementName: None
+          ObjectType: 8
+      - name: RV1
+        guid: e0ff688a96ab244eb0940ca88113acd6
+        id: 695384066
+        PathAndIcons:
+        - ElementName: RV1
+          ObjectType: 8
+      - name: VS1
+        guid: 2c025c91205e3442893d200581d9eed3
+        id: 879246361
+        PathAndIcons:
+        - ElementName: VS1
+          ObjectType: 8
+      ValueGuids: []
+      ValueIcons: []
+      valuesInternal: []
+    - name: Music
+      guid: 917451b815b7a94b9d202e7db8611b7f
+      id: 3991942870
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Music
+        ObjectType: 9
+      Path: Default Work Unit\Music
       values:
       - name: Awake
         guid: e1083109fd95584fae8bb19afba38d28
@@ -566,6 +807,74 @@ MonoBehaviour:
         id: 1274150312
         PathAndIcons:
         - ElementName: Stasis
+          ObjectType: 8
+      - name: Title
+        guid: 8d062df82b3ab7469189f85120402fd1
+        id: 3705726509
+        PathAndIcons:
+        - ElementName: Title
+          ObjectType: 8
+      ValueGuids: []
+      ValueIcons: []
+      valuesInternal: []
+    - name: Radio
+      guid: 61de031dbef33943b724113c85a6042f
+      id: 2548238350
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Radio
+        ObjectType: 9
+      Path: Default Work Unit\Radio
+      values:
+      - name: Bossa
+        guid: 9ecb6649bcc48f499d7f53cce0edd4b3
+        id: 2253511143
+        PathAndIcons:
+        - ElementName: Bossa
+          ObjectType: 8
+      - name: Mission
+        guid: 6fbe91bce141f2469319da2bd5c1f807
+        id: 375726501
+        PathAndIcons:
+        - ElementName: Mission
+          ObjectType: 8
+      - name: None
+        guid: 3d13fae94ccd274196b134cf21ffb77b
+        id: 748895195
+        PathAndIcons:
+        - ElementName: None
+          ObjectType: 8
+      ValueGuids: []
+      ValueIcons: []
+      valuesInternal: []
+    - name: Suit_On_Off
+      guid: 8d212fbf78f4b447ad4ef2d1d22e25c2
+      id: 486208800
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Suit_On_Off
+        ObjectType: 9
+      Path: Default Work Unit\Suit_On_Off
+      values:
+      - name: None
+        guid: 645f9f6643638945b9c632bc5faabe3d
+        id: 748895195
+        PathAndIcons:
+        - ElementName: None
+          ObjectType: 8
+      - name: Suit_Off
+        guid: e391e3f6b68cb24fa8572b12e8c28f92
+        id: 2507003792
+        PathAndIcons:
+        - ElementName: Suit_Off
+          ObjectType: 8
+      - name: Suit_On
+        guid: 0b568d68388ae14491b2c006e72d3fb9
+        id: 784800250
+        PathAndIcons:
+        - ElementName: Suit_On
           ObjectType: 8
       ValueGuids: []
       ValueIcons: []

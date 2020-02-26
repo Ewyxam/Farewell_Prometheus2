@@ -9,7 +9,7 @@ public class DescriptionManager : MonoBehaviour
     private Queue<string> descriptions;
     public DescriptionTrigger destrig;
     public ScanTrigger scantrig;
-    public GameObject dialman, loginrobot, clairiere, jungle, riviere,camp,goout;
+    public GameObject dialman, loginrobot, clairiere, jungle, riviere,camp,goout,loading;
     public InputField orderfield;
     private string[] orders = new string[] {"nord","sud","est","ouest","scan" };
    // private string[] zoneName = new string[] { "clairiere", "jungle", "riviere", "camp" };
@@ -203,9 +203,15 @@ public class DescriptionManager : MonoBehaviour
             }
             else if (getorder == orders[4])
             {
-
-                LaunchScan();
-                CleanSelectInput();
+                
+                loading.SetActive(true);
+                loading.GetComponent<Animator>().SetBool("load",true);
+                AkSoundEngine.PostEvent("Robot_Shutdown", gameObject);
+ 
+                
+                   /* loading.SetActive(false);
+                    LaunchScan();
+                    CleanSelectInput();*/
 
             }
             else DisplayErrorOrder();
@@ -229,7 +235,9 @@ public class DescriptionManager : MonoBehaviour
         StartDescription(scantrig.scan);
         if (i == 3)
         {
-            AkSoundEngine.PostEvent("Robot_Shutdown", gameObject);
+            loading.SetActive(false);
+            CleanSelectInput();
+            //AkSoundEngine.PostEvent("Robot_Shutdown", gameObject);
         }
         else
         {

@@ -1042,8 +1042,8 @@ MonoBehaviour:
     name: cl
     descriptions:
     - "Le vaisseau s'est crash\xE9 dans ce qu'il semble \xEAtre une clairi\xE8re.
-      Il y a un passage au nord entre les arbres de la for\xEAt environnante. L'antenne
-      du camp semble se dresser au del\xE0 de cette for\xEAt.\n"
+      Il y a un passage au nord s'enfon\xE7ant dans la for\xEAt. L'antenne du camp
+      d\xE9passe les c\xEEmes.\n"
 --- !u!224 &227767419
 RectTransform:
   m_ObjectHideFlags: 0
@@ -2337,8 +2337,8 @@ MonoBehaviour:
     name: cp
     descriptions:
     - "Le camp semble en piteux \xE9tat. De nombreuses traces inconnues sont pr\xE9sentes,
-      un scan approfondi pourrait nous en apprendre plus. (et l\xE0 quand on lance
-      le scan boom le roboto dead)\nLa rivi\xE8re se situe au sud."
+      un scan approfondi pourrait nous en apprendre plus.\nLa rivi\xE8re se situe
+      au sud."
 --- !u!224 &514470766
 RectTransform:
   m_ObjectHideFlags: 0
@@ -4324,7 +4324,8 @@ MonoBehaviour:
   scan:
     name: scancl
     descriptions:
-    - Scan de la clairiere
+    - "Formes de vies insecto\xEFdes d\xE9t\xE9ct\xE9es en grandes quantit\xE9s dans
+      les herbes environnantes\nCris d'appels de cr\xE9atures non identifi\xE9es"
 --- !u!224 &858064675
 RectTransform:
   m_ObjectHideFlags: 0
@@ -5451,7 +5452,7 @@ MonoBehaviour:
     valueGuidInternal: 
     WwiseObjectReference: {fileID: 11400000, guid: 40db291a8b0bf204a91fbee8970d6a23,
       type: 2}
-  StateGroup: Volga_Dial_P1
+  StateGroup: 
   State: 
 --- !u!114 &1068053814
 MonoBehaviour:
@@ -6560,7 +6561,9 @@ MonoBehaviour:
   scan:
     name: scanjg
     descriptions:
-    - Scan de la jungle
+    - "Forte concentration organique v\xE9g\xE9tale et animale : cr\xE9atures volantes,
+      possibles rongeurs, arachno\xEFdes, arthropodes...\nVegetal semblant repousser
+      les esp\xE8ces animales l'approchant, \xE0 l'aide de ses ph\xE9romones"
 --- !u!224 &1206189985
 RectTransform:
   m_ObjectHideFlags: 0
@@ -7488,7 +7491,12 @@ MonoBehaviour:
   scan:
     name: scancp
     descriptions:
-    - Scan du camp
+    - 'Erreur
+
+      Connexion perdue
+
+
+      Entrer LogOut pour quitter'
 --- !u!224 &1364629142
 RectTransform:
   m_ObjectHideFlags: 0
@@ -7929,10 +7937,11 @@ MonoBehaviour:
   description:
     name: loginrobot
     descriptions:
-    - "Bienvenue dans le panneau de contr\xF4le du module d'exploration.\nPour diriger
+    - "Bienvenue dans le panneau de contr\xF4le du module d'exploration\nPour diriger
       le module veuillez entrer une direction correspondant aux points cardinaux
-      : nord, sud, est et ouest.\nUne fonction de scan est \xE9galement disponible
-      en entrant : scan.\nVeuillez effectuer un scan pour d\xE9marrer le module."
+      : Nord, Sud, Est et Ouest\nUne fonction de scan est \xE9galement disponible
+      en entrant : Scan\nPour en sortir entrer la commande : Exit\nVeuillez effectuer
+      un scan pour d\xE9marrer le module"
 --- !u!114 &1431047951
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9367,8 +9376,8 @@ MonoBehaviour:
   description:
     name: rv
     descriptions:
-    - "Une rivi\xE8re traverse le paysage.\nA l'est se situe la jungle.\nLe camp
-      peut \xEAtre aper\xE7u un peu au del\xE0 de la rivi\xE8re vers le nord. "
+    - "Une rivi\xE8re traverse le paysage\nA l'est se situe la jungle\nLe camp peut
+      \xEAtre aper\xE7u un peu au del\xE0 de la rivi\xE8re vers le nord"
 --- !u!224 &1698284456
 RectTransform:
   m_ObjectHideFlags: 0
@@ -9421,11 +9430,9 @@ MonoBehaviour:
   description:
     name: jg
     descriptions:
-    - "La for\xEAt s'apparente plus \xE0 une jungle dense. Les arbres cachent l'horizon
-      et seuls le vent et des cris de petits animaux trouble le calme ambiant.\nLa
-      navette se trouve au sud.\nUn l\xE9ger bruit de rivi\xE8re venant du bout d'un
-      sentier \xE0 l'ouest est port\xE9 par le vent. Le reste de la jungle semble
-      impraticable pour le module."
+    - "La for\xEAt s'apparente plus \xE0 une jungle dense\nLes arbres cachent l'horizon
+      et seuls le vent et des cris de petits animaux troublent le calme ambiant\nLa
+      navette se trouve au sud\nUn l\xE9ger bruit de rivi\xE8re provient de l'ouest"
 --- !u!224 &1718678985
 RectTransform:
   m_ObjectHideFlags: 0
@@ -10256,7 +10263,8 @@ MonoBehaviour:
   scan:
     name: scanrv
     descriptions:
-    - Scan de la riviere
+    - "Pr\xE9sence de batraciens au bord de l'eau\nLa rivi\xE8re semble prendre sa
+      source dans une grotte accessible \xE0 pied"
 --- !u!224 &1885839426
 RectTransform:
   m_ObjectHideFlags: 0

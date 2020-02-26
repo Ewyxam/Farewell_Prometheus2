@@ -50,9 +50,11 @@ Audio Bus	ID	Name			Wwise Object Path	Notes
 	4135068155	Element			\Default Work Unit\Master Audio Bus\SFX\Element	
 
 Auxiliary Bus	ID	Name			Wwise Object Path	Notes
+	574621144	VS1_Reverb			\Default Work Unit\Master Audio Bus\VO\VS1_Reverb	
 	1325898718	GR1_Reverb			\Default Work Unit\Master Audio Bus\Environments\GR1_Reverb	
 
 Effect plug-ins	ID	Name	Type				Notes
+	4496003	Dirty_Washing_Machine	Wwise RoomVerb			
 	197906949	Wwise_Parametric_EQ_(Custom)	Wwise Parametric EQ			
 	1520064353	Hall_Medium_Bright	Wwise RoomVerb			
 

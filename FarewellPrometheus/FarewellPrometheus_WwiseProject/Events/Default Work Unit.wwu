@@ -81,6 +81,17 @@
 										</Action>
 									</ChildrenList>
 								</Event>
+								<Event Name="Computer_Ship_Status_Event" ID="{0D57EE8E-8B67-4D45-BD47-8F69575BC6B6}">
+									<ChildrenList>
+										<Action Name="" ID="{5715F351-15C5-4979-BF22-7E33E251767C}" ShortID="200332027">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="VS1_Ship_Status_SFX" ID="{39C45093-845C-4118-AEEB-51BCCC4F5D8C}" WorkUnitID="{A8E75F14-F187-4E76-95DF-06D886D3E997}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
 							</ChildrenList>
 						</Folder>
 						<Folder Name="Objects" ID="{32AC24BE-79FC-4E9B-AB94-65A8E59CBD48}" ShortID="480323805">

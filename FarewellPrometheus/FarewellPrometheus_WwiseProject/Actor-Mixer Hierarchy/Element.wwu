@@ -314,6 +314,13 @@
 											</ActiveSourceList>
 										</Sound>
 										<Sound Name="VS1_Computer_processing_SFX" ID="{3B2ED0C9-8816-4C52-8B26-2057D3C0199B}" ShortID="640369598">
+											<PropertyList>
+												<Property Name="Inclusion" Type="bool">
+													<ValueList>
+														<Value>False</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{910AC7EE-841B-4C93-A9B7-752C4BD6AD66}"/>
@@ -330,6 +337,25 @@
 											</ChildrenList>
 											<ActiveSourceList>
 												<ActiveSource Name="Computer_processing_SFX" ID="{1EF1E1F3-363B-4EDA-B752-18305503D6EE}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="VS1_Ship_Status_SFX" ID="{39C45093-845C-4118-AEEB-51BCCC4F5D8C}" ShortID="576665860">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{910AC7EE-841B-4C93-A9B7-752C4BD6AD66}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D799538D-0932-442A-AAA6-5525C92EAF70}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="VS1_Ship_Status_SFX" ID="{7DDA403D-2471-4FD5-8219-D025A9B604CD}" ShortID="48535772">
+													<Language>SFX</Language>
+													<AudioFile>VS1_Ship_Status_SFX.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="VS1_Ship_Status_SFX" ID="{7DDA403D-2471-4FD5-8219-D025A9B604CD}" Platform="Linked"/>
 											</ActiveSourceList>
 										</Sound>
 									</ChildrenList>

@@ -641,12 +641,37 @@
 					</GroupingInfo>
 				</SwitchContainer>
 				<ActorMixer Name="Phase_1" ID="{AD42B980-6E8A-444B-B9C9-C5DD095F1185}" ShortID="452215477">
+					<PropertyList>
+						<Property Name="Highpass" Type="int16">
+							<ValueList>
+								<Value>20</Value>
+							</ValueList>
+						</Property>
+						<Property Name="Lowpass" Type="int16">
+							<ValueList>
+								<Value>20</Value>
+							</ValueList>
+						</Property>
+						<Property Name="UserAuxSendVolume0" Type="Real64">
+							<ValueList>
+								<Value>-12</Value>
+							</ValueList>
+						</Property>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-2</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Conversion">
 							<ObjectRef Name="SFX" ID="{47160828-E219-4078-8315-465919D5B629}" WorkUnitID="{910AC7EE-841B-4C93-A9B7-752C4BD6AD66}"/>
 						</Reference>
 						<Reference Name="OutputBus">
 							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D799538D-0932-442A-AAA6-5525C92EAF70}"/>
+						</Reference>
+						<Reference Name="UserAuxSend0">
+							<ObjectRef Name="VS1_Reverb" ID="{8BFC6BB8-095C-42CE-9FBE-1802FF950F38}" WorkUnitID="{D799538D-0932-442A-AAA6-5525C92EAF70}"/>
 						</Reference>
 					</ReferenceList>
 					<ChildrenList>

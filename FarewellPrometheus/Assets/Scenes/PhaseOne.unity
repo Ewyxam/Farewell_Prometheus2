@@ -1000,7 +1000,7 @@ MonoBehaviour:
   clickEvent:
     idInternal: 0
     valueGuidInternal: 
-    WwiseObjectReference: {fileID: 11400000, guid: 6c32c1b9ab9b54941b93f3b3cec9a4bd,
+    WwiseObjectReference: {fileID: 11400000, guid: 8f7ef862cb2921744ae5b9d1acc031ab,
       type: 2}
   hoverEvent:
     idInternal: 0
@@ -7873,7 +7873,7 @@ MonoBehaviour:
   clickEvent:
     idInternal: 0
     valueGuidInternal: 
-    WwiseObjectReference: {fileID: 11400000, guid: c31a4b294d8437345ab636d2802d40b7,
+    WwiseObjectReference: {fileID: 11400000, guid: bdf60eb7090428c4fa3082a4c571f450,
       type: 2}
   hoverEvent:
     idInternal: 0

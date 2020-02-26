@@ -1,6 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{05B9C2EE-1429-4C23-AC9F-810B0232E4A8}" SchemaVersion="94">
 	<Effects>
-		<WorkUnit Name="Default Work Unit" ID="{05B9C2EE-1429-4C23-AC9F-810B0232E4A8}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{05B9C2EE-1429-4C23-AC9F-810B0232E4A8}" PersistMode="Standalone">
+			<ChildrenList>
+				<Effect Name="Sidechain_Meter" ID="{A2BFEB29-071B-4070-AA75-50C8DC06C442}" PluginName="Wwise Meter" CompanyID="0" PluginID="129" PluginType="3">					<PluginData>
+	<GameParameter Name="Voice_Ducking" ID="{91F76803-511E-4907-B9FC-E928CB88EEB2}"/>
+</PluginData>
+				</Effect>
+			</ChildrenList>
+		</WorkUnit>
 	</Effects>
 </WwiseDocument>

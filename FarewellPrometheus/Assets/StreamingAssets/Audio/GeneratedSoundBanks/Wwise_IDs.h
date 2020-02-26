@@ -171,6 +171,7 @@ namespace AK
     namespace GAME_PARAMETERS
     {
         static const AkUniqueID TRANSITION = 1865857008U;
+        static const AkUniqueID VOICE_DUCKING = 3755464801U;
     } // namespace GAME_PARAMETERS
 
     namespace BANKS

@@ -668,7 +668,7 @@
 							<ObjectRef Name="SFX" ID="{47160828-E219-4078-8315-465919D5B629}" WorkUnitID="{910AC7EE-841B-4C93-A9B7-752C4BD6AD66}"/>
 						</Reference>
 						<Reference Name="OutputBus">
-							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D799538D-0932-442A-AAA6-5525C92EAF70}"/>
+							<ObjectRef Name="VO" ID="{B8FFDED3-383C-4FB1-8E4D-D12F42D3FD4F}" WorkUnitID="{D799538D-0932-442A-AAA6-5525C92EAF70}"/>
 						</Reference>
 						<Reference Name="UserAuxSend0">
 							<ObjectRef Name="VS1_Reverb" ID="{8BFC6BB8-095C-42CE-9FBE-1802FF950F38}" WorkUnitID="{D799538D-0932-442A-AAA6-5525C92EAF70}"/>

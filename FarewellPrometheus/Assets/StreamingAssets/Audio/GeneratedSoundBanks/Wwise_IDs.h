@@ -19,6 +19,7 @@ namespace AK
         static const AkUniqueID BUTTON_HOVER = 1701177942U;
         static const AkUniqueID CALENDAR_HANDLE = 2242625264U;
         static const AkUniqueID COMPUTER_SCAN = 1307820710U;
+        static const AkUniqueID COMPUTER_SHIP_STATUS_EVENT = 3118182193U;
         static const AkUniqueID COMPUTER_START = 2806985083U;
         static const AkUniqueID MUSIC_EVENT = 55565095U;
         static const AkUniqueID PASSWORD_RIGHT = 2063851173U;
@@ -170,6 +171,7 @@ namespace AK
     namespace GAME_PARAMETERS
     {
         static const AkUniqueID TRANSITION = 1865857008U;
+        static const AkUniqueID VOICE_DUCKING = 3755464801U;
     } // namespace GAME_PARAMETERS
 
     namespace BANKS
@@ -196,6 +198,7 @@ namespace AK
     namespace AUX_BUSSES
     {
         static const AkUniqueID GR1_REVERB = 1325898718U;
+        static const AkUniqueID VS1_REVERB = 574621144U;
     } // namespace AUX_BUSSES
 
     namespace AUDIO_DEVICES

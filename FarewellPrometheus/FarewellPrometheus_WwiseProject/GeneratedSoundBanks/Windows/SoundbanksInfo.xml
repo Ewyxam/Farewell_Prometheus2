@@ -31,7 +31,8 @@
 				<Event Id="814543256" Name="Button_Click" ObjectPath="\Events\Default Work Unit\Ship\Computer\Button\Button_Click" DurationType="OneShot" DurationMin="0.480354" DurationMax="0.553000"/>
 				<Event Id="1701177942" Name="Button_Hover" ObjectPath="\Events\Default Work Unit\Ship\Computer\Button\Button_Hover" DurationType="OneShot" DurationMin="0.483136" DurationMax="0.549815"/>
 				<Event Id="2242625264" Name="Calendar_Handle" ObjectPath="\Events\Default Work Unit\Ship\Objects\Calendar_Handle" DurationType="OneShot" DurationMin="1.500000" DurationMax="2.000000"/>
-				<Event Id="1307820710" Name="Computer_Scan" ObjectPath="\Events\Default Work Unit\Ship\Computer\Computer_Scan" DurationType="OneShot" DurationMin="17.408001" DurationMax="17.408001"/>
+				<Event Id="1307820710" Name="Computer_Scan" ObjectPath="\Events\Default Work Unit\Ship\Computer\Computer_Scan" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="3118182193" Name="Computer_Ship_Status_Event" ObjectPath="\Events\Default Work Unit\Ship\Computer\Computer_Ship_Status_Event" DurationType="OneShot" DurationMin="11.889375" DurationMax="11.889375"/>
 				<Event Id="2806985083" Name="Computer_Start" ObjectPath="\Events\Default Work Unit\Ship\Computer\Computer_Start" DurationType="OneShot" DurationMin="13.870334" DurationMax="13.870334"/>
 				<Event Id="55565095" Name="Music_Event" ObjectPath="\Events\Default Work Unit\Ship\Music\Music_Event" DurationType="Infinite"/>
 				<Event Id="2063851173" Name="Password_Right" ObjectPath="\Events\Default Work Unit\Ship\Computer\Password\Password_Right" DurationType="OneShot" DurationMin="3.029375" DurationMax="3.029375"/>
@@ -65,6 +66,10 @@
 				<File Id="29513691" Language="SFX">
 					<ShortName>VS1_Glass_Touch_SFX-003.wav</ShortName>
 					<Path>SFX\VS1_Glass_Touch_SFX-003_6296B0F9.wem</Path>
+				</File>
+				<File Id="48535772" Language="SFX">
+					<ShortName>VS1_Ship_Status_SFX.wav</ShortName>
+					<Path>SFX\VS1_Ship_Status_SFX_6296B0F9.wem</Path>
 				</File>
 				<File Id="62054156" Language="SFX">
 					<ShortName>Jungle_Birds_AMB_SFX_13.wav</ShortName>
@@ -285,10 +290,6 @@
 				<File Id="509023897" Language="English(US)">
 					<ShortName>Volga_P1_Dial_05-03.wav</ShortName>
 					<Path>Voices\English(US)\Volga_P1_Dial_05-03_6296B0F9.wem</Path>
-				</File>
-				<File Id="515493871" Language="SFX">
-					<ShortName>Computer_processing_SFX.wav</ShortName>
-					<Path>SFX\Computer_processing_SFX_6296B0F9.wem</Path>
 				</File>
 				<File Id="522560959" Language="English(US)">
 					<ShortName>Volga_P1_Dial_08-03.wav</ShortName>

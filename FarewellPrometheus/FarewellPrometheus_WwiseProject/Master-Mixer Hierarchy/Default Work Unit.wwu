@@ -14,6 +14,35 @@
 							<PropertyList>
 								<Property Name="Color" Type="int16" Value="18"/>
 								<Property Name="OverrideColor" Type="bool" Value="True"/>
+								<Property Name="Volume" Type="Real64">
+									<RTPCList>
+										<RTPC Name="" ID="{9D1745AE-4AEB-46EF-97E2-A8489C111A51}" ShortID="175567487">
+											<ReferenceList>
+												<Reference Name="ControlInput">
+													<ObjectRef Name="Voice_Ducking" ID="{91F76803-511E-4907-B9FC-E928CB88EEB2}" WorkUnitID="{6C101EA2-A7B4-408A-8AEF-C86116F6AAA2}"/>
+												</Reference>
+											</ReferenceList>
+											<Curve Name="" ID="{D0C3BF10-18ED-4FE5-BFE9-9AC94365ED89}">
+												<PropertyList>
+													<Property Name="Flags" Type="int32" Value="3"/>
+												</PropertyList>
+												<PointList>
+													<Point>
+														<XPos>-48</XPos>
+														<YPos>0</YPos>
+														<Flags>5</Flags>
+														<SegmentShape>Exp1</SegmentShape>
+													</Point>
+													<Point>
+														<XPos>0</XPos>
+														<YPos>-13</YPos>
+														<Flags>37</Flags>
+													</Point>
+												</PointList>
+											</Curve>
+										</RTPC>
+									</RTPCList>
+								</Property>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Effect0">
@@ -130,6 +159,34 @@
 							<PropertyList>
 								<Property Name="Color" Type="int16" Value="24"/>
 								<Property Name="OverrideColor" Type="bool" Value="True"/>
+								<Property Name="Volume" Type="Real64">
+									<RTPCList>
+										<RTPC Name="" ID="{ADEFE6D5-48DB-4A48-A1C9-6009332BD3D7}" ShortID="254788867">
+											<ReferenceList>
+												<Reference Name="ControlInput">
+													<ObjectRef Name="Voice_Ducking" ID="{91F76803-511E-4907-B9FC-E928CB88EEB2}" WorkUnitID="{6C101EA2-A7B4-408A-8AEF-C86116F6AAA2}"/>
+												</Reference>
+											</ReferenceList>
+											<Curve Name="" ID="{2654D988-4A56-42D1-B3AD-1F57D91145DD}">
+												<PropertyList>
+													<Property Name="Flags" Type="int32" Value="3"/>
+												</PropertyList>
+												<PointList>
+													<Point>
+														<XPos>-48</XPos>
+														<YPos>0</YPos>
+														<Flags>5</Flags>
+													</Point>
+													<Point>
+														<XPos>0</XPos>
+														<YPos>-8</YPos>
+														<Flags>37</Flags>
+													</Point>
+												</PointList>
+											</Curve>
+										</RTPC>
+									</RTPCList>
+								</Property>
 							</PropertyList>
 							<StateInfo>
 								<StateGroupList>
@@ -158,6 +215,35 @@
 							<PropertyList>
 								<Property Name="Color" Type="int16" Value="22"/>
 								<Property Name="OverrideColor" Type="bool" Value="True"/>
+								<Property Name="Volume" Type="Real64">
+									<RTPCList>
+										<RTPC Name="" ID="{6962EF79-2D6A-403C-BF69-C85A95C2F971}" ShortID="353578710">
+											<ReferenceList>
+												<Reference Name="ControlInput">
+													<ObjectRef Name="Voice_Ducking" ID="{91F76803-511E-4907-B9FC-E928CB88EEB2}" WorkUnitID="{6C101EA2-A7B4-408A-8AEF-C86116F6AAA2}"/>
+												</Reference>
+											</ReferenceList>
+											<Curve Name="" ID="{51704795-C379-4635-B0D6-02FD34A4D651}">
+												<PropertyList>
+													<Property Name="Flags" Type="int32" Value="3"/>
+												</PropertyList>
+												<PointList>
+													<Point>
+														<XPos>-48</XPos>
+														<YPos>0</YPos>
+														<Flags>5</Flags>
+														<SegmentShape>Exp1</SegmentShape>
+													</Point>
+													<Point>
+														<XPos>0</XPos>
+														<YPos>-11.59567</YPos>
+														<Flags>37</Flags>
+													</Point>
+												</PointList>
+											</Curve>
+										</RTPC>
+									</RTPCList>
+								</Property>
 							</PropertyList>
 							<ChildrenList>
 								<Bus Name="Element" ID="{E1C8BAC8-F4C7-4A0A-B7F7-82473EEAB7BD}">
@@ -219,6 +305,20 @@
 								<Property Name="Color" Type="int16" Value="14"/>
 								<Property Name="OverrideColor" Type="bool" Value="True"/>
 							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Effect0" PluginName="Wwise Meter" CompanyID="0" PluginID="129" PluginType="3">
+									<ObjectRef Name="Sidechain_Meter" ID="{A2BFEB29-071B-4070-AA75-50C8DC06C442}" WorkUnitID="{05B9C2EE-1429-4C23-AC9F-810B0232E4A8}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AuxBus Name="VS1_Reverb" ID="{8BFC6BB8-095C-42CE-9FBE-1802FF950F38}">
+									<ReferenceList>
+										<Reference Name="Effect0" CompanyID="4095" PluginID="65535" PluginType="15">
+											<ObjectRef Name="Dirty_Washing_Machine" ID="{824764DD-7364-411D-AF50-DEDF8E3DCC48}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
+										</Reference>
+									</ReferenceList>
+								</AuxBus>
+							</ChildrenList>
 							<StateInfo>
 								<StateGroupList>
 									<StateGroupInfo>

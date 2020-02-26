@@ -36,6 +36,7 @@ Custom State	ID	Name	State Group	Owner		Notes
 
 Game Parameter	ID	Name			Wwise Object Path	Notes
 	1865857008	Transition			\Default Work Unit\Transition	
+	3755464801	Voice_Ducking			\Default Work Unit\Voice_Ducking	
 
 Audio Bus	ID	Name			Wwise Object Path	Notes
 	393239870	SFX			\Default Work Unit\Master Audio Bus\SFX	
@@ -50,11 +51,14 @@ Audio Bus	ID	Name			Wwise Object Path	Notes
 	4135068155	Element			\Default Work Unit\Master Audio Bus\SFX\Element	
 
 Auxiliary Bus	ID	Name			Wwise Object Path	Notes
+	574621144	VS1_Reverb			\Default Work Unit\Master Audio Bus\VO\VS1_Reverb	
 	1325898718	GR1_Reverb			\Default Work Unit\Master Audio Bus\Environments\GR1_Reverb	
 
 Effect plug-ins	ID	Name	Type				Notes
+	4496003	Dirty_Washing_Machine	Wwise RoomVerb			
 	197906949	Wwise_Parametric_EQ_(Custom)	Wwise Parametric EQ			
 	1520064353	Hall_Medium_Bright	Wwise RoomVerb			
+	1992114213	Sidechain_Meter	Wwise Meter			
 
 Audio Devices	ID	Name	Type				Notes
 	2317455096	No_Output	No Output			

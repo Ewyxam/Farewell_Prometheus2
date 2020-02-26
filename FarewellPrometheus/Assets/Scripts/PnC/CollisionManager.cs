@@ -11,8 +11,10 @@ public class CollisionManager : MonoBehaviour
 
     public void Start()
     {
-        tabNum = 0; //0 CL   1JG  2RV   3CP
+        tabNum = 0; //0 CL   1JG  2RV   3GR  4CP  5INT
     }
+
+    //CL
     public void ClToJg()
     {
         discovered[tabNum] = true;
@@ -23,6 +25,7 @@ public class CollisionManager : MonoBehaviour
 
     }
 
+    //JG
     public void JgToCl()
     {
         discovered[tabNum] = true;
@@ -42,6 +45,7 @@ public class CollisionManager : MonoBehaviour
 
     }
 
+    //RV
     public void RvToJg()
     {
         discovered[tabNum] = true;
@@ -51,16 +55,24 @@ public class CollisionManager : MonoBehaviour
 
     }
 
-    public void RvToCp()
+    public void RvToGr()
     {
         discovered[tabNum] = true;
         tabNum += 1;
+        transition.GetComponent<SceneTransition>().LoadTransitionPanel();
+        AkSoundEngine.SetState("Location", "GR1");
+    }
+    public void RvToCp()
+    {
+        discovered[tabNum] = true;
+        tabNum += 2;
         transition.GetComponent<SceneTransition>().LoadTransitionPanel();
         AkSoundEngine.SetState("Location", "CP1");
 
     }
 
-    public void CpToRv()
+    //GR
+    public void GrToRv()
     {
         discovered[tabNum] = true;
         tabNum -= 1;
@@ -69,6 +81,33 @@ public class CollisionManager : MonoBehaviour
 
     }
 
+    //CP
+    public void CpToRv()
+    {
+        discovered[tabNum] = true;
+        tabNum -= 2;
+        transition.GetComponent<SceneTransition>().LoadTransitionPanel();
+        AkSoundEngine.SetState("Location", "RV1");
+
+    }
+
+    public void CpToInt()
+    {
+        discovered[tabNum] = true;
+        tabNum += 1;
+        transition.GetComponent<SceneTransition>().LoadTransitionPanel();
+        AkSoundEngine.SetState("Location", "CP2");
+
+    }
+
+    //INT
+    public void IntToCp()
+    {
+        discovered[tabNum] = true;
+        tabNum -= 1;
+        transition.GetComponent<SceneTransition>().LoadTransitionPanel();
+        AkSoundEngine.SetState("Location", "CP1");
+    }
 
 
-}
+    }

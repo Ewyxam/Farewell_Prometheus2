@@ -36,6 +36,8 @@
 				<Event Id="55565095" Name="Music_Event" ObjectPath="\Events\Default Work Unit\Ship\Music\Music_Event" DurationType="Infinite"/>
 				<Event Id="2063851173" Name="Password_Right" ObjectPath="\Events\Default Work Unit\Ship\Computer\Password\Password_Right" DurationType="OneShot" DurationMin="3.029375" DurationMax="3.029375"/>
 				<Event Id="368709004" Name="Password_Wrong" ObjectPath="\Events\Default Work Unit\Ship\Computer\Password\Password_Wrong" DurationType="OneShot" DurationMin="0.598750" DurationMax="0.598750"/>
+				<Event Id="3546553156" Name="Pause_Menu_Button_Click_Event" ObjectPath="\Events\Default Work Unit\Element\Menu\Pause_Menu\Pause_Menu_Button_Click_Event" DurationType="OneShot" DurationMin="0.029396" DurationMax="0.043396"/>
+				<Event Id="2679033074" Name="Pause_Menu_Button_Hover_Event" ObjectPath="\Events\Default Work Unit\Element\Menu\Pause_Menu\Pause_Menu_Button_Hover_Event" DurationType="OneShot" DurationMin="0.084479" DurationMax="0.106896"/>
 				<Event Id="3878117114" Name="Post_it_Handle" ObjectPath="\Events\Default Work Unit\Ship\Objects\Post_it_Handle" DurationType="OneShot" DurationMin="0.445509" DurationMax="0.698667"/>
 				<Event Id="2487570637" Name="Robot_Invalid_Command" ObjectPath="\Events\Default Work Unit\Ship\Robot\Robot_Invalid_Command" DurationType="OneShot" DurationMin="1.070266" DurationMax="1.348451"/>
 				<Event Id="1281846564" Name="Robot_Moving" ObjectPath="\Events\Default Work Unit\Ship\Robot\Robot_Moving" DurationType="OneShot" DurationMin="3.344000" DurationMax="3.344000"/>
@@ -120,6 +122,10 @@
 					<ShortName>Mus_Trans_SFX-003.wav</ShortName>
 					<Path>SFX\Mus_Trans_SFX-003_6296B0F9.wem</Path>
 				</File>
+				<File Id="162766254" Language="SFX">
+					<ShortName>Pause_Menu_Button_Click_SFX-001.wav</ShortName>
+					<Path>SFX\Pause_Menu_Button_Click_SFX-001_6296B0F9.wem</Path>
+				</File>
 				<File Id="168695386" Language="SFX">
 					<ShortName>Computer_Wrong_Password_SFX.wav</ShortName>
 					<Path>SFX\Computer_Wrong_Password_SFX_6296B0F9.wem</Path>
@@ -196,6 +202,10 @@
 					<ShortName>Jungle_Birds_AMB_SFX_03.wav</ShortName>
 					<Path>SFX\Jungle_Birds_AMB_SFX_03_6296B0F9.wem</Path>
 				</File>
+				<File Id="331780221" Language="SFX">
+					<ShortName>Pause_Menu_Button_Click_SFX-003.wav</ShortName>
+					<Path>SFX\Pause_Menu_Button_Click_SFX-003_6296B0F9.wem</Path>
+				</File>
 				<File Id="336549232" Language="SFX">
 					<ShortName>RV1_River_Stream_01_SFX.wav</ShortName>
 					<Path>SFX\RV1_River_Stream_01_SFX_9B96ECC7.wem</Path>
@@ -203,6 +213,10 @@
 				<File Id="360212279" Language="SFX">
 					<ShortName>GR1_Water_Droplets_AMB_01_SFX-008.wav</ShortName>
 					<Path>SFX\GR1_Water_Droplets_AMB_01_SFX-008_6296B0F9.wem</Path>
+				</File>
+				<File Id="364829914" Language="SFX">
+					<ShortName>Pause_Menu_Button_Hover_SFX-001.wav</ShortName>
+					<Path>SFX\Pause_Menu_Button_Hover_SFX-001_6296B0F9.wem</Path>
 				</File>
 				<File Id="366017084" Language="SFX">
 					<ShortName>RV1_Frogs_01_SFX.wav</ShortName>
@@ -328,6 +342,10 @@
 					<ShortName>Volga_P1_Dial_02-01.wav</ShortName>
 					<Path>Voices\English(US)\Volga_P1_Dial_02-01_6296B0F9.wem</Path>
 				</File>
+				<File Id="607526812" Language="SFX">
+					<ShortName>Pause_Menu_Button_Hover_SFX-003.wav</ShortName>
+					<Path>SFX\Pause_Menu_Button_Hover_SFX-003_6296B0F9.wem</Path>
+				</File>
 				<File Id="630330714" Language="SFX">
 					<ShortName>Paper_Handle_04_SFX.wav</ShortName>
 					<Path>SFX\Paper_Handle_04_SFX_6296B0F9.wem</Path>
@@ -351,6 +369,10 @@
 				<File Id="663151553" Language="SFX">
 					<ShortName>GR1_Drone_AMB_01_SFX.wav</ShortName>
 					<Path>SFX\GR1_Drone_AMB_01_SFX_9B96ECC7.wem</Path>
+				</File>
+				<File Id="666919034" Language="SFX">
+					<ShortName>CP2_Wind_AMB_SFX.wav</ShortName>
+					<Path>SFX\CP2_Wind_AMB_SFX_9B96ECC7.wem</Path>
 				</File>
 				<File Id="671115657" Language="SFX">
 					<ShortName>Robot_Operational_SFX.wav</ShortName>
@@ -388,6 +410,10 @@
 					<ShortName>Computer_button_hover_8kHz_01_SFX.wav</ShortName>
 					<Path>SFX\Computer_button_hover_8kHz_01_SFX_6296B0F9.wem</Path>
 				</File>
+				<File Id="725777237" Language="SFX">
+					<ShortName>Pause_Menu_Button_Hover_SFX-004.wav</ShortName>
+					<Path>SFX\Pause_Menu_Button_Hover_SFX-004_6296B0F9.wem</Path>
+				</File>
 				<File Id="729253935" Language="English(US)">
 					<ShortName>Volga_P1_Dial_04-01.wav</ShortName>
 					<Path>Voices\English(US)\Volga_P1_Dial_04-01_6296B0F9.wem</Path>
@@ -407,6 +433,10 @@
 				<File Id="762012689" Language="SFX">
 					<ShortName>Robot_Command_Not_Valid_SFX.wav</ShortName>
 					<Path>SFX\Robot_Command_Not_Valid_SFX_6296B0F9.wem</Path>
+				</File>
+				<File Id="771373152" Language="SFX">
+					<ShortName>Pause_Menu_Button_Hover_SFX-002.wav</ShortName>
+					<Path>SFX\Pause_Menu_Button_Hover_SFX-002_6296B0F9.wem</Path>
 				</File>
 				<File Id="772294689" Language="SFX">
 					<ShortName>GR1_Water_Droplets_AMB_01_SFX-006.wav</ShortName>
@@ -439,6 +469,10 @@
 				<File Id="836031310" Language="SFX">
 					<ShortName>CL1_Insects_02_AMB_SFX.wav</ShortName>
 					<Path>SFX\CL1_Insects_02_AMB_SFX_9B96ECC7.wem</Path>
+				</File>
+				<File Id="841329915" Language="SFX">
+					<ShortName>Pause_Menu_Button_Click_SFX-002.wav</ShortName>
+					<Path>SFX\Pause_Menu_Button_Click_SFX-002_6296B0F9.wem</Path>
 				</File>
 				<File Id="844426173" Language="SFX">
 					<ShortName>Awake.wav</ShortName>

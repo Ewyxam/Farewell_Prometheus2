@@ -6,6 +6,38 @@
 				<Property Name="Color" Type="int16" Value="15"/>
 				<Property Name="OverrideColor" Type="bool" Value="True"/>
 			</PropertyList>
+			<ChildrenList>
+				<Folder Name="Menu" ID="{4F868A32-8569-4B10-B931-1F74964D02AB}" ShortID="405013166">
+					<ChildrenList>
+						<Folder Name="Pause_Menu" ID="{A4ADC85F-0AF8-47DA-BF00-1F0E032F4909}" ShortID="451372523">
+							<ChildrenList>
+								<Event Name="Pause_Menu_Button_Hover_Event" ID="{D1F7CBFD-4EDF-49F9-A4CA-E6300B35610E}">
+									<ChildrenList>
+										<Action Name="" ID="{F85D1867-D1B6-49B0-8C32-E3223027DD8F}" ShortID="944550052">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Pause_Menu_Button_Hover_SFX" ID="{F1F12B28-DAF3-43D2-8DBA-6E734FF79549}" WorkUnitID="{A8E75F14-F187-4E76-95DF-06D886D3E997}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Pause_Menu_Button_Click_Event" ID="{B13BD530-B66B-48B7-B2D7-CDEEF214F6FB}">
+									<ChildrenList>
+										<Action Name="" ID="{ACCAF278-74A6-41EA-BD57-0EC546AC5DAB}" ShortID="593314197">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Pause_Menu_Button_Click_SFX" ID="{76BA687F-5EFF-4255-B2B8-DDEF6C2900D9}" WorkUnitID="{A8E75F14-F187-4E76-95DF-06D886D3E997}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+							</ChildrenList>
+						</Folder>
+					</ChildrenList>
+				</Folder>
+			</ChildrenList>
 		</WorkUnit>
 	</Events>
 </WwiseDocument>

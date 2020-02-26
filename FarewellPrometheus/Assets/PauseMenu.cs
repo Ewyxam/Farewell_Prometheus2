@@ -28,7 +28,7 @@ public class PauseMenu : MonoBehaviour
         PauseMenuUI.SetActive(false);
         AkSoundEngine.SetState("Pause", "Not_Paused");
         GameIsPaused = false;
-        //GameObject.Find("Main Camera").GetComponent<SceneTransition>().transActive = 0;
+        GameObject.Find("SceneTransition").GetComponent<SceneTransition>().transActive = 0;
     }
 
     void Pause()
@@ -36,7 +36,7 @@ public class PauseMenu : MonoBehaviour
         PauseMenuUI.SetActive(true);
         AkSoundEngine.SetState("Pause", "Paused");
         GameIsPaused = true;
-        //GameObject.Find("Main Camera").GetComponent<SceneTransition>().transActive = 1;
+        GameObject.Find("SceneTransition").GetComponent<SceneTransition>().transActive = 1;
     }
 
     public void LoadOptions()

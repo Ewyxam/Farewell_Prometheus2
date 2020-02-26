@@ -23,6 +23,8 @@ namespace AK
         static const AkUniqueID MUSIC_EVENT = 55565095U;
         static const AkUniqueID PASSWORD_RIGHT = 2063851173U;
         static const AkUniqueID PASSWORD_WRONG = 368709004U;
+        static const AkUniqueID PAUSE_MENU_BUTTON_CLICK_EVENT = 3546553156U;
+        static const AkUniqueID PAUSE_MENU_BUTTON_HOVER_EVENT = 2679033074U;
         static const AkUniqueID POST_IT_HANDLE = 3878117114U;
         static const AkUniqueID ROBOT_INVALID_COMMAND = 2487570637U;
         static const AkUniqueID ROBOT_MOVING = 1281846564U;

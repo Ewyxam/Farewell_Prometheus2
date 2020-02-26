@@ -3275,9 +3275,1087 @@
 										</RandomSequenceContainer>
 									</ChildrenList>
 								</BlendContainer>
+								<BlendContainer Name="CP1_AMB_SFX" ID="{C804CCDE-F711-490C-9245-6AD55EED76ED}" ShortID="806707843">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{910AC7EE-841B-4C93-A9B7-752C4BD6AD66}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D799538D-0932-442A-AAA6-5525C92EAF70}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<RandomSequenceContainer Name="JG1_Birds_SFX" ID="{1F45A0C7-FA3B-481B-9C80-5CA9AA07801A}" ShortID="81617666">
+											<PropertyList>
+												<Property Name="Lowpass" Type="int16">
+													<ValueList>
+														<Value>40</Value>
+													</ValueList>
+													<ModifierList>
+														<ModifierInfo>
+															<Modifier Name="" ID="{41EEE8A9-04E3-4BC8-BFBA-5C7E4FE68FEE}">
+																<PropertyList>
+																	<Property Name="Enabled" Type="bool" Value="True"/>
+																	<Property Name="Max" Type="Real64" Value="40"/>
+																</PropertyList>
+															</Modifier>
+														</ModifierInfo>
+													</ModifierList>
+												</Property>
+												<Property Name="Pitch" Type="int32">
+													<ModifierList>
+														<ModifierInfo>
+															<Modifier Name="" ID="{E46CC3F1-D66A-48F6-BB2C-0DCCE6615AC3}">
+																<PropertyList>
+																	<Property Name="Enabled" Type="bool" Value="True"/>
+																	<Property Name="Max" Type="Real64" Value="50"/>
+																	<Property Name="Min" Type="Real64" Value="-50"/>
+																</PropertyList>
+															</Modifier>
+														</ModifierInfo>
+													</ModifierList>
+												</Property>
+												<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
+												<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
+												<Property Name="PlayMechanismSpecialTransitionsType" Type="int16" Value="3"/>
+												<Property Name="PlayMechanismSpecialTransitionsValue" Type="Real64" Value="2">
+													<ModifierList>
+														<ModifierInfo>
+															<Modifier Name="" ID="{C9E680FB-565F-4D79-BD13-3EF6052B6771}">
+																<PropertyList>
+																	<Property Name="Enabled" Type="bool" Value="True"/>
+																	<Property Name="Max" Type="Real64" Value="2"/>
+																</PropertyList>
+															</Modifier>
+														</ModifierInfo>
+													</ModifierList>
+												</Property>
+												<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>-21</Value>
+													</ValueList>
+													<ModifierList>
+														<ModifierInfo>
+															<Modifier Name="" ID="{2C9D0A1F-D907-4B2A-8C13-CBF70232C23A}">
+																<PropertyList>
+																	<Property Name="Enabled" Type="bool" Value="True"/>
+																	<Property Name="Min" Type="Real64" Value="-10"/>
+																</PropertyList>
+															</Modifier>
+														</ModifierInfo>
+													</ModifierList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="AMB" ID="{0B3FCEDC-AD1D-43E0-8330-66D515AA0D95}" WorkUnitID="{910AC7EE-841B-4C93-A9B7-752C4BD6AD66}"/>
+												</Reference>
+												<Reference Name="Effect0" CompanyID="4095" PluginID="65535" PluginType="15">
+													<ObjectRef Name="Have_U_Ever_Been_Outside" ID="{FE29AE8D-FD86-4652-A95D-68D32F5760EC}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Environments" ID="{69F32401-4587-4C3F-A5F9-6A990215D69B}" WorkUnitID="{D799538D-0932-442A-AAA6-5525C92EAF70}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="Jungle_Birds_AMB_SFX_06" ID="{1A1D63BF-0201-47A7-AC95-75C40C63EFEE}" ShortID="872596378">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{910AC7EE-841B-4C93-A9B7-752C4BD6AD66}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D799538D-0932-442A-AAA6-5525C92EAF70}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Jungle_Birds_AMB_SFX_06" ID="{CEE1F66F-09B8-494D-B886-EC6E36A1F66E}" ShortID="652580019">
+															<Language>SFX</Language>
+															<AudioFile>Jungle_Birds_AMB_SFX_06.wav</AudioFile>
+															<ConvertedFileIDList>
+																<File ID="1044156567"/>
+															</ConvertedFileIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Jungle_Birds_AMB_SFX_06" ID="{CEE1F66F-09B8-494D-B886-EC6E36A1F66E}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Jungle_Birds_AMB_SFX_11" ID="{85755555-A0C4-4F23-B54D-694C4DC23DB4}" ShortID="568241649">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{910AC7EE-841B-4C93-A9B7-752C4BD6AD66}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D799538D-0932-442A-AAA6-5525C92EAF70}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Jungle_Birds_AMB_SFX_11" ID="{2E0C1206-ECCA-4B03-AB1A-E0E5C0C08121}" ShortID="411119008">
+															<Language>SFX</Language>
+															<AudioFile>Jungle_Birds_AMB_SFX_11.wav</AudioFile>
+															<ConvertedFileIDList>
+																<File ID="423986631"/>
+															</ConvertedFileIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Jungle_Birds_AMB_SFX_11" ID="{2E0C1206-ECCA-4B03-AB1A-E0E5C0C08121}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Jungle_Birds_AMB_SFX_12" ID="{157241C0-9FA8-4F81-93F1-BED5655D2AD7}" ShortID="488441262">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{910AC7EE-841B-4C93-A9B7-752C4BD6AD66}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D799538D-0932-442A-AAA6-5525C92EAF70}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Jungle_Birds_AMB_SFX_12" ID="{FA325555-A821-4282-AC7C-7D4756899747}" ShortID="1015595467">
+															<Language>SFX</Language>
+															<AudioFile>Jungle_Birds_AMB_SFX_12.wav</AudioFile>
+															<ConvertedFileIDList>
+																<File ID="132184454"/>
+															</ConvertedFileIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Jungle_Birds_AMB_SFX_12" ID="{FA325555-A821-4282-AC7C-7D4756899747}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Jungle_Birds_AMB_SFX_13" ID="{9D5DCC83-FA9F-4AE4-BB08-EB9F5D3E82C5}" ShortID="1035379388">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{910AC7EE-841B-4C93-A9B7-752C4BD6AD66}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D799538D-0932-442A-AAA6-5525C92EAF70}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Jungle_Birds_AMB_SFX_13" ID="{C92072F8-582F-4EDB-853C-29BF09CDEAD1}" ShortID="464662087">
+															<Language>SFX</Language>
+															<AudioFile>Jungle_Birds_AMB_SFX_13.wav</AudioFile>
+															<ConvertedFileIDList>
+																<File ID="62054156"/>
+															</ConvertedFileIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Jungle_Birds_AMB_SFX_13" ID="{C92072F8-582F-4EDB-853C-29BF09CDEAD1}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Jungle_Birds_AMB_SFX_10" ID="{C9B6D263-FBDD-49FB-9B73-7F96D4826AA0}" ShortID="716579354">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{910AC7EE-841B-4C93-A9B7-752C4BD6AD66}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D799538D-0932-442A-AAA6-5525C92EAF70}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Jungle_Birds_AMB_SFX_10" ID="{50796774-A106-484A-8091-23C96DB83BD1}" ShortID="98650534">
+															<Language>SFX</Language>
+															<AudioFile>Jungle_Birds_AMB_SFX_10.wav</AudioFile>
+															<ConvertedFileIDList>
+																<File ID="743703861"/>
+															</ConvertedFileIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Jungle_Birds_AMB_SFX_10" ID="{50796774-A106-484A-8091-23C96DB83BD1}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Jungle_Birds_AMB_SFX_09" ID="{A3760FAD-6280-4D8A-980E-94187C3AC73E}" ShortID="619295283">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{910AC7EE-841B-4C93-A9B7-752C4BD6AD66}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D799538D-0932-442A-AAA6-5525C92EAF70}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Jungle_Birds_AMB_SFX_09" ID="{331FFC05-20E2-4366-8121-3FDAEBC65E04}" ShortID="643409200">
+															<Language>SFX</Language>
+															<AudioFile>Jungle_Birds_AMB_SFX_09.wav</AudioFile>
+															<ConvertedFileIDList>
+																<File ID="493050855"/>
+															</ConvertedFileIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Jungle_Birds_AMB_SFX_09" ID="{331FFC05-20E2-4366-8121-3FDAEBC65E04}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Jungle_Birds_AMB_SFX_14" ID="{88FCD66D-1378-40B4-9C77-34FE4369AAA0}" ShortID="570147745">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{910AC7EE-841B-4C93-A9B7-752C4BD6AD66}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D799538D-0932-442A-AAA6-5525C92EAF70}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Jungle_Birds_AMB_SFX_14" ID="{092D080C-122A-4D5A-9CB1-06655828E5B4}" ShortID="76144046">
+															<Language>SFX</Language>
+															<AudioFile>Jungle_Birds_AMB_SFX_14.wav</AudioFile>
+															<ConvertedFileIDList>
+																<File ID="125064382"/>
+															</ConvertedFileIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Jungle_Birds_AMB_SFX_14" ID="{092D080C-122A-4D5A-9CB1-06655828E5B4}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Jungle_Birds_AMB_SFX_07" ID="{402187F3-B3EC-4119-BD4D-E0D90DE891A4}" ShortID="865364266">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{910AC7EE-841B-4C93-A9B7-752C4BD6AD66}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D799538D-0932-442A-AAA6-5525C92EAF70}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Jungle_Birds_AMB_SFX_07" ID="{B6408BC1-487F-4DBA-9A78-92D593F14191}" ShortID="703900368">
+															<Language>SFX</Language>
+															<AudioFile>Jungle_Birds_AMB_SFX_07.wav</AudioFile>
+															<ConvertedFileIDList>
+																<File ID="302976512"/>
+															</ConvertedFileIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Jungle_Birds_AMB_SFX_07" ID="{B6408BC1-487F-4DBA-9A78-92D593F14191}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Jungle_Birds_AMB_SFX_08" ID="{30C513D3-4A52-4E56-8E54-E309152817CE}" ShortID="465743483">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{910AC7EE-841B-4C93-A9B7-752C4BD6AD66}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D799538D-0932-442A-AAA6-5525C92EAF70}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Jungle_Birds_AMB_SFX_08" ID="{14A22B64-50FA-42CA-8BA6-D532933FBCBB}" ShortID="525513920">
+															<Language>SFX</Language>
+															<AudioFile>Jungle_Birds_AMB_SFX_08.wav</AudioFile>
+															<ConvertedFileIDList>
+																<File ID="427999732"/>
+															</ConvertedFileIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Jungle_Birds_AMB_SFX_08" ID="{14A22B64-50FA-42CA-8BA6-D532933FBCBB}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Jungle_Birds_AMB_SFX_01" ID="{FAAEC3D5-94F6-4AA5-8311-ABA479E7AFC1}" ShortID="706702492">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{910AC7EE-841B-4C93-A9B7-752C4BD6AD66}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D799538D-0932-442A-AAA6-5525C92EAF70}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Jungle_Birds_AMB_SFX_01" ID="{DB25559B-FC1B-48A3-97B4-906F209854DA}" ShortID="192276174">
+															<Language>SFX</Language>
+															<AudioFile>Jungle_Birds_AMB_SFX_01.wav</AudioFile>
+															<ConvertedFileIDList>
+																<File ID="657688530"/>
+															</ConvertedFileIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Jungle_Birds_AMB_SFX_01" ID="{DB25559B-FC1B-48A3-97B4-906F209854DA}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Jungle_Birds_AMB_SFX_02" ID="{2D5097C9-6AC2-4A7A-BD96-FA382FFE0573}" ShortID="108953442">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{910AC7EE-841B-4C93-A9B7-752C4BD6AD66}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D799538D-0932-442A-AAA6-5525C92EAF70}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Jungle_Birds_AMB_SFX_02" ID="{0F1A949D-38E5-4FF0-9B30-AFA61CF286CC}" ShortID="282138228">
+															<Language>SFX</Language>
+															<AudioFile>Jungle_Birds_AMB_SFX_02.wav</AudioFile>
+															<ConvertedFileIDList>
+																<File ID="311442277"/>
+															</ConvertedFileIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Jungle_Birds_AMB_SFX_02" ID="{0F1A949D-38E5-4FF0-9B30-AFA61CF286CC}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Jungle_Birds_AMB_SFX_03" ID="{64676D33-CDF1-4087-8C3E-F089DA4762D6}" ShortID="360999426">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{910AC7EE-841B-4C93-A9B7-752C4BD6AD66}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D799538D-0932-442A-AAA6-5525C92EAF70}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Jungle_Birds_AMB_SFX_03" ID="{5D5B22B5-5E51-4926-A096-276F94A5A000}" ShortID="184450413">
+															<Language>SFX</Language>
+															<AudioFile>Jungle_Birds_AMB_SFX_03.wav</AudioFile>
+															<ConvertedFileIDList>
+																<File ID="323038935"/>
+															</ConvertedFileIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Jungle_Birds_AMB_SFX_03" ID="{5D5B22B5-5E51-4926-A096-276F94A5A000}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Jungle_Birds_AMB_SFX_04" ID="{A30CE81C-4661-44F8-84A6-7ED97ECDD1F6}" ShortID="127537186">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{910AC7EE-841B-4C93-A9B7-752C4BD6AD66}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D799538D-0932-442A-AAA6-5525C92EAF70}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Jungle_Birds_AMB_SFX_04" ID="{BB51F364-64E2-42D3-9192-89413150958C}" ShortID="237600659">
+															<Language>SFX</Language>
+															<AudioFile>Jungle_Birds_AMB_SFX_04.wav</AudioFile>
+															<ConvertedFileIDList>
+																<File ID="78920991"/>
+															</ConvertedFileIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Jungle_Birds_AMB_SFX_04" ID="{BB51F364-64E2-42D3-9192-89413150958C}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Jungle_Birds_AMB_SFX_05" ID="{3CCF24A6-7E44-4BFD-986C-23931FA47C13}" ShortID="333122545">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{910AC7EE-841B-4C93-A9B7-752C4BD6AD66}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D799538D-0932-442A-AAA6-5525C92EAF70}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Jungle_Birds_AMB_SFX_05" ID="{51A586B3-5E50-4D53-8CD0-B0DC6C0D5D9C}" ShortID="313660014">
+															<Language>SFX</Language>
+															<AudioFile>Jungle_Birds_AMB_SFX_05.wav</AudioFile>
+															<ConvertedFileIDList>
+																<File ID="148088509"/>
+															</ConvertedFileIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Jungle_Birds_AMB_SFX_05" ID="{51A586B3-5E50-4D53-8CD0-B0DC6C0D5D9C}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+										</RandomSequenceContainer>
+										<Sound Name="JG1_Wind_01_AMB_SFX" ID="{94CF7007-0A93-4EC8-82F9-5E214EFDDE5F}" ShortID="23710458">
+											<PropertyList>
+												<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>-5</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="AMB" ID="{0B3FCEDC-AD1D-43E0-8330-66D515AA0D95}" WorkUnitID="{910AC7EE-841B-4C93-A9B7-752C4BD6AD66}"/>
+												</Reference>
+												<Reference Name="Effect0" CompanyID="4095" PluginID="65535" PluginType="15">
+													<ObjectRef Name="Have_U_Ever_Been_Outside" ID="{FE29AE8D-FD86-4652-A95D-68D32F5760EC}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Environments" ID="{69F32401-4587-4C3F-A5F9-6A990215D69B}" WorkUnitID="{D799538D-0932-442A-AAA6-5525C92EAF70}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="JG1_Wind_01_AMB_SFX" ID="{E483CE92-50C9-4359-8223-491240314EB5}" ShortID="601613542">
+													<Language>SFX</Language>
+													<AudioFile>JG1_Wind_01_AMB_SFX.wav</AudioFile>
+													<ConvertedFileIDList>
+														<File ID="852947000"/>
+													</ConvertedFileIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="JG1_Wind_01_AMB_SFX" ID="{E483CE92-50C9-4359-8223-491240314EB5}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="JG1_Insects_01_AMB_SFX" ID="{43840B62-2AB4-4D58-9DC1-9A45D37668AF}" ShortID="634964972">
+											<PropertyList>
+												<Property Name="Inclusion" Type="bool">
+													<ValueList>
+														<Value>False</Value>
+													</ValueList>
+												</Property>
+												<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+												<Property Name="Lowpass" Type="int16">
+													<ValueList>
+														<Value>30</Value>
+													</ValueList>
+												</Property>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>-32</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="AMB" ID="{0B3FCEDC-AD1D-43E0-8330-66D515AA0D95}" WorkUnitID="{910AC7EE-841B-4C93-A9B7-752C4BD6AD66}"/>
+												</Reference>
+												<Reference Name="Effect0" CompanyID="4095" PluginID="65535" PluginType="15">
+													<ObjectRef Name="Have_U_Ever_Been_Outside" ID="{FE29AE8D-FD86-4652-A95D-68D32F5760EC}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Environments" ID="{69F32401-4587-4C3F-A5F9-6A990215D69B}" WorkUnitID="{D799538D-0932-442A-AAA6-5525C92EAF70}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="CL1_Insects_03_AMB_SFX" ID="{4909935E-7E96-4195-84A3-18962CC98FFE}" ShortID="483297602">
+													<Language>SFX</Language>
+													<AudioFile>CL1_Insects_03_AMB_SFX.wav</AudioFile>
+													<ConvertedFileIDList>
+														<File ID="413517149"/>
+													</ConvertedFileIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="CL1_Insects_03_AMB_SFX" ID="{4909935E-7E96-4195-84A3-18962CC98FFE}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="CL1_Insects_02_AMB_SFX" ID="{A7646746-90DA-4118-A57A-CFF67B178050}" ShortID="841118745">
+											<PropertyList>
+												<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+												<Property Name="Lowpass" Type="int16">
+													<ValueList>
+														<Value>30</Value>
+													</ValueList>
+												</Property>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>-32</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="AMB" ID="{0B3FCEDC-AD1D-43E0-8330-66D515AA0D95}" WorkUnitID="{910AC7EE-841B-4C93-A9B7-752C4BD6AD66}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Environments" ID="{69F32401-4587-4C3F-A5F9-6A990215D69B}" WorkUnitID="{D799538D-0932-442A-AAA6-5525C92EAF70}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="CL1_Insects_02_AMB_SFX" ID="{0C6B7164-C6C3-43EF-B566-59EAFD5CCD9E}" ShortID="652343141">
+													<Language>SFX</Language>
+													<AudioFile>CL1_Insects_02_AMB_SFX.wav</AudioFile>
+													<ConvertedFileIDList>
+														<File ID="836031310"/>
+													</ConvertedFileIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="CL1_Insects_02_AMB_SFX" ID="{0C6B7164-C6C3-43EF-B566-59EAFD5CCD9E}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+								</BlendContainer>
+								<BlendContainer Name="CP2_AMB_SFX" ID="{9210EF44-3CF0-4081-A54E-228D84653B32}" ShortID="244013496">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{910AC7EE-841B-4C93-A9B7-752C4BD6AD66}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D799538D-0932-442A-AAA6-5525C92EAF70}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<BlendContainer Name="CP1_AMB_SFX" ID="{7DEC6C47-A6F5-437D-8980-8D2043A29DAE}" ShortID="518589418">
+											<PropertyList>
+												<Property Name="Highpass" Type="int16">
+													<ValueList>
+														<Value>20</Value>
+													</ValueList>
+												</Property>
+												<Property Name="Lowpass" Type="int16">
+													<ValueList>
+														<Value>20</Value>
+													</ValueList>
+												</Property>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>-3</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="AMB" ID="{0B3FCEDC-AD1D-43E0-8330-66D515AA0D95}" WorkUnitID="{910AC7EE-841B-4C93-A9B7-752C4BD6AD66}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Environments" ID="{69F32401-4587-4C3F-A5F9-6A990215D69B}" WorkUnitID="{D799538D-0932-442A-AAA6-5525C92EAF70}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<RandomSequenceContainer Name="JG1_Birds_SFX" ID="{1A5B6A78-66BA-4D0B-A3EB-727923D20FF8}" ShortID="913840114">
+													<PropertyList>
+														<Property Name="Lowpass" Type="int16">
+															<ValueList>
+																<Value>40</Value>
+															</ValueList>
+															<ModifierList>
+																<ModifierInfo>
+																	<Modifier Name="" ID="{00F18CDC-ADA1-46B4-B5CD-6B2FA68672D8}">
+																		<PropertyList>
+																			<Property Name="Enabled" Type="bool" Value="True"/>
+																			<Property Name="Max" Type="Real64" Value="40"/>
+																		</PropertyList>
+																	</Modifier>
+																</ModifierInfo>
+															</ModifierList>
+														</Property>
+														<Property Name="Pitch" Type="int32">
+															<ModifierList>
+																<ModifierInfo>
+																	<Modifier Name="" ID="{19329A7A-A928-40E0-8D24-0D32739E6BD6}">
+																		<PropertyList>
+																			<Property Name="Enabled" Type="bool" Value="True"/>
+																			<Property Name="Max" Type="Real64" Value="50"/>
+																			<Property Name="Min" Type="Real64" Value="-50"/>
+																		</PropertyList>
+																	</Modifier>
+																</ModifierInfo>
+															</ModifierList>
+														</Property>
+														<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
+														<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
+														<Property Name="PlayMechanismSpecialTransitionsType" Type="int16" Value="3"/>
+														<Property Name="PlayMechanismSpecialTransitionsValue" Type="Real64" Value="2">
+															<ModifierList>
+																<ModifierInfo>
+																	<Modifier Name="" ID="{ABC14A3F-A1AA-4A04-B165-E56A191CF546}">
+																		<PropertyList>
+																			<Property Name="Enabled" Type="bool" Value="True"/>
+																			<Property Name="Max" Type="Real64" Value="2"/>
+																		</PropertyList>
+																	</Modifier>
+																</ModifierInfo>
+															</ModifierList>
+														</Property>
+														<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+														<Property Name="Volume" Type="Real64">
+															<ValueList>
+																<Value>-21</Value>
+															</ValueList>
+															<ModifierList>
+																<ModifierInfo>
+																	<Modifier Name="" ID="{D9E3F896-C502-4CE9-8949-A25227514BA0}">
+																		<PropertyList>
+																			<Property Name="Enabled" Type="bool" Value="True"/>
+																			<Property Name="Min" Type="Real64" Value="-10"/>
+																		</PropertyList>
+																	</Modifier>
+																</ModifierInfo>
+															</ModifierList>
+														</Property>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="AMB" ID="{0B3FCEDC-AD1D-43E0-8330-66D515AA0D95}" WorkUnitID="{910AC7EE-841B-4C93-A9B7-752C4BD6AD66}"/>
+														</Reference>
+														<Reference Name="Effect0" CompanyID="4095" PluginID="65535" PluginType="15">
+															<ObjectRef Name="Have_U_Ever_Been_Outside" ID="{FE29AE8D-FD86-4652-A95D-68D32F5760EC}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Environments" ID="{69F32401-4587-4C3F-A5F9-6A990215D69B}" WorkUnitID="{D799538D-0932-442A-AAA6-5525C92EAF70}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<Sound Name="Jungle_Birds_AMB_SFX_06" ID="{0D74F439-5008-450C-B650-5081A02AEE51}" ShortID="587967816">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{910AC7EE-841B-4C93-A9B7-752C4BD6AD66}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D799538D-0932-442A-AAA6-5525C92EAF70}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="Jungle_Birds_AMB_SFX_06" ID="{0514C9C5-BB6A-462A-88EC-BDF1A9BC100D}" ShortID="147266699">
+																	<Language>SFX</Language>
+																	<AudioFile>Jungle_Birds_AMB_SFX_06.wav</AudioFile>
+																	<ConvertedFileIDList>
+																		<File ID="1044156567"/>
+																	</ConvertedFileIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="Jungle_Birds_AMB_SFX_06" ID="{0514C9C5-BB6A-462A-88EC-BDF1A9BC100D}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+														<Sound Name="Jungle_Birds_AMB_SFX_11" ID="{C552F275-5FF8-4010-B9B0-18CD33E62B1C}" ShortID="303664587">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{910AC7EE-841B-4C93-A9B7-752C4BD6AD66}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D799538D-0932-442A-AAA6-5525C92EAF70}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="Jungle_Birds_AMB_SFX_11" ID="{F7B1D7BC-32B1-40F3-877A-EA7F23BB4CC6}" ShortID="532865928">
+																	<Language>SFX</Language>
+																	<AudioFile>Jungle_Birds_AMB_SFX_11.wav</AudioFile>
+																	<ConvertedFileIDList>
+																		<File ID="423986631"/>
+																	</ConvertedFileIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="Jungle_Birds_AMB_SFX_11" ID="{F7B1D7BC-32B1-40F3-877A-EA7F23BB4CC6}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+														<Sound Name="Jungle_Birds_AMB_SFX_12" ID="{BF4A2CD1-51DA-4225-B697-EE0D46A82C71}" ShortID="414887269">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{910AC7EE-841B-4C93-A9B7-752C4BD6AD66}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D799538D-0932-442A-AAA6-5525C92EAF70}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="Jungle_Birds_AMB_SFX_12" ID="{687AFEE7-229C-4D66-8757-BE4E31239811}" ShortID="564254555">
+																	<Language>SFX</Language>
+																	<AudioFile>Jungle_Birds_AMB_SFX_12.wav</AudioFile>
+																	<ConvertedFileIDList>
+																		<File ID="132184454"/>
+																	</ConvertedFileIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="Jungle_Birds_AMB_SFX_12" ID="{687AFEE7-229C-4D66-8757-BE4E31239811}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+														<Sound Name="Jungle_Birds_AMB_SFX_13" ID="{66C35808-7507-45BB-B105-1E6E788A80C6}" ShortID="503809814">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{910AC7EE-841B-4C93-A9B7-752C4BD6AD66}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D799538D-0932-442A-AAA6-5525C92EAF70}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="Jungle_Birds_AMB_SFX_13" ID="{B890F9B4-8B50-4329-ACB4-709D6C1D0878}" ShortID="68511964">
+																	<Language>SFX</Language>
+																	<AudioFile>Jungle_Birds_AMB_SFX_13.wav</AudioFile>
+																	<ConvertedFileIDList>
+																		<File ID="62054156"/>
+																	</ConvertedFileIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="Jungle_Birds_AMB_SFX_13" ID="{B890F9B4-8B50-4329-ACB4-709D6C1D0878}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+														<Sound Name="Jungle_Birds_AMB_SFX_10" ID="{6ED3DDCD-4A66-4491-95FD-938F1E15E49B}" ShortID="947535637">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{910AC7EE-841B-4C93-A9B7-752C4BD6AD66}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D799538D-0932-442A-AAA6-5525C92EAF70}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="Jungle_Birds_AMB_SFX_10" ID="{9230FE4C-0C47-48EE-834C-B393013CEBE2}" ShortID="92407398">
+																	<Language>SFX</Language>
+																	<AudioFile>Jungle_Birds_AMB_SFX_10.wav</AudioFile>
+																	<ConvertedFileIDList>
+																		<File ID="743703861"/>
+																	</ConvertedFileIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="Jungle_Birds_AMB_SFX_10" ID="{9230FE4C-0C47-48EE-834C-B393013CEBE2}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+														<Sound Name="Jungle_Birds_AMB_SFX_09" ID="{D6D4A605-A3E1-4EEA-9C38-F22F4D46C066}" ShortID="500284541">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{910AC7EE-841B-4C93-A9B7-752C4BD6AD66}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D799538D-0932-442A-AAA6-5525C92EAF70}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="Jungle_Birds_AMB_SFX_09" ID="{41C4A55F-E63E-4708-BE17-995D65930DB3}" ShortID="621764648">
+																	<Language>SFX</Language>
+																	<AudioFile>Jungle_Birds_AMB_SFX_09.wav</AudioFile>
+																	<ConvertedFileIDList>
+																		<File ID="493050855"/>
+																	</ConvertedFileIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="Jungle_Birds_AMB_SFX_09" ID="{41C4A55F-E63E-4708-BE17-995D65930DB3}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+														<Sound Name="Jungle_Birds_AMB_SFX_14" ID="{928AA3C8-3D14-450F-A8A4-26D040FB4BC9}" ShortID="933129497">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{910AC7EE-841B-4C93-A9B7-752C4BD6AD66}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D799538D-0932-442A-AAA6-5525C92EAF70}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="Jungle_Birds_AMB_SFX_14" ID="{527EE803-1D75-420D-9121-BC8F211D9572}" ShortID="88377283">
+																	<Language>SFX</Language>
+																	<AudioFile>Jungle_Birds_AMB_SFX_14.wav</AudioFile>
+																	<ConvertedFileIDList>
+																		<File ID="125064382"/>
+																	</ConvertedFileIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="Jungle_Birds_AMB_SFX_14" ID="{527EE803-1D75-420D-9121-BC8F211D9572}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+														<Sound Name="Jungle_Birds_AMB_SFX_07" ID="{43A0BF09-9D0B-4F62-BF2C-47F053E5DE01}" ShortID="539124628">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{910AC7EE-841B-4C93-A9B7-752C4BD6AD66}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D799538D-0932-442A-AAA6-5525C92EAF70}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="Jungle_Birds_AMB_SFX_07" ID="{41D0B107-1746-44C2-9C0A-E829EE02211D}" ShortID="165626563">
+																	<Language>SFX</Language>
+																	<AudioFile>Jungle_Birds_AMB_SFX_07.wav</AudioFile>
+																	<ConvertedFileIDList>
+																		<File ID="302976512"/>
+																	</ConvertedFileIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="Jungle_Birds_AMB_SFX_07" ID="{41D0B107-1746-44C2-9C0A-E829EE02211D}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+														<Sound Name="Jungle_Birds_AMB_SFX_08" ID="{EC138902-F9CF-4782-9833-061E04D62EB9}" ShortID="361404327">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{910AC7EE-841B-4C93-A9B7-752C4BD6AD66}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D799538D-0932-442A-AAA6-5525C92EAF70}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="Jungle_Birds_AMB_SFX_08" ID="{DFE7E6FC-A13F-43B3-89E6-26054EB8104E}" ShortID="470782124">
+																	<Language>SFX</Language>
+																	<AudioFile>Jungle_Birds_AMB_SFX_08.wav</AudioFile>
+																	<ConvertedFileIDList>
+																		<File ID="427999732"/>
+																	</ConvertedFileIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="Jungle_Birds_AMB_SFX_08" ID="{DFE7E6FC-A13F-43B3-89E6-26054EB8104E}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+														<Sound Name="Jungle_Birds_AMB_SFX_01" ID="{8B276D05-BEB0-4BC3-B2FF-DADCDF4CD16B}" ShortID="556534755">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{910AC7EE-841B-4C93-A9B7-752C4BD6AD66}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D799538D-0932-442A-AAA6-5525C92EAF70}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="Jungle_Birds_AMB_SFX_01" ID="{A5658062-9483-496F-8935-B11338DBA843}" ShortID="1017953629">
+																	<Language>SFX</Language>
+																	<AudioFile>Jungle_Birds_AMB_SFX_01.wav</AudioFile>
+																	<ConvertedFileIDList>
+																		<File ID="657688530"/>
+																	</ConvertedFileIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="Jungle_Birds_AMB_SFX_01" ID="{A5658062-9483-496F-8935-B11338DBA843}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+														<Sound Name="Jungle_Birds_AMB_SFX_02" ID="{68ACBF8C-DECB-4976-9761-4169419B1594}" ShortID="298488771">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{910AC7EE-841B-4C93-A9B7-752C4BD6AD66}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D799538D-0932-442A-AAA6-5525C92EAF70}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="Jungle_Birds_AMB_SFX_02" ID="{37705553-A399-46E7-B766-FD0E3D8D6FDC}" ShortID="358366937">
+																	<Language>SFX</Language>
+																	<AudioFile>Jungle_Birds_AMB_SFX_02.wav</AudioFile>
+																	<ConvertedFileIDList>
+																		<File ID="311442277"/>
+																	</ConvertedFileIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="Jungle_Birds_AMB_SFX_02" ID="{37705553-A399-46E7-B766-FD0E3D8D6FDC}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+														<Sound Name="Jungle_Birds_AMB_SFX_03" ID="{5293C53A-8C48-4A73-AA7D-83C54DB305E5}" ShortID="555036387">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{910AC7EE-841B-4C93-A9B7-752C4BD6AD66}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D799538D-0932-442A-AAA6-5525C92EAF70}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="Jungle_Birds_AMB_SFX_03" ID="{C2354F99-BF32-451A-8B46-AD3C493839AF}" ShortID="869365522">
+																	<Language>SFX</Language>
+																	<AudioFile>Jungle_Birds_AMB_SFX_03.wav</AudioFile>
+																	<ConvertedFileIDList>
+																		<File ID="323038935"/>
+																	</ConvertedFileIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="Jungle_Birds_AMB_SFX_03" ID="{C2354F99-BF32-451A-8B46-AD3C493839AF}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+														<Sound Name="Jungle_Birds_AMB_SFX_04" ID="{9D092EA4-3E0A-400F-AB7E-95386B57321A}" ShortID="590643977">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{910AC7EE-841B-4C93-A9B7-752C4BD6AD66}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D799538D-0932-442A-AAA6-5525C92EAF70}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="Jungle_Birds_AMB_SFX_04" ID="{E3F5E3B5-92E9-47B7-9DC2-98D22F0AA83B}" ShortID="1022373340">
+																	<Language>SFX</Language>
+																	<AudioFile>Jungle_Birds_AMB_SFX_04.wav</AudioFile>
+																	<ConvertedFileIDList>
+																		<File ID="78920991"/>
+																	</ConvertedFileIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="Jungle_Birds_AMB_SFX_04" ID="{E3F5E3B5-92E9-47B7-9DC2-98D22F0AA83B}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+														<Sound Name="Jungle_Birds_AMB_SFX_05" ID="{055DD4A4-5EB3-4F4F-8465-BE01ADF437D2}" ShortID="1012591271">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{910AC7EE-841B-4C93-A9B7-752C4BD6AD66}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D799538D-0932-442A-AAA6-5525C92EAF70}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="Jungle_Birds_AMB_SFX_05" ID="{BB1255C0-81BA-4F9A-A69E-2A825873B911}" ShortID="483198589">
+																	<Language>SFX</Language>
+																	<AudioFile>Jungle_Birds_AMB_SFX_05.wav</AudioFile>
+																	<ConvertedFileIDList>
+																		<File ID="148088509"/>
+																	</ConvertedFileIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="Jungle_Birds_AMB_SFX_05" ID="{BB1255C0-81BA-4F9A-A69E-2A825873B911}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+													</ChildrenList>
+												</RandomSequenceContainer>
+												<Sound Name="JG1_Wind_01_AMB_SFX" ID="{7A8A2BFA-13D7-437E-8FAD-CCAE0503BDCE}" ShortID="1018016061">
+													<PropertyList>
+														<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+														<Property Name="Volume" Type="Real64">
+															<ValueList>
+																<Value>-11</Value>
+															</ValueList>
+														</Property>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="AMB" ID="{0B3FCEDC-AD1D-43E0-8330-66D515AA0D95}" WorkUnitID="{910AC7EE-841B-4C93-A9B7-752C4BD6AD66}"/>
+														</Reference>
+														<Reference Name="Effect0" CompanyID="4095" PluginID="65535" PluginType="15">
+															<ObjectRef Name="Have_U_Ever_Been_Outside" ID="{FE29AE8D-FD86-4652-A95D-68D32F5760EC}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Environments" ID="{69F32401-4587-4C3F-A5F9-6A990215D69B}" WorkUnitID="{D799538D-0932-442A-AAA6-5525C92EAF70}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="JG1_Wind_01_AMB_SFX" ID="{904F9CEF-FF12-4B14-A034-EC81E022E98D}" ShortID="811311935">
+															<Language>SFX</Language>
+															<AudioFile>JG1_Wind_01_AMB_SFX.wav</AudioFile>
+															<ConvertedFileIDList>
+																<File ID="852947000"/>
+															</ConvertedFileIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="JG1_Wind_01_AMB_SFX" ID="{904F9CEF-FF12-4B14-A034-EC81E022E98D}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="JG1_Insects_01_AMB_SFX" ID="{58170401-BA56-4BCD-8A1D-0995A49004B6}" ShortID="1055168384">
+													<PropertyList>
+														<Property Name="Inclusion" Type="bool">
+															<ValueList>
+																<Value>False</Value>
+															</ValueList>
+														</Property>
+														<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+														<Property Name="Lowpass" Type="int16">
+															<ValueList>
+																<Value>30</Value>
+															</ValueList>
+														</Property>
+														<Property Name="Volume" Type="Real64">
+															<ValueList>
+																<Value>-32</Value>
+															</ValueList>
+														</Property>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="AMB" ID="{0B3FCEDC-AD1D-43E0-8330-66D515AA0D95}" WorkUnitID="{910AC7EE-841B-4C93-A9B7-752C4BD6AD66}"/>
+														</Reference>
+														<Reference Name="Effect0" CompanyID="4095" PluginID="65535" PluginType="15">
+															<ObjectRef Name="Have_U_Ever_Been_Outside" ID="{FE29AE8D-FD86-4652-A95D-68D32F5760EC}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Environments" ID="{69F32401-4587-4C3F-A5F9-6A990215D69B}" WorkUnitID="{D799538D-0932-442A-AAA6-5525C92EAF70}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="CL1_Insects_03_AMB_SFX" ID="{C28FB64D-3FD1-4084-B9A3-38244941A490}" ShortID="834372797">
+															<Language>SFX</Language>
+															<AudioFile>CL1_Insects_03_AMB_SFX.wav</AudioFile>
+															<ConvertedFileIDList>
+																<File ID="413517149"/>
+															</ConvertedFileIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="CL1_Insects_03_AMB_SFX" ID="{C28FB64D-3FD1-4084-B9A3-38244941A490}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="CL1_Insects_02_AMB_SFX" ID="{742D4612-A795-4B27-ADC7-5B4A88CB3DEF}" ShortID="617340715">
+													<PropertyList>
+														<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+														<Property Name="Lowpass" Type="int16">
+															<ValueList>
+																<Value>30</Value>
+															</ValueList>
+														</Property>
+														<Property Name="Volume" Type="Real64">
+															<ValueList>
+																<Value>-17</Value>
+															</ValueList>
+														</Property>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="AMB" ID="{0B3FCEDC-AD1D-43E0-8330-66D515AA0D95}" WorkUnitID="{910AC7EE-841B-4C93-A9B7-752C4BD6AD66}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Environments" ID="{69F32401-4587-4C3F-A5F9-6A990215D69B}" WorkUnitID="{D799538D-0932-442A-AAA6-5525C92EAF70}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="CL1_Insects_02_AMB_SFX" ID="{2EB040CB-318C-4C3F-8F70-D54647015406}" ShortID="872891410">
+															<Language>SFX</Language>
+															<AudioFile>CL1_Insects_02_AMB_SFX.wav</AudioFile>
+															<ConvertedFileIDList>
+																<File ID="836031310"/>
+															</ConvertedFileIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="CL1_Insects_02_AMB_SFX" ID="{2EB040CB-318C-4C3F-8F70-D54647015406}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+										</BlendContainer>
+										<Sound Name="CP2_Wind_AMB_SFX" ID="{8B378389-A8C4-4433-AB0E-22110D3EDC09}" ShortID="111836179">
+											<PropertyList>
+												<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+												<Property Name="Pitch" Type="int32">
+													<ValueList>
+														<Value>200</Value>
+													</ValueList>
+												</Property>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>3</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{910AC7EE-841B-4C93-A9B7-752C4BD6AD66}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D799538D-0932-442A-AAA6-5525C92EAF70}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="CP2_Wind_AMB_SFX" ID="{E912E8F5-F6F0-4FFD-BF4E-C303F76F0A58}" ShortID="666919034">
+													<Language>SFX</Language>
+													<AudioFile>CP2_Wind_AMB_SFX.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="CP2_Wind_AMB_SFX" ID="{E912E8F5-F6F0-4FFD-BF4E-C303F76F0A58}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+								</BlendContainer>
 							</ChildrenList>
 							<GroupingInfo>
 								<GroupingBehaviorList>
+									<GroupingBehavior>
+										<ItemRef Name="CP2_AMB_SFX" ID="{9210EF44-3CF0-4081-A54E-228D84653B32}"/>
+									</GroupingBehavior>
 									<GroupingBehavior>
 										<ItemRef Name="CL1_AMB_SFX" ID="{53184355-5E3F-4438-9ED3-CF03CA535C6A}"/>
 										<PropertyList>
@@ -3353,12 +4431,21 @@
 											</Property>
 										</PropertyList>
 									</GroupingBehavior>
+									<GroupingBehavior>
+										<ItemRef Name="CP1_AMB_SFX" ID="{C804CCDE-F711-490C-9245-6AD55EED76ED}"/>
+									</GroupingBehavior>
 								</GroupingBehaviorList>
 								<GroupingList>
 									<Grouping>
 										<SwitchRef Name="VS1" ID="{915C022C-5E20-4234-893D-200581D9EED3}"/>
 										<ItemList>
 											<ItemRef Name="VS1_AMB_SFX" ID="{FF489468-B7B7-4D3B-85BF-0FF6B4A00608}"/>
+										</ItemList>
+									</Grouping>
+									<Grouping>
+										<SwitchRef Name="CP2" ID="{6746E730-6F84-462D-A63F-8B1FD531D52B}"/>
+										<ItemList>
+											<ItemRef Name="CP2_AMB_SFX" ID="{9210EF44-3CF0-4081-A54E-228D84653B32}"/>
 										</ItemList>
 									</Grouping>
 									<Grouping>
@@ -3371,6 +4458,12 @@
 										<SwitchRef Name="JG1" ID="{27C4737B-4C59-4DFE-9438-C9A1F5A7CACA}"/>
 										<ItemList>
 											<ItemRef Name="JG1_AMB_SFX" ID="{63DE4AD6-B605-4850-9C13-87A9BDA4E6C7}"/>
+										</ItemList>
+									</Grouping>
+									<Grouping>
+										<SwitchRef Name="CP1" ID="{4FC79DD7-B41E-4A58-9A12-FB38D8EB798F}"/>
+										<ItemList>
+											<ItemRef Name="CP1_AMB_SFX" ID="{C804CCDE-F711-490C-9245-6AD55EED76ED}"/>
 										</ItemList>
 									</Grouping>
 									<Grouping>

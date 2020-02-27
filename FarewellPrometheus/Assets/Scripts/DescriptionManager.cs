@@ -103,9 +103,9 @@ public class DescriptionManager : MonoBehaviour
 
             if (getorder == orders[4])//order 4 c'est scan
             {
-
-                destrig = clairiere.GetComponent<DescriptionTrigger>();
-                StartDescription(destrig.description);
+                clairiere.GetComponent<Animator>().SetBool("CL", true);
+                //destrig = clairiere.GetComponent<DescriptionTrigger>();
+                //StartDescription(destrig.description);
                 //CleanSelectInput();
                 AkSoundEngine.PostEvent("Robot_Operational", gameObject);
 
@@ -116,13 +116,17 @@ public class DescriptionManager : MonoBehaviour
         }
         else if (descName == "cl") //ecran clairiere
         {
+            
             i = 0;
             if (getorder == orders[0])
             {
-                destrig = jungle.GetComponent<DescriptionTrigger>();
-                StartDescription(destrig.description);
-               // CleanSelectInput();
-
+                //clairiere.GetComponent<Animator>().SetBool("CL", false);
+                clairiere.GetComponent<Animator>().SetBool("CL", false);
+                jungle.GetComponent<Animator>().SetBool("JG", true);
+                //destrig = jungle.GetComponent<DescriptionTrigger>();
+                //StartDescription(destrig.description);
+                // CleanSelectInput();
+                
             }
             else if (getorder == orders[4]) // scan
             {
@@ -138,20 +142,25 @@ public class DescriptionManager : MonoBehaviour
         }
         else if (descName == "jg")//ecran jungle
         {
+            
+
             i = 1;
             if (getorder == orders[3])//ouest
             {
-                destrig = riviere.GetComponent<DescriptionTrigger>();
-                StartDescription(destrig.description);
-               // CleanSelectInput();
+                jungle.GetComponent<Animator>().SetBool("JG", false);
+                riviere.GetComponent<Animator>().SetBool("RV", true);
+                // destrig = riviere.GetComponent<DescriptionTrigger>();
+                // StartDescription(destrig.description);
+                // CleanSelectInput();
 
             }
-            else if (getorder == orders[1])
+            else if (getorder == orders[1]) //sud
             {
-
-                destrig = clairiere.GetComponent<DescriptionTrigger>();
-                StartDescription(destrig.description);
-               // CleanSelectInput();
+                jungle.GetComponent<Animator>().SetBool("JG", false);
+                clairiere.GetComponent<Animator>().SetBool("CL", true);
+                //destrig = clairiere.GetComponent<DescriptionTrigger>();
+                //StartDescription(destrig.description);
+                // CleanSelectInput();
 
             }
             else if (getorder == orders[4]) // scan
@@ -170,17 +179,20 @@ public class DescriptionManager : MonoBehaviour
             i = 2;
             if (getorder == orders[0])//nord
             {
-                destrig = camp.GetComponent<DescriptionTrigger>();
+                riviere.GetComponent<Animator>().SetBool("JG", false);
+                camp.GetComponent<Animator>().SetBool("CL", true);
+                /*destrig = camp.GetComponent<DescriptionTrigger>();
                 StartDescription(destrig.description);
-               // CleanSelectInput();
+                CleanSelectInput();*/
 
             }
-            else if (getorder == orders[2])
+            else if (getorder == orders[2]) //est
             {
-
-                destrig = jungle.GetComponent<DescriptionTrigger>();
-                StartDescription(destrig.description);
-               // CleanSelectInput();
+                riviere.GetComponent<Animator>().SetBool("RV", false);
+                jungle.GetComponent<Animator>().SetBool("JG", true);
+                /* destrig = jungle.GetComponent<DescriptionTrigger>();
+                 StartDescription(destrig.description);
+                // CleanSelectInput();*/
 
             }
             else if (getorder == orders[4]) // scan
@@ -199,14 +211,18 @@ public class DescriptionManager : MonoBehaviour
             i = 3;
             if (getorder == orders[1])//sud
             {
-                destrig = riviere.GetComponent<DescriptionTrigger>();
+                camp.GetComponent<Animator>().SetBool("CP", false);
+                riviere.GetComponent<Animator>().SetBool("RV", true);
+               /* destrig = riviere.GetComponent<DescriptionTrigger>();
                 StartDescription(destrig.description);
-               // CleanSelectInput();
+               // CleanSelectInput();*/
 
             }
             else if (getorder == orders[4])
             {
-                
+                camp.GetComponent<Animator>().SetBool("CP", false);
+                //insérer image mort robot
+
                 loading.SetActive(true);
                 loading.GetComponent<Animator>().SetBool("load",true);
                 AkSoundEngine.PostEvent("Robot_Shutdown", gameObject);

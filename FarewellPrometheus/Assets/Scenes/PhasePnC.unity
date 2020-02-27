@@ -8447,6 +8447,11 @@ PrefabInstance:
       propertyPath: transitionPanel
       value: 
       objectReference: {fileID: 396101727}
+    - target: {fileID: 3831250256780748509, guid: d170f83c38cfeb24db6c8832a8b3b568,
+        type: 3}
+      propertyPath: helmetUI
+      value: 
+      objectReference: {fileID: 520079368}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d170f83c38cfeb24db6c8832a8b3b568, type: 3}
 --- !u!95 &1656444925 stripped

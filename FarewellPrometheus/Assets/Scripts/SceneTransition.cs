@@ -14,6 +14,7 @@ public class SceneTransition : MonoBehaviour
     public GameObject transitionPanel;
     public GameObject nextPanel;
     public GameObject continueButton;
+    public GameObject helmetUI;
 
     public int tabNum,transActive;
     private Scene currentScene;
@@ -72,9 +73,13 @@ public class SceneTransition : MonoBehaviour
         yield return new WaitForSeconds(transTime);
 
         currentPanel = manager.GetComponent<CollisionManager>().tab[tabNum];
+
         currentPanel.SetActive(false);
 
+        helmetUI.SetActive(false);
+
         transitionPanel.SetActive(true);
+
         transActive = 1;
 
         transition.SetTrigger("End");
@@ -98,14 +103,17 @@ public class SceneTransition : MonoBehaviour
 
         yield return new WaitForSeconds(nextTransTime);
 
-        
 
         nextPanel = manager.GetComponent<CollisionManager>().tab[tabNum];
+
         nextPanel.SetActive(true);
+
+        helmetUI.SetActive(true);
 
         continueButton.SetActive(false);
 
         transitionPanel.SetActive(false);
+
         transActive = 0; 
 
         transition.SetTrigger("End");

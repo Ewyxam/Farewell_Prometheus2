@@ -6,6 +6,19 @@
 				<Property Name="Color" Type="int16" Value="26"/>
 				<Property Name="OverrideColor" Type="bool" Value="True"/>
 			</PropertyList>
+			<ChildrenList>
+				<Event Name="Dial_PnC_Event" ID="{3EC0FB67-54DB-48B1-B524-23C07C61D4B2}">
+					<ChildrenList>
+						<Action Name="" ID="{FB31BE03-4E81-4005-A79A-D229F7434BD1}" ShortID="14677093">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="P3_Dialogue_Switch" ID="{CE277BE8-A22C-424C-BFF2-04DA5FB6BD67}" WorkUnitID="{8B5CC8D1-983C-408E-A73A-BF68B6A9EC52}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
 		</WorkUnit>
 	</Events>
 </WwiseDocument>

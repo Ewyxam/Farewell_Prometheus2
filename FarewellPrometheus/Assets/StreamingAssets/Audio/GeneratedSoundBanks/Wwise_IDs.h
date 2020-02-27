@@ -21,6 +21,7 @@ namespace AK
         static const AkUniqueID COMPUTER_SCAN = 1307820710U;
         static const AkUniqueID COMPUTER_SHIP_STATUS_EVENT = 3118182193U;
         static const AkUniqueID COMPUTER_START = 2806985083U;
+        static const AkUniqueID DIAL_PNC_EVENT = 274588646U;
         static const AkUniqueID MUSIC_EVENT = 55565095U;
         static const AkUniqueID PASSWORD_RIGHT = 2063851173U;
         static const AkUniqueID PASSWORD_WRONG = 368709004U;
@@ -109,6 +110,29 @@ namespace AK
 
     namespace SWITCHES
     {
+        namespace DIAL_PNC
+        {
+            static const AkUniqueID GROUP = 2674703087U;
+
+            namespace SWITCH
+            {
+                static const AkUniqueID A_I = 278650550U;
+                static const AkUniqueID A_P = 278650543U;
+                static const AkUniqueID CL1_IV_01 = 3468854229U;
+                static const AkUniqueID CP1_V_01 = 3083633036U;
+                static const AkUniqueID CP2_I_04 = 2053732353U;
+                static const AkUniqueID CP2_IV_01 = 2299339674U;
+                static const AkUniqueID CP2_IV_02 = 2299339673U;
+                static const AkUniqueID CP2_V_03 = 2089127831U;
+                static const AkUniqueID G_I = 1351432572U;
+                static const AkUniqueID G_P = 1351432549U;
+                static const AkUniqueID M_I = 1350446818U;
+                static const AkUniqueID M_P = 1350446843U;
+                static const AkUniqueID T_I = 1349313795U;
+                static const AkUniqueID T_P = 1349313818U;
+            } // namespace SWITCH
+        } // namespace DIAL_PNC
+
         namespace DIAL_SWITCH_VOLGA
         {
             static const AkUniqueID GROUP = 1685611120U;

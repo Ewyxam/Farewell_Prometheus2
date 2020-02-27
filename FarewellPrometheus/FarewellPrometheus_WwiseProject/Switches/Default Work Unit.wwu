@@ -50,6 +50,24 @@
 						<Switch Name="z" ID="{AC40BCE5-F9FE-4A8A-BD55-B17E8587F5EE}"/>
 					</ChildrenList>
 				</SwitchGroup>
+				<SwitchGroup Name="Dial_PnC" ID="{AD1CFF19-A147-49CE-825A-1CD85FC276CB}">
+					<ChildrenList>
+						<Switch Name="A_I" ID="{DE7453DF-8138-46BD-B2B5-8E32D452A867}"/>
+						<Switch Name="A_P" ID="{C367D796-46E7-4AF8-B111-386A4C695142}"/>
+						<Switch Name="CL1_IV_01" ID="{E67B91C0-B729-4E0D-8637-E97F126C860C}"/>
+						<Switch Name="CP2_IV_01" ID="{FFBBC562-F8EC-4411-9C61-979C751B5C82}"/>
+						<Switch Name="CP2_IV_02" ID="{161D7A20-D558-4AA0-8648-6629B980D317}"/>
+						<Switch Name="G_I" ID="{4036C336-1525-4710-8155-CE152F05C26E}"/>
+						<Switch Name="G_P" ID="{79B0893F-1873-45AC-8EF8-7FC8D8EFB0C8}"/>
+						<Switch Name="M_I" ID="{A609948C-5F28-4FD5-83D1-50FD4005DF7E}"/>
+						<Switch Name="M_P" ID="{9824D4B5-0E24-4F13-A8DB-DD23E2D1933C}"/>
+						<Switch Name="T_I" ID="{037D2D8C-22A3-4CF2-AC8C-8D817F066874}"/>
+						<Switch Name="T_P" ID="{32A31FB4-2AD9-4EC0-876F-9C184EDF4602}"/>
+						<Switch Name="CP1_V_01" ID="{3A652923-468B-4E6B-BB4B-E6B8D8AF33C9}"/>
+						<Switch Name="CP2_I_04" ID="{39209180-7A86-4794-9300-34060F6DD0B6}"/>
+						<Switch Name="CP2_V_03" ID="{60BB171A-6001-490C-865D-368CFF2B9E28}"/>
+					</ChildrenList>
+				</SwitchGroup>
 			</ChildrenList>
 		</WorkUnit>
 	</Switches>

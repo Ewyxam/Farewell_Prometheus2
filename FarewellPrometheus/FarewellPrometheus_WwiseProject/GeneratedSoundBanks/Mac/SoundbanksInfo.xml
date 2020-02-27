@@ -34,6 +34,7 @@
 				<Event Id="1307820710" Name="Computer_Scan" ObjectPath="\Events\Default Work Unit\Ship\Computer\Computer_Scan" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
 				<Event Id="3118182193" Name="Computer_Ship_Status_Event" ObjectPath="\Events\Default Work Unit\Ship\Computer\Computer_Ship_Status_Event" DurationType="OneShot" DurationMin="11.889375" DurationMax="11.889375"/>
 				<Event Id="2806985083" Name="Computer_Start" ObjectPath="\Events\Default Work Unit\Ship\Computer\Computer_Start" DurationType="OneShot" DurationMin="13.870334" DurationMax="13.870334"/>
+				<Event Id="274588646" Name="Dial_PnC_Event" ObjectPath="\Events\Default Work Unit\Vocal\Dial_PnC_Event" DurationType="OneShot" DurationMin="0.000000" DurationMax="10.262000"/>
 				<Event Id="55565095" Name="Music_Event" ObjectPath="\Events\Default Work Unit\Ship\Music\Music_Event" DurationType="Infinite"/>
 				<Event Id="2063851173" Name="Password_Right" ObjectPath="\Events\Default Work Unit\Ship\Computer\Password\Password_Right" DurationType="OneShot" DurationMin="3.029375" DurationMax="3.029375"/>
 				<Event Id="368709004" Name="Password_Wrong" ObjectPath="\Events\Default Work Unit\Ship\Computer\Password\Password_Wrong" DurationType="OneShot" DurationMin="0.598750" DurationMax="0.598750"/>
@@ -67,13 +68,33 @@
 					<ShortName>VS1_Glass_Touch_SFX-003.wav</ShortName>
 					<Path>SFX\VS1_Glass_Touch_SFX-003_6296B0F9.wem</Path>
 				</File>
+				<File Id="30271061" Language="English(US)">
+					<ShortName>G_I_V_03_SFX.wav</ShortName>
+					<Path>Voices\English(US)\G_I_V_03_SFX_6296B0F9.wem</Path>
+				</File>
+				<File Id="43343087" Language="English(US)">
+					<ShortName>G_I_I_10_SFX.wav</ShortName>
+					<Path>Voices\English(US)\G_I_I_10_SFX_6296B0F9.wem</Path>
+				</File>
 				<File Id="48535772" Language="SFX">
 					<ShortName>VS1_Ship_Status_SFX.wav</ShortName>
 					<Path>SFX\VS1_Ship_Status_SFX_6296B0F9.wem</Path>
 				</File>
+				<File Id="59264625" Language="English(US)">
+					<ShortName>CP2_I_01_SFX.wav</ShortName>
+					<Path>Voices\English(US)\CP2_I_01_SFX_6296B0F9.wem</Path>
+				</File>
 				<File Id="62054156" Language="SFX">
 					<ShortName>Jungle_Birds_AMB_SFX_13.wav</ShortName>
 					<Path>SFX\Jungle_Birds_AMB_SFX_13_6296B0F9.wem</Path>
+				</File>
+				<File Id="65324810" Language="English(US)">
+					<ShortName>M_P_V_09_SFX.wav</ShortName>
+					<Path>Voices\English(US)\M_P_V_09_SFX_6296B0F9.wem</Path>
+				</File>
+				<File Id="66918183" Language="English(US)">
+					<ShortName>T_I_V_01_SFX.wav</ShortName>
+					<Path>Voices\English(US)\T_I_V_01_SFX_6296B0F9.wem</Path>
 				</File>
 				<File Id="67935681" Language="SFX">
 					<ShortName>VS1_Glass_Touch_SFX-001.wav</ShortName>
@@ -91,9 +112,17 @@
 					<ShortName>RV1_Herbivores_03_SFX-002.wav</ShortName>
 					<Path>SFX\RV1_Herbivores_03_SFX-002_6296B0F9.wem</Path>
 				</File>
+				<File Id="80573514" Language="English(US)">
+					<ShortName>G_I_V_09_SFX.wav</ShortName>
+					<Path>Voices\English(US)\G_I_V_09_SFX_6296B0F9.wem</Path>
+				</File>
 				<File Id="95564716" Language="SFX">
 					<ShortName>Ship_Drone_AMB_03_SFX.wav</ShortName>
 					<Path>SFX\Ship_Drone_AMB_03_SFX_9B96ECC7.wem</Path>
+				</File>
+				<File Id="101648699" Language="English(US)">
+					<ShortName>M_P_V_01_SFX.wav</ShortName>
+					<Path>Voices\English(US)\M_P_V_01_SFX_6296B0F9.wem</Path>
 				</File>
 				<File Id="104157524" Language="SFX">
 					<ShortName>Beep_02_SFX.wav</ShortName>
@@ -127,6 +156,10 @@
 					<ShortName>Mus_Trans_SFX-003.wav</ShortName>
 					<Path>SFX\Mus_Trans_SFX-003_6296B0F9.wem</Path>
 				</File>
+				<File Id="158495881" Language="English(US)">
+					<ShortName>M_P_V_07_SFX.wav</ShortName>
+					<Path>Voices\English(US)\M_P_V_07_SFX_6296B0F9.wem</Path>
+				</File>
 				<File Id="162766254" Language="SFX">
 					<ShortName>Pause_Menu_Button_Click_SFX-001.wav</ShortName>
 					<Path>SFX\Pause_Menu_Button_Click_SFX-001_6296B0F9.wem</Path>
@@ -147,9 +180,17 @@
 					<ShortName>RV1_River_Fall_01_SFX.wav</ShortName>
 					<Path>SFX\RV1_River_Fall_01_SFX_9B96ECC7.wem</Path>
 				</File>
+				<File Id="183390701" Language="English(US)">
+					<ShortName>G_I_V_01_SFX.wav</ShortName>
+					<Path>Voices\English(US)\G_I_V_01_SFX_6296B0F9.wem</Path>
+				</File>
 				<File Id="186001920" Language="SFX">
 					<ShortName>RV1_Herbivores_03_SFX-003.wav</ShortName>
 					<Path>SFX\RV1_Herbivores_03_SFX-003_6296B0F9.wem</Path>
+				</File>
+				<File Id="189954576" Language="English(US)">
+					<ShortName>G_I_V_02_SFX.wav</ShortName>
+					<Path>Voices\English(US)\G_I_V_02_SFX_6296B0F9.wem</Path>
 				</File>
 				<File Id="193175859" Language="SFX">
 					<ShortName>RV1_Herbivores_02_SFX-003.wav</ShortName>
@@ -158,6 +199,18 @@
 				<File Id="203544195" Language="SFX">
 					<ShortName>Ship_Metal_Raking_SFX_02.wav</ShortName>
 					<Path>SFX\Ship_Metal_Raking_SFX_02_6296B0F9.wem</Path>
+				</File>
+				<File Id="206538902" Language="English(US)">
+					<ShortName>G_I_I_03_SFX.wav</ShortName>
+					<Path>Voices\English(US)\G_I_I_03_SFX_6296B0F9.wem</Path>
+				</File>
+				<File Id="207831435" Language="English(US)">
+					<ShortName>A_P_I_01_SFX.wav</ShortName>
+					<Path>Voices\English(US)\A_P_I_01_SFX_6296B0F9.wem</Path>
+				</File>
+				<File Id="225926906" Language="English(US)">
+					<ShortName>CL1_I_02_SFX.wav</ShortName>
+					<Path>Voices\English(US)\CL1_I_02_SFX_6296B0F9.wem</Path>
 				</File>
 				<File Id="235575294" Language="SFX">
 					<ShortName>Woosh_Trans_02_SFX.wav</ShortName>
@@ -175,9 +228,29 @@
 					<ShortName>CL1_Lemur_01_AMB_SFX.wav</ShortName>
 					<Path>SFX\CL1_Lemur_01_AMB_SFX_6296B0F9.wem</Path>
 				</File>
+				<File Id="272771483" Language="English(US)">
+					<ShortName>G_I_I_09_SFX.wav</ShortName>
+					<Path>Voices\English(US)\G_I_I_09_SFX_6296B0F9.wem</Path>
+				</File>
+				<File Id="279855426" Language="English(US)">
+					<ShortName>T_I_I_01_SFX.wav</ShortName>
+					<Path>Voices\English(US)\T_I_I_01_SFX_6296B0F9.wem</Path>
+				</File>
 				<File Id="281127686" Language="SFX">
 					<ShortName>Title.wav</ShortName>
 					<Path>SFX\Title_9B96ECC7.wem</Path>
+				</File>
+				<File Id="288447658" Language="English(US)">
+					<ShortName>A_I_I_01_SFX.wav</ShortName>
+					<Path>Voices\English(US)\A_I_I_01_SFX_6296B0F9.wem</Path>
+				</File>
+				<File Id="293789964" Language="English(US)">
+					<ShortName>M_P_I_07_SFX.wav</ShortName>
+					<Path>Voices\English(US)\M_P_I_07_SFX_6296B0F9.wem</Path>
+				</File>
+				<File Id="301549811" Language="English(US)">
+					<ShortName>M_P_V_10_SFX.wav</ShortName>
+					<Path>Voices\English(US)\M_P_V_10_SFX_6296B0F9.wem</Path>
 				</File>
 				<File Id="302976512" Language="SFX">
 					<ShortName>Jungle_Birds_AMB_SFX_07.wav</ShortName>
@@ -215,9 +288,21 @@
 					<ShortName>RV1_River_Stream_01_SFX.wav</ShortName>
 					<Path>SFX\RV1_River_Stream_01_SFX_9B96ECC7.wem</Path>
 				</File>
+				<File Id="350507638" Language="English(US)">
+					<ShortName>A_I_V_03_SFX.wav</ShortName>
+					<Path>Voices\English(US)\A_I_V_03_SFX_6296B0F9.wem</Path>
+				</File>
+				<File Id="355673514" Language="English(US)">
+					<ShortName>M_P_I_03_SFX.wav</ShortName>
+					<Path>Voices\English(US)\M_P_I_03_SFX_6296B0F9.wem</Path>
+				</File>
 				<File Id="360212279" Language="SFX">
 					<ShortName>GR1_Water_Droplets_AMB_01_SFX-008.wav</ShortName>
 					<Path>SFX\GR1_Water_Droplets_AMB_01_SFX-008_6296B0F9.wem</Path>
+				</File>
+				<File Id="361517402" Language="English(US)">
+					<ShortName>CL1_I_01_SFX.wav</ShortName>
+					<Path>Voices\English(US)\CL1_I_01_SFX_6296B0F9.wem</Path>
 				</File>
 				<File Id="364829914" Language="SFX">
 					<ShortName>Pause_Menu_Button_Hover_SFX-001.wav</ShortName>
@@ -226,6 +311,10 @@
 				<File Id="366017084" Language="SFX">
 					<ShortName>RV1_Frogs_01_SFX.wav</ShortName>
 					<Path>SFX\RV1_Frogs_01_SFX_9B96ECC7.wem</Path>
+				</File>
+				<File Id="367163915" Language="English(US)">
+					<ShortName>M_P_I_06_SFX.wav</ShortName>
+					<Path>Voices\English(US)\M_P_I_06_SFX_6296B0F9.wem</Path>
 				</File>
 				<File Id="367872868" Language="SFX">
 					<ShortName>Calendar_Handle_02_SFX.wav</ShortName>
@@ -263,6 +352,10 @@
 					<ShortName>Ship_Metal_Raking_SFX_04.wav</ShortName>
 					<Path>SFX\Ship_Metal_Raking_SFX_04_6296B0F9.wem</Path>
 				</File>
+				<File Id="441012250" Language="English(US)">
+					<ShortName>G_P_I_01_SFX.wav</ShortName>
+					<Path>Voices\English(US)\G_P_I_01_SFX_6296B0F9.wem</Path>
+				</File>
 				<File Id="449853820" Language="SFX">
 					<ShortName>VS1_Glass_Touch_SFX-004.wav</ShortName>
 					<Path>SFX\VS1_Glass_Touch_SFX-004_6296B0F9.wem</Path>
@@ -270,6 +363,22 @@
 				<File Id="453477331" Language="SFX">
 					<ShortName>Calendar_Handle_03_SFX.wav</ShortName>
 					<Path>SFX\Calendar_Handle_03_SFX_6296B0F9.wem</Path>
+				</File>
+				<File Id="455191400" Language="English(US)">
+					<ShortName>G_I_V_05_SFX.wav</ShortName>
+					<Path>Voices\English(US)\G_I_V_05_SFX_6296B0F9.wem</Path>
+				</File>
+				<File Id="455927380" Language="English(US)">
+					<ShortName>G_I_V_04_SFX.wav</ShortName>
+					<Path>Voices\English(US)\G_I_V_04_SFX_6296B0F9.wem</Path>
+				</File>
+				<File Id="477595540" Language="English(US)">
+					<ShortName>G_I_I_11_SFX.wav</ShortName>
+					<Path>Voices\English(US)\G_I_I_11_SFX_6296B0F9.wem</Path>
+				</File>
+				<File Id="478439666" Language="English(US)">
+					<ShortName>A_I_I_02_SFX.wav</ShortName>
+					<Path>Voices\English(US)\A_I_I_02_SFX_6296B0F9.wem</Path>
 				</File>
 				<File Id="493050855" Language="SFX">
 					<ShortName>Jungle_Birds_AMB_SFX_09.wav</ShortName>
@@ -279,6 +388,10 @@
 					<ShortName>Computer_button_hover_8kHz_03_SFX.wav</ShortName>
 					<Path>SFX\Computer_button_hover_8kHz_03_SFX_6296B0F9.wem</Path>
 				</File>
+				<File Id="499158827" Language="English(US)">
+					<ShortName>M_P_V_02_SFX.wav</ShortName>
+					<Path>Voices\English(US)\M_P_V_02_SFX_6296B0F9.wem</Path>
+				</File>
 				<File Id="499212742" Language="English(US)">
 					<ShortName>Volga_P1_Dial_08-01.wav</ShortName>
 					<Path>Voices\English(US)\Volga_P1_Dial_08-01_6296B0F9.wem</Path>
@@ -287,9 +400,17 @@
 					<ShortName>CL1_Wind_Gust_04_AMB_SFX.wav</ShortName>
 					<Path>SFX\CL1_Wind_Gust_04_AMB_SFX_6296B0F9.wem</Path>
 				</File>
+				<File Id="506193140" Language="English(US)">
+					<ShortName>A_I_I_03_SFX.wav</ShortName>
+					<Path>Voices\English(US)\A_I_I_03_SFX_6296B0F9.wem</Path>
+				</File>
 				<File Id="509023897" Language="English(US)">
 					<ShortName>Volga_P1_Dial_05-03.wav</ShortName>
 					<Path>Voices\English(US)\Volga_P1_Dial_05-03_6296B0F9.wem</Path>
+				</File>
+				<File Id="509316171" Language="English(US)">
+					<ShortName>CL1_V_01_SFX.wav</ShortName>
+					<Path>Voices\English(US)\CL1_V_01_SFX_6296B0F9.wem</Path>
 				</File>
 				<File Id="522560959" Language="English(US)">
 					<ShortName>Volga_P1_Dial_08-03.wav</ShortName>
@@ -298,6 +419,22 @@
 				<File Id="523997991" Language="SFX">
 					<ShortName>RV1_Herbivores_03_SFX-004.wav</ShortName>
 					<Path>SFX\RV1_Herbivores_03_SFX-004_6296B0F9.wem</Path>
+				</File>
+				<File Id="532027127" Language="English(US)">
+					<ShortName>CP2_V_01_SFX.wav</ShortName>
+					<Path>Voices\English(US)\CP2_V_01_SFX_6296B0F9.wem</Path>
+				</File>
+				<File Id="537912215" Language="English(US)">
+					<ShortName>A_I_V_02_SFX.wav</ShortName>
+					<Path>Voices\English(US)\A_I_V_02_SFX_6296B0F9.wem</Path>
+				</File>
+				<File Id="542831319" Language="English(US)">
+					<ShortName>CP2_I_02_SFX.wav</ShortName>
+					<Path>Voices\English(US)\CP2_I_02_SFX_6296B0F9.wem</Path>
+				</File>
+				<File Id="544427862" Language="English(US)">
+					<ShortName>M_P_V_04_SFX.wav</ShortName>
+					<Path>Voices\English(US)\M_P_V_04_SFX_6296B0F9.wem</Path>
 				</File>
 				<File Id="551593222" Language="SFX">
 					<ShortName>Robot_Scan_SFX.wav</ShortName>
@@ -335,6 +472,18 @@
 					<ShortName>RV1_Herbivores_02_SFX-001.wav</ShortName>
 					<Path>SFX\RV1_Herbivores_02_SFX-001_6296B0F9.wem</Path>
 				</File>
+				<File Id="596224386" Language="English(US)">
+					<ShortName>M_P_I_04_SFX.wav</ShortName>
+					<Path>Voices\English(US)\M_P_I_04_SFX_6296B0F9.wem</Path>
+				</File>
+				<File Id="596802320" Language="English(US)">
+					<ShortName>CP1_V_01_SFX.wav</ShortName>
+					<Path>Voices\English(US)\CP1_V_01_SFX_6296B0F9.wem</Path>
+				</File>
+				<File Id="598058560" Language="English(US)">
+					<ShortName>G_I_I_04_SFX.wav</ShortName>
+					<Path>Voices\English(US)\G_I_I_04_SFX_6296B0F9.wem</Path>
+				</File>
 				<File Id="598820659" Language="SFX">
 					<ShortName>JG1_Bush_Rustle_03_AMB_SFX.wav</ShortName>
 					<Path>SFX\JG1_Bush_Rustle_03_AMB_SFX_6296B0F9.wem</Path>
@@ -359,6 +508,10 @@
 					<ShortName>Computer_Good_Password_SFX.wav</ShortName>
 					<Path>SFX\Computer_Good_Password_SFX_6296B0F9.wem</Path>
 				</File>
+				<File Id="650873952" Language="English(US)">
+					<ShortName>G_I_I_07_SFX.wav</ShortName>
+					<Path>Voices\English(US)\G_I_I_07_SFX_6296B0F9.wem</Path>
+				</File>
 				<File Id="651215527" Language="SFX">
 					<ShortName>Stasis.wav</ShortName>
 					<Path>SFX\Stasis_9B96ECC7.wem</Path>
@@ -375,6 +528,10 @@
 					<ShortName>CP2_Wind_AMB_SFX.wav</ShortName>
 					<Path>SFX\CP2_Wind_AMB_SFX_9B96ECC7.wem</Path>
 				</File>
+				<File Id="669848874" Language="English(US)">
+					<ShortName>G_I_V_07_SFX.wav</ShortName>
+					<Path>Voices\English(US)\G_I_V_07_SFX_6296B0F9.wem</Path>
+				</File>
 				<File Id="671115657" Language="SFX">
 					<ShortName>Robot_Operational_SFX.wav</ShortName>
 					<Path>SFX\Robot_Operational_SFX_6296B0F9.wem</Path>
@@ -386,6 +543,10 @@
 				<File Id="676221751" Language="English(US)">
 					<ShortName>Volga_P1_Dial_07-01.wav</ShortName>
 					<Path>Voices\English(US)\Volga_P1_Dial_07-01_6296B0F9.wem</Path>
+				</File>
+				<File Id="685171884" Language="English(US)">
+					<ShortName>M_P_V_06_SFX.wav</ShortName>
+					<Path>Voices\English(US)\M_P_V_06_SFX_6296B0F9.wem</Path>
 				</File>
 				<File Id="688158455" Language="SFX">
 					<ShortName>CL1_Wind_Gust_03_AMB_SFX.wav</ShortName>
@@ -399,6 +560,14 @@
 					<ShortName>Paper_Handle_03_SFX.wav</ShortName>
 					<Path>SFX\Paper_Handle_03_SFX_6296B0F9.wem</Path>
 				</File>
+				<File Id="707230090" Language="English(US)">
+					<ShortName>A_I_V_04_SFX.wav</ShortName>
+					<Path>Voices\English(US)\A_I_V_04_SFX_6296B0F9.wem</Path>
+				</File>
+				<File Id="711397581" Language="English(US)">
+					<ShortName>A_P_I_02_SFX.wav</ShortName>
+					<Path>Voices\English(US)\A_P_I_02_SFX_6296B0F9.wem</Path>
+				</File>
 				<File Id="713839033" Language="SFX">
 					<ShortName>Paper_Handle_ 01_SFX.wav</ShortName>
 					<Path>SFX\Paper_Handle_ 01_SFX_6296B0F9.wem</Path>
@@ -411,6 +580,10 @@
 					<ShortName>Computer_button_hover_8kHz_01_SFX.wav</ShortName>
 					<Path>SFX\Computer_button_hover_8kHz_01_SFX_6296B0F9.wem</Path>
 				</File>
+				<File Id="719241179" Language="English(US)">
+					<ShortName>CP2_I_04_SFX.wav</ShortName>
+					<Path>Voices\English(US)\CP2_I_04_SFX_6296B0F9.wem</Path>
+				</File>
 				<File Id="725777237" Language="SFX">
 					<ShortName>Pause_Menu_Button_Hover_SFX-004.wav</ShortName>
 					<Path>SFX\Pause_Menu_Button_Hover_SFX-004_6296B0F9.wem</Path>
@@ -419,6 +592,10 @@
 					<ShortName>Volga_P1_Dial_04-01.wav</ShortName>
 					<Path>Voices\English(US)\Volga_P1_Dial_04-01_6296B0F9.wem</Path>
 				</File>
+				<File Id="741571307" Language="English(US)">
+					<ShortName>M_P_I_08_SFX.wav</ShortName>
+					<Path>Voices\English(US)\M_P_I_08_SFX_6296B0F9.wem</Path>
+				</File>
 				<File Id="743703861" Language="SFX">
 					<ShortName>Jungle_Birds_AMB_SFX_10.wav</ShortName>
 					<Path>SFX\Jungle_Birds_AMB_SFX_10_6296B0F9.wem</Path>
@@ -426,6 +603,10 @@
 				<File Id="747958361" Language="SFX">
 					<ShortName>Ship_Drone_AMB_02_SFX.wav</ShortName>
 					<Path>SFX\Ship_Drone_AMB_02_SFX_9B96ECC7.wem</Path>
+				</File>
+				<File Id="748114335" Language="English(US)">
+					<ShortName>CP2_I_03_SFX.wav</ShortName>
+					<Path>Voices\English(US)\CP2_I_03_SFX_6296B0F9.wem</Path>
 				</File>
 				<File Id="759164687" Language="English(US)">
 					<ShortName>Volga_P1_Dial_02-02.wav</ShortName>
@@ -442,6 +623,10 @@
 				<File Id="772294689" Language="SFX">
 					<ShortName>GR1_Water_Droplets_AMB_01_SFX-006.wav</ShortName>
 					<Path>SFX\GR1_Water_Droplets_AMB_01_SFX-006_6296B0F9.wem</Path>
+				</File>
+				<File Id="775606542" Language="English(US)">
+					<ShortName>M_I_I_01_SFX.wav</ShortName>
+					<Path>Voices\English(US)\M_I_I_01_SFX_6296B0F9.wem</Path>
 				</File>
 				<File Id="776657558" Language="English(US)">
 					<ShortName>Volga_P1_Dial_06-02.wav</ShortName>
@@ -467,6 +652,10 @@
 					<ShortName>Volga_P1_Dial_04-04.wav</ShortName>
 					<Path>Voices\English(US)\Volga_P1_Dial_04-04_6296B0F9.wem</Path>
 				</File>
+				<File Id="833011020" Language="English(US)">
+					<ShortName>A_I_V_05_SFX.wav</ShortName>
+					<Path>Voices\English(US)\A_I_V_05_SFX_6296B0F9.wem</Path>
+				</File>
 				<File Id="836031310" Language="SFX">
 					<ShortName>CL1_Insects_02_AMB_SFX.wav</ShortName>
 					<Path>SFX\CL1_Insects_02_AMB_SFX_9B96ECC7.wem</Path>
@@ -483,6 +672,10 @@
 					<ShortName>Volga_P1_Dial_04-02.wav</ShortName>
 					<Path>Voices\English(US)\Volga_P1_Dial_04-02_6296B0F9.wem</Path>
 				</File>
+				<File Id="848659323" Language="English(US)">
+					<ShortName>G_I_I_08_SFX.wav</ShortName>
+					<Path>Voices\English(US)\G_I_I_08_SFX_6296B0F9.wem</Path>
+				</File>
 				<File Id="852074441" Language="SFX">
 					<ShortName>JG1_Bush_Rustle_02_AMB_SFX.wav</ShortName>
 					<Path>SFX\JG1_Bush_Rustle_02_AMB_SFX_6296B0F9.wem</Path>
@@ -490,6 +683,14 @@
 				<File Id="852947000" Language="SFX">
 					<ShortName>JG1_Wind_01_AMB_SFX.wav</ShortName>
 					<Path>SFX\JG1_Wind_01_AMB_SFX_9B96ECC7.wem</Path>
+				</File>
+				<File Id="855105975" Language="English(US)">
+					<ShortName>CP2_V_03_SFX.wav</ShortName>
+					<Path>Voices\English(US)\CP2_V_03_SFX_6296B0F9.wem</Path>
+				</File>
+				<File Id="858750439" Language="English(US)">
+					<ShortName>M_P_I_02_SFX.wav</ShortName>
+					<Path>Voices\English(US)\M_P_I_02_SFX_6296B0F9.wem</Path>
 				</File>
 				<File Id="861117954" Language="SFX">
 					<ShortName>Computer_button_hover_8kHz_02_SFX.wav</ShortName>
@@ -503,6 +704,10 @@
 					<ShortName>JG1_Bush_Rustle_01_AMB_SFX.wav</ShortName>
 					<Path>SFX\JG1_Bush_Rustle_01_AMB_SFX_6296B0F9.wem</Path>
 				</File>
+				<File Id="885646703" Language="English(US)">
+					<ShortName>M_P_I_05_SFX.wav</ShortName>
+					<Path>Voices\English(US)\M_P_I_05_SFX_6296B0F9.wem</Path>
+				</File>
 				<File Id="894220143" Language="SFX">
 					<ShortName>Paper_Handle_02_SFX.wav</ShortName>
 					<Path>SFX\Paper_Handle_02_SFX_6296B0F9.wem</Path>
@@ -511,9 +716,25 @@
 					<ShortName>Mus_Trans_SFX-005.wav</ShortName>
 					<Path>SFX\Mus_Trans_SFX-005_6296B0F9.wem</Path>
 				</File>
+				<File Id="906107021" Language="English(US)">
+					<ShortName>M_P_V_05_SFX.wav</ShortName>
+					<Path>Voices\English(US)\M_P_V_05_SFX_6296B0F9.wem</Path>
+				</File>
 				<File Id="912199970" Language="English(US)">
 					<ShortName>Volga_P1_Dial_04-03.wav</ShortName>
 					<Path>Voices\English(US)\Volga_P1_Dial_04-03_6296B0F9.wem</Path>
+				</File>
+				<File Id="924268277" Language="English(US)">
+					<ShortName>G_P_V_01_SFX.wav</ShortName>
+					<Path>Voices\English(US)\G_P_V_01_SFX_6296B0F9.wem</Path>
+				</File>
+				<File Id="929766036" Language="English(US)">
+					<ShortName>G_I_V_06_SFX.wav</ShortName>
+					<Path>Voices\English(US)\G_I_V_06_SFX_6296B0F9.wem</Path>
+				</File>
+				<File Id="934651210" Language="English(US)">
+					<ShortName>M_P_V_03_SFX.wav</ShortName>
+					<Path>Voices\English(US)\M_P_V_03_SFX_6296B0F9.wem</Path>
 				</File>
 				<File Id="937155187" Language="SFX">
 					<ShortName>Ship_Wind_AMB_SFX.wav</ShortName>
@@ -523,13 +744,33 @@
 					<ShortName>Computer_button_click_8kHz_03_SFX.wav</ShortName>
 					<Path>SFX\Computer_button_click_8kHz_03_SFX_6296B0F9.wem</Path>
 				</File>
+				<File Id="940017338" Language="English(US)">
+					<ShortName>G_I_V_08_SFX.wav</ShortName>
+					<Path>Voices\English(US)\G_I_V_08_SFX_6296B0F9.wem</Path>
+				</File>
 				<File Id="940736400" Language="SFX">
 					<ShortName>VS1_Glass_Touch_SFX-002.wav</ShortName>
 					<Path>SFX\VS1_Glass_Touch_SFX-002_6296B0F9.wem</Path>
 				</File>
+				<File Id="955906009" Language="English(US)">
+					<ShortName>G_I_I_05_SFX.wav</ShortName>
+					<Path>Voices\English(US)\G_I_I_05_SFX_6296B0F9.wem</Path>
+				</File>
+				<File Id="956094160" Language="English(US)">
+					<ShortName>M_P_I_01_SFX.wav</ShortName>
+					<Path>Voices\English(US)\M_P_I_01_SFX_6296B0F9.wem</Path>
+				</File>
+				<File Id="961428073" Language="English(US)">
+					<ShortName>G_I_I_02_SFX.wav</ShortName>
+					<Path>Voices\English(US)\G_I_I_02_SFX_6296B0F9.wem</Path>
+				</File>
 				<File Id="967619636" Language="SFX">
 					<ShortName>Calendar_Handle_01_SFX.wav</ShortName>
 					<Path>SFX\Calendar_Handle_01_SFX_6296B0F9.wem</Path>
+				</File>
+				<File Id="968780010" Language="English(US)">
+					<ShortName>CP2_V_02_SFX.wav</ShortName>
+					<Path>Voices\English(US)\CP2_V_02_SFX_6296B0F9.wem</Path>
 				</File>
 				<File Id="971501856" Language="SFX">
 					<ShortName>RV1_Herbivores_02_SFX-002.wav</ShortName>
@@ -551,6 +792,10 @@
 					<ShortName>GR1_Water_Droplets_AMB_01_SFX-005.wav</ShortName>
 					<Path>SFX\GR1_Water_Droplets_AMB_01_SFX-005_6296B0F9.wem</Path>
 				</File>
+				<File Id="1022852983" Language="English(US)">
+					<ShortName>G_P_V_02_SFX.wav</ShortName>
+					<Path>Voices\English(US)\G_P_V_02_SFX_6296B0F9.wem</Path>
+				</File>
 				<File Id="1032451729" Language="English(US)">
 					<ShortName>Volga_P1_Dial_06-01.wav</ShortName>
 					<Path>Voices\English(US)\Volga_P1_Dial_06-01_6296B0F9.wem</Path>
@@ -559,9 +804,29 @@
 					<ShortName>CL1_Wind_Gust_01_AMB_SFX.wav</ShortName>
 					<Path>SFX\CL1_Wind_Gust_01_AMB_SFX_6296B0F9.wem</Path>
 				</File>
+				<File Id="1042235609" Language="English(US)">
+					<ShortName>G_I_I_01_SFX.wav</ShortName>
+					<Path>Voices\English(US)\G_I_I_01_SFX_6296B0F9.wem</Path>
+				</File>
+				<File Id="1043145829" Language="English(US)">
+					<ShortName>G_I_I_06_SFX.wav</ShortName>
+					<Path>Voices\English(US)\G_I_I_06_SFX_6296B0F9.wem</Path>
+				</File>
 				<File Id="1044156567" Language="SFX">
 					<ShortName>Jungle_Birds_AMB_SFX_06.wav</ShortName>
 					<Path>SFX\Jungle_Birds_AMB_SFX_06_6296B0F9.wem</Path>
+				</File>
+				<File Id="1062184206" Language="English(US)">
+					<ShortName>M_P_V_08_SFX.wav</ShortName>
+					<Path>Voices\English(US)\M_P_V_08_SFX_6296B0F9.wem</Path>
+				</File>
+				<File Id="1070231304" Language="English(US)">
+					<ShortName>G_P_V_03_SFX.wav</ShortName>
+					<Path>Voices\English(US)\G_P_V_03_SFX_6296B0F9.wem</Path>
+				</File>
+				<File Id="1072415130" Language="English(US)">
+					<ShortName>A_I_V_01_SFX.wav</ShortName>
+					<Path>Voices\English(US)\A_I_V_01_SFX_6296B0F9.wem</Path>
 				</File>
 			</IncludedMemoryFiles>
 		</SoundBank>

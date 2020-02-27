@@ -7,7 +7,7 @@
 				<Property Name="OverrideColor" Type="bool" Value="True"/>
 			</PropertyList>
 			<ChildrenList>
-				<Folder Name="Menu" ID="{4F868A32-8569-4B10-B931-1F74964D02AB}" ShortID="405013166">
+				<Folder Name="UI" ID="{4F868A32-8569-4B10-B931-1F74964D02AB}" ShortID="405013166">
 					<ChildrenList>
 						<Folder Name="Pause_Menu" ID="{A4ADC85F-0AF8-47DA-BF00-1F0E032F4909}" ShortID="451372523">
 							<ChildrenList>
@@ -33,6 +33,12 @@
 										</Action>
 									</ChildrenList>
 								</Event>
+							</ChildrenList>
+						</Folder>
+						<Folder Name="Inventory" ID="{789E0D1C-5685-4199-94C1-3EC074544746}" ShortID="89133138">
+							<ChildrenList>
+								<Event Name="Open_Inventory" ID="{7A93CF7C-54C0-47EB-BF7F-AFD78A0200D8}"/>
+								<Event Name="Close_Inventory" ID="{1CB2E065-F271-4CA7-AD6C-5AC47D90B4E0}"/>
 							</ChildrenList>
 						</Folder>
 					</ChildrenList>

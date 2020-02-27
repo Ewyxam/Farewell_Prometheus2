@@ -56,6 +56,7 @@ public class DescriptionManager : MonoBehaviour
 
         StopAllCoroutines();
         StartCoroutine(TypeSentence(descline));
+        
     }
 
     IEnumerator TypeSentence(string descline)
@@ -65,9 +66,11 @@ public class DescriptionManager : MonoBehaviour
         foreach (char letter in descline) //isoler les lettres pour les mettre une a une pour apparaitre petit à petit avec un delai
         {
             descriptionText.text += letter;
-            yield return new WaitForSeconds(.02f);
+            yield return new WaitForSeconds(.01f);
 
         }
+        CleanSelectInput();
+
     }
 
     public void EndDescription()
@@ -103,7 +106,7 @@ public class DescriptionManager : MonoBehaviour
 
                 destrig = clairiere.GetComponent<DescriptionTrigger>();
                 StartDescription(destrig.description);
-                CleanSelectInput();
+                //CleanSelectInput();
                 AkSoundEngine.PostEvent("Robot_Operational", gameObject);
 
             }
@@ -118,14 +121,14 @@ public class DescriptionManager : MonoBehaviour
             {
                 destrig = jungle.GetComponent<DescriptionTrigger>();
                 StartDescription(destrig.description);
-                CleanSelectInput();
+               // CleanSelectInput();
 
             }
             else if (getorder == orders[4]) // scan
             {
 
                 LaunchScan();
-                CleanSelectInput();
+               // CleanSelectInput();
 
             }
             else DisplayErrorOrder();
@@ -140,7 +143,7 @@ public class DescriptionManager : MonoBehaviour
             {
                 destrig = riviere.GetComponent<DescriptionTrigger>();
                 StartDescription(destrig.description);
-                CleanSelectInput();
+               // CleanSelectInput();
 
             }
             else if (getorder == orders[1])
@@ -148,14 +151,14 @@ public class DescriptionManager : MonoBehaviour
 
                 destrig = clairiere.GetComponent<DescriptionTrigger>();
                 StartDescription(destrig.description);
-                CleanSelectInput();
+               // CleanSelectInput();
 
             }
             else if (getorder == orders[4]) // scan
             {
 
                 LaunchScan();
-                CleanSelectInput();
+               // CleanSelectInput();
 
             }
             else DisplayErrorOrder();
@@ -169,7 +172,7 @@ public class DescriptionManager : MonoBehaviour
             {
                 destrig = camp.GetComponent<DescriptionTrigger>();
                 StartDescription(destrig.description);
-                CleanSelectInput();
+               // CleanSelectInput();
 
             }
             else if (getorder == orders[2])
@@ -177,14 +180,14 @@ public class DescriptionManager : MonoBehaviour
 
                 destrig = jungle.GetComponent<DescriptionTrigger>();
                 StartDescription(destrig.description);
-                CleanSelectInput();
+               // CleanSelectInput();
 
             }
             else if (getorder == orders[4]) // scan
             {
 
                 LaunchScan();
-                CleanSelectInput();
+               // CleanSelectInput();
 
             }
             else DisplayErrorOrder();
@@ -198,7 +201,7 @@ public class DescriptionManager : MonoBehaviour
             {
                 destrig = riviere.GetComponent<DescriptionTrigger>();
                 StartDescription(destrig.description);
-                CleanSelectInput();
+               // CleanSelectInput();
 
             }
             else if (getorder == orders[4])
@@ -223,6 +226,7 @@ public class DescriptionManager : MonoBehaviour
 
     public void CleanSelectInput()
     {
+
         orderfield.Select();
         orderfield.text = "";
         getorder = "";
@@ -236,7 +240,8 @@ public class DescriptionManager : MonoBehaviour
         if (i == 3)
         {
             loading.SetActive(false);
-            CleanSelectInput();
+            //CleanSelectInput();
+
             //AkSoundEngine.PostEvent("Robot_Shutdown", gameObject);
         }
         else
@@ -252,7 +257,7 @@ public class DescriptionManager : MonoBehaviour
 
         destrig = scan[i].GetComponentInParent<DescriptionTrigger>();
         StartDescription(destrig.description);
-        CleanSelectInput();
+       // CleanSelectInput();
 
     }
 

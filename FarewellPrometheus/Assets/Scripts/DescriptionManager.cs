@@ -179,8 +179,8 @@ public class DescriptionManager : MonoBehaviour
             i = 2;
             if (getorder == orders[0])//nord
             {
-                riviere.GetComponent<Animator>().SetBool("JG", false);
-                camp.GetComponent<Animator>().SetBool("CL", true);
+                riviere.GetComponent<Animator>().SetBool("RV", false);
+                camp.GetComponent<Animator>().SetBool("CP", true);
                 /*destrig = camp.GetComponent<DescriptionTrigger>();
                 StartDescription(destrig.description);
                 CleanSelectInput();*/
@@ -220,10 +220,13 @@ public class DescriptionManager : MonoBehaviour
             }
             else if (getorder == orders[4])
             {
-                camp.GetComponent<Animator>().SetBool("CP", false);
+                
+               
                 //insérer image mort robot
 
                 loading.SetActive(true);
+                camp.GetComponent<Animator>().SetBool("CP", false);
+                scan[i].GetComponent<Animator>().SetBool("RB", true);
                 loading.GetComponent<Animator>().SetBool("load",true);
                 AkSoundEngine.PostEvent("Robot_Shutdown", gameObject);
  

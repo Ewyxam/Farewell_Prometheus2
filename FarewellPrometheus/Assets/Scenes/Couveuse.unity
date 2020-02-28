@@ -146,12 +146,12 @@ RectTransform:
   m_GameObject: {fileID: 26108620}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.6000001, y: 0.6000001, z: 1}
+  m_LocalScale: {x: 0.6, y: 0.6, z: 1}
   m_Children:
   - {fileID: 2125103284}
   - {fileID: 1163597490}
-  m_Father: {fileID: 1977750738}
-  m_RootOrder: 2
+  m_Father: {fileID: 1472108210}
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
@@ -301,6 +301,7 @@ GameObject:
   - component: {fileID: 137690869}
   - component: {fileID: 137690868}
   - component: {fileID: 137690867}
+  - component: {fileID: 137690870}
   m_Layer: 5
   m_Name: Button3BasGauche
   m_TagString: Untagged
@@ -403,6 +404,17 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 137690870}
+        m_MethodName: OnClick
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &137690868
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -439,6 +451,30 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 137690865}
   m_CullTransparentMesh: 0
+--- !u!114 &137690870
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 137690865}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7b26096c615269641b5ad8ad82fc251c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  clickEvent:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: f37c610dafe63354eba73eaf3573c72a,
+      type: 2}
+  hoverEvent:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 40db291a8b0bf204a91fbee8970d6a23,
+      type: 2}
+  StateGroup: Volga_Dial_P1
+  State: 
 --- !u!1 &142488517
 GameObject:
   m_ObjectHideFlags: 0
@@ -1259,18 +1295,18 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 895544135}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: -0.457414, y: 0.14688212, z: -2.829}
+  m_LocalScale: {x: -0.457414, y: 0.1468821, z: -2.829}
   m_Children: []
-  m_Father: {fileID: 1977750738}
-  m_RootOrder: 6
+  m_Father: {fileID: 1472108210}
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 546.2, y: 240.6}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: -517, y: -242}
   m_SizeDelta: {x: 426, y: 221}
-  m_Pivot: {x: 0, y: 0}
+  m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &895544137
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1579,16 +1615,16 @@ RectTransform:
   m_GameObject: {fileID: 1073891570}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.45741397, y: 0.14688212, z: 2.829}
+  m_LocalScale: {x: 0.45741397, y: 0.1468821, z: 2.829}
   m_Children: []
-  m_Father: {fileID: 1977750738}
-  m_RootOrder: 4
+  m_Father: {fileID: 1472108210}
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 477.7, y: 240.6}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: -389, y: -242}
   m_SizeDelta: {x: 426, y: 221}
-  m_Pivot: {x: 0, y: 0}
+  m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1073891572
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1653,7 +1689,7 @@ RectTransform:
   m_GameObject: {fileID: 1163597489}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 26108621}
   m_RootOrder: 1
@@ -1730,6 +1766,7 @@ GameObject:
   - component: {fileID: 1187360193}
   - component: {fileID: 1187360192}
   - component: {fileID: 1187360191}
+  - component: {fileID: 1187360194}
   m_Layer: 5
   m_Name: Button5MilieuDroit
   m_TagString: Untagged
@@ -1868,6 +1905,30 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1187360189}
   m_CullTransparentMesh: 0
+--- !u!114 &1187360194
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1187360189}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7b26096c615269641b5ad8ad82fc251c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  clickEvent:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: f37c610dafe63354eba73eaf3573c72a,
+      type: 2}
+  hoverEvent:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 40db291a8b0bf204a91fbee8970d6a23,
+      type: 2}
+  StateGroup: Volga_Dial_P1
+  State: 
 --- !u!1 &1346879812
 GameObject:
   m_ObjectHideFlags: 0
@@ -2068,6 +2129,11 @@ RectTransform:
   - {fileID: 1977750738}
   - {fileID: 634920161}
   - {fileID: 1552111966}
+  - {fileID: 26108621}
+  - {fileID: 1998770542}
+  - {fileID: 1866934495}
+  - {fileID: 1073891571}
+  - {fileID: 895544136}
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -2566,8 +2632,8 @@ RectTransform:
   - {fileID: 397470049}
   - {fileID: 1346879813}
   - {fileID: 981592339}
-  m_Father: {fileID: 1977750738}
-  m_RootOrder: 3
+  m_Father: {fileID: 1472108210}
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
@@ -2863,11 +2929,6 @@ RectTransform:
   m_Children:
   - {fileID: 1646923189}
   - {fileID: 1532533499}
-  - {fileID: 26108621}
-  - {fileID: 1866934495}
-  - {fileID: 1073891571}
-  - {fileID: 1998770542}
-  - {fileID: 895544136}
   m_Father: {fileID: 1472108210}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -2909,8 +2970,8 @@ RectTransform:
   - {fileID: 395802383}
   - {fileID: 1187360190}
   - {fileID: 328002474}
-  m_Father: {fileID: 1977750738}
-  m_RootOrder: 5
+  m_Father: {fileID: 1472108210}
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
@@ -2929,6 +2990,7 @@ GameObject:
   - component: {fileID: 2033766717}
   - component: {fileID: 2033766716}
   - component: {fileID: 2033766715}
+  - component: {fileID: 2033766718}
   m_Layer: 5
   m_Name: Button2MilieuGauche
   m_TagString: Untagged
@@ -3031,6 +3093,17 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 2033766718}
+        m_MethodName: OnClick
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &2033766716
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3067,6 +3140,30 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2033766713}
   m_CullTransparentMesh: 0
+--- !u!114 &2033766718
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2033766713}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7b26096c615269641b5ad8ad82fc251c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  clickEvent:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: f37c610dafe63354eba73eaf3573c72a,
+      type: 2}
+  hoverEvent:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 40db291a8b0bf204a91fbee8970d6a23,
+      type: 2}
+  StateGroup: Volga_Dial_P1
+  State: 
 --- !u!1 &2125103283
 GameObject:
   m_ObjectHideFlags: 0
@@ -3094,7 +3191,7 @@ RectTransform:
   m_GameObject: {fileID: 2125103283}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 26108621}
   m_RootOrder: 0

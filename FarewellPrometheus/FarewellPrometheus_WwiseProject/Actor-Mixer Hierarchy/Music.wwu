@@ -181,6 +181,14 @@
 												</CustomState>
 											</CustomState>
 											<CustomState>
+												<StateRef Name="Puzzle" ID="{34911BC8-6C5F-4C1A-9C0D-48E53E5347D7}"/>
+												<CustomState Name="" ID="{E74F2703-D98F-4FBF-AB1B-2E4C7492A5A3}" ShortID="678791042">
+													<PropertyList>
+														<Property Name="Volume" Type="Real64" Value="-96"/>
+													</PropertyList>
+												</CustomState>
+											</CustomState>
+											<CustomState>
 												<StateRef Name="Exploration_Oct_Up" ID="{F3F7D125-D81A-4CA4-9009-1D54280CC455}"/>
 												<CustomState Name="" ID="{53B02B20-1B7B-4714-B67A-56C94B09871E}" ShortID="955572598">
 													<PropertyList>
@@ -350,6 +358,14 @@
 											<CustomState>
 												<StateRef Name="Introduction" ID="{18116FB3-E776-48D1-881C-A77BC4279543}"/>
 												<CustomState Name="" ID="{A5E42100-3589-4427-8F33-F9BE48DF3D81}" ShortID="384429490">
+													<PropertyList>
+														<Property Name="Volume" Type="Real64" Value="-96"/>
+													</PropertyList>
+												</CustomState>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="Puzzle" ID="{34911BC8-6C5F-4C1A-9C0D-48E53E5347D7}"/>
+												<CustomState Name="" ID="{DDE397EA-079C-4DBF-A50D-CD2261D1C8E6}" ShortID="202880198">
 													<PropertyList>
 														<Property Name="Volume" Type="Real64" Value="-96"/>
 													</PropertyList>

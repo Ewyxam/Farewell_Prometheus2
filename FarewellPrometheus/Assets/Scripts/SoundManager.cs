@@ -27,8 +27,13 @@ public class SoundManager : MonoBehaviour
             AkSoundEngine.SetState("Music", "Exploration");
             AkSoundEngine.PostEvent("Music_Event", gameObject);
         }
-
-        
+        else if (buildIndex == 2)
+        {
+            AkSoundEngine.SetState("Location", "CP2_02");
+            Debug.Log("CP2_02 AMB");
+            AkSoundEngine.SetState("Music", "Puzzle");
+            AkSoundEngine.PostEvent("Music_Event", gameObject);
+        }
 
         AkSoundEngine.PostEvent("Ambience_Event", gameObject);
     }

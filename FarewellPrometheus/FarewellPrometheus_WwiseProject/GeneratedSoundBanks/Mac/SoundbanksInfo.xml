@@ -34,6 +34,8 @@
 				<Event Id="1307820710" Name="Computer_Scan" ObjectPath="\Events\Default Work Unit\Ship\Computer\Computer_Scan" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
 				<Event Id="3118182193" Name="Computer_Ship_Status_Event" ObjectPath="\Events\Default Work Unit\Ship\Computer\Computer_Ship_Status_Event" DurationType="OneShot" DurationMin="11.889375" DurationMax="11.889375"/>
 				<Event Id="2806985083" Name="Computer_Start" ObjectPath="\Events\Default Work Unit\Ship\Computer\Computer_Start" DurationType="OneShot" DurationMin="13.870334" DurationMax="13.870334"/>
+				<Event Id="4080305513" Name="CV_Gears_Moving_Event" ObjectPath="\Events\Default Work Unit\Element\CV\CV_Gears_Moving_Event" DurationType="OneShot" DurationMin="1.375506" DurationMax="1.635762"/>
+				<Event Id="1497348625" Name="CV_Gears_Right_Event" ObjectPath="\Events\Default Work Unit\Element\CV\CV_Gears_Right_Event" DurationType="OneShot" DurationMin="1.500000" DurationMax="1.500000"/>
 				<Event Id="274588646" Name="Dial_PnC_Event" ObjectPath="\Events\Default Work Unit\Vocal\Dial_PnC_Event" DurationType="OneShot" DurationMin="0.000000" DurationMax="10.262000"/>
 				<Event Id="55565095" Name="Music_Event" ObjectPath="\Events\Default Work Unit\Ship\Music\Music_Event" DurationType="Infinite"/>
 				<Event Id="2063851173" Name="Password_Right" ObjectPath="\Events\Default Work Unit\Ship\Computer\Password\Password_Right" DurationType="OneShot" DurationMin="3.029375" DurationMax="3.029375"/>
@@ -511,6 +513,10 @@
 					<ShortName>Pause_Menu_Button_Hover_SFX-003.wav</ShortName>
 					<Path>SFX\Pause_Menu_Button_Hover_SFX-003_6296B0F9.wem</Path>
 				</File>
+				<File Id="627925814" Language="SFX">
+					<ShortName>CV_Gear_Right_SFX.wav</ShortName>
+					<Path>SFX\CV_Gear_Right_SFX_10C4C929.wem</Path>
+				</File>
 				<File Id="630330714" Language="SFX">
 					<ShortName>Paper_Handle_04_SFX.wav</ShortName>
 					<Path>SFX\Paper_Handle_04_SFX_6296B0F9.wem</Path>
@@ -638,6 +644,10 @@
 				<File Id="772294689" Language="SFX">
 					<ShortName>GR1_Water_Droplets_AMB_01_SFX-006.wav</ShortName>
 					<Path>SFX\GR1_Water_Droplets_AMB_01_SFX-006_6296B0F9.wem</Path>
+				</File>
+				<File Id="775194901" Language="SFX">
+					<ShortName>CV_Gear_Moving_SFX.wav</ShortName>
+					<Path>SFX\CV_Gear_Moving_SFX_10C4C929.wem</Path>
 				</File>
 				<File Id="775606542" Language="English(US)">
 					<ShortName>M_I_I_01_SFX.wav</ShortName>

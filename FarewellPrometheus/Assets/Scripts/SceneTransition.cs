@@ -35,15 +35,20 @@ public class SceneTransition : MonoBehaviour
     }
     public void LoadNextScene()
     {
-       
         StartCoroutine(LoadLevel(SceneManager.GetActiveScene().buildIndex + 1));
         buildIndex = currentScene.buildIndex;
         if (buildIndex == 1)
         {
             tabNum = manager.GetComponent<CollisionManager>().tabNum;
+            AkSoundEngine.SetState("Location", "CP2_02");
+            AkSoundEngine.SetState("Music", "Stasis");
         }
-        AkSoundEngine.SetState("Location", "CL1");
-        AkSoundEngine.SetState("Music", "None");
+        if (buildIndex == 0)
+        {
+            AkSoundEngine.SetState("Location", "CL1");
+            AkSoundEngine.SetState("Music", "None");
+        }
+        
     }
 
     IEnumerator LoadLevel(int levelIndex)

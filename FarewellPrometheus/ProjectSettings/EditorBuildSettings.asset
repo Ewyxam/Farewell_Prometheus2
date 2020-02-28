@@ -11,4 +11,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/PhasePnC.unity
     guid: aeef8cfdbb926af47b0f9f35cecc1a81
+  - enabled: 1
+    path: Assets/Scenes/Couveuse.unity
+    guid: ae1e885d2b7373846a5922abd0453a2b
   m_configObjects: {}

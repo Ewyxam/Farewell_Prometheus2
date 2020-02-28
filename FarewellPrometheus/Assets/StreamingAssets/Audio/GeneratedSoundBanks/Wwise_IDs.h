@@ -21,6 +21,8 @@ namespace AK
         static const AkUniqueID COMPUTER_SCAN = 1307820710U;
         static const AkUniqueID COMPUTER_SHIP_STATUS_EVENT = 3118182193U;
         static const AkUniqueID COMPUTER_START = 2806985083U;
+        static const AkUniqueID CV_GEARS_MOVING_EVENT = 4080305513U;
+        static const AkUniqueID CV_GEARS_RIGHT_EVENT = 1497348625U;
         static const AkUniqueID DIAL_PNC_EVENT = 274588646U;
         static const AkUniqueID MUSIC_EVENT = 55565095U;
         static const AkUniqueID PASSWORD_RIGHT = 2063851173U;
@@ -53,6 +55,7 @@ namespace AK
                 static const AkUniqueID CL1 = 1033349305U;
                 static const AkUniqueID CP1 = 697796925U;
                 static const AkUniqueID CP2 = 697796926U;
+                static const AkUniqueID CP2_02 = 3900323791U;
                 static const AkUniqueID GR1 = 864881503U;
                 static const AkUniqueID JG1 = 679886441U;
                 static const AkUniqueID RV1 = 695384066U;
@@ -70,6 +73,7 @@ namespace AK
                 static const AkUniqueID EXPLORATION = 2582085496U;
                 static const AkUniqueID EXPLORATION_OCT_UP = 222707061U;
                 static const AkUniqueID INTRODUCTION = 1034344105U;
+                static const AkUniqueID PUZZLE = 1780448749U;
                 static const AkUniqueID STASIS = 1274150312U;
                 static const AkUniqueID TITLE = 3705726509U;
             } // namespace STATE

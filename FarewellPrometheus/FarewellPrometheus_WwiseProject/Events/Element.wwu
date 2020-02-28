@@ -43,6 +43,46 @@
 						</Folder>
 					</ChildrenList>
 				</Folder>
+				<Folder Name="CV" ID="{3A6BD955-E6BB-4B02-A843-D8AB69D498D6}" ShortID="96302107">
+					<ChildrenList>
+						<Event Name="CV_Gears_Moving_Event" ID="{BF89909F-A0E6-440A-B016-8588339E12D4}">
+							<ChildrenList>
+								<Action Name="" ID="{C3A0D707-0D21-41D5-AC9D-EAD25E847260}" ShortID="218456129">
+									<PropertyList>
+										<Property Name="Inclusion" Type="bool">
+											<ValueList>
+												<Value>False</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="CV_Gear_Moving" ID="{E1812BB1-8385-440E-B399-DAF2D792A5AF}" WorkUnitID="{A8E75F14-F187-4E76-95DF-06D886D3E997}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{96C025F3-A340-48C6-AA7A-F2AFBF50A453}" ShortID="857090999">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="CV_Gear_Moving_SFX" ID="{8A8AAFC6-6FFB-4EBB-99BE-455B231EF3E1}" WorkUnitID="{A8E75F14-F187-4E76-95DF-06D886D3E997}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="CV_Gears_Right_Event" ID="{EE43F26E-685D-491C-999C-67415A252E6E}">
+							<ChildrenList>
+								<Action Name="" ID="{5646BFC8-318A-4A4A-9671-DCBE34EB9CD6}" ShortID="248531059">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="CV_Gear_Right" ID="{D567FD47-CFDD-47F2-97C3-0A9368BA1C23}" WorkUnitID="{A8E75F14-F187-4E76-95DF-06D886D3E997}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

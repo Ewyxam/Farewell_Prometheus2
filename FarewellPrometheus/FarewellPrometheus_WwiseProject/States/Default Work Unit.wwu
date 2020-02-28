@@ -9,6 +9,9 @@
 						<State Name="Stasis" ID="{806C9E29-42F0-44C5-9A31-22E662A07694}"/>
 						<State Name="Awake" ID="{093108E1-95FD-4F58-AE8B-B19AFBA38D28}"/>
 						<State Name="Title" ID="{F82D068D-3A2B-46B7-9189-F85120402FD1}"/>
+						<State Name="Introduction" ID="{18116FB3-E776-48D1-881C-A77BC4279543}"/>
+						<State Name="Exploration" ID="{E90F13AD-42AC-4036-BCE8-EF6BFB91880D}"/>
+						<State Name="Exploration_Oct_Up" ID="{F3F7D125-D81A-4CA4-9009-1D54280CC455}"/>
 					</ChildrenList>
 				</StateGroup>
 				<StateGroup Name="Suit_On_Off" ID="{BF2F218D-F478-47B4-AD4E-F2D1D22E25C2}">

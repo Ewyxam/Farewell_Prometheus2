@@ -1,0 +1,379 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{E5A42BA9-CF3F-4620-BFCE-198C6CABA40E}" SchemaVersion="94" RootDocumentID="{4CEDB3D4-4B4B-46EC-B1D6-22F7D0A74CBD}">
+	<AudioObjects>
+		<WorkUnit Name="Music" ID="{E5A42BA9-CF3F-4620-BFCE-198C6CABA40E}" OwnerID="{4CEDB3D4-4B4B-46EC-B1D6-22F7D0A74CBD}" PersistMode="Nested">
+			<PropertyList>
+				<Property Name="Color" Type="int16" Value="25"/>
+				<Property Name="OverrideColor" Type="bool" Value="True"/>
+			</PropertyList>
+			<ChildrenList>
+				<ActorMixer Name="Exploration" ID="{283BB795-AACC-401E-8BE7-E80663B3E0FA}" ShortID="149113982">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{910AC7EE-841B-4C93-A9B7-752C4BD6AD66}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D799538D-0932-442A-AAA6-5525C92EAF70}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<BlendContainer Name="Exploration_Theme" ID="{B2C06F2A-83F6-48A8-9BC8-25B438531BC0}" ShortID="741192470">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{910AC7EE-841B-4C93-A9B7-752C4BD6AD66}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D799538D-0932-442A-AAA6-5525C92EAF70}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<RandomSequenceContainer Name="Exploration_Theme" ID="{91BA6D9B-DB2D-490F-9EEC-563D791A9697}" ShortID="27024399">
+									<PropertyList>
+										<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
+										<Property Name="PlayMechanismSpecialTransitionsType" Type="int16" Value="1"/>
+										<Property Name="PlayMechanismSpecialTransitionsValue" Type="Real64" Value="5">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{430CD77D-44FE-4AE5-804B-10CC64303909}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="5"/>
+															<Property Name="Min" Type="Real64" Value="-3"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+										<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+										<Property Name="RandomOrSequence" Type="int16" Value="0"/>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-9</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{910AC7EE-841B-4C93-A9B7-752C4BD6AD66}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D799538D-0932-442A-AAA6-5525C92EAF70}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="FP_Piano_01" ID="{74058A8A-B132-422C-B1B4-8E9C7745E956}" ShortID="939670767">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{910AC7EE-841B-4C93-A9B7-752C4BD6AD66}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D799538D-0932-442A-AAA6-5525C92EAF70}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="FP_Piano_01" ID="{1254EDF4-AF5F-4DB1-99CE-059296953EC9}" ShortID="580973983">
+													<Language>SFX</Language>
+													<AudioFile>FP_Piano_01.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="FP_Piano_01" ID="{1254EDF4-AF5F-4DB1-99CE-059296953EC9}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="FP_Piano_02" ID="{8BF77DF5-98B1-411A-AB98-B8154D413FE0}" ShortID="779258052">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{910AC7EE-841B-4C93-A9B7-752C4BD6AD66}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D799538D-0932-442A-AAA6-5525C92EAF70}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="FP_Piano_02" ID="{2D44C90E-077A-4B86-92CA-8867EF2E7CE6}" ShortID="1057280635">
+													<Language>SFX</Language>
+													<AudioFile>FP_Piano_02.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="FP_Piano_02" ID="{2D44C90E-077A-4B86-92CA-8867EF2E7CE6}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="FP_Piano_03" ID="{6CB6F1DE-30ED-4887-BA3B-1DE0B2000890}" ShortID="104122711">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{910AC7EE-841B-4C93-A9B7-752C4BD6AD66}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D799538D-0932-442A-AAA6-5525C92EAF70}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="FP_Piano_03" ID="{32A86775-2B83-4244-A9BC-F38CD52D2F14}" ShortID="340619555">
+													<Language>SFX</Language>
+													<AudioFile>FP_Piano_03.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="FP_Piano_03" ID="{32A86775-2B83-4244-A9BC-F38CD52D2F14}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="FP_Piano_coda" ID="{EA78682A-E40B-42B9-AD7C-C1354C82D1F7}" ShortID="472360387">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{910AC7EE-841B-4C93-A9B7-752C4BD6AD66}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D799538D-0932-442A-AAA6-5525C92EAF70}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="FP_Piano_coda" ID="{77A1EBB2-8749-4CC9-A862-29A809DBE636}" ShortID="236768076">
+													<Language>SFX</Language>
+													<AudioFile>FP_Piano_coda.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="FP_Piano_coda" ID="{77A1EBB2-8749-4CC9-A862-29A809DBE636}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+									<StateInfo>
+										<StateGroupList>
+											<StateGroupInfo>
+												<StateGroupRef Name="Music" ID="{B8517491-B715-4BA9-9D20-2E7DB8611B7F}"/>
+											</StateGroupInfo>
+										</StateGroupList>
+										<CustomStateList>
+											<CustomState>
+												<StateRef Name="Exploration" ID="{E90F13AD-42AC-4036-BCE8-EF6BFB91880D}"/>
+												<CustomState Name="" ID="{9108E1DB-1FA8-4477-832B-0B0A2C3A0951}" ShortID="347437843"/>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="Stasis" ID="{806C9E29-42F0-44C5-9A31-22E662A07694}"/>
+												<CustomState Name="" ID="{E5D976BF-0761-47D5-BB6E-CBEB90731E36}" ShortID="730217271">
+													<PropertyList>
+														<Property Name="Volume" Type="Real64" Value="-96"/>
+													</PropertyList>
+												</CustomState>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="Title" ID="{F82D068D-3A2B-46B7-9189-F85120402FD1}"/>
+												<CustomState Name="" ID="{BC80C674-15DD-411D-876F-F2C2FCFCDCD8}" ShortID="221834241">
+													<PropertyList>
+														<Property Name="Volume" Type="Real64" Value="-96"/>
+													</PropertyList>
+												</CustomState>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="Introduction" ID="{18116FB3-E776-48D1-881C-A77BC4279543}"/>
+												<CustomState Name="" ID="{50735359-2317-4818-B9CC-65FE1847B802}" ShortID="62912550">
+													<PropertyList>
+														<Property Name="Volume" Type="Real64" Value="-96"/>
+													</PropertyList>
+												</CustomState>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="Exploration_Oct_Up" ID="{F3F7D125-D81A-4CA4-9009-1D54280CC455}"/>
+												<CustomState Name="" ID="{53B02B20-1B7B-4714-B67A-56C94B09871E}" ShortID="955572598">
+													<PropertyList>
+														<Property Name="Volume" Type="Real64" Value="-96"/>
+													</PropertyList>
+												</CustomState>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="Awake" ID="{093108E1-95FD-4F58-AE8B-B19AFBA38D28}"/>
+												<CustomState Name="" ID="{74C86F06-8CDE-4C6F-9A6F-87885CAE2B7D}" ShortID="581527074">
+													<PropertyList>
+														<Property Name="Volume" Type="Real64" Value="-96"/>
+													</PropertyList>
+												</CustomState>
+											</CustomState>
+										</CustomStateList>
+									</StateInfo>
+									<Playlist>
+										<ItemRef Name="FP_Piano_01" ID="{74058A8A-B132-422C-B1B4-8E9C7745E956}"/>
+										<ItemRef Name="FP_Piano_02" ID="{8BF77DF5-98B1-411A-AB98-B8154D413FE0}"/>
+										<ItemRef Name="FP_Piano_03" ID="{6CB6F1DE-30ED-4887-BA3B-1DE0B2000890}"/>
+										<ItemRef Name="FP_Piano_coda" ID="{EA78682A-E40B-42B9-AD7C-C1354C82D1F7}"/>
+									</Playlist>
+								</RandomSequenceContainer>
+								<RandomSequenceContainer Name="Exploration_Theme_Octave_Up" ID="{2D532F59-1576-4A09-BED8-987234E33778}" ShortID="652768234">
+									<PropertyList>
+										<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
+										<Property Name="PlayMechanismSpecialTransitionsType" Type="int16" Value="1"/>
+										<Property Name="PlayMechanismSpecialTransitionsValue" Type="Real64" Value="3">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{16A7117E-CF83-4917-9C08-D0FA3605EB41}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="3"/>
+															<Property Name="Min" Type="Real64" Value="-1"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+										<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+										<Property Name="RandomOrSequence" Type="int16" Value="0"/>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-9</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{910AC7EE-841B-4C93-A9B7-752C4BD6AD66}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D799538D-0932-442A-AAA6-5525C92EAF70}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="FP_Piano_01_oct_up" ID="{8EEC5C59-BAA3-48C5-B355-097E37EFE435}" ShortID="1066463995">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{910AC7EE-841B-4C93-A9B7-752C4BD6AD66}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D799538D-0932-442A-AAA6-5525C92EAF70}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="FP_Piano_01_oct_up" ID="{3DC67E2D-B3FD-4D85-B2A9-33B655C9A566}" ShortID="645233049">
+													<Language>SFX</Language>
+													<AudioFile>FP_Piano_01_oct_up.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="FP_Piano_01_oct_up" ID="{3DC67E2D-B3FD-4D85-B2A9-33B655C9A566}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="FP_Piano_02_oct_up" ID="{F5500B78-D07D-4465-A451-E1377C1BD602}" ShortID="544500401">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{910AC7EE-841B-4C93-A9B7-752C4BD6AD66}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D799538D-0932-442A-AAA6-5525C92EAF70}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="FP_Piano_02_oct_up" ID="{2836199D-D88A-4399-9DAF-1279CD1C52A9}" ShortID="320778274">
+													<Language>SFX</Language>
+													<AudioFile>FP_Piano_02_oct_up.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="FP_Piano_02_oct_up" ID="{2836199D-D88A-4399-9DAF-1279CD1C52A9}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="FP_Piano_03_oct_up" ID="{3CDC89A8-14EC-4B48-8737-7BF6FA31324C}" ShortID="405411743">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{910AC7EE-841B-4C93-A9B7-752C4BD6AD66}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D799538D-0932-442A-AAA6-5525C92EAF70}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="FP_Piano_03_oct_up" ID="{892DE870-9191-4D13-8B8E-A487EAFB5F2F}" ShortID="109126958">
+													<Language>SFX</Language>
+													<AudioFile>FP_Piano_03_oct_up.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="FP_Piano_03_oct_up" ID="{892DE870-9191-4D13-8B8E-A487EAFB5F2F}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="FP_Piano_coda_oct_up" ID="{998B8BDE-4296-432D-8D14-7BA8C5389CE2}" ShortID="485675101">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{910AC7EE-841B-4C93-A9B7-752C4BD6AD66}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D799538D-0932-442A-AAA6-5525C92EAF70}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="FP_Piano_coda_oct_up" ID="{AA427506-4203-4AEA-8AEB-EA658CCFB4CC}" ShortID="585646172">
+													<Language>SFX</Language>
+													<AudioFile>FP_Piano_coda_oct_up.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="FP_Piano_coda_oct_up" ID="{AA427506-4203-4AEA-8AEB-EA658CCFB4CC}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+									<StateInfo>
+										<StateGroupList>
+											<StateGroupInfo>
+												<StateGroupRef Name="Music" ID="{B8517491-B715-4BA9-9D20-2E7DB8611B7F}"/>
+											</StateGroupInfo>
+										</StateGroupList>
+										<CustomStateList>
+											<CustomState>
+												<StateRef Name="Exploration" ID="{E90F13AD-42AC-4036-BCE8-EF6BFB91880D}"/>
+												<CustomState Name="" ID="{57C5793E-B76F-46E0-AD00-C62FB470B1D0}" ShortID="337576432">
+													<PropertyList>
+														<Property Name="Volume" Type="Real64" Value="-96"/>
+													</PropertyList>
+												</CustomState>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="Stasis" ID="{806C9E29-42F0-44C5-9A31-22E662A07694}"/>
+												<CustomState Name="" ID="{D11770B5-2D86-4EDD-9CA4-C200BFDF1A47}" ShortID="175327501">
+													<PropertyList>
+														<Property Name="Volume" Type="Real64" Value="-96"/>
+													</PropertyList>
+												</CustomState>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="Title" ID="{F82D068D-3A2B-46B7-9189-F85120402FD1}"/>
+												<CustomState Name="" ID="{1788CED6-53A5-43F8-951A-FCFEBCFA5766}" ShortID="668562390">
+													<PropertyList>
+														<Property Name="Volume" Type="Real64" Value="-96"/>
+													</PropertyList>
+												</CustomState>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="Introduction" ID="{18116FB3-E776-48D1-881C-A77BC4279543}"/>
+												<CustomState Name="" ID="{A5E42100-3589-4427-8F33-F9BE48DF3D81}" ShortID="384429490">
+													<PropertyList>
+														<Property Name="Volume" Type="Real64" Value="-96"/>
+													</PropertyList>
+												</CustomState>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="Exploration_Oct_Up" ID="{F3F7D125-D81A-4CA4-9009-1D54280CC455}"/>
+												<CustomState Name="" ID="{B91F3E64-879D-496E-9A79-C781143161FF}" ShortID="791706849"/>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="Awake" ID="{093108E1-95FD-4F58-AE8B-B19AFBA38D28}"/>
+												<CustomState Name="" ID="{0FF46ADD-04F2-4CC8-AF15-65217AD3ECFA}" ShortID="907246017">
+													<PropertyList>
+														<Property Name="Volume" Type="Real64" Value="-96"/>
+													</PropertyList>
+												</CustomState>
+											</CustomState>
+										</CustomStateList>
+									</StateInfo>
+									<Playlist>
+										<ItemRef Name="FP_Piano_01_oct_up" ID="{8EEC5C59-BAA3-48C5-B355-097E37EFE435}"/>
+										<ItemRef Name="FP_Piano_02_oct_up" ID="{F5500B78-D07D-4465-A451-E1377C1BD602}"/>
+										<ItemRef Name="FP_Piano_03_oct_up" ID="{3CDC89A8-14EC-4B48-8737-7BF6FA31324C}"/>
+										<ItemRef Name="FP_Piano_coda_oct_up" ID="{998B8BDE-4296-432D-8D14-7BA8C5389CE2}"/>
+									</Playlist>
+								</RandomSequenceContainer>
+							</ChildrenList>
+						</BlendContainer>
+					</ChildrenList>
+				</ActorMixer>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>

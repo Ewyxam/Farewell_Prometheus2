@@ -8,6 +8,7 @@
 				<WorkUnit Name="Footstep" ID="{6FEC9868-6516-4444-A807-140D579353A9}" PersistMode="Reference"/>
 				<WorkUnit Name="UI" ID="{346BCEE0-9C31-414D-86A7-25C7C0D5F9BB}" PersistMode="Reference"/>
 				<WorkUnit Name="Vocal" ID="{8B5CC8D1-983C-408E-A73A-BF68B6A9EC52}" PersistMode="Reference"/>
+				<WorkUnit Name="Music" ID="{E5A42BA9-CF3F-4620-BFCE-198C6CABA40E}" PersistMode="Reference"/>
 			</ChildrenList>
 		</WorkUnit>
 	</AudioObjects>

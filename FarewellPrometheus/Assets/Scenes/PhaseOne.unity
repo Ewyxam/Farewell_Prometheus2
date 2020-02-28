@@ -7132,6 +7132,9 @@ GameObject:
   m_Component:
   - component: {fileID: 1364629142}
   - component: {fileID: 1364629141}
+  - component: {fileID: 1364629145}
+  - component: {fileID: 1364629144}
+  - component: {fileID: 1364629143}
   m_Layer: 5
   m_Name: ScanCP
   m_TagString: Untagged
@@ -7169,7 +7172,7 @@ RectTransform:
   m_GameObject: {fileID: 1364629140}
   m_LocalRotation: {x: -0, y: -0, z: -4.383764e-10, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: -0.00092407607}
-  m_LocalScale: {x: 7.668282, y: 2.9814446, z: 1}
+  m_LocalScale: {x: 0.9696727, y: 0.96191955, z: 1}
   m_Children: []
   m_Father: {fileID: 514470766}
   m_RootOrder: 0
@@ -7179,6 +7182,61 @@ RectTransform:
   m_AnchoredPosition: {x: 0.38197023, y: 0.49525616}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!95 &1364629143
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1364629140}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 294e36dd209d2b94aa1c0561dfbfcce9, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &1364629144
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1364629140}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0.735849, g: 0.70461017, b: 0.70461017, a: 0}
+  m_RaycastTarget: 0
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 21300000, guid: e79d02b6d5e7dd741896f8daa12ef6ad, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &1364629145
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1364629140}
+  m_CullTransparentMesh: 0
 --- !u!1 &1378101083
 GameObject:
   m_ObjectHideFlags: 0

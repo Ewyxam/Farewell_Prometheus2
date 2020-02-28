@@ -10,7 +10,7 @@
 				<ActorMixer Name="Exploration" ID="{283BB795-AACC-401E-8BE7-E80663B3E0FA}" ShortID="149113982">
 					<ReferenceList>
 						<Reference Name="Conversion">
-							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{910AC7EE-841B-4C93-A9B7-752C4BD6AD66}"/>
+							<ObjectRef Name="Music" ID="{DA2E51CF-6CCF-4B97-91EE-846C972FCC28}" WorkUnitID="{910AC7EE-841B-4C93-A9B7-752C4BD6AD66}"/>
 						</Reference>
 						<Reference Name="OutputBus">
 							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D799538D-0932-442A-AAA6-5525C92EAF70}"/>
@@ -18,6 +18,13 @@
 					</ReferenceList>
 					<ChildrenList>
 						<BlendContainer Name="Exploration_Theme" ID="{B2C06F2A-83F6-48A8-9BC8-25B438531BC0}" ShortID="741192470">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-15</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{910AC7EE-841B-4C93-A9B7-752C4BD6AD66}"/>

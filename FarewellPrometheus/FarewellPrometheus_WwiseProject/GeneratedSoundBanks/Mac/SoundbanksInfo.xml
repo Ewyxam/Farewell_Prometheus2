@@ -38,9 +38,9 @@
 				<Event Id="55565095" Name="Music_Event" ObjectPath="\Events\Default Work Unit\Ship\Music\Music_Event" DurationType="Infinite"/>
 				<Event Id="2063851173" Name="Password_Right" ObjectPath="\Events\Default Work Unit\Ship\Computer\Password\Password_Right" DurationType="OneShot" DurationMin="3.029375" DurationMax="3.029375"/>
 				<Event Id="368709004" Name="Password_Wrong" ObjectPath="\Events\Default Work Unit\Ship\Computer\Password\Password_Wrong" DurationType="OneShot" DurationMin="0.598750" DurationMax="0.598750"/>
-				<Event Id="3546553156" Name="Pause_Menu_Button_Click_Event" ObjectPath="\Events\Default Work Unit\Element\Menu\Pause_Menu\Pause_Menu_Button_Click_Event" DurationType="OneShot" DurationMin="0.029396" DurationMax="0.043396"/>
-				<Event Id="2679033074" Name="Pause_Menu_Button_Hover_Event" ObjectPath="\Events\Default Work Unit\Element\Menu\Pause_Menu\Pause_Menu_Button_Hover_Event" DurationType="OneShot" DurationMin="0.084479" DurationMax="0.106896"/>
-				<Event Id="3878117114" Name="Post_it_Handle" ObjectPath="\Events\Default Work Unit\Ship\Objects\Post_it_Handle" DurationType="OneShot" DurationMin="0.445509" DurationMax="0.698667"/>
+				<Event Id="3546553156" Name="Pause_Menu_Button_Click_Event" ObjectPath="\Events\Default Work Unit\Element\UI\Pause_Menu\Pause_Menu_Button_Click_Event" DurationType="OneShot" DurationMin="0.029396" DurationMax="0.043396"/>
+				<Event Id="2679033074" Name="Pause_Menu_Button_Hover_Event" ObjectPath="\Events\Default Work Unit\Element\UI\Pause_Menu\Pause_Menu_Button_Hover_Event" DurationType="OneShot" DurationMin="0.084479" DurationMax="0.106896"/>
+				<Event Id="3878117114" Name="Post_it_Handle" ObjectPath="\Events\Default Work Unit\Ship\Objects\Post_it_Handle" DurationType="OneShot" DurationMin="0.445509" DurationMax="0.483032"/>
 				<Event Id="2487570637" Name="Robot_Invalid_Command" ObjectPath="\Events\Default Work Unit\Ship\Robot\Robot_Invalid_Command" DurationType="OneShot" DurationMin="1.070266" DurationMax="1.348451"/>
 				<Event Id="1281846564" Name="Robot_Moving" ObjectPath="\Events\Default Work Unit\Ship\Robot\Robot_Moving" DurationType="OneShot" DurationMin="3.344000" DurationMax="3.344000"/>
 				<Event Id="2118619802" Name="Robot_Operational" ObjectPath="\Events\Default Work Unit\Ship\Robot\Robot_Operational" DurationType="OneShot" DurationMin="1.370667" DurationMax="1.370667"/>
@@ -48,10 +48,9 @@
 				<Event Id="926426176" Name="Robot_Shutdown" ObjectPath="\Events\Default Work Unit\Ship\Robot\Robot_Shutdown" DurationType="OneShot" DurationMin="4.304750" DurationMax="4.304750"/>
 				<Event Id="3910889982" Name="Robot_Valid_Command" ObjectPath="\Events\Default Work Unit\Ship\Robot\Robot_Valid_Command" DurationType="OneShot" DurationMin="1.192000" DurationMax="1.192000"/>
 				<Event Id="1059721737" Name="Volga_Dial_P1" ObjectPath="\Events\Default Work Unit\Ship\Dialog\Volga_Dial_P1" DurationType="OneShot" DurationMin="0.716000" DurationMax="11.066667"/>
-				<Event Id="110909812" Name="Volga_Dial_Stop_All" ObjectPath="\Events\Default Work Unit\Ship\Dialog\Volga_Dial_Stop_All" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
-				<Event Id="2535003186" Name="VS1_Screen_Glass_Tap_Event" ObjectPath="\Events\Default Work Unit\Ship\Objects\VS1_Screen_Glass_Tap_Event" DurationType="OneShot" DurationMin="0.079160" DurationMax="0.085775"/>
+				<Event Id="2535003186" Name="VS1_Screen_Glass_Tap_Event" ObjectPath="\Events\Default Work Unit\Ship\Objects\VS1_Screen_Glass_Tap_Event" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
 				<Event Id="3867008365" Name="VS1_to_CL1_Event" ObjectPath="\Events\Default Work Unit\Environment\Transitions\VS1_to_CL1_Event" DurationType="OneShot" DurationMin="17.076313" DurationMax="17.076313"/>
-				<Event Id="1731494341" Name="VS1_Volga_Glass_Tap_Event" ObjectPath="\Events\Default Work Unit\Ship\Objects\VS1_Volga_Glass_Tap_Event" DurationType="OneShot" DurationMin="0.055438" DurationMax="0.066390"/>
+				<Event Id="1731494341" Name="VS1_Volga_Glass_Tap_Event" ObjectPath="\Events\Default Work Unit\Ship\Objects\VS1_Volga_Glass_Tap_Event" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
 				<Event Id="4138927606" Name="Woosh_Mus_Event" ObjectPath="\Events\Default Work Unit\Environment\Transitions\Woosh_Mus_Event" DurationType="OneShot" DurationMin="3.824271" DurationMax="4.248125"/>
 				<Event Id="1823100709" Name="Woosh_Trans_Event" ObjectPath="\Events\Default Work Unit\Environment\Transitions\Woosh_Trans_Event" DurationType="OneShot" DurationMin="2.262326" DurationMax="2.850352"/>
 			</IncludedEvents>
@@ -63,10 +62,6 @@
 				<File Id="24977705" Language="SFX">
 					<ShortName>CL1_Lemur_02_AMB_SFX.wav</ShortName>
 					<Path>SFX\CL1_Lemur_02_AMB_SFX_6296B0F9.wem</Path>
-				</File>
-				<File Id="29513691" Language="SFX">
-					<ShortName>VS1_Glass_Touch_SFX-003.wav</ShortName>
-					<Path>SFX\VS1_Glass_Touch_SFX-003_6296B0F9.wem</Path>
 				</File>
 				<File Id="30271061" Language="English(US)">
 					<ShortName>G_I_V_03_SFX.wav</ShortName>
@@ -95,10 +90,6 @@
 				<File Id="66918183" Language="English(US)">
 					<ShortName>T_I_V_01_SFX.wav</ShortName>
 					<Path>Voices\English(US)\T_I_V_01_SFX_6296B0F9.wem</Path>
-				</File>
-				<File Id="67935681" Language="SFX">
-					<ShortName>VS1_Glass_Touch_SFX-001.wav</ShortName>
-					<Path>SFX\VS1_Glass_Touch_SFX-001_6296B0F9.wem</Path>
 				</File>
 				<File Id="76551083" Language="SFX">
 					<ShortName>GR1_Water_Droplets_AMB_01_SFX-007.wav</ShortName>
@@ -131,6 +122,10 @@
 				<File Id="105935624" Language="SFX">
 					<ShortName>Ship_Metal_Raking_SFX_01.wav</ShortName>
 					<Path>SFX\Ship_Metal_Raking_SFX_01_6296B0F9.wem</Path>
+				</File>
+				<File Id="109126958" Language="SFX">
+					<ShortName>FP_Piano_03_oct_up.wav</ShortName>
+					<Path>SFX\FP_Piano_03_oct_up_6296B0F9.wem</Path>
 				</File>
 				<File Id="123125051" Language="SFX">
 					<ShortName>Computer_button_click_8kHz_01_SFX.wav</ShortName>
@@ -216,6 +211,10 @@
 					<ShortName>Woosh_Trans_02_SFX.wav</ShortName>
 					<Path>SFX\Woosh_Trans_02_SFX_6296B0F9.wem</Path>
 				</File>
+				<File Id="236768076" Language="SFX">
+					<ShortName>FP_Piano_coda.wav</ShortName>
+					<Path>SFX\FP_Piano_coda_6296B0F9.wem</Path>
+				</File>
 				<File Id="243976750" Language="English(US)">
 					<ShortName>Volga_P1_Dial_05-01.wav</ShortName>
 					<Path>Voices\English(US)\Volga_P1_Dial_05-01_6296B0F9.wem</Path>
@@ -231,6 +230,10 @@
 				<File Id="272771483" Language="English(US)">
 					<ShortName>G_I_I_09_SFX.wav</ShortName>
 					<Path>Voices\English(US)\G_I_I_09_SFX_6296B0F9.wem</Path>
+				</File>
+				<File Id="278415604" Language="SFX">
+					<ShortName>FP_Piano_all_2_oct_up.wav</ShortName>
+					<Path>SFX\FP_Piano_all_2_oct_up_9B96ECC7.wem</Path>
 				</File>
 				<File Id="279855426" Language="English(US)">
 					<ShortName>T_I_I_01_SFX.wav</ShortName>
@@ -272,6 +275,10 @@
 					<ShortName>GR1_Water_Droplets_AMB_01_SFX-004.wav</ShortName>
 					<Path>SFX\GR1_Water_Droplets_AMB_01_SFX-004_6296B0F9.wem</Path>
 				</File>
+				<File Id="320778274" Language="SFX">
+					<ShortName>FP_Piano_02_oct_up.wav</ShortName>
+					<Path>SFX\FP_Piano_02_oct_up_6296B0F9.wem</Path>
+				</File>
 				<File Id="322691907" Language="SFX">
 					<ShortName>Robot_Command_Received_SFX.wav</ShortName>
 					<Path>SFX\Robot_Command_Received_SFX_6296B0F9.wem</Path>
@@ -287,6 +294,10 @@
 				<File Id="336549232" Language="SFX">
 					<ShortName>RV1_River_Stream_01_SFX.wav</ShortName>
 					<Path>SFX\RV1_River_Stream_01_SFX_9B96ECC7.wem</Path>
+				</File>
+				<File Id="340619555" Language="SFX">
+					<ShortName>FP_Piano_03.wav</ShortName>
+					<Path>SFX\FP_Piano_03_6296B0F9.wem</Path>
 				</File>
 				<File Id="350507638" Language="English(US)">
 					<ShortName>A_I_V_03_SFX.wav</ShortName>
@@ -355,10 +366,6 @@
 				<File Id="441012250" Language="English(US)">
 					<ShortName>G_P_I_01_SFX.wav</ShortName>
 					<Path>Voices\English(US)\G_P_I_01_SFX_6296B0F9.wem</Path>
-				</File>
-				<File Id="449853820" Language="SFX">
-					<ShortName>VS1_Glass_Touch_SFX-004.wav</ShortName>
-					<Path>SFX\VS1_Glass_Touch_SFX-004_6296B0F9.wem</Path>
 				</File>
 				<File Id="453477331" Language="SFX">
 					<ShortName>Calendar_Handle_03_SFX.wav</ShortName>
@@ -468,6 +475,14 @@
 					<ShortName>Volga_P1_Dial_03-01.wav</ShortName>
 					<Path>Voices\English(US)\Volga_P1_Dial_03-01_6296B0F9.wem</Path>
 				</File>
+				<File Id="580973983" Language="SFX">
+					<ShortName>FP_Piano_01.wav</ShortName>
+					<Path>SFX\FP_Piano_01_6296B0F9.wem</Path>
+				</File>
+				<File Id="585646172" Language="SFX">
+					<ShortName>FP_Piano_coda_oct_up.wav</ShortName>
+					<Path>SFX\FP_Piano_coda_oct_up_6296B0F9.wem</Path>
+				</File>
 				<File Id="593860231" Language="SFX">
 					<ShortName>RV1_Herbivores_02_SFX-001.wav</ShortName>
 					<Path>SFX\RV1_Herbivores_02_SFX-001_6296B0F9.wem</Path>
@@ -507,6 +522,10 @@
 				<File Id="633798380" Language="SFX">
 					<ShortName>Computer_Good_Password_SFX.wav</ShortName>
 					<Path>SFX\Computer_Good_Password_SFX_6296B0F9.wem</Path>
+				</File>
+				<File Id="645233049" Language="SFX">
+					<ShortName>FP_Piano_01_oct_up.wav</ShortName>
+					<Path>SFX\FP_Piano_01_oct_up_6296B0F9.wem</Path>
 				</File>
 				<File Id="650873952" Language="English(US)">
 					<ShortName>G_I_I_07_SFX.wav</ShortName>
@@ -555,10 +574,6 @@
 				<File Id="694977143" Language="SFX">
 					<ShortName>Ship_Drone_AMB_SFX.wav</ShortName>
 					<Path>SFX\Ship_Drone_AMB_SFX_9B96ECC7.wem</Path>
-				</File>
-				<File Id="703675330" Language="SFX">
-					<ShortName>Paper_Handle_03_SFX.wav</ShortName>
-					<Path>SFX\Paper_Handle_03_SFX_6296B0F9.wem</Path>
 				</File>
 				<File Id="707230090" Language="English(US)">
 					<ShortName>A_I_V_04_SFX.wav</ShortName>
@@ -708,10 +723,6 @@
 					<ShortName>M_P_I_05_SFX.wav</ShortName>
 					<Path>Voices\English(US)\M_P_I_05_SFX_6296B0F9.wem</Path>
 				</File>
-				<File Id="894220143" Language="SFX">
-					<ShortName>Paper_Handle_02_SFX.wav</ShortName>
-					<Path>SFX\Paper_Handle_02_SFX_6296B0F9.wem</Path>
-				</File>
 				<File Id="899146801" Language="SFX">
 					<ShortName>Mus_Trans_SFX-005.wav</ShortName>
 					<Path>SFX\Mus_Trans_SFX-005_6296B0F9.wem</Path>
@@ -747,10 +758,6 @@
 				<File Id="940017338" Language="English(US)">
 					<ShortName>G_I_V_08_SFX.wav</ShortName>
 					<Path>Voices\English(US)\G_I_V_08_SFX_6296B0F9.wem</Path>
-				</File>
-				<File Id="940736400" Language="SFX">
-					<ShortName>VS1_Glass_Touch_SFX-002.wav</ShortName>
-					<Path>SFX\VS1_Glass_Touch_SFX-002_6296B0F9.wem</Path>
 				</File>
 				<File Id="955906009" Language="English(US)">
 					<ShortName>G_I_I_05_SFX.wav</ShortName>
@@ -815,6 +822,10 @@
 				<File Id="1044156567" Language="SFX">
 					<ShortName>Jungle_Birds_AMB_SFX_06.wav</ShortName>
 					<Path>SFX\Jungle_Birds_AMB_SFX_06_6296B0F9.wem</Path>
+				</File>
+				<File Id="1057280635" Language="SFX">
+					<ShortName>FP_Piano_02.wav</ShortName>
+					<Path>SFX\FP_Piano_02_6296B0F9.wem</Path>
 				</File>
 				<File Id="1062184206" Language="English(US)">
 					<ShortName>M_P_V_08_SFX.wav</ShortName>

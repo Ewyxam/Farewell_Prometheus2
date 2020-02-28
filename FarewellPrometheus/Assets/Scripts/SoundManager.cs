@@ -22,9 +22,10 @@ public class SoundManager : MonoBehaviour
         }
         else if (buildIndex == 1)
         {
-          
             AkSoundEngine.SetState("Location", "CL1");
             Debug.Log("CL1 AMB");
+            AkSoundEngine.SetState("Music", "Exploration");
+            AkSoundEngine.PostEvent("Music_Event", gameObject);
         }
 
         

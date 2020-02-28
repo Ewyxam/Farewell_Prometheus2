@@ -69,7 +69,11 @@ MonoBehaviour:
     height: 1040
   m_MinSize: {x: 200, y: 221}
   m_MaxSize: {x: 4000, y: 4021}
+<<<<<<< Updated upstream
   m_ActualView: {fileID: 20}
+=======
+  m_ActualView: {fileID: 21}
+>>>>>>> Stashed changes
   m_Panes:
   - {fileID: 20}
   m_Selected: 0
@@ -293,7 +297,11 @@ MonoBehaviour:
   m_MinSize: {x: 403, y: 492}
   m_MaxSize: {x: 10001, y: 14042}
   vertical: 1
+<<<<<<< Updated upstream
   controlID: 116
+=======
+  controlID: 142
+>>>>>>> Stashed changes
 --- !u!114 &13
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -318,7 +326,11 @@ MonoBehaviour:
   m_MinSize: {x: 403, y: 221}
   m_MaxSize: {x: 8003, y: 4021}
   vertical: 0
+<<<<<<< Updated upstream
   controlID: 117
+=======
+  controlID: 110
+>>>>>>> Stashed changes
 --- !u!114 &14
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -354,6 +366,124 @@ MonoBehaviour:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 0}
   m_Enabled: 1
+<<<<<<< Updated upstream
+=======
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 12914, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_MinSize: {x: 100, y: 100}
+  m_MaxSize: {x: 4000, y: 4000}
+  m_TitleContent:
+    m_Text: Animator
+    m_Image: {fileID: -1673928668082335149, guid: 0000000000000000d000000000000000,
+      type: 0}
+    m_Tooltip: 
+  m_Pos:
+    serializedVersion: 2
+    x: 379
+    y: 73
+    width: 1150
+    height: 552
+  m_ViewDataDictionary: {fileID: 0}
+  m_ViewTransforms:
+    m_KeySerializationHelper:
+    - {fileID: 7367036636426370768, guid: 6a0cae4dfe504f44db104c65cda84212, type: 2}
+    - {fileID: -6163136592617920456, guid: 294e36dd209d2b94aa1c0561dfbfcce9, type: 2}
+    - {fileID: 7945800547969325236, guid: bc29c7097fb22ac45b6c413bbe5b0543, type: 2}
+    - {fileID: 1048378050213110241, guid: 7516cb94feecc184aa88a91f267bffff, type: 2}
+    m_ValueSerializationHelper:
+    - e00: 1
+      e01: 0
+      e02: 0
+      e03: 0
+      e10: 0
+      e11: 1
+      e12: 0
+      e13: 0
+      e20: 0
+      e21: 0
+      e22: 1
+      e23: 0
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    - e00: 0.5130924
+      e01: 0
+      e02: 0
+      e03: 150.7241
+      e10: 0
+      e11: 0.5130924
+      e12: 0
+      e13: 116.42819
+      e20: 0
+      e21: 0
+      e22: 1
+      e23: 0
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    - e00: 0.42556998
+      e01: 0
+      e02: 0
+      e03: 226.41492
+      e10: 0
+      e11: 0.42556998
+      e12: 0
+      e13: -20.707117
+      e20: 0
+      e21: 0
+      e22: 1
+      e23: 0
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    - e00: 0.22541894
+      e01: 0
+      e02: 0
+      e03: 241.20172
+      e10: 0
+      e11: 0.22541894
+      e12: 0
+      e13: 286.59064
+      e20: 0
+      e21: 0
+      e22: 1
+      e23: 0
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+  m_PreviewAnimator: {fileID: 0}
+  m_AnimatorController: {fileID: 9100000, guid: 7516cb94feecc184aa88a91f267bffff,
+    type: 2}
+  m_BreadCrumbs:
+  - m_Target: {fileID: 1048378050213110241, guid: 7516cb94feecc184aa88a91f267bffff,
+      type: 2}
+    m_ScrollPosition: {x: 0, y: 0}
+  stateMachineGraph: {fileID: 0}
+  stateMachineGraphGUI: {fileID: 0}
+  blendTreeGraph: {fileID: 0}
+  blendTreeGraphGUI: {fileID: 0}
+  m_AutoLiveLink: 1
+  m_MiniTool: 0
+  m_LockTracker:
+    m_IsLocked: 0
+  m_CurrentEditor: 1
+  m_LayerEditor:
+    m_SelectedLayerIndex: 0
+--- !u!114 &16
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+>>>>>>> Stashed changes
   m_EditorHideFlags: 1
   m_Script: {fileID: 12111, guid: 0000000000000000e000000000000000, type: 0}
   m_Name: 
@@ -417,7 +547,11 @@ MonoBehaviour:
   m_LastFolders:
   - Assets
   m_LastFoldersGridSize: -1
+<<<<<<< Updated upstream
   m_LastProjectPath: D:\FarewellPrometheus2\Farewell_Prometheus2\FarewellPrometheus
+=======
+  m_LastProjectPath: C:\Users\mdiamant\Desktop\L3_Pro\Projet_intensif\Git\Farewell_Prometheus2\FarewellPrometheus
+>>>>>>> Stashed changes
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
@@ -575,9 +709,15 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
+<<<<<<< Updated upstream
       m_SelectedIDs: 18f9ffff
       m_LastClickedID: -1768
       m_ExpandedIDs: 6efbffff6c3a0000323c0000
+=======
+      m_SelectedIDs: b63a0000
+      m_LastClickedID: 15030
+      m_ExpandedIDs: 7cf8ffff6efbffff6038000038390000
+>>>>>>> Stashed changes
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -772,7 +912,7 @@ MonoBehaviour:
     m_VAllowExceedBaseRangeMax: 1
     m_ScaleWithWindow: 0
     m_HSlider: 0
-    m_VSlider: 0
+    m_VSlider: 1
     m_IgnoreScrollWheelUntilClicked: 0
     m_EnableMouseInput: 1
     m_EnableSliderZoomHorizontal: 0
@@ -785,7 +925,11 @@ MonoBehaviour:
       y: 21
       width: 1920
       height: 998
+<<<<<<< Updated upstream
     m_Scale: {x: 1, y: 1}
+=======
+    m_Scale: {x: 0.9435185, y: 0.94351846}
+>>>>>>> Stashed changes
     m_Translation: {x: 960, y: 499}
     m_MarginLeft: 0
     m_MarginRight: 0
@@ -793,12 +937,21 @@ MonoBehaviour:
     m_MarginBottom: 0
     m_LastShownAreaInsideMargins:
       serializedVersion: 2
+<<<<<<< Updated upstream
       x: -960
       y: -499
       width: 1920
       height: 998
     m_MinimalGUI: 1
   m_defaultScale: 1
+=======
+      x: -1017.4681
+      y: -528.87146
+      width: 2034.9362
+      height: 1057.7429
+    m_MinimalGUI: 1
+  m_defaultScale: 0.9435185
+>>>>>>> Stashed changes
   m_LastWindowPixelSize: {x: 1920, y: 1019}
   m_ClearInEditMode: 1
   m_NoCameraWarning: 1

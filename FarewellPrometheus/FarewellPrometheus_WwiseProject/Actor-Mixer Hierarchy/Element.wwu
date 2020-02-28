@@ -425,6 +425,13 @@
 															</ActiveSourceList>
 														</Sound>
 														<Sound Name="Paper_Handle_02_SFX" ID="{519F4478-6BE9-414B-8ABD-04C2CBDB0D11}" ShortID="561264808">
+															<PropertyList>
+																<Property Name="Inclusion" Type="bool">
+																	<ValueList>
+																		<Value>False</Value>
+																	</ValueList>
+																</Property>
+															</PropertyList>
 															<ReferenceList>
 																<Reference Name="Conversion">
 																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{910AC7EE-841B-4C93-A9B7-752C4BD6AD66}"/>
@@ -444,6 +451,13 @@
 															</ActiveSourceList>
 														</Sound>
 														<Sound Name="Paper_Handle_03_SFX" ID="{4A331B3C-D069-42CD-BFD7-7C95433343C0}" ShortID="466395027">
+															<PropertyList>
+																<Property Name="Inclusion" Type="bool">
+																	<ValueList>
+																		<Value>False</Value>
+																	</ValueList>
+																</Property>
+															</PropertyList>
 															<ReferenceList>
 																<Reference Name="Conversion">
 																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{910AC7EE-841B-4C93-A9B7-752C4BD6AD66}"/>
@@ -628,6 +642,11 @@
 										</RandomSequenceContainer>
 										<RandomSequenceContainer Name="VS1_Screen_Tap_SFX" ID="{49C3FD5F-49F2-4601-B93A-FEEDA5BB0410}" ShortID="597576334">
 											<PropertyList>
+												<Property Name="Inclusion" Type="bool">
+													<ValueList>
+														<Value>False</Value>
+													</ValueList>
+												</Property>
 												<Property Name="Pitch" Type="int32">
 													<ModifierList>
 														<ModifierInfo>
@@ -718,6 +737,11 @@
 										</RandomSequenceContainer>
 										<RandomSequenceContainer Name="VS1_Volga_Glass_Tap_SFX" ID="{535C9B7D-2FB0-47DD-B65B-F37C2ECA547E}" ShortID="976931950">
 											<PropertyList>
+												<Property Name="Inclusion" Type="bool">
+													<ValueList>
+														<Value>False</Value>
+													</ValueList>
+												</Property>
 												<Property Name="Pitch" Type="int32">
 													<ModifierList>
 														<ModifierInfo>
@@ -1310,32 +1334,6 @@
 										</RandomSequenceContainer>
 									</ChildrenList>
 								</BlendContainer>
-								<Sound Name="Open_Inventory_Cloth_SFX" ID="{E9CC162E-5C83-4537-B631-784E28294730}" ShortID="1020943017">
-									<PropertyList>
-										<Property Name="Inclusion" Type="bool">
-											<ValueList>
-												<Value>False</Value>
-											</ValueList>
-										</Property>
-									</PropertyList>
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{910AC7EE-841B-4C93-A9B7-752C4BD6AD66}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D799538D-0932-442A-AAA6-5525C92EAF70}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<AudioFileSource Name="IV_Open_Cloth_SFX" ID="{60B5DC50-ABE5-4127-B35E-AD41C996029F}" ShortID="532727589">
-											<Language>SFX</Language>
-											<AudioFile>IV_Open_Cloth_SFX.wav</AudioFile>
-										</AudioFileSource>
-									</ChildrenList>
-									<ActiveSourceList>
-										<ActiveSource Name="IV_Open_Cloth_SFX" ID="{60B5DC50-ABE5-4127-B35E-AD41C996029F}" Platform="Linked"/>
-									</ActiveSourceList>
-								</Sound>
 								<BlendContainer Name="Close_Inventory_Synth_SFX" ID="{7FD8E70B-53B8-4F06-A26B-B58DE4AF3C04}" ShortID="82414921">
 									<PropertyList>
 										<Property Name="Volume" Type="Real64">
@@ -1488,32 +1486,6 @@
 										</RandomSequenceContainer>
 									</ChildrenList>
 								</BlendContainer>
-								<Sound Name="Close_Inventory_Cloth_SFX" ID="{94BCDDBB-0893-4FC0-B20C-2B87AB7C3DFA}" ShortID="358948060">
-									<PropertyList>
-										<Property Name="Inclusion" Type="bool">
-											<ValueList>
-												<Value>False</Value>
-											</ValueList>
-										</Property>
-									</PropertyList>
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{910AC7EE-841B-4C93-A9B7-752C4BD6AD66}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D799538D-0932-442A-AAA6-5525C92EAF70}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<AudioFileSource Name="IV_Close_Cloth_SFX" ID="{EA61F93D-D2BA-47AC-A419-FE9CCA2C764F}" ShortID="995455085">
-											<Language>SFX</Language>
-											<AudioFile>IV_Close_Cloth_SFX.wav</AudioFile>
-										</AudioFileSource>
-									</ChildrenList>
-									<ActiveSourceList>
-										<ActiveSource Name="IV_Close_Cloth_SFX" ID="{EA61F93D-D2BA-47AC-A419-FE9CCA2C764F}" Platform="Linked"/>
-									</ActiveSourceList>
-								</Sound>
 							</ChildrenList>
 						</ActorMixer>
 					</ChildrenList>

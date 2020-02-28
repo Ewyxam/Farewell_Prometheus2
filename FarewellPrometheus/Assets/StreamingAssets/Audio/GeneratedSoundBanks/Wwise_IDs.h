@@ -35,7 +35,6 @@ namespace AK
         static const AkUniqueID ROBOT_SHUTDOWN = 926426176U;
         static const AkUniqueID ROBOT_VALID_COMMAND = 3910889982U;
         static const AkUniqueID VOLGA_DIAL_P1 = 1059721737U;
-        static const AkUniqueID VOLGA_DIAL_STOP_ALL = 110909812U;
         static const AkUniqueID VS1_SCREEN_GLASS_TAP_EVENT = 2535003186U;
         static const AkUniqueID VS1_TO_CL1_EVENT = 3867008365U;
         static const AkUniqueID VS1_VOLGA_GLASS_TAP_EVENT = 1731494341U;
@@ -68,6 +67,9 @@ namespace AK
             namespace STATE
             {
                 static const AkUniqueID AWAKE = 1151176110U;
+                static const AkUniqueID EXPLORATION = 2582085496U;
+                static const AkUniqueID EXPLORATION_OCT_UP = 222707061U;
+                static const AkUniqueID INTRODUCTION = 1034344105U;
                 static const AkUniqueID STASIS = 1274150312U;
                 static const AkUniqueID TITLE = 3705726509U;
             } // namespace STATE

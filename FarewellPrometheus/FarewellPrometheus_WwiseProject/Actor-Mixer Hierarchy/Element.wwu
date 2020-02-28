@@ -1500,58 +1500,6 @@
 						</Reference>
 					</ReferenceList>
 					<ChildrenList>
-						<Sound Name="CV_Gear_Moving_SFX" ID="{A66D374F-F9EC-4FC1-9A5C-4F6CF8D743EA}" ShortID="1004347666">
-							<PropertyList>
-								<Property Name="Inclusion" Type="bool">
-									<ValueList>
-										<Value>False</Value>
-									</ValueList>
-								</Property>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Conversion">
-									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{910AC7EE-841B-4C93-A9B7-752C4BD6AD66}"/>
-								</Reference>
-								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D799538D-0932-442A-AAA6-5525C92EAF70}"/>
-								</Reference>
-							</ReferenceList>
-							<ChildrenList>
-								<AudioFileSource Name="CV_Gear_Moving_SFX" ID="{B2D5D7D0-C511-4153-9BF5-DE269A998AF0}" ShortID="775194901">
-									<Language>SFX</Language>
-									<AudioFile>CV_Gear_Moving_SFX.wav</AudioFile>
-								</AudioFileSource>
-							</ChildrenList>
-							<ActiveSourceList>
-								<ActiveSource Name="CV_Gear_Moving_SFX" ID="{B2D5D7D0-C511-4153-9BF5-DE269A998AF0}" Platform="Linked"/>
-							</ActiveSourceList>
-						</Sound>
-						<Sound Name="CV_Gear_Right_SFX" ID="{107312E2-D616-484C-B1F9-61232393EBC9}" ShortID="56627158">
-							<PropertyList>
-								<Property Name="Inclusion" Type="bool">
-									<ValueList>
-										<Value>False</Value>
-									</ValueList>
-								</Property>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Conversion">
-									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{910AC7EE-841B-4C93-A9B7-752C4BD6AD66}"/>
-								</Reference>
-								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D799538D-0932-442A-AAA6-5525C92EAF70}"/>
-								</Reference>
-							</ReferenceList>
-							<ChildrenList>
-								<AudioFileSource Name="CV_Gear_Right_SFX" ID="{2C0D702C-C480-4C4A-9C03-82CED79764C7}" ShortID="627925814">
-									<Language>SFX</Language>
-									<AudioFile>CV_Gear_Right_SFX.wav</AudioFile>
-								</AudioFileSource>
-							</ChildrenList>
-							<ActiveSourceList>
-								<ActiveSource Name="CV_Gear_Right_SFX" ID="{2C0D702C-C480-4C4A-9C03-82CED79764C7}" Platform="Linked"/>
-							</ActiveSourceList>
-						</Sound>
 						<RandomSequenceContainer Name="CV_Gear_Right" ID="{D567FD47-CFDD-47F2-97C3-0A9368BA1C23}" ShortID="905678753">
 							<PropertyList>
 								<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
@@ -1569,125 +1517,11 @@
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
-								<BlendContainer Name="Gear_Moving" ID="{E1812BB1-8385-440E-B399-DAF2D792A5AF}" ShortID="902573346">
-									<PropertyList>
-										<Property Name="Volume" Type="Real64">
-											<ValueList>
-												<Value>-8</Value>
-											</ValueList>
-										</Property>
-									</PropertyList>
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{910AC7EE-841B-4C93-A9B7-752C4BD6AD66}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D799538D-0932-442A-AAA6-5525C92EAF70}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<Sound Name="CV_Gear_Moving_p1_SFX" ID="{9FB27829-B9D5-432B-8E17-14FE0FBFCD0A}" ShortID="381455380">
-											<ReferenceList>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{910AC7EE-841B-4C93-A9B7-752C4BD6AD66}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D799538D-0932-442A-AAA6-5525C92EAF70}"/>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<AudioFileSource Name="CV_Gear_Moving_p1_SFX" ID="{78D3654B-05FA-48B9-B971-8EB0AB6CA07A}" ShortID="183753517">
-													<Language>SFX</Language>
-													<AudioFile>CV_Gear_Moving_p1_SFX.wav</AudioFile>
-												</AudioFileSource>
-											</ChildrenList>
-											<ActiveSourceList>
-												<ActiveSource Name="CV_Gear_Moving_p1_SFX" ID="{78D3654B-05FA-48B9-B971-8EB0AB6CA07A}" Platform="Linked"/>
-											</ActiveSourceList>
-										</Sound>
-										<Sound Name="CV_Gear_Moving_p2_SFX" ID="{7C36A589-0F64-4E46-A525-8F4C797E750A}" ShortID="157663786">
-											<ReferenceList>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{910AC7EE-841B-4C93-A9B7-752C4BD6AD66}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D799538D-0932-442A-AAA6-5525C92EAF70}"/>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<AudioFileSource Name="CV_Gear_Moving_p2_SFX" ID="{92C11524-6622-4E09-83D0-67018D035F3D}" ShortID="466456543">
-													<Language>SFX</Language>
-													<AudioFile>CV_Gear_Moving_p2_SFX.wav</AudioFile>
-												</AudioFileSource>
-											</ChildrenList>
-											<ActiveSourceList>
-												<ActiveSource Name="CV_Gear_Moving_p2_SFX" ID="{92C11524-6622-4E09-83D0-67018D035F3D}" Platform="Linked"/>
-											</ActiveSourceList>
-										</Sound>
-										<Sound Name="CV_Gear_Moving_p3_SFX" ID="{94C02D74-D2F6-4500-A56F-05DB9BC08B64}" ShortID="461943660">
-											<ReferenceList>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{910AC7EE-841B-4C93-A9B7-752C4BD6AD66}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D799538D-0932-442A-AAA6-5525C92EAF70}"/>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<AudioFileSource Name="CV_Gear_Moving_p3_SFX" ID="{890206F2-D1DF-4A39-9B84-7BC2436354BC}" ShortID="629306296">
-													<Language>SFX</Language>
-													<AudioFile>CV_Gear_Moving_p3_SFX.wav</AudioFile>
-												</AudioFileSource>
-											</ChildrenList>
-											<ActiveSourceList>
-												<ActiveSource Name="CV_Gear_Moving_p3_SFX" ID="{890206F2-D1DF-4A39-9B84-7BC2436354BC}" Platform="Linked"/>
-											</ActiveSourceList>
-										</Sound>
-										<Sound Name="CV_Gear_Moving_p4_SFX" ID="{942143F6-6B10-4DC5-9B2A-FE6D17EAD9A1}" ShortID="160466806">
-											<ReferenceList>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{910AC7EE-841B-4C93-A9B7-752C4BD6AD66}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D799538D-0932-442A-AAA6-5525C92EAF70}"/>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<AudioFileSource Name="CV_Gear_Moving_p4_SFX" ID="{09176483-7E69-4121-979E-EA39A0329F55}" ShortID="370777821">
-													<Language>SFX</Language>
-													<AudioFile>CV_Gear_Moving_p4_SFX.wav</AudioFile>
-												</AudioFileSource>
-											</ChildrenList>
-											<ActiveSourceList>
-												<ActiveSource Name="CV_Gear_Moving_p4_SFX" ID="{09176483-7E69-4121-979E-EA39A0329F55}" Platform="Linked"/>
-											</ActiveSourceList>
-										</Sound>
-										<Sound Name="CV_Gear_Moving_p5_SFX" ID="{951B3AF0-A962-4B85-ABD7-B9D2C6896017}" ShortID="1040753171">
-											<ReferenceList>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{910AC7EE-841B-4C93-A9B7-752C4BD6AD66}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D799538D-0932-442A-AAA6-5525C92EAF70}"/>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<AudioFileSource Name="CV_Gear_Moving_p5_SFX" ID="{26CE5C9B-5DB2-4F8C-BACE-B5471200DCFC}" ShortID="274589328">
-													<Language>SFX</Language>
-													<AudioFile>CV_Gear_Moving_p5_SFX.wav</AudioFile>
-												</AudioFileSource>
-											</ChildrenList>
-											<ActiveSourceList>
-												<ActiveSource Name="CV_Gear_Moving_p5_SFX" ID="{26CE5C9B-5DB2-4F8C-BACE-B5471200DCFC}" Platform="Linked"/>
-											</ActiveSourceList>
-										</Sound>
-									</ChildrenList>
-								</BlendContainer>
 								<BlendContainer Name="Gear_Right" ID="{68250219-CDAA-483F-8D7E-437EFE21A51A}" ShortID="158118380">
 									<PropertyList>
 										<Property Name="Volume" Type="Real64">
 											<ValueList>
-												<Value>-11</Value>
+												<Value>-9</Value>
 											</ValueList>
 										</Property>
 									</PropertyList>
@@ -1701,6 +1535,42 @@
 									</ReferenceList>
 									<ChildrenList>
 										<Sound Name="CV_Gear_Right_p1_SFX" ID="{5C55BA65-2245-4F89-88CD-902B80EB8CFA}" ShortID="70204856">
+											<PropertyList>
+												<Property Name="Inclusion" Type="bool">
+													<ValueList>
+														<Value>False</Value>
+													</ValueList>
+												</Property>
+												<Property Name="Pitch" Type="int32">
+													<ValueList>
+														<Value>-350</Value>
+													</ValueList>
+													<ModifierList>
+														<ModifierInfo>
+															<Modifier Name="" ID="{000DA554-715A-4131-A33F-2D385CA4CABB}">
+																<PropertyList>
+																	<Property Name="Enabled" Type="bool" Value="True"/>
+																	<Property Name="Max" Type="Real64" Value="150"/>
+																	<Property Name="Min" Type="Real64" Value="-150"/>
+																</PropertyList>
+															</Modifier>
+														</ModifierInfo>
+													</ModifierList>
+												</Property>
+												<Property Name="Volume" Type="Real64">
+													<ModifierList>
+														<ModifierInfo>
+															<Modifier Name="" ID="{617C6125-46E5-4E83-9DAE-478A43312E3F}">
+																<PropertyList>
+																	<Property Name="Enabled" Type="bool" Value="True"/>
+																	<Property Name="Max" Type="Real64" Value="2"/>
+																	<Property Name="Min" Type="Real64" Value="-2"/>
+																</PropertyList>
+															</Modifier>
+														</ModifierInfo>
+													</ModifierList>
+												</Property>
+											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{910AC7EE-841B-4C93-A9B7-752C4BD6AD66}"/>
@@ -1720,6 +1590,39 @@
 											</ActiveSourceList>
 										</Sound>
 										<Sound Name="CV_Gear_Right_p2_SFX" ID="{ACE05C48-B5A2-4296-8FBC-9E727A618EC8}" ShortID="657486611">
+											<PropertyList>
+												<Property Name="Inclusion" Type="bool">
+													<ValueList>
+														<Value>False</Value>
+													</ValueList>
+												</Property>
+												<Property Name="Pitch" Type="int32">
+													<ModifierList>
+														<ModifierInfo>
+															<Modifier Name="" ID="{2586534D-1C20-4580-B011-424FD313A0A2}">
+																<PropertyList>
+																	<Property Name="Enabled" Type="bool" Value="True"/>
+																	<Property Name="Max" Type="Real64" Value="150"/>
+																	<Property Name="Min" Type="Real64" Value="-150"/>
+																</PropertyList>
+															</Modifier>
+														</ModifierInfo>
+													</ModifierList>
+												</Property>
+												<Property Name="Volume" Type="Real64">
+													<ModifierList>
+														<ModifierInfo>
+															<Modifier Name="" ID="{CF295FF0-9303-424F-9199-874318CB2FBE}">
+																<PropertyList>
+																	<Property Name="Enabled" Type="bool" Value="True"/>
+																	<Property Name="Max" Type="Real64" Value="2"/>
+																	<Property Name="Min" Type="Real64" Value="-2"/>
+																</PropertyList>
+															</Modifier>
+														</ModifierInfo>
+													</ModifierList>
+												</Property>
+											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{910AC7EE-841B-4C93-A9B7-752C4BD6AD66}"/>
@@ -1739,6 +1642,39 @@
 											</ActiveSourceList>
 										</Sound>
 										<Sound Name="CV_Gear_Right_p3_SFX" ID="{415D83A5-CC34-44DE-B017-4EF3489E35BC}" ShortID="871509336">
+											<PropertyList>
+												<Property Name="Inclusion" Type="bool">
+													<ValueList>
+														<Value>False</Value>
+													</ValueList>
+												</Property>
+												<Property Name="Pitch" Type="int32">
+													<ModifierList>
+														<ModifierInfo>
+															<Modifier Name="" ID="{79E34366-610B-4065-98B0-AE9A848E9E77}">
+																<PropertyList>
+																	<Property Name="Enabled" Type="bool" Value="True"/>
+																	<Property Name="Max" Type="Real64" Value="150"/>
+																	<Property Name="Min" Type="Real64" Value="-150"/>
+																</PropertyList>
+															</Modifier>
+														</ModifierInfo>
+													</ModifierList>
+												</Property>
+												<Property Name="Volume" Type="Real64">
+													<ModifierList>
+														<ModifierInfo>
+															<Modifier Name="" ID="{ED0D01D6-2147-4956-A45D-D059C45C83B1}">
+																<PropertyList>
+																	<Property Name="Enabled" Type="bool" Value="True"/>
+																	<Property Name="Max" Type="Real64" Value="2"/>
+																	<Property Name="Min" Type="Real64" Value="-2"/>
+																</PropertyList>
+															</Modifier>
+														</ModifierInfo>
+													</ModifierList>
+												</Property>
+											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{910AC7EE-841B-4C93-A9B7-752C4BD6AD66}"/>
@@ -1758,6 +1694,39 @@
 											</ActiveSourceList>
 										</Sound>
 										<Sound Name="CV_Gear_Right_p4_SFX" ID="{B8A1EDD5-ACEB-4416-8905-7BADD1D15D20}" ShortID="666696901">
+											<PropertyList>
+												<Property Name="Inclusion" Type="bool">
+													<ValueList>
+														<Value>False</Value>
+													</ValueList>
+												</Property>
+												<Property Name="Pitch" Type="int32">
+													<ModifierList>
+														<ModifierInfo>
+															<Modifier Name="" ID="{AA53F940-109B-4E19-9802-7FA63B0FB3B2}">
+																<PropertyList>
+																	<Property Name="Enabled" Type="bool" Value="True"/>
+																	<Property Name="Max" Type="Real64" Value="150"/>
+																	<Property Name="Min" Type="Real64" Value="-150"/>
+																</PropertyList>
+															</Modifier>
+														</ModifierInfo>
+													</ModifierList>
+												</Property>
+												<Property Name="Volume" Type="Real64">
+													<ModifierList>
+														<ModifierInfo>
+															<Modifier Name="" ID="{78F2A994-F543-417A-8399-5F51F6782E55}">
+																<PropertyList>
+																	<Property Name="Enabled" Type="bool" Value="True"/>
+																	<Property Name="Max" Type="Real64" Value="2"/>
+																	<Property Name="Min" Type="Real64" Value="-2"/>
+																</PropertyList>
+															</Modifier>
+														</ModifierInfo>
+													</ModifierList>
+												</Property>
+											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{910AC7EE-841B-4C93-A9B7-752C4BD6AD66}"/>
@@ -1777,6 +1746,39 @@
 											</ActiveSourceList>
 										</Sound>
 										<Sound Name="CV_Gear_Right_p5_SFX" ID="{48D53BB7-078E-47D6-AE4D-6A3E15F4083E}" ShortID="121863941">
+											<PropertyList>
+												<Property Name="Inclusion" Type="bool">
+													<ValueList>
+														<Value>False</Value>
+													</ValueList>
+												</Property>
+												<Property Name="Pitch" Type="int32">
+													<ModifierList>
+														<ModifierInfo>
+															<Modifier Name="" ID="{F5CC7DEF-5430-4F18-8C07-5E4FDB8C1835}">
+																<PropertyList>
+																	<Property Name="Enabled" Type="bool" Value="True"/>
+																	<Property Name="Max" Type="Real64" Value="150"/>
+																	<Property Name="Min" Type="Real64" Value="-150"/>
+																</PropertyList>
+															</Modifier>
+														</ModifierInfo>
+													</ModifierList>
+												</Property>
+												<Property Name="Volume" Type="Real64">
+													<ModifierList>
+														<ModifierInfo>
+															<Modifier Name="" ID="{E64A2841-FE0F-4F40-8911-EA47E8596C02}">
+																<PropertyList>
+																	<Property Name="Enabled" Type="bool" Value="True"/>
+																	<Property Name="Max" Type="Real64" Value="2"/>
+																	<Property Name="Min" Type="Real64" Value="-2"/>
+																</PropertyList>
+															</Modifier>
+														</ModifierInfo>
+													</ModifierList>
+												</Property>
+											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{910AC7EE-841B-4C93-A9B7-752C4BD6AD66}"/>
@@ -1796,6 +1798,39 @@
 											</ActiveSourceList>
 										</Sound>
 										<Sound Name="CV_Gear_Right_p6_SFX" ID="{CF5CF202-09F2-4EB5-95D0-D8415F47B846}" ShortID="63711801">
+											<PropertyList>
+												<Property Name="Inclusion" Type="bool">
+													<ValueList>
+														<Value>False</Value>
+													</ValueList>
+												</Property>
+												<Property Name="Pitch" Type="int32">
+													<ModifierList>
+														<ModifierInfo>
+															<Modifier Name="" ID="{909B53FB-F64C-4825-A28C-249FD4BBE05A}">
+																<PropertyList>
+																	<Property Name="Enabled" Type="bool" Value="True"/>
+																	<Property Name="Max" Type="Real64" Value="150"/>
+																	<Property Name="Min" Type="Real64" Value="-150"/>
+																</PropertyList>
+															</Modifier>
+														</ModifierInfo>
+													</ModifierList>
+												</Property>
+												<Property Name="Volume" Type="Real64">
+													<ModifierList>
+														<ModifierInfo>
+															<Modifier Name="" ID="{FB5F06FC-DEBB-4F38-B7B2-8A66DA97F227}">
+																<PropertyList>
+																	<Property Name="Enabled" Type="bool" Value="True"/>
+																	<Property Name="Max" Type="Real64" Value="2"/>
+																	<Property Name="Min" Type="Real64" Value="-2"/>
+																</PropertyList>
+															</Modifier>
+														</ModifierInfo>
+													</ModifierList>
+												</Property>
+											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{910AC7EE-841B-4C93-A9B7-752C4BD6AD66}"/>
@@ -1814,15 +1849,60 @@
 												<ActiveSource Name="CV_Gear_Right_p6_SFX" ID="{F436E3A0-2A71-4B01-A43A-DEBD5B432B2B}" Platform="Linked"/>
 											</ActiveSourceList>
 										</Sound>
+										<Sound Name="CV_Gear_Right_SFX" ID="{107312E2-D616-484C-B1F9-61232393EBC9}" ShortID="56627158">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{910AC7EE-841B-4C93-A9B7-752C4BD6AD66}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D799538D-0932-442A-AAA6-5525C92EAF70}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="CV_Gear_Right_SFX" ID="{2C0D702C-C480-4C4A-9C03-82CED79764C7}" ShortID="627925814">
+													<Language>SFX</Language>
+													<AudioFile>CV_Gear_Right_SFX.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="CV_Gear_Right_SFX" ID="{2C0D702C-C480-4C4A-9C03-82CED79764C7}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
 									</ChildrenList>
 								</BlendContainer>
+								<Sound Name="CV_Gear_Moving_SFX" ID="{A66D374F-F9EC-4FC1-9A5C-4F6CF8D743EA}" ShortID="1004347666">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-96</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{910AC7EE-841B-4C93-A9B7-752C4BD6AD66}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D799538D-0932-442A-AAA6-5525C92EAF70}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="CV_Gear_Moving_SFX" ID="{B2D5D7D0-C511-4153-9BF5-DE269A998AF0}" ShortID="775194901">
+											<Language>SFX</Language>
+											<AudioFile>CV_Gear_Moving_SFX.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="CV_Gear_Moving_SFX" ID="{B2D5D7D0-C511-4153-9BF5-DE269A998AF0}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
 							</ChildrenList>
 							<Playlist>
-								<ItemRef Name="Gear_Moving" ID="{E1812BB1-8385-440E-B399-DAF2D792A5AF}"/>
+								<ItemRef Name="CV_Gear_Moving_SFX" ID="{A66D374F-F9EC-4FC1-9A5C-4F6CF8D743EA}"/>
 								<ItemRef Name="Gear_Right" ID="{68250219-CDAA-483F-8D7E-437EFE21A51A}"/>
 							</Playlist>
 						</RandomSequenceContainer>
-						<BlendContainer Name="Gear_Moving" ID="{C665BAF3-198F-4908-942F-248173F75FAE}" ShortID="954100716">
+						<BlendContainer Name="CV_Gear_Moving" ID="{E1812BB1-8385-440E-B399-DAF2D792A5AF}" ShortID="902573346">
 							<PropertyList>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
@@ -1839,7 +1919,40 @@
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
-								<Sound Name="CV_Gear_Moving_p1_SFX" ID="{B47DF46C-7E14-4805-80B5-14DCA55DF42A}" ShortID="88343008">
+								<Sound Name="CV_Gear_Moving_p1_SFX" ID="{9FB27829-B9D5-432B-8E17-14FE0FBFCD0A}" ShortID="381455380">
+									<PropertyList>
+										<Property Name="Inclusion" Type="bool">
+											<ValueList>
+												<Value>False</Value>
+											</ValueList>
+										</Property>
+										<Property Name="Pitch" Type="int32">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{BD1DD7EC-42E9-4BDC-BCF9-B15FF01CA399}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="150"/>
+															<Property Name="Min" Type="Real64" Value="-150"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+										<Property Name="Volume" Type="Real64">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{8C51CA63-B43A-4F62-959D-5D0F4BD6C420}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="2"/>
+															<Property Name="Min" Type="Real64" Value="-2"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{910AC7EE-841B-4C93-A9B7-752C4BD6AD66}"/>
@@ -1849,19 +1962,49 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="CV_Gear_Moving_p1_SFX" ID="{BCA8381C-4580-41DD-B7F9-446F0B68C750}" ShortID="932334266">
+										<AudioFileSource Name="CV_Gear_Moving_p1_SFX" ID="{78D3654B-05FA-48B9-B971-8EB0AB6CA07A}" ShortID="183753517">
 											<Language>SFX</Language>
 											<AudioFile>CV_Gear_Moving_p1_SFX.wav</AudioFile>
-											<ConvertedFileIDList>
-												<File ID="183753517"/>
-											</ConvertedFileIDList>
 										</AudioFileSource>
 									</ChildrenList>
 									<ActiveSourceList>
-										<ActiveSource Name="CV_Gear_Moving_p1_SFX" ID="{BCA8381C-4580-41DD-B7F9-446F0B68C750}" Platform="Linked"/>
+										<ActiveSource Name="CV_Gear_Moving_p1_SFX" ID="{78D3654B-05FA-48B9-B971-8EB0AB6CA07A}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
-								<Sound Name="CV_Gear_Moving_p2_SFX" ID="{B84CA51C-D61B-41F7-9581-CF8988B35C3A}" ShortID="257794266">
+								<Sound Name="CV_Gear_Moving_p2_SFX" ID="{7C36A589-0F64-4E46-A525-8F4C797E750A}" ShortID="157663786">
+									<PropertyList>
+										<Property Name="Inclusion" Type="bool">
+											<ValueList>
+												<Value>False</Value>
+											</ValueList>
+										</Property>
+										<Property Name="Pitch" Type="int32">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{8AD8517F-48A1-4619-9771-4B42E6B09CFB}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="150"/>
+															<Property Name="Min" Type="Real64" Value="-150"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+										<Property Name="Volume" Type="Real64">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{417CA0ED-248A-4688-9358-51FA7F079E11}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="2"/>
+															<Property Name="Min" Type="Real64" Value="-2"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{910AC7EE-841B-4C93-A9B7-752C4BD6AD66}"/>
@@ -1871,19 +2014,49 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="CV_Gear_Moving_p2_SFX" ID="{54C97326-C8E0-4336-BCFA-FA99597930ED}" ShortID="963504623">
+										<AudioFileSource Name="CV_Gear_Moving_p2_SFX" ID="{92C11524-6622-4E09-83D0-67018D035F3D}" ShortID="466456543">
 											<Language>SFX</Language>
 											<AudioFile>CV_Gear_Moving_p2_SFX.wav</AudioFile>
-											<ConvertedFileIDList>
-												<File ID="466456543"/>
-											</ConvertedFileIDList>
 										</AudioFileSource>
 									</ChildrenList>
 									<ActiveSourceList>
-										<ActiveSource Name="CV_Gear_Moving_p2_SFX" ID="{54C97326-C8E0-4336-BCFA-FA99597930ED}" Platform="Linked"/>
+										<ActiveSource Name="CV_Gear_Moving_p2_SFX" ID="{92C11524-6622-4E09-83D0-67018D035F3D}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
-								<Sound Name="CV_Gear_Moving_p3_SFX" ID="{471CB05B-2341-4D36-84E0-4EDFDF3578AC}" ShortID="49263954">
+								<Sound Name="CV_Gear_Moving_p3_SFX" ID="{94C02D74-D2F6-4500-A56F-05DB9BC08B64}" ShortID="461943660">
+									<PropertyList>
+										<Property Name="Inclusion" Type="bool">
+											<ValueList>
+												<Value>False</Value>
+											</ValueList>
+										</Property>
+										<Property Name="Pitch" Type="int32">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{5966FF59-BAEC-4BDA-A92B-B156BA912FD7}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="150"/>
+															<Property Name="Min" Type="Real64" Value="-150"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+										<Property Name="Volume" Type="Real64">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{B667F5A9-36BA-4E19-AB90-89981C376E7C}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="2"/>
+															<Property Name="Min" Type="Real64" Value="-2"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{910AC7EE-841B-4C93-A9B7-752C4BD6AD66}"/>
@@ -1893,19 +2066,49 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="CV_Gear_Moving_p3_SFX" ID="{3A9BF4CF-EC59-4416-A193-36D29CF48E75}" ShortID="336220334">
+										<AudioFileSource Name="CV_Gear_Moving_p3_SFX" ID="{890206F2-D1DF-4A39-9B84-7BC2436354BC}" ShortID="629306296">
 											<Language>SFX</Language>
 											<AudioFile>CV_Gear_Moving_p3_SFX.wav</AudioFile>
-											<ConvertedFileIDList>
-												<File ID="629306296"/>
-											</ConvertedFileIDList>
 										</AudioFileSource>
 									</ChildrenList>
 									<ActiveSourceList>
-										<ActiveSource Name="CV_Gear_Moving_p3_SFX" ID="{3A9BF4CF-EC59-4416-A193-36D29CF48E75}" Platform="Linked"/>
+										<ActiveSource Name="CV_Gear_Moving_p3_SFX" ID="{890206F2-D1DF-4A39-9B84-7BC2436354BC}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
-								<Sound Name="CV_Gear_Moving_p4_SFX" ID="{0BB59D47-3E2B-46D8-8AD8-C60293077284}" ShortID="20728858">
+								<Sound Name="CV_Gear_Moving_p4_SFX" ID="{942143F6-6B10-4DC5-9B2A-FE6D17EAD9A1}" ShortID="160466806">
+									<PropertyList>
+										<Property Name="Inclusion" Type="bool">
+											<ValueList>
+												<Value>False</Value>
+											</ValueList>
+										</Property>
+										<Property Name="Pitch" Type="int32">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{48FD27CF-FE3D-480A-9ADE-AFE7CB969C9A}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="150"/>
+															<Property Name="Min" Type="Real64" Value="-150"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+										<Property Name="Volume" Type="Real64">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{429C4F2E-B0C1-45B2-9B9D-0B152C526D18}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="2"/>
+															<Property Name="Min" Type="Real64" Value="-2"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{910AC7EE-841B-4C93-A9B7-752C4BD6AD66}"/>
@@ -1915,19 +2118,49 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="CV_Gear_Moving_p4_SFX" ID="{0193AFB5-C0DE-434F-8062-CED8C44C15C9}" ShortID="474516939">
+										<AudioFileSource Name="CV_Gear_Moving_p4_SFX" ID="{09176483-7E69-4121-979E-EA39A0329F55}" ShortID="370777821">
 											<Language>SFX</Language>
 											<AudioFile>CV_Gear_Moving_p4_SFX.wav</AudioFile>
-											<ConvertedFileIDList>
-												<File ID="370777821"/>
-											</ConvertedFileIDList>
 										</AudioFileSource>
 									</ChildrenList>
 									<ActiveSourceList>
-										<ActiveSource Name="CV_Gear_Moving_p4_SFX" ID="{0193AFB5-C0DE-434F-8062-CED8C44C15C9}" Platform="Linked"/>
+										<ActiveSource Name="CV_Gear_Moving_p4_SFX" ID="{09176483-7E69-4121-979E-EA39A0329F55}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
-								<Sound Name="CV_Gear_Moving_p5_SFX" ID="{525F1660-3F31-4EDC-A6E8-0F8B5565D71A}" ShortID="538365146">
+								<Sound Name="CV_Gear_Moving_p5_SFX" ID="{951B3AF0-A962-4B85-ABD7-B9D2C6896017}" ShortID="1040753171">
+									<PropertyList>
+										<Property Name="Inclusion" Type="bool">
+											<ValueList>
+												<Value>False</Value>
+											</ValueList>
+										</Property>
+										<Property Name="Pitch" Type="int32">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{2069A2C4-E0A8-4425-8739-7A2D6568C8B8}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="150"/>
+															<Property Name="Min" Type="Real64" Value="-150"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+										<Property Name="Volume" Type="Real64">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{EA5F3D66-C41E-43B5-AEF7-BBA1BBE9467D}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="2"/>
+															<Property Name="Min" Type="Real64" Value="-2"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{910AC7EE-841B-4C93-A9B7-752C4BD6AD66}"/>
@@ -1937,20 +2170,70 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="CV_Gear_Moving_p5_SFX" ID="{B508FFB6-5F1F-449C-A31F-957A3D48E081}" ShortID="977733877">
+										<AudioFileSource Name="CV_Gear_Moving_p5_SFX" ID="{26CE5C9B-5DB2-4F8C-BACE-B5471200DCFC}" ShortID="274589328">
 											<Language>SFX</Language>
 											<AudioFile>CV_Gear_Moving_p5_SFX.wav</AudioFile>
-											<ConvertedFileIDList>
-												<File ID="274589328"/>
-											</ConvertedFileIDList>
 										</AudioFileSource>
 									</ChildrenList>
 									<ActiveSourceList>
-										<ActiveSource Name="CV_Gear_Moving_p5_SFX" ID="{B508FFB6-5F1F-449C-A31F-957A3D48E081}" Platform="Linked"/>
+										<ActiveSource Name="CV_Gear_Moving_p5_SFX" ID="{26CE5C9B-5DB2-4F8C-BACE-B5471200DCFC}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
 							</ChildrenList>
 						</BlendContainer>
+						<Sound Name="CV_Gear_Moving_SFX" ID="{8A8AAFC6-6FFB-4EBB-99BE-455B231EF3E1}" ShortID="526458219">
+							<PropertyList>
+								<Property Name="Pitch" Type="int32">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{C984E22B-6811-4819-B9FB-1F23FE1BF8D4}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Max" Type="Real64" Value="150"/>
+													<Property Name="Min" Type="Real64" Value="-150"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-12</Value>
+									</ValueList>
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{A82723FA-F06E-4356-AE4C-BDF0AE910C1F}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Max" Type="Real64" Value="3"/>
+													<Property Name="Min" Type="Real64" Value="-3"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{910AC7EE-841B-4C93-A9B7-752C4BD6AD66}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D799538D-0932-442A-AAA6-5525C92EAF70}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="CV_Gear_Moving_SFX" ID="{609D5DF2-0954-4E00-B60F-20DE6D3B2B70}" ShortID="419951000">
+									<Language>SFX</Language>
+									<AudioFile>CV_Gear_Moving_SFX.wav</AudioFile>
+									<ConvertedFileIDList>
+										<File ID="775194901"/>
+									</ConvertedFileIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="CV_Gear_Moving_SFX" ID="{609D5DF2-0954-4E00-B60F-20DE6D3B2B70}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
 					</ChildrenList>
 				</ActorMixer>
 			</ChildrenList>

@@ -67,6 +67,9 @@ public class MessageDeVictoire : MonoBehaviour
             Victoire();
 
         }
+
+        AkSoundEngine.PostEvent("CV_Gears_Right_Event", gameObject);
+
     }
 
                                      
@@ -103,6 +106,7 @@ public class MessageDeVictoire : MonoBehaviour
             Bouton4.GetComponent<Button>().interactable = false;
             Bouton5.GetComponent<Button>().interactable = false;
             Bouton6.GetComponent<Button>().interactable = false;
+
 
         }
     }

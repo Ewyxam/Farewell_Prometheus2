@@ -446,6 +446,7 @@ GameObject:
   - component: {fileID: 142488521}
   - component: {fileID: 142488520}
   - component: {fileID: 142488519}
+  - component: {fileID: 142488522}
   m_Layer: 5
   m_Name: Button1HautGauche
   m_TagString: Untagged
@@ -548,6 +549,17 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 142488522}
+        m_MethodName: OnClick
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &142488520
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -584,6 +596,30 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 142488517}
   m_CullTransparentMesh: 0
+--- !u!114 &142488522
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 142488517}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7b26096c615269641b5ad8ad82fc251c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  clickEvent:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: f37c610dafe63354eba73eaf3573c72a,
+      type: 2}
+  hoverEvent:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 40db291a8b0bf204a91fbee8970d6a23,
+      type: 2}
+  StateGroup: Volga_Dial_P1
+  State: 
 --- !u!1 &328002473
 GameObject:
   m_ObjectHideFlags: 0
@@ -746,6 +782,7 @@ GameObject:
   - component: {fileID: 395802386}
   - component: {fileID: 395802385}
   - component: {fileID: 395802384}
+  - component: {fileID: 395802387}
   m_Layer: 5
   m_Name: Button4HautDroit
   m_TagString: Untagged
@@ -848,6 +885,17 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 395802387}
+        m_MethodName: OnClick
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &395802385
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -884,6 +932,30 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 395802382}
   m_CullTransparentMesh: 0
+--- !u!114 &395802387
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 395802382}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7b26096c615269641b5ad8ad82fc251c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  clickEvent:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: f37c610dafe63354eba73eaf3573c72a,
+      type: 2}
+  hoverEvent:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: f37c610dafe63354eba73eaf3573c72a,
+      type: 2}
+  StateGroup: Volga_Dial_P1
+  State: 
 --- !u!1 &397470048
 GameObject:
   m_ObjectHideFlags: 0
@@ -1057,6 +1129,75 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &624762552
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 7512095668260751244, guid: dff229d9d9792b74eb2bd9d47ae02dee,
+        type: 3}
+      propertyPath: m_Name
+      value: SoundFolder
+      objectReference: {fileID: 0}
+    - target: {fileID: 7512095668260751247, guid: dff229d9d9792b74eb2bd9d47ae02dee,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 463.96973
+      objectReference: {fileID: 0}
+    - target: {fileID: 7512095668260751247, guid: dff229d9d9792b74eb2bd9d47ae02dee,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 225.52948
+      objectReference: {fileID: 0}
+    - target: {fileID: 7512095668260751247, guid: dff229d9d9792b74eb2bd9d47ae02dee,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -240.96097
+      objectReference: {fileID: 0}
+    - target: {fileID: 7512095668260751247, guid: dff229d9d9792b74eb2bd9d47ae02dee,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7512095668260751247, guid: dff229d9d9792b74eb2bd9d47ae02dee,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7512095668260751247, guid: dff229d9d9792b74eb2bd9d47ae02dee,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7512095668260751247, guid: dff229d9d9792b74eb2bd9d47ae02dee,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7512095668260751247, guid: dff229d9d9792b74eb2bd9d47ae02dee,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 7512095668260751247, guid: dff229d9d9792b74eb2bd9d47ae02dee,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7512095668260751247, guid: dff229d9d9792b74eb2bd9d47ae02dee,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7512095668260751247, guid: dff229d9d9792b74eb2bd9d47ae02dee,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: dff229d9d9792b74eb2bd9d47ae02dee, type: 3}
 --- !u!1 &634920159
 GameObject:
   m_ObjectHideFlags: 0
@@ -1100,6 +1241,7 @@ GameObject:
   - component: {fileID: 963194227}
   - component: {fileID: 963194229}
   - component: {fileID: 963194226}
+  - component: {fileID: 963194230}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -1200,6 +1342,31 @@ MonoBehaviour:
     positionOffset: {x: 0, y: 0, z: 0}
   m_posOffsetData: {fileID: 0}
   listenerMask: 1
+--- !u!114 &963194230
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 963194225}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8f435be04eb6f53439ecbf7f0f4539d8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  triggerList: f7e1664c
+  useOtherObject: 0
+  data:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: f235acfdcb32a2e488e93afe52483c55,
+      type: 2}
+  decodeBank: 0
+  loadAsynchronous: 0
+  saveDecodedBank: 0
+  unloadTriggerList: 
+  bankNameInternal: 
+  valueGuidInternal: 
 --- !u!1 &981592338
 GameObject:
   m_ObjectHideFlags: 0
@@ -1800,7 +1967,7 @@ Canvas:
   m_RenderMode: 1
   m_Camera: {fileID: 963194227}
   m_PlaneDistance: 100
-  m_PixelPerfect: 0
+  m_PixelPerfect: 1
   m_ReceivesEvents: 1
   m_OverrideSorting: 0
   m_OverridePixelPerfect: 0

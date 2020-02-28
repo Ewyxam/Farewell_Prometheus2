@@ -12,6 +12,7 @@
 						<State Name="Introduction" ID="{18116FB3-E776-48D1-881C-A77BC4279543}"/>
 						<State Name="Exploration" ID="{E90F13AD-42AC-4036-BCE8-EF6BFB91880D}"/>
 						<State Name="Exploration_Oct_Up" ID="{F3F7D125-D81A-4CA4-9009-1D54280CC455}"/>
+						<State Name="Puzzle" ID="{34911BC8-6C5F-4C1A-9C0D-48E53E5347D7}"/>
 					</ChildrenList>
 				</StateGroup>
 				<StateGroup Name="Suit_On_Off" ID="{BF2F218D-F478-47B4-AD4E-F2D1D22E25C2}">
@@ -34,6 +35,7 @@
 						<State Name="CP1" ID="{4FC79DD7-B41E-4A58-9A12-FB38D8EB798F}"/>
 						<State Name="CP2" ID="{6746E730-6F84-462D-A63F-8B1FD531D52B}"/>
 						<State Name="GR1" ID="{72697C44-3272-407C-8A29-522EEB6672B4}"/>
+						<State Name="CP2_02" ID="{DC140A01-7E90-4B04-8701-0A1EBEA2315C}"/>
 					</ChildrenList>
 					<TransitionList>
 						<Transition>

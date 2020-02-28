@@ -1,9 +1,5 @@
 sceneSetups:
-<<<<<<< Updated upstream
 - path: Assets/Scenes/PhasePnC.unity
-=======
-- path: C:/Users/mdiamant/Desktop/L3_Pro/Projet_intensif/Unity/Mini_Jeu_couveuse/Intensif/Assets/Scenes/SampleScene4.unity
->>>>>>> Stashed changes
   isLoaded: 1
   isActive: 1
   isSubScene: 0

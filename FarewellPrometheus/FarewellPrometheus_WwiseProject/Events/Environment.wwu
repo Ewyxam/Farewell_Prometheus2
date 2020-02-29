@@ -88,6 +88,13 @@
 						<Event Name="Woosh_Mus_Event" ID="{D6DCA802-E0B9-4601-A8B7-AD577BCC3C07}">
 							<ChildrenList>
 								<Action Name="" ID="{F0894643-079C-4CEA-86D0-897B0E0E6CDA}" ShortID="17643986">
+									<PropertyList>
+										<Property Name="Inclusion" Type="bool">
+											<ValueList>
+												<Value>False</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Target">
 											<ObjectRef Name="Mus_Trans_SFX" ID="{8A81A9A0-8BA6-4346-89CF-9FC51A118EAD}" WorkUnitID="{0976A159-B45B-49AD-A20F-D8E27B741149}"/>

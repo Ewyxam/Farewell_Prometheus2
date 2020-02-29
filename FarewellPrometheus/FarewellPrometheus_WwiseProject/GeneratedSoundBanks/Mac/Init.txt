@@ -17,21 +17,30 @@ State	ID	Name	State Group			Notes
 	864881503	GR1	Location			
 	879246361	VS1	Location			
 	1033349305	CL1	Location			
+	3900323791	CP2_02	Location			
 	0	None	Radio			
 	375726501	Mission	Radio			
 	2253511143	Bossa	Radio			
 	0	None	Pause			
 	251826647	Not_Pause	Pause			
 	319258907	Paused	Pause			
+	1865857008	Transition	Pause			
 	0	None	Music			
+	222707061	Exploration_Oct_Up	Music			
+	1034344105	Introduction	Music			
 	1151176110	Awake	Music			
 	1274150312	Stasis	Music			
+	1780448749	Puzzle	Music			
+	2582085496	Exploration	Music			
+	3041563226	Silence	Music			
 	3705726509	Title	Music			
 
 Custom State	ID	Name	State Group	Owner		Notes
+	316066863	Transition	Pause	\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Environments		
 	328841288	Paused	Pause	\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Music		
 	414772684	Paused	Pause	\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\VO		
 	561073275	Paused	Pause	\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Environments		
+	736914817	Transition	Pause	\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Music		
 	1014138168	Paused	Pause	\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\SFX		
 
 Game Parameter	ID	Name			Wwise Object Path	Notes

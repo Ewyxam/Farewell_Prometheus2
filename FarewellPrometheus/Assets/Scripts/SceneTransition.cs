@@ -78,6 +78,8 @@ public class SceneTransition : MonoBehaviour
 
         AkSoundEngine.PostEvent("Woosh_Mus_Event", gameObject);
 
+        AkSoundEngine.SetState("Pause", "Transition");
+
         yield return new WaitForSeconds(transTime);
 
         currentPanel = manager.GetComponent<CollisionManager>().tab[tabNum];
@@ -111,8 +113,9 @@ public class SceneTransition : MonoBehaviour
 
         yield return new WaitForSeconds(nextTransTime);
 
-
         nextPanel = manager.GetComponent<CollisionManager>().tab[tabNum];
+
+        AkSoundEngine.SetState("Pause", "Not_Paused");
 
         nextPanel.SetActive(true);
 

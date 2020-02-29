@@ -1040,6 +1040,13 @@
 											</ActiveSourceList>
 										</Sound>
 										<Sound Name="Pause_Menu_Button_Hover_SFX-002" ID="{6DFF8BB6-FDC3-4A39-9524-E30F3632374D}" ShortID="513296080">
+											<PropertyList>
+												<Property Name="Inclusion" Type="bool">
+													<ValueList>
+														<Value>False</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{910AC7EE-841B-4C93-A9B7-752C4BD6AD66}"/>
@@ -1059,6 +1066,13 @@
 											</ActiveSourceList>
 										</Sound>
 										<Sound Name="Pause_Menu_Button_Hover_SFX-003" ID="{26EDF889-EE22-4D82-8DAC-CCCC64E10F13}" ShortID="861235033">
+											<PropertyList>
+												<Property Name="Inclusion" Type="bool">
+													<ValueList>
+														<Value>False</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{910AC7EE-841B-4C93-A9B7-752C4BD6AD66}"/>
@@ -1078,6 +1092,13 @@
 											</ActiveSourceList>
 										</Sound>
 										<Sound Name="Pause_Menu_Button_Hover_SFX-004" ID="{DD6B0B9D-5CC4-44B8-AF0F-70BF3CC4F4F0}" ShortID="228210743">
+											<PropertyList>
+												<Property Name="Inclusion" Type="bool">
+													<ValueList>
+														<Value>False</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{910AC7EE-841B-4C93-A9B7-752C4BD6AD66}"/>
@@ -1131,6 +1152,13 @@
 											</ActiveSourceList>
 										</Sound>
 										<Sound Name="Pause_Menu_Button_Click_SFX-002" ID="{EC80D41F-7B27-48A2-9177-272E3A18DEB2}" ShortID="909851617">
+											<PropertyList>
+												<Property Name="Inclusion" Type="bool">
+													<ValueList>
+														<Value>False</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{910AC7EE-841B-4C93-A9B7-752C4BD6AD66}"/>
@@ -1150,6 +1178,13 @@
 											</ActiveSourceList>
 										</Sound>
 										<Sound Name="Pause_Menu_Button_Click_SFX-003" ID="{90E8A498-3318-4703-BE0F-F967E81FEE88}" ShortID="715402099">
+											<PropertyList>
+												<Property Name="Inclusion" Type="bool">
+													<ValueList>
+														<Value>False</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{910AC7EE-841B-4C93-A9B7-752C4BD6AD66}"/>

@@ -74,6 +74,7 @@ namespace AK
                 static const AkUniqueID EXPLORATION_OCT_UP = 222707061U;
                 static const AkUniqueID INTRODUCTION = 1034344105U;
                 static const AkUniqueID PUZZLE = 1780448749U;
+                static const AkUniqueID SILENCE = 3041563226U;
                 static const AkUniqueID STASIS = 1274150312U;
                 static const AkUniqueID TITLE = 3705726509U;
             } // namespace STATE
@@ -87,6 +88,7 @@ namespace AK
             {
                 static const AkUniqueID NOT_PAUSE = 251826647U;
                 static const AkUniqueID PAUSED = 319258907U;
+                static const AkUniqueID TRANSITION = 1865857008U;
             } // namespace STATE
         } // namespace PAUSE
 

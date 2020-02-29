@@ -5386,11 +5386,18 @@
 							<ObjectRef Name="AMB" ID="{0B3FCEDC-AD1D-43E0-8330-66D515AA0D95}" WorkUnitID="{910AC7EE-841B-4C93-A9B7-752C4BD6AD66}"/>
 						</Reference>
 						<Reference Name="OutputBus">
-							<ObjectRef Name="Environments" ID="{69F32401-4587-4C3F-A5F9-6A990215D69B}" WorkUnitID="{D799538D-0932-442A-AAA6-5525C92EAF70}"/>
+							<ObjectRef Name="SFX" ID="{B20AF2EF-378A-40E1-8AC6-322560ED0A7C}" WorkUnitID="{D799538D-0932-442A-AAA6-5525C92EAF70}"/>
 						</Reference>
 					</ReferenceList>
 					<ChildrenList>
 						<BlendContainer Name="VS1_to_CL1" ID="{1B77726D-4DB4-42A6-9EB3-C18CB8377561}" ShortID="839429958">
+							<PropertyList>
+								<Property Name="Inclusion" Type="bool">
+									<ValueList>
+										<Value>False</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{910AC7EE-841B-4C93-A9B7-752C4BD6AD66}"/>
@@ -5423,6 +5430,11 @@
 						</BlendContainer>
 						<Sound Name="Woosh_Trans_SFX" ID="{7E4EA850-B7D6-4942-B0B0-34194C1EC369}" ShortID="619122055">
 							<PropertyList>
+								<Property Name="Inclusion" Type="bool">
+									<ValueList>
+										<Value>False</Value>
+									</ValueList>
+								</Property>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
 										<Value>-6</Value>
@@ -5593,6 +5605,13 @@
 									</ActiveSourceList>
 								</Sound>
 								<Sound Name="Mus_Trans_SFX-003" ID="{B866A39F-0A4B-45F0-B970-9750B7F4AECE}" ShortID="43463330">
+									<PropertyList>
+										<Property Name="Inclusion" Type="bool">
+											<ValueList>
+												<Value>False</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="AMB" ID="{0B3FCEDC-AD1D-43E0-8330-66D515AA0D95}" WorkUnitID="{910AC7EE-841B-4C93-A9B7-752C4BD6AD66}"/>
@@ -5612,6 +5631,13 @@
 									</ActiveSourceList>
 								</Sound>
 								<Sound Name="Mus_Trans_SFX-004" ID="{F9A9D6DE-86F6-4E3B-B095-50A8C5E541F9}" ShortID="822670866">
+									<PropertyList>
+										<Property Name="Inclusion" Type="bool">
+											<ValueList>
+												<Value>False</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="AMB" ID="{0B3FCEDC-AD1D-43E0-8330-66D515AA0D95}" WorkUnitID="{910AC7EE-841B-4C93-A9B7-752C4BD6AD66}"/>
@@ -5631,6 +5657,13 @@
 									</ActiveSourceList>
 								</Sound>
 								<Sound Name="Mus_Trans_SFX-005" ID="{4AB9DA27-2FFD-4229-BF8D-D36875375E86}" ShortID="555046796">
+									<PropertyList>
+										<Property Name="Inclusion" Type="bool">
+											<ValueList>
+												<Value>False</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="AMB" ID="{0B3FCEDC-AD1D-43E0-8330-66D515AA0D95}" WorkUnitID="{910AC7EE-841B-4C93-A9B7-752C4BD6AD66}"/>
@@ -5650,6 +5683,13 @@
 									</ActiveSourceList>
 								</Sound>
 								<Sound Name="Mus_Trans_SFX-006" ID="{A0D88335-1A7C-4CB3-A0A3-0A2D326FD427}" ShortID="283084230">
+									<PropertyList>
+										<Property Name="Inclusion" Type="bool">
+											<ValueList>
+												<Value>False</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="AMB" ID="{0B3FCEDC-AD1D-43E0-8330-66D515AA0D95}" WorkUnitID="{910AC7EE-841B-4C93-A9B7-752C4BD6AD66}"/>

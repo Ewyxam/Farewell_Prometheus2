@@ -61,6 +61,7 @@ public class CollisionManager : MonoBehaviour
         tabNum += 1;
         transition.GetComponent<SceneTransition>().LoadTransitionPanel();
         AkSoundEngine.SetState("Location", "GR1");
+        AkSoundEngine.SetState("Music", "Silence");
     }
     public void RvToCp()
     {
@@ -78,6 +79,7 @@ public class CollisionManager : MonoBehaviour
         tabNum -= 1;
         transition.GetComponent<SceneTransition>().LoadTransitionPanel();
         AkSoundEngine.SetState("Location", "RV1");
+        AkSoundEngine.SetState("Music", "Exploration");
 
     }
 

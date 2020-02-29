@@ -21,7 +21,7 @@
 							<PropertyList>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
-										<Value>-15</Value>
+										<Value>-8</Value>
 									</ValueList>
 								</Property>
 							</PropertyList>
@@ -155,6 +155,14 @@
 											<CustomState>
 												<StateRef Name="Exploration" ID="{E90F13AD-42AC-4036-BCE8-EF6BFB91880D}"/>
 												<CustomState Name="" ID="{9108E1DB-1FA8-4477-832B-0B0A2C3A0951}" ShortID="347437843"/>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="Silence" ID="{DBCCDB0C-30BD-4140-8272-955D16EB75E1}"/>
+												<CustomState Name="" ID="{EFABB612-2E45-4031-A610-E4F7FAACF337}" ShortID="358060070">
+													<PropertyList>
+														<Property Name="Volume" Type="Real64" Value="-96"/>
+													</PropertyList>
+												</CustomState>
 											</CustomState>
 											<CustomState>
 												<StateRef Name="Stasis" ID="{806C9E29-42F0-44C5-9A31-22E662A07694}"/>
@@ -334,6 +342,14 @@
 											<CustomState>
 												<StateRef Name="Exploration" ID="{E90F13AD-42AC-4036-BCE8-EF6BFB91880D}"/>
 												<CustomState Name="" ID="{57C5793E-B76F-46E0-AD00-C62FB470B1D0}" ShortID="337576432">
+													<PropertyList>
+														<Property Name="Volume" Type="Real64" Value="-96"/>
+													</PropertyList>
+												</CustomState>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="Silence" ID="{DBCCDB0C-30BD-4140-8272-955D16EB75E1}"/>
+												<CustomState Name="" ID="{380D720F-21CB-446C-A297-84573F7F7A46}" ShortID="469098303">
 													<PropertyList>
 														<Property Name="Volume" Type="Real64" Value="-96"/>
 													</PropertyList>

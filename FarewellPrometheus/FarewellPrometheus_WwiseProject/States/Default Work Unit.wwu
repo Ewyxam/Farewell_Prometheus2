@@ -13,7 +13,22 @@
 						<State Name="Exploration" ID="{E90F13AD-42AC-4036-BCE8-EF6BFB91880D}"/>
 						<State Name="Exploration_Oct_Up" ID="{F3F7D125-D81A-4CA4-9009-1D54280CC455}"/>
 						<State Name="Puzzle" ID="{34911BC8-6C5F-4C1A-9C0D-48E53E5347D7}"/>
+						<State Name="Silence" ID="{DBCCDB0C-30BD-4140-8272-955D16EB75E1}"/>
 					</ChildrenList>
+					<TransitionList>
+						<Transition>
+							<StartState Name="Exploration" ID="{E90F13AD-42AC-4036-BCE8-EF6BFB91880D}"/>
+							<EndState Name="Silence" ID="{DBCCDB0C-30BD-4140-8272-955D16EB75E1}"/>
+							<Time>5</Time>
+							<IsShared>true</IsShared>
+						</Transition>
+						<Transition>
+							<StartState Name="Exploration_Oct_Up" ID="{F3F7D125-D81A-4CA4-9009-1D54280CC455}"/>
+							<EndState Name="Silence" ID="{DBCCDB0C-30BD-4140-8272-955D16EB75E1}"/>
+							<Time>5</Time>
+							<IsShared>true</IsShared>
+						</Transition>
+					</TransitionList>
 				</StateGroup>
 				<StateGroup Name="Suit_On_Off" ID="{BF2F218D-F478-47B4-AD4E-F2D1D22E25C2}">
 					<ChildrenList>
@@ -82,6 +97,7 @@
 						<State Name="None" ID="{A352A262-8D34-444E-B9B2-6620C9666456}"/>
 						<State Name="Paused" ID="{120774C0-7122-47F5-A70D-9B058B860E95}"/>
 						<State Name="Not_Pause" ID="{D9BDCFD1-80A0-4CD5-9AC3-F8D1646B05AD}"/>
+						<State Name="Transition" ID="{FE913ABE-5EA4-437E-9A83-8ADE2ECC54A0}"/>
 					</ChildrenList>
 				</StateGroup>
 			</ChildrenList>

@@ -6,7 +6,7 @@ public class CursorController : MonoBehaviour
 {
     public static CursorController instance;
 
-    public Texture2D normalCursor, handOpen, handClosed, arrow, arrowDown;
+    public Texture2D normalCursor, handOpen, handClosed, arrow, arrowDown, magnifyingGlass;
 
     private void Awake()
     {
@@ -38,5 +38,10 @@ public class CursorController : MonoBehaviour
     public void ActivateArrowDown()
     {
         Cursor.SetCursor(arrowDown, new Vector2(arrowDown.width / 2, arrowDown.height -1), CursorMode.Auto);
+    }
+
+    public void ActivateMagnifyingGlass()
+    {
+        Cursor.SetCursor(magnifyingGlass, new Vector2(handOpen.width / 2, handOpen.height / 2), CursorMode.Auto);
     }
 }

@@ -3,11 +3,14 @@ Event	ID	Name			Wwise Object Path	Notes
 	274588646	Dial_PnC_Event			\Default Work Unit\Vocal\Dial_PnC_Event	
 	368709004	Password_Wrong			\Default Work Unit\Ship\Computer\Password\Password_Wrong	
 	814543256	Button_Click			\Default Work Unit\Ship\Computer\Button\Button_Click	
+	841378045	CL1_to_JG1_Event			\Default Work Unit\Environment\Transitions\CL1_to_JG1_Event	
+	896891632	CP2_to_CP1_Event			\Default Work Unit\Environment\Transitions\CP2_to_CP1_Event	
 	926426176	Robot_Shutdown			\Default Work Unit\Ship\Robot\Robot_Shutdown	
 	1059721737	Volga_Dial_P1			\Default Work Unit\Ship\Dialog\Volga_Dial_P1	
 	1184261795	Robot_Scanning			\Default Work Unit\Ship\Robot\Robot_Scanning	
 	1281846564	Robot_Moving			\Default Work Unit\Ship\Robot\Robot_Moving	
 	1307820710	Computer_Scan			\Default Work Unit\Ship\Computer\Computer_Scan	
+	1360994714	CP1_to_CP2_Event			\Default Work Unit\Environment\Transitions\CP1_to_CP2_Event	
 	1497348625	CV_Gears_Right_Event			\Default Work Unit\Element\CV\CV_Gears_Right_Event	
 	1701177942	Button_Hover			\Default Work Unit\Ship\Computer\Button\Button_Hover	
 	1731494341	VS1_Volga_Glass_Tap_Event			\Default Work Unit\Ship\Objects\VS1_Volga_Glass_Tap_Event	
@@ -23,6 +26,7 @@ Event	ID	Name			Wwise Object Path	Notes
 	3118182193	Computer_Ship_Status_Event			\Default Work Unit\Ship\Computer\Computer_Ship_Status_Event	
 	3429733933	Ambiance_Bed			\Default Work Unit\Ship\Ambience\Ambiance_Bed	
 	3546553156	Pause_Menu_Button_Click_Event			\Default Work Unit\Element\UI\Pause_Menu\Pause_Menu_Button_Click_Event	
+	3621126168	GR1_to_RV1_Event			\Default Work Unit\Environment\Transitions\GR1_to_RV1_Event	
 	3867008365	VS1_to_CL1_Event			\Default Work Unit\Environment\Transitions\VS1_to_CL1_Event	
 	3878117114	Post_it_Handle			\Default Work Unit\Ship\Objects\Post_it_Handle	
 	3910889982	Robot_Valid_Command			\Default Work Unit\Ship\Robot\Robot_Valid_Command	
@@ -124,6 +128,7 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	125064382	Jungle_Birds_AMB_SFX_14	D:\Farewell_Backup\Farewell_Prometheus2\FarewellPrometheus\FarewellPrometheus_WwiseProject\.cache\Mac\SFX\Jungle_Birds_AMB_SFX_14_6296B0F9.wem		\Actor-Mixer Hierarchy\Default Work Unit\Environment\Ambience\Ambience_Switch\CL1_AMB_SFX\CL1_Birds_SFX\Jungle_Birds_AMB_SFX_14		30808
 	132184454	Jungle_Birds_AMB_SFX_12	D:\Farewell_Backup\Farewell_Prometheus2\FarewellPrometheus\FarewellPrometheus_WwiseProject\.cache\Mac\SFX\Jungle_Birds_AMB_SFX_12_6296B0F9.wem		\Actor-Mixer Hierarchy\Default Work Unit\Environment\Ambience\Ambience_Switch\CL1_AMB_SFX\CL1_Birds_SFX\Jungle_Birds_AMB_SFX_12		51256
 	140245505	Volga_P1_Dial_06-03	D:\Farewell_Backup\Farewell_Prometheus2\FarewellPrometheus\FarewellPrometheus_WwiseProject\.cache\Mac\Voices\English(US)\Volga_P1_Dial_06-03_6296B0F9.wem		\Actor-Mixer Hierarchy\Default Work Unit\Vocal\Phase_1\Phase_1\Volga\Volga_Dial_P1\Volga_P1_Dial_06\Volga_P1_Dial_06-03		24012
+	144557499	Trans_Steps_Grass_SFX	D:\Farewell_Backup\Farewell_Prometheus2\FarewellPrometheus\FarewellPrometheus_WwiseProject\.cache\Mac\SFX\Trans_Steps_Grass_SFX_6296B0F9.wem		\Actor-Mixer Hierarchy\Default Work Unit\Environment\Transitions\CP1_to_CP2_SFX\Trans_Steps_Grass_SFX		52317
 	148088509	Jungle_Birds_AMB_SFX_05	D:\Farewell_Backup\Farewell_Prometheus2\FarewellPrometheus\FarewellPrometheus_WwiseProject\.cache\Mac\SFX\Jungle_Birds_AMB_SFX_05_6296B0F9.wem		\Actor-Mixer Hierarchy\Default Work Unit\Environment\Ambience\Ambience_Switch\CL1_AMB_SFX\CL1_Birds_SFX\Jungle_Birds_AMB_SFX_05		22654
 	158495881	M_P_V_07_SFX	D:\Farewell_Backup\Farewell_Prometheus2\FarewellPrometheus\FarewellPrometheus_WwiseProject\.cache\Mac\Voices\English(US)\M_P_V_07_SFX_6296B0F9.wem		\Actor-Mixer Hierarchy\Default Work Unit\Vocal\Phase_3\P3_Dialogue_Switch\M_P_SFX\M_P_V_07_SFX		4741
 	162766254	Pause_Menu_Button_Click_SFX-001	D:\Farewell_Backup\Farewell_Prometheus2\FarewellPrometheus\FarewellPrometheus_WwiseProject\.cache\Mac\SFX\Pause_Menu_Button_Click_SFX-001_6296B0F9.wem		\Actor-Mixer Hierarchy\Default Work Unit\Element\UI\Pause_Menu\Pause_Menu_Button_Click_SFX\Pause_Menu_Button_Click_SFX-001		1266
@@ -144,6 +149,7 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	243976750	Volga_P1_Dial_05-01	D:\Farewell_Backup\Farewell_Prometheus2\FarewellPrometheus\FarewellPrometheus_WwiseProject\.cache\Mac\Voices\English(US)\Volga_P1_Dial_05-01_6296B0F9.wem		\Actor-Mixer Hierarchy\Default Work Unit\Vocal\Phase_1\Phase_1\Volga\Volga_Dial_P1\Volga_P1_Dial_05\Volga_P1_Dial_05-01		44275
 	247411559	CL1_Wind_Gust_02_AMB_SFX	D:\Farewell_Backup\Farewell_Prometheus2\FarewellPrometheus\FarewellPrometheus_WwiseProject\.cache\Mac\SFX\CL1_Wind_Gust_02_AMB_SFX_6296B0F9.wem		\Actor-Mixer Hierarchy\Default Work Unit\Environment\Ambience\Ambience_Switch\CL1_AMB_SFX\CL1_Wind_Gusts_AMB_SFX\CL1_Wind_Gust_02_AMB_SFX		64818
 	255357415	CL1_Lemur_01_AMB_SFX	D:\Farewell_Backup\Farewell_Prometheus2\FarewellPrometheus\FarewellPrometheus_WwiseProject\.cache\Mac\SFX\CL1_Lemur_01_AMB_SFX_6296B0F9.wem		\Actor-Mixer Hierarchy\Default Work Unit\Environment\Ambience\Ambience_Switch\CL1_AMB_SFX\CL1_Lemurs_AMB_SFX\CL1_Lemur_01_AMB_SFX		80050
+	261827938	Trans_Steps_Stone_SFX	D:\Farewell_Backup\Farewell_Prometheus2\FarewellPrometheus\FarewellPrometheus_WwiseProject\.cache\Mac\SFX\Trans_Steps_Concrete_SFX_6296B0F9_EAFC2DCF.wem		\Actor-Mixer Hierarchy\Default Work Unit\Environment\Transitions\Trans_Steps_Stone_SFX		55082
 	272771483	G_I_I_09_SFX	D:\Farewell_Backup\Farewell_Prometheus2\FarewellPrometheus\FarewellPrometheus_WwiseProject\.cache\Mac\Voices\English(US)\G_I_I_09_SFX_6296B0F9.wem		\Actor-Mixer Hierarchy\Default Work Unit\Vocal\Phase_3\P3_Dialogue_Switch\G_I_SFX\G_I_I_09_SFX		15097
 	278415604	FP_Piano_all_2_oct_up	D:\Farewell_Backup\Farewell_Prometheus2\FarewellPrometheus\FarewellPrometheus_WwiseProject\.cache\Mac\SFX\FP_Piano_all_2_oct_up_9B96ECC7.wem		\Interactive Music Hierarchy\Music\Music_Switch\Introduction\FP_Piano_all_2_oct_up		814414
 	279855426	T_I_I_01_SFX	D:\Farewell_Backup\Farewell_Prometheus2\FarewellPrometheus\FarewellPrometheus_WwiseProject\.cache\Mac\Voices\English(US)\T_I_I_01_SFX_6296B0F9.wem		\Actor-Mixer Hierarchy\Default Work Unit\Vocal\Phase_3\P3_Dialogue_Switch\T_I_SFX\T_I_VI_01_SFX\T_I_I_01_SFX		31848
@@ -159,6 +165,7 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	320778274	FP_Piano_02_oct_up	D:\Farewell_Backup\Farewell_Prometheus2\FarewellPrometheus\FarewellPrometheus_WwiseProject\.cache\Mac\SFX\FP_Piano_02_oct_up_6296B0F9.wem		\Actor-Mixer Hierarchy\Default Work Unit\Music\Exploration\Exploration_Theme\Exploration_Theme_Octave_Up\FP_Piano_02_oct_up		371016
 	322691907	VS2_Robot_Valid_Command_SFX	D:\Farewell_Backup\Farewell_Prometheus2\FarewellPrometheus\FarewellPrometheus_WwiseProject\.cache\Mac\SFX\Robot_Command_Received_SFX_6296B0F9.wem		\Actor-Mixer Hierarchy\Default Work Unit\Element\VS2\VS2\VS2_Robot_Valid_Command_SFX		11303
 	323038935	Jungle_Birds_AMB_SFX_03	D:\Farewell_Backup\Farewell_Prometheus2\FarewellPrometheus\FarewellPrometheus_WwiseProject\.cache\Mac\SFX\Jungle_Birds_AMB_SFX_03_6296B0F9.wem		\Actor-Mixer Hierarchy\Default Work Unit\Environment\Ambience\Ambience_Switch\CL1_AMB_SFX\CL1_Birds_SFX\Jungle_Birds_AMB_SFX_03		22484
+	335619785	CP1_Door_SFX	D:\Farewell_Backup\Farewell_Prometheus2\FarewellPrometheus\FarewellPrometheus_WwiseProject\.cache\Mac\SFX\CP1_Door_SFX_6296B0F9.wem		\Actor-Mixer Hierarchy\Default Work Unit\Environment\Transitions\CP1_to_CP2_SFX\CP1_Door_SFX		49863
 	336549232	RV1_River_Stream_01_SFX	D:\Farewell_Backup\Farewell_Prometheus2\FarewellPrometheus\FarewellPrometheus_WwiseProject\.cache\Mac\SFX\RV1_River_Stream_01_SFX_9B96ECC7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Environment\Ambience\Ambience_Switch\RV1_AMB_SFX\RV1_River_Stream_01_SFX		2050276
 	340619555	FP_Piano_03	D:\Farewell_Backup\Farewell_Prometheus2\FarewellPrometheus\FarewellPrometheus_WwiseProject\.cache\Mac\SFX\FP_Piano_03_6296B0F9.wem		\Actor-Mixer Hierarchy\Default Work Unit\Music\Exploration\Exploration_Theme\Exploration_Theme\FP_Piano_03		396147
 	350507638	A_I_V_03_SFX	D:\Farewell_Backup\Farewell_Prometheus2\FarewellPrometheus\FarewellPrometheus_WwiseProject\.cache\Mac\Voices\English(US)\A_I_V_03_SFX_6296B0F9.wem		\Actor-Mixer Hierarchy\Default Work Unit\Vocal\Phase_3\P3_Dialogue_Switch\A_I_SFX\A_IV_I_02_SFX\A_I_V_03_SFX		21064
@@ -240,6 +247,7 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	743703861	Jungle_Birds_AMB_SFX_10	D:\Farewell_Backup\Farewell_Prometheus2\FarewellPrometheus\FarewellPrometheus_WwiseProject\.cache\Mac\SFX\Jungle_Birds_AMB_SFX_10_6296B0F9.wem		\Actor-Mixer Hierarchy\Default Work Unit\Environment\Ambience\Ambience_Switch\CL1_AMB_SFX\CL1_Birds_SFX\Jungle_Birds_AMB_SFX_10		26268
 	747958361	VS1_Ship_Drone_AMB_02_SFX	D:\Farewell_Backup\Farewell_Prometheus2\FarewellPrometheus\FarewellPrometheus_WwiseProject\.cache\Mac\SFX\Ship_Drone_AMB_02_SFX_9B96ECC7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Environment\Ambience\Ambience_Switch\VS1_AMB_SFX\VS1_Ship_Drone_AMB_02_SFX		507907
 	748114335	CP2_I_03_SFX	D:\Farewell_Backup\Farewell_Prometheus2\FarewellPrometheus\FarewellPrometheus_WwiseProject\.cache\Mac\Voices\English(US)\CP2_I_03_SFX_6296B0F9.wem		\Actor-Mixer Hierarchy\Default Work Unit\Vocal\Phase_3\P3_Dialogue_Switch\CP2_IV_02_SFX\CP2_I_03_SFX		11117
+	758958709	Trans_Steps_Concrete_SFX	D:\Farewell_Backup\Farewell_Prometheus2\FarewellPrometheus\FarewellPrometheus_WwiseProject\.cache\Mac\SFX\Trans_Steps_Concrete_SFX_6296B0F9.wem		\Actor-Mixer Hierarchy\Default Work Unit\Environment\Transitions\CP2_to_CP1_SFX\Trans_Steps_Concrete_SFX		35647
 	759164687	Volga_P1_Dial_02-02	D:\Farewell_Backup\Farewell_Prometheus2\FarewellPrometheus\FarewellPrometheus_WwiseProject\.cache\Mac\Voices\English(US)\Volga_P1_Dial_02-02_6296B0F9.wem		\Actor-Mixer Hierarchy\Default Work Unit\Vocal\Phase_1\Phase_1\Volga\Volga_Dial_P1\Volga_P1_Dial_02\Volga_P1_Dial_02-02		62580
 	762012689	VS2_Robot_Invalid_Command_SFX	D:\Farewell_Backup\Farewell_Prometheus2\FarewellPrometheus\FarewellPrometheus_WwiseProject\.cache\Mac\SFX\Robot_Command_Not_Valid_SFX_6296B0F9.wem		\Actor-Mixer Hierarchy\Default Work Unit\Element\VS2\VS2\VS2_Robot_Invalid_Command_SFX		11108
 	772294689	GR1_Water_Droplets_AMB_01_SFX-006	D:\Farewell_Backup\Farewell_Prometheus2\FarewellPrometheus\FarewellPrometheus_WwiseProject\.cache\Mac\SFX\GR1_Water_Droplets_AMB_01_SFX-006_6296B0F9.wem		\Actor-Mixer Hierarchy\Default Work Unit\Environment\Ambience\Ambience_Switch\GR1_AMB_SFX\GR1_Water_Droplets_SFX\GR1_Water_Droplets_AMB_01_SFX-006		42500

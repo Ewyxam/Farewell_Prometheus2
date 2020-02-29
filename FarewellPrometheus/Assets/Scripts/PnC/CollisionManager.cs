@@ -21,6 +21,7 @@ public class CollisionManager : MonoBehaviour //Gerer les collisions et les tran
         tabNum += 1;
         transition.GetComponent<SceneTransition>().LoadTransitionPanel();
         AkSoundEngine.SetState("Location", "JG1");
+        AkSoundEngine.PostEvent("CL1_to_JG1_Event", gameObject);
 
 
 
@@ -33,6 +34,7 @@ public class CollisionManager : MonoBehaviour //Gerer les collisions et les tran
         tabNum -= 1;
         transition.GetComponent<SceneTransition>().LoadTransitionPanel();
         AkSoundEngine.SetState("Location", "CL1");
+        AkSoundEngine.PostEvent("CL1_to_JG1_Event", gameObject);
 
     }
 
@@ -42,6 +44,7 @@ public class CollisionManager : MonoBehaviour //Gerer les collisions et les tran
         tabNum += 1;
         transition.GetComponent<SceneTransition>().LoadTransitionPanel();
         AkSoundEngine.SetState("Location", "RV1");
+        AkSoundEngine.PostEvent("CL1_to_JG1_Event", gameObject);
 
 
     }
@@ -53,6 +56,7 @@ public class CollisionManager : MonoBehaviour //Gerer les collisions et les tran
         tabNum -= 1;
         transition.GetComponent<SceneTransition>().LoadTransitionPanel();
         AkSoundEngine.SetState("Location", "JG1");
+        AkSoundEngine.PostEvent("CL1_to_JG1_Event", gameObject);
 
     }
 
@@ -63,6 +67,7 @@ public class CollisionManager : MonoBehaviour //Gerer les collisions et les tran
         transition.GetComponent<SceneTransition>().LoadTransitionPanel();
         AkSoundEngine.SetState("Location", "GR1");
         AkSoundEngine.SetState("Music", "Silence");
+        AkSoundEngine.PostEvent("CL1_to_JG1_Event", gameObject);
     }
     public void RvToCp()
     {
@@ -70,6 +75,7 @@ public class CollisionManager : MonoBehaviour //Gerer les collisions et les tran
         tabNum += 2;
         transition.GetComponent<SceneTransition>().LoadTransitionPanel();
         AkSoundEngine.SetState("Location", "CP1");
+        AkSoundEngine.PostEvent("CL1_to_JG1_Event", gameObject);
 
     }
 
@@ -81,6 +87,7 @@ public class CollisionManager : MonoBehaviour //Gerer les collisions et les tran
         transition.GetComponent<SceneTransition>().LoadTransitionPanel();
         AkSoundEngine.SetState("Location", "RV1");
         AkSoundEngine.SetState("Music", "Exploration");
+        AkSoundEngine.PostEvent("GR1_to_RV1_Event", gameObject);
 
     }
 
@@ -91,6 +98,7 @@ public class CollisionManager : MonoBehaviour //Gerer les collisions et les tran
         tabNum -= 2;
         transition.GetComponent<SceneTransition>().LoadTransitionPanel();
         AkSoundEngine.SetState("Location", "RV1");
+        AkSoundEngine.PostEvent("CL1_to_JG1_Event", gameObject);
 
     }
 
@@ -100,6 +108,7 @@ public class CollisionManager : MonoBehaviour //Gerer les collisions et les tran
         tabNum += 1;
         transition.GetComponent<SceneTransition>().LoadTransitionPanel();
         AkSoundEngine.SetState("Location", "CP2");
+        AkSoundEngine.PostEvent("CP1_to_CP2_Event", gameObject);
 
     }
 
@@ -110,6 +119,7 @@ public class CollisionManager : MonoBehaviour //Gerer les collisions et les tran
         tabNum -= 1;
         transition.GetComponent<SceneTransition>().LoadTransitionPanel();
         AkSoundEngine.SetState("Location", "CP1");
+        AkSoundEngine.PostEvent("CP2_to_CP1_Event", gameObject);
     }
 
 

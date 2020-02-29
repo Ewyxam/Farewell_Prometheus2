@@ -115,6 +115,50 @@
 								</Action>
 							</ChildrenList>
 						</Event>
+						<Event Name="GR1_to_RV1_Event" ID="{51476E74-1CCB-4D75-850B-BC5B9F5A366E}">
+							<ChildrenList>
+								<Action Name="" ID="{7B80BC9D-20DB-4038-B630-6408EEE05E4E}" ShortID="1021925616">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Trans_Steps_Stone_SFX" ID="{2E9D7B9A-AA96-4EB3-A82C-1715929A5F22}" WorkUnitID="{0976A159-B45B-49AD-A20F-D8E27B741149}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="CL1_to_JG1_Event" ID="{54230382-DB94-4EE3-942C-5F36C86865CA}">
+							<ChildrenList>
+								<Action Name="" ID="{AB0ED2AB-CA0F-4CFD-8396-96BA12008DE7}" ShortID="43286916">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Trans_Steps_Grass_SFX" ID="{68FD8140-3C52-4058-925E-A7537FEE3E01}" WorkUnitID="{0976A159-B45B-49AD-A20F-D8E27B741149}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="CP1_to_CP2_Event" ID="{8F8C7E4F-6FD2-4784-9EF3-E0C0AE10BE3E}">
+							<ChildrenList>
+								<Action Name="" ID="{1AA46DEE-E953-4F76-AC8B-A313E5F86460}" ShortID="754384887">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="CP1_to_CP2_SFX" ID="{7497F62E-A836-426B-BAA3-6DCFD736A572}" WorkUnitID="{0976A159-B45B-49AD-A20F-D8E27B741149}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="CP2_to_CP1_Event" ID="{610B2A0D-2C74-49D2-AB26-A76B64AA6F43}">
+							<ChildrenList>
+								<Action Name="" ID="{B4696051-D1AC-4547-B421-05D2435C9F61}" ShortID="254187265">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="CP2_to_CP1_SFX" ID="{7E463631-5678-4023-9747-D76EFD8A77F8}" WorkUnitID="{0976A159-B45B-49AD-A20F-D8E27B741149}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
 					</ChildrenList>
 				</Folder>
 			</ChildrenList>

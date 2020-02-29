@@ -3020,7 +3020,7 @@
 											<PositioningInfo>
 												<Panner Name="" ID="{2A1A94ED-9A3D-4208-A63C-CF7071F8965B}">
 													<PropertyList>
-														<Property Name="PanX" Type="Real64" Value="64.5066273932253"/>
+														<Property Name="PanX" Type="Real64" Value="-11.396987064606"/>
 														<Property Name="PanY" Type="Real64" Value="100"/>
 													</PropertyList>
 												</Panner>
@@ -5702,6 +5702,250 @@
 									</ActiveSourceList>
 								</Sound>
 							</ChildrenList>
+						</RandomSequenceContainer>
+						<Sound Name="Trans_Steps_Grass_SFX" ID="{68FD8140-3C52-4058-925E-A7537FEE3E01}" ShortID="596229392">
+							<PropertyList>
+								<Property Name="Highpass" Type="int16">
+									<ValueList>
+										<Value>20</Value>
+									</ValueList>
+								</Property>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-10</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{910AC7EE-841B-4C93-A9B7-752C4BD6AD66}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D799538D-0932-442A-AAA6-5525C92EAF70}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Trans_Steps_Grass_SFX" ID="{DCAE428D-B2D1-4E66-943A-6DB00D36CE53}" ShortID="144557499">
+									<Language>SFX</Language>
+									<AudioFile>Trans_Steps_Grass_SFX.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Trans_Steps_Grass_SFX" ID="{DCAE428D-B2D1-4E66-943A-6DB00D36CE53}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Trans_Steps_Stone_SFX" ID="{2E9D7B9A-AA96-4EB3-A82C-1715929A5F22}" ShortID="840453057">
+							<PropertyList>
+								<Property Name="Highpass" Type="int16">
+									<ValueList>
+										<Value>20</Value>
+									</ValueList>
+								</Property>
+								<Property Name="OverrideEffect" Type="bool" Value="True"/>
+								<Property Name="RenderEffect0" Type="bool">
+									<ValueList>
+										<Value>True</Value>
+									</ValueList>
+								</Property>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-10</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="AMB" ID="{0B3FCEDC-AD1D-43E0-8330-66D515AA0D95}" WorkUnitID="{910AC7EE-841B-4C93-A9B7-752C4BD6AD66}"/>
+								</Reference>
+								<Reference Name="Effect0" PluginName="Wwise RoomVerb" CompanyID="0" PluginID="118" PluginType="3">
+									<ObjectRef Name="Hall_Medium" ID="{50286348-176A-4235-9E4C-CA5F73D87818}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="SFX" ID="{B20AF2EF-378A-40E1-8AC6-322560ED0A7C}" WorkUnitID="{D799538D-0932-442A-AAA6-5525C92EAF70}"/>
+								</Reference>
+								<Reference Name="UserAuxSend0">
+									<ObjectRef Name="GR1_Reverb" ID="{163E2529-88B7-4708-B252-65E8F02DED4F}" WorkUnitID="{D799538D-0932-442A-AAA6-5525C92EAF70}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Trans_Steps_Concrete_SFX" ID="{152D4453-60D3-453F-B978-51CE85106CD0}" ShortID="261827938">
+									<Language>SFX</Language>
+									<AudioFile>Trans_Steps_Concrete_SFX.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Trans_Steps_Concrete_SFX" ID="{152D4453-60D3-453F-B978-51CE85106CD0}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<RandomSequenceContainer Name="CP1_to_CP2_SFX" ID="{7497F62E-A836-426B-BAA3-6DCFD736A572}" ShortID="551605015">
+							<PropertyList>
+								<Property Name="Highpass" Type="int16">
+									<ValueList>
+										<Value>20</Value>
+									</ValueList>
+								</Property>
+								<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
+								<Property Name="PlayMechanismSpecialTransitionsType" Type="int16" Value="3"/>
+								<Property Name="PlayMechanismSpecialTransitionsValue" Type="Real64" Value="2.8"/>
+								<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+								<Property Name="RandomOrSequence" Type="int16" Value="0"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-10</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{910AC7EE-841B-4C93-A9B7-752C4BD6AD66}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D799538D-0932-442A-AAA6-5525C92EAF70}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="CP1_Door_SFX" ID="{7F8F9158-E3C7-44D4-9928-596E73A67544}" ShortID="69692853">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-6</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="AMB" ID="{0B3FCEDC-AD1D-43E0-8330-66D515AA0D95}" WorkUnitID="{910AC7EE-841B-4C93-A9B7-752C4BD6AD66}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="SFX" ID="{B20AF2EF-378A-40E1-8AC6-322560ED0A7C}" WorkUnitID="{D799538D-0932-442A-AAA6-5525C92EAF70}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="CP1_Door_SFX" ID="{0C3AE808-D8D5-424C-84EA-282B8FA43C67}" ShortID="335619785">
+											<Language>SFX</Language>
+											<AudioFile>CP1_Door_SFX.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="CP1_Door_SFX" ID="{0C3AE808-D8D5-424C-84EA-282B8FA43C67}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Trans_Steps_Grass_SFX" ID="{17EBA492-8B36-4ECB-AF53-DD2500982E00}" ShortID="775766545">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="AMB" ID="{0B3FCEDC-AD1D-43E0-8330-66D515AA0D95}" WorkUnitID="{910AC7EE-841B-4C93-A9B7-752C4BD6AD66}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="SFX" ID="{B20AF2EF-378A-40E1-8AC6-322560ED0A7C}" WorkUnitID="{D799538D-0932-442A-AAA6-5525C92EAF70}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Trans_Steps_Grass_SFX" ID="{590808B9-8039-41A9-A785-5692CC0EF50B}" ShortID="952172747">
+											<Language>SFX</Language>
+											<AudioFile>Trans_Steps_Grass_SFX.wav</AudioFile>
+											<ConvertedFileIDList>
+												<File ID="144557499"/>
+											</ConvertedFileIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Trans_Steps_Grass_SFX" ID="{590808B9-8039-41A9-A785-5692CC0EF50B}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+							<Playlist>
+								<ItemRef Name="Trans_Steps_Grass_SFX" ID="{17EBA492-8B36-4ECB-AF53-DD2500982E00}"/>
+								<ItemRef Name="CP1_Door_SFX" ID="{7F8F9158-E3C7-44D4-9928-596E73A67544}"/>
+							</Playlist>
+						</RandomSequenceContainer>
+						<RandomSequenceContainer Name="CP2_to_CP1_SFX" ID="{7E463631-5678-4023-9747-D76EFD8A77F8}" ShortID="417009732">
+							<PropertyList>
+								<Property Name="Highpass" Type="int16">
+									<ValueList>
+										<Value>20</Value>
+									</ValueList>
+								</Property>
+								<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
+								<Property Name="PlayMechanismSpecialTransitionsType" Type="int16" Value="3"/>
+								<Property Name="PlayMechanismSpecialTransitionsValue" Type="Real64" Value="1.5"/>
+								<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+								<Property Name="RandomOrSequence" Type="int16" Value="0"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-10</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="AMB" ID="{0B3FCEDC-AD1D-43E0-8330-66D515AA0D95}" WorkUnitID="{910AC7EE-841B-4C93-A9B7-752C4BD6AD66}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="SFX" ID="{B20AF2EF-378A-40E1-8AC6-322560ED0A7C}" WorkUnitID="{D799538D-0932-442A-AAA6-5525C92EAF70}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="CP1_Door_SFX" ID="{F2093D85-C1B2-4AC8-BAC9-C4427B529753}" ShortID="54792545">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-6</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="AMB" ID="{0B3FCEDC-AD1D-43E0-8330-66D515AA0D95}" WorkUnitID="{910AC7EE-841B-4C93-A9B7-752C4BD6AD66}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="SFX" ID="{B20AF2EF-378A-40E1-8AC6-322560ED0A7C}" WorkUnitID="{D799538D-0932-442A-AAA6-5525C92EAF70}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="CP1_Door_SFX" ID="{F79187C7-2E1C-401A-A73D-4FFBF8E349BC}" ShortID="509470436">
+											<Language>SFX</Language>
+											<AudioFile>CP1_Door_SFX.wav</AudioFile>
+											<ConvertedFileIDList>
+												<File ID="335619785"/>
+											</ConvertedFileIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="CP1_Door_SFX" ID="{F79187C7-2E1C-401A-A73D-4FFBF8E349BC}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Trans_Steps_Concrete_SFX" ID="{CB9269CB-EAC5-4BEF-B670-311C942FF80D}" ShortID="119851751">
+									<PropertyList>
+										<Property Name="OverrideEffect" Type="bool" Value="True"/>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-3</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="AMB" ID="{0B3FCEDC-AD1D-43E0-8330-66D515AA0D95}" WorkUnitID="{910AC7EE-841B-4C93-A9B7-752C4BD6AD66}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="SFX" ID="{B20AF2EF-378A-40E1-8AC6-322560ED0A7C}" WorkUnitID="{D799538D-0932-442A-AAA6-5525C92EAF70}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Trans_Steps_Concrete_SFX" ID="{B604B250-21F5-43D8-8625-2E170D4E1FD9}" ShortID="758958709">
+											<Language>SFX</Language>
+											<AudioFile>Trans_Steps_Concrete_SFX.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Trans_Steps_Concrete_SFX" ID="{B604B250-21F5-43D8-8625-2E170D4E1FD9}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+							<Playlist>
+								<ItemRef Name="Trans_Steps_Concrete_SFX" ID="{CB9269CB-EAC5-4BEF-B670-311C942FF80D}"/>
+								<ItemRef Name="CP1_Door_SFX" ID="{F2093D85-C1B2-4AC8-BAC9-C4427B529753}"/>
+							</Playlist>
 						</RandomSequenceContainer>
 					</ChildrenList>
 				</ActorMixer>

@@ -18,12 +18,16 @@ namespace AK
         static const AkUniqueID BUTTON_CLICK = 814543256U;
         static const AkUniqueID BUTTON_HOVER = 1701177942U;
         static const AkUniqueID CALENDAR_HANDLE = 2242625264U;
+        static const AkUniqueID CL1_TO_JG1_EVENT = 841378045U;
         static const AkUniqueID COMPUTER_SCAN = 1307820710U;
         static const AkUniqueID COMPUTER_SHIP_STATUS_EVENT = 3118182193U;
         static const AkUniqueID COMPUTER_START = 2806985083U;
+        static const AkUniqueID CP1_TO_CP2_EVENT = 1360994714U;
+        static const AkUniqueID CP2_TO_CP1_EVENT = 896891632U;
         static const AkUniqueID CV_GEARS_MOVING_EVENT = 4080305513U;
         static const AkUniqueID CV_GEARS_RIGHT_EVENT = 1497348625U;
         static const AkUniqueID DIAL_PNC_EVENT = 274588646U;
+        static const AkUniqueID GR1_TO_RV1_EVENT = 3621126168U;
         static const AkUniqueID MUSIC_EVENT = 55565095U;
         static const AkUniqueID PASSWORD_RIGHT = 2063851173U;
         static const AkUniqueID PASSWORD_WRONG = 368709004U;

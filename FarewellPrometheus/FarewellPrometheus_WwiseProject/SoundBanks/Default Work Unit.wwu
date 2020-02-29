@@ -27,19 +27,23 @@
 						<ObjectRef Name="Button_Click" ID="{FF2B30C1-A316-46EC-B131-A75ECABBBEDE}" WorkUnitID="{77951EF6-4978-416C-AA34-3188A981DCD3}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Robot_Shutdown" ID="{0E44F1E8-8633-4765-8C4A-6FB8C80659FD}" WorkUnitID="{77951EF6-4978-416C-AA34-3188A981DCD3}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Post_it_Handle" ID="{5A243A84-0E71-4784-B305-83A0CD98A497}" WorkUnitID="{77951EF6-4978-416C-AA34-3188A981DCD3}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="CP1_to_CP2_Event" ID="{8F8C7E4F-6FD2-4784-9EF3-E0C0AE10BE3E}" WorkUnitID="{715DFDB0-4E78-47C3-BD3C-FBFE54BDC937}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Dial_PnC_Event" ID="{3EC0FB67-54DB-48B1-B524-23C07C61D4B2}" WorkUnitID="{BABC5BE6-49EF-4526-BB5D-ED39CDCD21B0}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Pause_Menu_Button_Click_Event" ID="{B13BD530-B66B-48B7-B2D7-CDEEF214F6FB}" WorkUnitID="{1DEF96DB-F126-4FBE-952F-7DE39489AD6E}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="CV_Gears_Right_Event" ID="{EE43F26E-685D-491C-999C-67415A252E6E}" WorkUnitID="{1DEF96DB-F126-4FBE-952F-7DE39489AD6E}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Volga_Dial_P1" ID="{F245C172-AF85-49B2-A86B-F6716AA22253}" WorkUnitID="{77951EF6-4978-416C-AA34-3188A981DCD3}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Robot_Invalid_Command" ID="{34D61002-18C4-49BB-B6B5-856B4762A972}" WorkUnitID="{77951EF6-4978-416C-AA34-3188A981DCD3}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="CP2_to_CP1_Event" ID="{610B2A0D-2C74-49D2-AB26-A76B64AA6F43}" WorkUnitID="{715DFDB0-4E78-47C3-BD3C-FBFE54BDC937}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Pause_Menu_Button_Hover_Event" ID="{D1F7CBFD-4EDF-49F9-A4CA-E6300B35610E}" WorkUnitID="{1DEF96DB-F126-4FBE-952F-7DE39489AD6E}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Ambience_Event" ID="{388E70D7-6083-4A0C-82D3-08C6E906F4B4}" WorkUnitID="{715DFDB0-4E78-47C3-BD3C-FBFE54BDC937}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Password_Wrong" ID="{70062BE2-420A-4A0E-9AB7-E45A1F537C7C}" WorkUnitID="{77951EF6-4978-416C-AA34-3188A981DCD3}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Ambiance_Bed" ID="{D567E1FE-6114-4C09-BB24-0055A9247D0B}" WorkUnitID="{77951EF6-4978-416C-AA34-3188A981DCD3}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Computer_Ship_Status_Event" ID="{0D57EE8E-8B67-4D45-BD47-8F69575BC6B6}" WorkUnitID="{77951EF6-4978-416C-AA34-3188A981DCD3}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="VS1_Volga_Glass_Tap_Event" ID="{046028F5-4CFA-4D46-95C9-7DF93102AF37}" WorkUnitID="{77951EF6-4978-416C-AA34-3188A981DCD3}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="GR1_to_RV1_Event" ID="{51476E74-1CCB-4D75-850B-BC5B9F5A366E}" WorkUnitID="{715DFDB0-4E78-47C3-BD3C-FBFE54BDC937}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Password_Right" ID="{B4D7F35F-50E3-4E19-B803-BFCF7E440196}" WorkUnitID="{77951EF6-4978-416C-AA34-3188A981DCD3}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Computer_Scan" ID="{2AD47356-3189-4EBA-9D05-6E32A370D785}" WorkUnitID="{77951EF6-4978-416C-AA34-3188A981DCD3}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="CL1_to_JG1_Event" ID="{54230382-DB94-4EE3-942C-5F36C86865CA}" WorkUnitID="{715DFDB0-4E78-47C3-BD3C-FBFE54BDC937}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Music_Event" ID="{554FE7CA-B67C-4EE8-BDC3-B01C23AA0CA6}" WorkUnitID="{77951EF6-4978-416C-AA34-3188A981DCD3}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Robot_Valid_Command" ID="{05C990DC-B436-4F08-9419-0AD7A1F613EF}" WorkUnitID="{77951EF6-4978-416C-AA34-3188A981DCD3}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Robot_Scanning" ID="{B17E508C-B070-4F7C-821A-5446D5C9814F}" WorkUnitID="{77951EF6-4978-416C-AA34-3188A981DCD3}" Filter="7" Origin="Manual"/>

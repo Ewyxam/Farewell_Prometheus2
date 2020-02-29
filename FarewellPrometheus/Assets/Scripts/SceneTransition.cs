@@ -8,6 +8,7 @@ public class SceneTransition : MonoBehaviour
 
 
     public float transitionTime = 1f;
+    public float transitionPnC = 7f;
 
     public GameObject manager;
     public GameObject currentPanel;
@@ -25,8 +26,6 @@ public class SceneTransition : MonoBehaviour
     {
         buildIndex = currentScene.buildIndex;
         currentScene = SceneManager.GetActiveScene();
-
-        
 
         if (buildIndex == 1)
         {
@@ -125,5 +124,40 @@ public class SceneTransition : MonoBehaviour
         transActive = 0; 
 
         transition.SetTrigger("End");
-    } 
+    }
+
+    public void LoadPhasePnC()
+    {
+        StartCoroutine(LoadPnC(SceneManager.GetActiveScene().buildIndex + 1));
+        buildIndex = currentScene.buildIndex;
+        if (buildIndex == 1)
+        {
+            tabNum = manager.GetComponent<CollisionManager>().tabNum;
+            AkSoundEngine.SetState("Location", "CP2_02");
+            AkSoundEngine.SetState("Music", "Stasis");
+        }
+
+    }
+
+    IEnumerator LoadPnC(int levelIndex)
+    {
+        // Play Animation
+        transition.SetTrigger("Start");
+        AkSoundEngine.PostEvent("Woosh_Trans_Event", gameObject);
+
+        yield return new WaitForSeconds(transitionTime);
+        AkSoundEngine.PostEvent("VS1_to_CL1_Event", gameObject);
+
+        // Wait
+        yield return new WaitForSeconds(transitionPnC);
+
+        // Load scene
+        if (buildIndex == 0)
+        {
+            AkSoundEngine.SetState("Location", "CL1");
+            AkSoundEngine.SetState("Music", "Exploration");
+        }
+
+        SceneManager.LoadScene(levelIndex);
+    }
 }

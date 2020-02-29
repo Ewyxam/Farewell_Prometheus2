@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class CollisionManager : MonoBehaviour
+public class CollisionManager : MonoBehaviour //Gerer les collisions et les transitions entre les tableaux
 {
     public GameObject[] tab;
     public GameObject transition;
@@ -21,6 +21,7 @@ public class CollisionManager : MonoBehaviour
         tabNum += 1;
         transition.GetComponent<SceneTransition>().LoadTransitionPanel();
         AkSoundEngine.SetState("Location", "JG1");
+
 
 
     }

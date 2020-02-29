@@ -33,6 +33,9 @@ public class SceneTransition : MonoBehaviour
             tabNum = manager.GetComponent<CollisionManager>().tabNum;
         }
     }
+
+
+
     public void LoadNextScene()
     {
         StartCoroutine(LoadLevel(SceneManager.GetActiveScene().buildIndex + 1));
@@ -122,5 +125,5 @@ public class SceneTransition : MonoBehaviour
         transActive = 0; 
 
         transition.SetTrigger("End");
-    } 
+    }
 }

@@ -9,12 +9,12 @@
 			</Language>
 			<Language ID="684519430">
 				<File Name="Main" Hash="2073333982" Timestamp="1582040254"/>
-				<File Name="Phase1_2" Hash="1843333865" Timestamp="1582983365"/>
+				<File Name="Phase1_2" Hash="214277985" Timestamp="1582993987"/>
 			</Language>
 		</Banks>
 		<XMLInfo>
 			<Language ID="-1">
-				<File Name="" Hash="2311379817" Timestamp="1582983365"/>
+				<File Name="" Hash="3196803573" Timestamp="1582993987"/>
 			</Language>
 		</XMLInfo>
 	</Platform>
@@ -27,12 +27,12 @@
 			</Language>
 			<Language ID="684519430">
 				<File Name="Main" Hash="2073333982" Timestamp="1582040256"/>
-				<File Name="Phase1_2" Hash="1843333865" Timestamp="1582983365"/>
+				<File Name="Phase1_2" Hash="214277985" Timestamp="1582993987"/>
 			</Language>
 		</Banks>
 		<XMLInfo>
 			<Language ID="-1">
-				<File Name="" Hash="2254754711" Timestamp="1582983365"/>
+				<File Name="" Hash="3691709195" Timestamp="1582993987"/>
 			</Language>
 		</XMLInfo>
 	</Platform>

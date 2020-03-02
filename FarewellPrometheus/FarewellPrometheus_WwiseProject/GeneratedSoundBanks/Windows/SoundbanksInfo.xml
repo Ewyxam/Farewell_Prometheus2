@@ -31,12 +31,16 @@
 				<Event Id="814543256" Name="Button_Click" ObjectPath="\Events\Default Work Unit\Ship\Computer\Button\Button_Click" DurationType="OneShot" DurationMin="0.480354" DurationMax="0.553000"/>
 				<Event Id="1701177942" Name="Button_Hover" ObjectPath="\Events\Default Work Unit\Ship\Computer\Button\Button_Hover" DurationType="OneShot" DurationMin="0.483136" DurationMax="0.549815"/>
 				<Event Id="2242625264" Name="Calendar_Handle" ObjectPath="\Events\Default Work Unit\Ship\Objects\Calendar_Handle" DurationType="OneShot" DurationMin="1.500000" DurationMax="2.000000"/>
+				<Event Id="841378045" Name="CL1_to_JG1_Event" ObjectPath="\Events\Default Work Unit\Environment\Transitions\CL1_to_JG1_Event" DurationType="OneShot" DurationMin="4.864000" DurationMax="4.864000"/>
 				<Event Id="1307820710" Name="Computer_Scan" ObjectPath="\Events\Default Work Unit\Ship\Computer\Computer_Scan" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
 				<Event Id="3118182193" Name="Computer_Ship_Status_Event" ObjectPath="\Events\Default Work Unit\Ship\Computer\Computer_Ship_Status_Event" DurationType="OneShot" DurationMin="11.889375" DurationMax="11.889375"/>
 				<Event Id="2806985083" Name="Computer_Start" ObjectPath="\Events\Default Work Unit\Ship\Computer\Computer_Start" DurationType="OneShot" DurationMin="13.870334" DurationMax="13.870334"/>
+				<Event Id="1360994714" Name="CP1_to_CP2_Event" ObjectPath="\Events\Default Work Unit\Environment\Transitions\CP1_to_CP2_Event" DurationType="OneShot" DurationMin="6.721334" DurationMax="6.721334"/>
+				<Event Id="896891632" Name="CP2_to_CP1_Event" ObjectPath="\Events\Default Work Unit\Environment\Transitions\CP2_to_CP1_Event" DurationType="OneShot" DurationMin="5.421333" DurationMax="5.421333"/>
 				<Event Id="4080305513" Name="CV_Gears_Moving_Event" ObjectPath="\Events\Default Work Unit\Element\CV\CV_Gears_Moving_Event" DurationType="OneShot" DurationMin="1.375506" DurationMax="1.635762"/>
 				<Event Id="1497348625" Name="CV_Gears_Right_Event" ObjectPath="\Events\Default Work Unit\Element\CV\CV_Gears_Right_Event" DurationType="OneShot" DurationMin="1.500000" DurationMax="1.500000"/>
 				<Event Id="274588646" Name="Dial_PnC_Event" ObjectPath="\Events\Default Work Unit\Vocal\Dial_PnC_Event" DurationType="OneShot" DurationMin="0.000000" DurationMax="10.262000"/>
+				<Event Id="3621126168" Name="GR1_to_RV1_Event" ObjectPath="\Events\Default Work Unit\Environment\Transitions\GR1_to_RV1_Event" DurationType="OneShot" DurationMin="3.247396" DurationMax="3.247396"/>
 				<Event Id="55565095" Name="Music_Event" ObjectPath="\Events\Default Work Unit\Ship\Music\Music_Event" DurationType="Infinite"/>
 				<Event Id="2063851173" Name="Password_Right" ObjectPath="\Events\Default Work Unit\Ship\Computer\Password\Password_Right" DurationType="OneShot" DurationMin="3.029375" DurationMax="3.029375"/>
 				<Event Id="368709004" Name="Password_Wrong" ObjectPath="\Events\Default Work Unit\Ship\Computer\Password\Password_Wrong" DurationType="OneShot" DurationMin="0.598750" DurationMax="0.598750"/>
@@ -145,6 +149,10 @@
 					<ShortName>Volga_P1_Dial_06-03.wav</ShortName>
 					<Path>Voices\English(US)\Volga_P1_Dial_06-03_6296B0F9.wem</Path>
 				</File>
+				<File Id="144557499" Language="SFX">
+					<ShortName>Trans_Steps_Grass_SFX.wav</ShortName>
+					<Path>SFX\Trans_Steps_Grass_SFX_6296B0F9.wem</Path>
+				</File>
 				<File Id="148088509" Language="SFX">
 					<ShortName>Jungle_Birds_AMB_SFX_05.wav</ShortName>
 					<Path>SFX\Jungle_Birds_AMB_SFX_05_6296B0F9.wem</Path>
@@ -225,6 +233,10 @@
 					<ShortName>CL1_Lemur_01_AMB_SFX.wav</ShortName>
 					<Path>SFX\CL1_Lemur_01_AMB_SFX_6296B0F9.wem</Path>
 				</File>
+				<File Id="261827938" Language="SFX">
+					<ShortName>Trans_Steps_Concrete_SFX.wav</ShortName>
+					<Path>SFX\Trans_Steps_Concrete_SFX_6296B0F9_EAFC2DCF.wem</Path>
+				</File>
 				<File Id="272771483" Language="English(US)">
 					<ShortName>G_I_I_09_SFX.wav</ShortName>
 					<Path>Voices\English(US)\G_I_I_09_SFX_6296B0F9.wem</Path>
@@ -284,6 +296,10 @@
 				<File Id="323038935" Language="SFX">
 					<ShortName>Jungle_Birds_AMB_SFX_03.wav</ShortName>
 					<Path>SFX\Jungle_Birds_AMB_SFX_03_6296B0F9.wem</Path>
+				</File>
+				<File Id="335619785" Language="SFX">
+					<ShortName>CP1_Door_SFX.wav</ShortName>
+					<Path>SFX\CP1_Door_SFX_6296B0F9.wem</Path>
 				</File>
 				<File Id="336549232" Language="SFX">
 					<ShortName>RV1_River_Stream_01_SFX.wav</ShortName>
@@ -608,6 +624,10 @@
 				<File Id="748114335" Language="English(US)">
 					<ShortName>CP2_I_03_SFX.wav</ShortName>
 					<Path>Voices\English(US)\CP2_I_03_SFX_6296B0F9.wem</Path>
+				</File>
+				<File Id="758958709" Language="SFX">
+					<ShortName>Trans_Steps_Concrete_SFX.wav</ShortName>
+					<Path>SFX\Trans_Steps_Concrete_SFX_6296B0F9.wem</Path>
 				</File>
 				<File Id="759164687" Language="English(US)">
 					<ShortName>Volga_P1_Dial_02-02.wav</ShortName>

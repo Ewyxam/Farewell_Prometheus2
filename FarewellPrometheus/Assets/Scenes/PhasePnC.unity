@@ -13203,6 +13203,30 @@ PrefabInstance:
       propertyPath: dialMan
       value: 
       objectReference: {fileID: 891363934}
+    - target: {fileID: 2507627326116180569, guid: 8d1b8d203a569e54dbe0f37277358302,
+        type: 3}
+      propertyPath: campVisual.Array.data[0]
+      value: 
+      objectReference: {fileID: 21300000, guid: b724470abee2eb948b2a67ab4d9de90b,
+        type: 3}
+    - target: {fileID: 2507627326116180569, guid: 8d1b8d203a569e54dbe0f37277358302,
+        type: 3}
+      propertyPath: campVisual.Array.data[1]
+      value: 
+      objectReference: {fileID: 21300000, guid: 1f9f262e17955fd4ea365a666ef02470,
+        type: 3}
+    - target: {fileID: 2507627326116180569, guid: 8d1b8d203a569e54dbe0f37277358302,
+        type: 3}
+      propertyPath: campVisual.Array.data[2]
+      value: 
+      objectReference: {fileID: 21300000, guid: 01d12259b9b99534d9bc97ffe7eab8ab,
+        type: 3}
+    - target: {fileID: 2507627326116180569, guid: 8d1b8d203a569e54dbe0f37277358302,
+        type: 3}
+      propertyPath: campVisual.Array.data[3]
+      value: 
+      objectReference: {fileID: 21300000, guid: 563378fe8833380438081448ad422fe4,
+        type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8d1b8d203a569e54dbe0f37277358302, type: 3}
 --- !u!222 &5151353989361448634

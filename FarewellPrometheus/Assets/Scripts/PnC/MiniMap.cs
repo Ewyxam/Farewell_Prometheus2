@@ -18,14 +18,14 @@ public class MiniMap : MonoBehaviour
     void Start()
     {
         ColMan = GameObject.Find("CollisionManager").GetComponent<CollisionManager>();
-    CL_MM.GetComponent<RawImage>().enabled = false;
+    /*CL_MM.GetComponent<RawImage>().enabled = false;
     JG_MM.GetComponent<RawImage>().enabled = false;
     CP_MM.GetComponent<RawImage>().enabled = false;
     INT_MM.GetComponent<RawImage>().enabled = false;
     RV_MM.GetComponent<RawImage>().enabled = false;
-    GR_MM.GetComponent<RawImage>().enabled = false;
+    GR_MM.GetComponent<RawImage>().enabled = false;*/
 }
-    public void MajMiniMap()
+    /*public void MajMiniMap()
     {
         if (ColMan.discovered[0])
         {
@@ -60,5 +60,5 @@ public class MiniMap : MonoBehaviour
         //Debug.Log(ColMan.discovered[0]);
 
 
-    }
+    }*/
 }

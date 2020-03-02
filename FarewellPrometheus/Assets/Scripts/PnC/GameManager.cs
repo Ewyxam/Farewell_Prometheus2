@@ -6,9 +6,9 @@ using UnityEngine.UI;
 public class GameManager : MonoBehaviour
 {
     public GameObject collMan, dialMan,transition;
-    public bool couvClear, elecClear, grotteOk, combiOn, volgaAlive;
+    public bool couvClear, elecClear, grotteOk, combiOn, volgaAlive,test;
     public int day, campState,numTab;
-    public Image[] campVisual;
+    public Sprite[] campVisual;
 
 
     void Start()
@@ -21,6 +21,7 @@ public class GameManager : MonoBehaviour
         day = 1;
         campState = 0;
         numTab = 0;
+        test = true;
     }
 
     
@@ -30,10 +31,12 @@ public class GameManager : MonoBehaviour
     {
         collMan = GameObject.Find("CollisionManager");
         numTab = collMan.GetComponent<CollisionManager>().tabNum;
-        if (numTab ==5 && couvClear)
+        if (numTab ==5 && couvClear && test ==true)
         {
             collMan.GetComponent<CollisionManager>().tab[0].SetActive(false);
             collMan.GetComponent<CollisionManager>().tab[numTab].SetActive(true);
+            GameObject.Find("INT_BG").GetComponent<Image>().sprite = campVisual[2];
+            test = false;
         }
 
     }

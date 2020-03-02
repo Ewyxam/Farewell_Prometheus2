@@ -17,6 +17,7 @@ public class MessageDeVictoire : MonoBehaviour
     public bool condition1 = false;
     public bool condition2 = false;
     public bool condition3 = false;
+    public bool win = false;
     GameObject Bouton1;
     GameObject Bouton2;
     GameObject Bouton3;
@@ -95,7 +96,7 @@ public class MessageDeVictoire : MonoBehaviour
         }
     }
 
-    private void Victoire()
+    public void Victoire()
     {
         if (condition1 == true && condition2 == true && condition3 == true)
         {
@@ -107,8 +108,11 @@ public class MessageDeVictoire : MonoBehaviour
             Bouton5.GetComponent<Button>().interactable = false;
             Bouton6.GetComponent<Button>().interactable = false;
 
+            GameObject.Find("GameManager").GetComponent<GameManager>().couvClear = true;
+
 
         }
+       
     }
 }
 

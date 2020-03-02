@@ -11,7 +11,8 @@ public class CollisionManager : MonoBehaviour //Gerer les collisions et les tran
 
     public void Start()
     {
-        tabNum = 0; //0 CL   1JG  2RV   3GR  4CP  5INT
+        tabNum = GameObject.Find("GameManager").GetComponent<GameManager>().numTab; //0 CL   1JG  2RV   3GR  4CP  5INT
+       
     }
 
     //CL

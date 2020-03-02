@@ -53,6 +53,25 @@ public class SceneTransition : MonoBehaviour
         
     }
 
+    public void LoadPreviousScene()
+    {
+        StartCoroutine(LoadLevel(SceneManager.GetActiveScene().buildIndex - 1));
+        buildIndex = currentScene.buildIndex;
+
+        if (buildIndex == 1)
+        {
+            tabNum = manager.GetComponent<CollisionManager>().tabNum;
+            AkSoundEngine.SetState("Location", "CP2_02");
+            AkSoundEngine.SetState("Music", "Stasis");
+        }
+        if (buildIndex == 0)
+        {
+            AkSoundEngine.SetState("Location", "CL1");
+            AkSoundEngine.SetState("Music", "None");
+        }
+
+    }
+
     IEnumerator LoadLevel(int levelIndex)
     {
         // Play Animation

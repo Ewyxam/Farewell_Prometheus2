@@ -830,6 +830,13 @@
 													</ActiveSourceList>
 												</Sound>
 												<Sound Name="Jungle_Birds_AMB_SFX_09" ID="{4EDCFC3C-8E11-40DC-8CB5-4CAB9DD125D2}" ShortID="803735509">
+													<PropertyList>
+														<Property Name="Inclusion" Type="bool">
+															<ValueList>
+																<Value>False</Value>
+															</ValueList>
+														</Property>
+													</PropertyList>
 													<ReferenceList>
 														<Reference Name="Conversion">
 															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{910AC7EE-841B-4C93-A9B7-752C4BD6AD66}"/>
@@ -944,6 +951,13 @@
 													</ActiveSourceList>
 												</Sound>
 												<Sound Name="Jungle_Birds_AMB_SFX_03" ID="{91FB96DD-A081-4DD1-9EE1-37DF02E9E0A7}" ShortID="983354583">
+													<PropertyList>
+														<Property Name="Inclusion" Type="bool">
+															<ValueList>
+																<Value>False</Value>
+															</ValueList>
+														</Property>
+													</PropertyList>
 													<ReferenceList>
 														<Reference Name="Conversion">
 															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{910AC7EE-841B-4C93-A9B7-752C4BD6AD66}"/>
@@ -982,6 +996,13 @@
 													</ActiveSourceList>
 												</Sound>
 												<Sound Name="Jungle_Birds_AMB_SFX_05" ID="{DC6C150F-483F-4477-AA8A-0060B8846281}" ShortID="28880917">
+													<PropertyList>
+														<Property Name="Inclusion" Type="bool">
+															<ValueList>
+																<Value>False</Value>
+															</ValueList>
+														</Property>
+													</PropertyList>
 													<ReferenceList>
 														<Reference Name="Conversion">
 															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{910AC7EE-841B-4C93-A9B7-752C4BD6AD66}"/>
@@ -1599,6 +1620,13 @@
 													</ActiveSourceList>
 												</Sound>
 												<Sound Name="Jungle_Birds_AMB_SFX_09" ID="{019C368D-6969-4C38-A029-BE276ED4A0B0}" ShortID="73249496">
+													<PropertyList>
+														<Property Name="Inclusion" Type="bool">
+															<ValueList>
+																<Value>False</Value>
+															</ValueList>
+														</Property>
+													</PropertyList>
 													<ReferenceList>
 														<Reference Name="Conversion">
 															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{910AC7EE-841B-4C93-A9B7-752C4BD6AD66}"/>
@@ -1731,6 +1759,13 @@
 													</ActiveSourceList>
 												</Sound>
 												<Sound Name="Jungle_Birds_AMB_SFX_03" ID="{BEA8EC2D-F083-4CED-8853-EF2771EF89DB}" ShortID="666757742">
+													<PropertyList>
+														<Property Name="Inclusion" Type="bool">
+															<ValueList>
+																<Value>False</Value>
+															</ValueList>
+														</Property>
+													</PropertyList>
 													<ReferenceList>
 														<Reference Name="Conversion">
 															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{910AC7EE-841B-4C93-A9B7-752C4BD6AD66}"/>
@@ -1775,6 +1810,13 @@
 													</ActiveSourceList>
 												</Sound>
 												<Sound Name="Jungle_Birds_AMB_SFX_05" ID="{7885A47C-EA59-4B5E-BD1E-233F3F33F7E5}" ShortID="949976104">
+													<PropertyList>
+														<Property Name="Inclusion" Type="bool">
+															<ValueList>
+																<Value>False</Value>
+															</ValueList>
+														</Property>
+													</PropertyList>
 													<ReferenceList>
 														<Reference Name="Conversion">
 															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{910AC7EE-841B-4C93-A9B7-752C4BD6AD66}"/>
@@ -2738,6 +2780,13 @@
 													</ActiveSourceList>
 												</Sound>
 												<Sound Name="Jungle_Birds_AMB_SFX_09" ID="{E0599164-3C7B-4681-917D-5088A5990426}" ShortID="1028893814">
+													<PropertyList>
+														<Property Name="Inclusion" Type="bool">
+															<ValueList>
+																<Value>False</Value>
+															</ValueList>
+														</Property>
+													</PropertyList>
 													<ReferenceList>
 														<Reference Name="Conversion">
 															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{910AC7EE-841B-4C93-A9B7-752C4BD6AD66}"/>
@@ -2870,6 +2919,13 @@
 													</ActiveSourceList>
 												</Sound>
 												<Sound Name="Jungle_Birds_AMB_SFX_03" ID="{1F53FF97-D427-4A9B-BAED-693E6FD941BD}" ShortID="1052674123">
+													<PropertyList>
+														<Property Name="Inclusion" Type="bool">
+															<ValueList>
+																<Value>False</Value>
+															</ValueList>
+														</Property>
+													</PropertyList>
 													<ReferenceList>
 														<Reference Name="Conversion">
 															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{910AC7EE-841B-4C93-A9B7-752C4BD6AD66}"/>
@@ -2914,6 +2970,13 @@
 													</ActiveSourceList>
 												</Sound>
 												<Sound Name="Jungle_Birds_AMB_SFX_05" ID="{9DA2A642-9FC8-49D0-B9AD-09EA919F53D9}" ShortID="212503384">
+													<PropertyList>
+														<Property Name="Inclusion" Type="bool">
+															<ValueList>
+																<Value>False</Value>
+															</ValueList>
+														</Property>
+													</PropertyList>
 													<ReferenceList>
 														<Reference Name="Conversion">
 															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{910AC7EE-841B-4C93-A9B7-752C4BD6AD66}"/>
@@ -3467,6 +3530,13 @@
 													</ActiveSourceList>
 												</Sound>
 												<Sound Name="Jungle_Birds_AMB_SFX_09" ID="{A3760FAD-6280-4D8A-980E-94187C3AC73E}" ShortID="619295283">
+													<PropertyList>
+														<Property Name="Inclusion" Type="bool">
+															<ValueList>
+																<Value>False</Value>
+															</ValueList>
+														</Property>
+													</PropertyList>
 													<ReferenceList>
 														<Reference Name="Conversion">
 															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{910AC7EE-841B-4C93-A9B7-752C4BD6AD66}"/>
@@ -3599,6 +3669,13 @@
 													</ActiveSourceList>
 												</Sound>
 												<Sound Name="Jungle_Birds_AMB_SFX_03" ID="{64676D33-CDF1-4087-8C3E-F089DA4762D6}" ShortID="360999426">
+													<PropertyList>
+														<Property Name="Inclusion" Type="bool">
+															<ValueList>
+																<Value>False</Value>
+															</ValueList>
+														</Property>
+													</PropertyList>
 													<ReferenceList>
 														<Reference Name="Conversion">
 															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{910AC7EE-841B-4C93-A9B7-752C4BD6AD66}"/>
@@ -3643,6 +3720,13 @@
 													</ActiveSourceList>
 												</Sound>
 												<Sound Name="Jungle_Birds_AMB_SFX_05" ID="{3CCF24A6-7E44-4BFD-986C-23931FA47C13}" ShortID="333122545">
+													<PropertyList>
+														<Property Name="Inclusion" Type="bool">
+															<ValueList>
+																<Value>False</Value>
+															</ValueList>
+														</Property>
+													</PropertyList>
 													<ReferenceList>
 														<Reference Name="Conversion">
 															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{910AC7EE-841B-4C93-A9B7-752C4BD6AD66}"/>
@@ -3996,6 +4080,13 @@
 															</ActiveSourceList>
 														</Sound>
 														<Sound Name="Jungle_Birds_AMB_SFX_09" ID="{D6D4A605-A3E1-4EEA-9C38-F22F4D46C066}" ShortID="500284541">
+															<PropertyList>
+																<Property Name="Inclusion" Type="bool">
+																	<ValueList>
+																		<Value>False</Value>
+																	</ValueList>
+																</Property>
+															</PropertyList>
 															<ReferenceList>
 																<Reference Name="Conversion">
 																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{910AC7EE-841B-4C93-A9B7-752C4BD6AD66}"/>
@@ -4128,6 +4219,13 @@
 															</ActiveSourceList>
 														</Sound>
 														<Sound Name="Jungle_Birds_AMB_SFX_03" ID="{5293C53A-8C48-4A73-AA7D-83C54DB305E5}" ShortID="555036387">
+															<PropertyList>
+																<Property Name="Inclusion" Type="bool">
+																	<ValueList>
+																		<Value>False</Value>
+																	</ValueList>
+																</Property>
+															</PropertyList>
 															<ReferenceList>
 																<Reference Name="Conversion">
 																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{910AC7EE-841B-4C93-A9B7-752C4BD6AD66}"/>
@@ -4172,6 +4270,13 @@
 															</ActiveSourceList>
 														</Sound>
 														<Sound Name="Jungle_Birds_AMB_SFX_05" ID="{055DD4A4-5EB3-4F4F-8465-BE01ADF437D2}" ShortID="1012591271">
+															<PropertyList>
+																<Property Name="Inclusion" Type="bool">
+																	<ValueList>
+																		<Value>False</Value>
+																	</ValueList>
+																</Property>
+															</PropertyList>
 															<ReferenceList>
 																<Reference Name="Conversion">
 																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{910AC7EE-841B-4C93-A9B7-752C4BD6AD66}"/>

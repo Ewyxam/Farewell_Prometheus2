@@ -1347,6 +1347,13 @@
 													</ActiveSourceList>
 												</Sound>
 												<Sound Name="IV_Open_Slide_SFX-002" ID="{3176262B-B5CD-4564-A909-5262F4D803EC}" ShortID="289791453">
+													<PropertyList>
+														<Property Name="Inclusion" Type="bool">
+															<ValueList>
+																<Value>False</Value>
+															</ValueList>
+														</Property>
+													</PropertyList>
 													<ReferenceList>
 														<Reference Name="Conversion">
 															<ObjectRef Name="SFX" ID="{47160828-E219-4078-8315-465919D5B629}" WorkUnitID="{910AC7EE-841B-4C93-A9B7-752C4BD6AD66}"/>
@@ -1404,6 +1411,13 @@
 											</ReferenceList>
 											<ChildrenList>
 												<Sound Name="IV_Close_Synth_SFX-001" ID="{F7858448-DF95-42B5-A2FF-474D9507EEAD}" ShortID="363759781">
+													<PropertyList>
+														<Property Name="Inclusion" Type="bool">
+															<ValueList>
+																<Value>False</Value>
+															</ValueList>
+														</Property>
+													</PropertyList>
 													<ReferenceList>
 														<Reference Name="Conversion">
 															<ObjectRef Name="SFX" ID="{47160828-E219-4078-8315-465919D5B629}" WorkUnitID="{910AC7EE-841B-4C93-A9B7-752C4BD6AD66}"/>
@@ -1423,6 +1437,13 @@
 													</ActiveSourceList>
 												</Sound>
 												<Sound Name="IV_Close_Synth_SFX-002" ID="{7AF49B0E-942D-4300-ADEA-5490E245AFAC}" ShortID="719179072">
+													<PropertyList>
+														<Property Name="Inclusion" Type="bool">
+															<ValueList>
+																<Value>False</Value>
+															</ValueList>
+														</Property>
+													</PropertyList>
 													<ReferenceList>
 														<Reference Name="Conversion">
 															<ObjectRef Name="SFX" ID="{47160828-E219-4078-8315-465919D5B629}" WorkUnitID="{910AC7EE-841B-4C93-A9B7-752C4BD6AD66}"/>
@@ -1480,6 +1501,13 @@
 											</ReferenceList>
 											<ChildrenList>
 												<Sound Name="IV_Close_Slide_SFX-001" ID="{1779A998-2561-4916-8BC7-2078CDDE9117}" ShortID="462469833">
+													<PropertyList>
+														<Property Name="Inclusion" Type="bool">
+															<ValueList>
+																<Value>False</Value>
+															</ValueList>
+														</Property>
+													</PropertyList>
 													<ReferenceList>
 														<Reference Name="Conversion">
 															<ObjectRef Name="SFX" ID="{47160828-E219-4078-8315-465919D5B629}" WorkUnitID="{910AC7EE-841B-4C93-A9B7-752C4BD6AD66}"/>

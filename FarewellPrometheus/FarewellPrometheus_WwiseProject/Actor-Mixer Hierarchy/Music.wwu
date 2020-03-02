@@ -256,6 +256,13 @@
 									</ReferenceList>
 									<ChildrenList>
 										<Sound Name="FP_Piano_01_oct_up" ID="{8EEC5C59-BAA3-48C5-B355-097E37EFE435}" ShortID="1066463995">
+											<PropertyList>
+												<Property Name="Inclusion" Type="bool">
+													<ValueList>
+														<Value>False</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{910AC7EE-841B-4C93-A9B7-752C4BD6AD66}"/>
@@ -275,6 +282,13 @@
 											</ActiveSourceList>
 										</Sound>
 										<Sound Name="FP_Piano_02_oct_up" ID="{F5500B78-D07D-4465-A451-E1377C1BD602}" ShortID="544500401">
+											<PropertyList>
+												<Property Name="Inclusion" Type="bool">
+													<ValueList>
+														<Value>False</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{910AC7EE-841B-4C93-A9B7-752C4BD6AD66}"/>
@@ -294,6 +308,13 @@
 											</ActiveSourceList>
 										</Sound>
 										<Sound Name="FP_Piano_03_oct_up" ID="{3CDC89A8-14EC-4B48-8737-7BF6FA31324C}" ShortID="405411743">
+											<PropertyList>
+												<Property Name="Inclusion" Type="bool">
+													<ValueList>
+														<Value>False</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{910AC7EE-841B-4C93-A9B7-752C4BD6AD66}"/>
@@ -313,6 +334,13 @@
 											</ActiveSourceList>
 										</Sound>
 										<Sound Name="FP_Piano_coda_oct_up" ID="{998B8BDE-4296-432D-8D14-7BA8C5389CE2}" ShortID="485675101">
+											<PropertyList>
+												<Property Name="Inclusion" Type="bool">
+													<ValueList>
+														<Value>False</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{910AC7EE-841B-4C93-A9B7-752C4BD6AD66}"/>

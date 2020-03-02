@@ -20,6 +20,11 @@
 						<MusicSegment Name="Awake" ID="{FDB62B90-6F62-4DD8-935C-D3DE3586BFF6}" ShortID="233136062">
 							<PropertyList>
 								<Property Name="EndPosition" Type="Real64" Value="52669.0370106204"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>2</Value>
+									</ValueList>
+								</Property>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
@@ -79,6 +84,11 @@
 						<MusicSegment Name="Stasis" ID="{27D471F0-55AE-4EF3-94A8-BA6969ADB4EE}" ShortID="169026304">
 							<PropertyList>
 								<Property Name="EndPosition" Type="Real64" Value="37100.1991470831"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>2</Value>
+									</ValueList>
+								</Property>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
@@ -221,6 +231,11 @@
 							<ChildrenList>
 								<MusicTrack Name="FP_Piano_all_2_oct_up" ID="{55F00B25-5E00-411F-A4C9-F9FB7B76A680}" ShortID="514476963">
 									<PropertyList>
+										<Property Name="Inclusion" Type="bool">
+											<ValueList>
+												<Value>False</Value>
+											</ValueList>
+										</Property>
 										<Property Name="Volume" Type="Real64">
 											<ValueList>
 												<Value>-4</Value>
@@ -256,6 +271,41 @@
 														<Property Name="FadeOutMode" Type="int16" Value="0"/>
 													</PropertyList>
 													<AudioSourceRef Name="FP_Piano_all_2_oct_up" ID="{CAFE6257-437D-4BA6-BAFB-738305608E73}"/>
+												</MusicClip>
+											</ClipList>
+										</MusicTrackSequence>
+									</SequenceList>
+								</MusicTrack>
+								<MusicTrack Name="FP_Intro_V1_MIX" ID="{B21062A7-3B05-48F0-A790-5F3D3B624068}" ShortID="642068874">
+									<ReferenceList>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D799538D-0932-442A-AAA6-5525C92EAF70}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="FP_Intro_V1_MIX" ID="{D71C29A6-A68F-4597-88F6-2874BC911DDD}" ShortID="450707197">
+											<Language>SFX</Language>
+											<AudioFile>FP_Intro_V1_MIX.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<TransitionList>
+										<MusicTransition Name="Root" ID="{C23D83C2-A827-4DB4-9031-32CBD6B81D55}">
+											<PropertyList>
+												<Property Name="IsFolder" Type="bool" Value="True"/>
+											</PropertyList>
+											<TransitionInfo/>
+										</MusicTransition>
+									</TransitionList>
+									<SequenceList>
+										<MusicTrackSequence Name="" ID="{84F3536A-38C0-47A4-9250-8688CBB475D2}">
+											<ClipList>
+												<MusicClip Name="FP_Intro_V1_MIX" ID="{511974F9-209D-49E2-AD42-C8E503E1E9BE}">
+													<PropertyList>
+														<Property Name="EndTrimOffset" Type="Real64" Value="32027.0208333333"/>
+														<Property Name="FadeInMode" Type="int16" Value="0"/>
+														<Property Name="FadeOutMode" Type="int16" Value="0"/>
+													</PropertyList>
+													<AudioSourceRef Name="FP_Intro_V1_MIX" ID="{D71C29A6-A68F-4597-88F6-2874BC911DDD}"/>
 												</MusicClip>
 											</ClipList>
 										</MusicTrackSequence>

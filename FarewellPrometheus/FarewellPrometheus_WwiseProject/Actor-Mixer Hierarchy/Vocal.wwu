@@ -1298,6 +1298,11 @@
 								</Sound>
 								<Sound Name="CP2_V_03_SFX" ID="{FAB695EF-EC71-4CAE-9615-85E1A9F33C5A}" ShortID="615215431">
 									<PropertyList>
+										<Property Name="Inclusion" Type="bool">
+											<ValueList>
+												<Value>False</Value>
+											</ValueList>
+										</Property>
 										<Property Name="IsVoice" Type="bool" Value="True"/>
 									</PropertyList>
 									<ReferenceList>
@@ -2753,6 +2758,11 @@
 								</RandomSequenceContainer>
 								<Sound Name="P3_Volga_Mix" ID="{F671F689-EB4C-4569-8E72-DA6483DC7DDE}" ShortID="409237916">
 									<PropertyList>
+										<Property Name="Inclusion" Type="bool">
+											<ValueList>
+												<Value>False</Value>
+											</ValueList>
+										</Property>
 										<Property Name="IsVoice" Type="bool" Value="True"/>
 									</PropertyList>
 									<ReferenceList>
@@ -2771,28 +2781,6 @@
 									</ChildrenList>
 									<ActiveSourceList>
 										<ActiveSource Name="P3_Volga_Mix" ID="{730784B9-9E7F-45EE-87C0-453AA808E94E}" Platform="Linked"/>
-									</ActiveSourceList>
-								</Sound>
-								<Sound Name="CL1_V_02_SFX" ID="{657F7FDB-9A69-490C-A1FF-97434B08C49B}" ShortID="722823323">
-									<PropertyList>
-										<Property Name="IsVoice" Type="bool" Value="True"/>
-									</PropertyList>
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{910AC7EE-841B-4C93-A9B7-752C4BD6AD66}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D799538D-0932-442A-AAA6-5525C92EAF70}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<AudioFileSource Name="P3_Volga_Mix-001" ID="{0A8FFD5B-00DD-4E81-8CF7-DADAADCF9C9A}" ShortID="26029393">
-											<Language>English(US)</Language>
-											<AudioFile>P3_Volga_Mix-001.wav</AudioFile>
-										</AudioFileSource>
-									</ChildrenList>
-									<ActiveSourceList>
-										<ActiveSource Name="P3_Volga_Mix-001" ID="{0A8FFD5B-00DD-4E81-8CF7-DADAADCF9C9A}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
 								<Sound Name="A_RV1_01_SFX" ID="{5C646994-1217-40EF-8D63-06373A243E88}" ShortID="675856065">
@@ -2841,6 +2829,11 @@
 								</Sound>
 								<Sound Name="P3_Volga_Mix-004" ID="{AD8D5CF2-9811-45FE-AB62-824CD00728C2}" ShortID="532900207">
 									<PropertyList>
+										<Property Name="Inclusion" Type="bool">
+											<ValueList>
+												<Value>False</Value>
+											</ValueList>
+										</Property>
 										<Property Name="IsVoice" Type="bool" Value="True"/>
 									</PropertyList>
 									<ReferenceList>
@@ -2863,6 +2856,11 @@
 								</Sound>
 								<Sound Name="P3_Volga_Mix-005" ID="{DD1D9AA5-0C46-4BA8-AEBB-D48798849AC6}" ShortID="422492668">
 									<PropertyList>
+										<Property Name="Inclusion" Type="bool">
+											<ValueList>
+												<Value>False</Value>
+											</ValueList>
+										</Property>
 										<Property Name="IsVoice" Type="bool" Value="True"/>
 									</PropertyList>
 									<ReferenceList>
@@ -2885,6 +2883,11 @@
 								</Sound>
 								<Sound Name="P3_Volga_Mix-006" ID="{149762D2-A000-4D63-9CC5-D1622F8B1019}" ShortID="228033587">
 									<PropertyList>
+										<Property Name="Inclusion" Type="bool">
+											<ValueList>
+												<Value>False</Value>
+											</ValueList>
+										</Property>
 										<Property Name="IsVoice" Type="bool" Value="True"/>
 									</PropertyList>
 									<ReferenceList>
@@ -2907,6 +2910,11 @@
 								</Sound>
 								<Sound Name="P3_Volga_Mix-007" ID="{5A12899C-76F0-4F9C-9EFD-F6E979E47226}" ShortID="1009822040">
 									<PropertyList>
+										<Property Name="Inclusion" Type="bool">
+											<ValueList>
+												<Value>False</Value>
+											</ValueList>
+										</Property>
 										<Property Name="IsVoice" Type="bool" Value="True"/>
 									</PropertyList>
 									<ReferenceList>
@@ -2927,7 +2935,7 @@
 										<ActiveSource Name="P3_Volga_Mix-007" ID="{CFFFDA92-1A19-4D04-B6A8-F4FA778D9DF9}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
-								<Sound Name="P3_Volga_Mix-008" ID="{6D301995-A0C3-4B19-AFE7-5CD3447100B3}" ShortID="738212506">
+								<Sound Name="GR1_V_01_SFX" ID="{6D301995-A0C3-4B19-AFE7-5CD3447100B3}" ShortID="738212506">
 									<PropertyList>
 										<Property Name="IsVoice" Type="bool" Value="True"/>
 									</PropertyList>
@@ -2949,7 +2957,7 @@
 										<ActiveSource Name="P3_Volga_Mix-008" ID="{E3EB127A-AEDA-4E57-B54D-EAF2DB4320A5}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
-								<Sound Name="P3_Volga_Mix-009" ID="{CEE9B7AC-1841-488D-A5A3-37C1F6E26CDE}" ShortID="32783234">
+								<Sound Name="GR1_V_02_SFX" ID="{CEE9B7AC-1841-488D-A5A3-37C1F6E26CDE}" ShortID="32783234">
 									<PropertyList>
 										<Property Name="IsVoice" Type="bool" Value="True"/>
 									</PropertyList>
@@ -2971,7 +2979,7 @@
 										<ActiveSource Name="P3_Volga_Mix-009" ID="{20720B6B-0ED1-4AA4-85AB-6F458A5FFC8C}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
-								<Sound Name="P3_Volga_Mix-010" ID="{E1B3C341-8830-42BF-AC61-B472E85A9697}" ShortID="1039621109">
+								<Sound Name="GR1_V_03_SFX" ID="{E1B3C341-8830-42BF-AC61-B472E85A9697}" ShortID="1039621109">
 									<PropertyList>
 										<Property Name="IsVoice" Type="bool" Value="True"/>
 									</PropertyList>
@@ -2993,7 +3001,7 @@
 										<ActiveSource Name="P3_Volga_Mix-010" ID="{900E57B2-999C-4812-8775-7449A90FECDE}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
-								<Sound Name="P3_Volga_Mix-011" ID="{DF287BD6-3E31-4013-B72A-A7C7FB8285BF}" ShortID="375734054">
+								<Sound Name="GR1_V_04_SFX" ID="{DF287BD6-3E31-4013-B72A-A7C7FB8285BF}" ShortID="375734054">
 									<PropertyList>
 										<Property Name="IsVoice" Type="bool" Value="True"/>
 									</PropertyList>
@@ -3015,7 +3023,7 @@
 										<ActiveSource Name="P3_Volga_Mix-011" ID="{B69F7224-CC39-496E-936D-A61E1C64C9A6}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
-								<Sound Name="P3_Volga_Mix-012" ID="{4FEC4DA0-D856-478A-A1C4-9BC1924FA137}" ShortID="452452350">
+								<Sound Name="GR1_V_05_SFX" ID="{4FEC4DA0-D856-478A-A1C4-9BC1924FA137}" ShortID="452452350">
 									<PropertyList>
 										<Property Name="IsVoice" Type="bool" Value="True"/>
 									</PropertyList>
@@ -3037,7 +3045,7 @@
 										<ActiveSource Name="P3_Volga_Mix-012" ID="{3EDD3727-8328-48A9-8CFB-416DEB7EE033}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
-								<Sound Name="P3_Volga_Mix-013" ID="{A3497632-0E96-4027-AC8C-3A0FCA303417}" ShortID="762433251">
+								<Sound Name="CP2_V_05_SFX" ID="{A3497632-0E96-4027-AC8C-3A0FCA303417}" ShortID="762433251">
 									<PropertyList>
 										<Property Name="IsVoice" Type="bool" Value="True"/>
 									</PropertyList>
@@ -3059,7 +3067,7 @@
 										<ActiveSource Name="P3_Volga_Mix-013" ID="{E5AB404D-C7EA-48D6-A043-5DE111A5D790}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
-								<Sound Name="P3_Volga_Mix-014" ID="{F43BED6D-E11F-42FE-AD8F-754C43C9032A}" ShortID="230884171">
+								<Sound Name="CP2_V_06_SFX" ID="{F43BED6D-E11F-42FE-AD8F-754C43C9032A}" ShortID="230884171">
 									<PropertyList>
 										<Property Name="IsVoice" Type="bool" Value="True"/>
 									</PropertyList>
@@ -3081,7 +3089,7 @@
 										<ActiveSource Name="P3_Volga_Mix-014" ID="{EB3EDC35-76AE-40ED-8DA2-E4B022DE65A5}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
-								<Sound Name="P3_Volga_Mix-015" ID="{058EFE12-64C7-4DBF-81A7-846B25D291D0}" ShortID="511792426">
+								<Sound Name="CP2_V_07_SFX" ID="{058EFE12-64C7-4DBF-81A7-846B25D291D0}" ShortID="511792426">
 									<PropertyList>
 										<Property Name="IsVoice" Type="bool" Value="True"/>
 									</PropertyList>
@@ -3103,7 +3111,7 @@
 										<ActiveSource Name="P3_Volga_Mix-015" ID="{F7301BF5-EFF7-4D3B-81A2-6B5E9B64597A}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
-								<Sound Name="P3_Volga_Mix-016" ID="{86018FCF-A94E-4DEE-80B3-6E7EA51E1554}" ShortID="748597300">
+								<Sound Name="CP2_V_08_SFX" ID="{86018FCF-A94E-4DEE-80B3-6E7EA51E1554}" ShortID="748597300">
 									<PropertyList>
 										<Property Name="IsVoice" Type="bool" Value="True"/>
 									</PropertyList>
@@ -3125,6 +3133,683 @@
 										<ActiveSource Name="P3_Volga_Mix-016" ID="{41514DAE-4A5C-4609-8E9D-3772F4020A5E}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
+								<Sound Name="CP2_I_01_SFX" ID="{EBE40157-513D-48EF-BEA0-3402A7CFD32A}" ShortID="716484991">
+									<PropertyList>
+										<Property Name="IsVoice" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{910AC7EE-841B-4C93-A9B7-752C4BD6AD66}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D799538D-0932-442A-AAA6-5525C92EAF70}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Ilya_P3_2_raw-003" ID="{DF3757DB-E4F1-4C7E-90D4-3A8668B95ED6}" ShortID="423372893">
+											<Language>English(US)</Language>
+											<AudioFile>Ilya_P3_2_raw-003.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Ilya_P3_2_raw-003" ID="{DF3757DB-E4F1-4C7E-90D4-3A8668B95ED6}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="CP2_I_02_SFX" ID="{D23C52D3-5CFD-491B-88DF-D208C30B387E}" ShortID="519765269">
+									<PropertyList>
+										<Property Name="IsVoice" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{910AC7EE-841B-4C93-A9B7-752C4BD6AD66}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D799538D-0932-442A-AAA6-5525C92EAF70}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Ilya_P3_2_raw-004" ID="{7F674960-0BAB-476A-8CF2-FFA2219548DD}" ShortID="405537253">
+											<Language>English(US)</Language>
+											<AudioFile>Ilya_P3_2_raw-004.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Ilya_P3_2_raw-004" ID="{7F674960-0BAB-476A-8CF2-FFA2219548DD}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="CP2_I_03_SFX" ID="{9B1DD9C3-2CE3-4763-AD8E-EB175D26C836}" ShortID="15624288">
+									<PropertyList>
+										<Property Name="IsVoice" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{910AC7EE-841B-4C93-A9B7-752C4BD6AD66}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D799538D-0932-442A-AAA6-5525C92EAF70}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Ilya_P3_2_raw-005" ID="{6E0A1F21-4BCB-4110-A7D8-19342D0069C3}" ShortID="83694352">
+											<Language>English(US)</Language>
+											<AudioFile>Ilya_P3_2_raw-005.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Ilya_P3_2_raw-005" ID="{6E0A1F21-4BCB-4110-A7D8-19342D0069C3}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="CP2_I_07_SFX" ID="{C66D53B7-4BB8-489D-A63C-D32323808D31}" ShortID="888234636">
+									<PropertyList>
+										<Property Name="Inclusion" Type="bool">
+											<ValueList>
+												<Value>False</Value>
+											</ValueList>
+										</Property>
+										<Property Name="IsVoice" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{910AC7EE-841B-4C93-A9B7-752C4BD6AD66}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D799538D-0932-442A-AAA6-5525C92EAF70}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Ilya_P3_2_raw-006" ID="{A9B42D26-E7F6-4880-83F1-DB7859F7A204}" ShortID="700913411">
+											<Language>English(US)</Language>
+											<AudioFile>Ilya_P3_2_raw-006.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Ilya_P3_2_raw-006" ID="{A9B42D26-E7F6-4880-83F1-DB7859F7A204}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Ilya_P3_2_raw-007" ID="{DA4AC4C2-9623-4B6D-B4C0-15510E39EABC}" ShortID="990333883">
+									<PropertyList>
+										<Property Name="Inclusion" Type="bool">
+											<ValueList>
+												<Value>False</Value>
+											</ValueList>
+										</Property>
+										<Property Name="IsVoice" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{910AC7EE-841B-4C93-A9B7-752C4BD6AD66}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D799538D-0932-442A-AAA6-5525C92EAF70}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Ilya_P3_2_raw-007" ID="{C66DCC98-AFCC-4B1E-BB25-CD2C8448438A}" ShortID="982622634">
+											<Language>English(US)</Language>
+											<AudioFile>Ilya_P3_2_raw-007.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Ilya_P3_2_raw-007" ID="{C66DCC98-AFCC-4B1E-BB25-CD2C8448438A}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Ilya_P3_2_raw-008" ID="{2DB35091-79ED-4575-AA5B-D6FF31C4334A}" ShortID="797536119">
+									<PropertyList>
+										<Property Name="Inclusion" Type="bool">
+											<ValueList>
+												<Value>False</Value>
+											</ValueList>
+										</Property>
+										<Property Name="IsVoice" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{910AC7EE-841B-4C93-A9B7-752C4BD6AD66}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D799538D-0932-442A-AAA6-5525C92EAF70}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Ilya_P3_2_raw-008" ID="{11B716DC-646C-4C13-82EC-85BA0A817493}" ShortID="408930014">
+											<Language>English(US)</Language>
+											<AudioFile>Ilya_P3_2_raw-008.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Ilya_P3_2_raw-008" ID="{11B716DC-646C-4C13-82EC-85BA0A817493}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Ilya_P3_2_raw-009" ID="{8F7A2934-B985-4BF1-83CD-AFE09CC4E496}" ShortID="722230889">
+									<PropertyList>
+										<Property Name="Inclusion" Type="bool">
+											<ValueList>
+												<Value>False</Value>
+											</ValueList>
+										</Property>
+										<Property Name="IsVoice" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{910AC7EE-841B-4C93-A9B7-752C4BD6AD66}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D799538D-0932-442A-AAA6-5525C92EAF70}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Ilya_P3_2_raw-009" ID="{24CD6CCA-36C1-4914-907C-1D70B7DECE69}" ShortID="491716470">
+											<Language>English(US)</Language>
+											<AudioFile>Ilya_P3_2_raw-009.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Ilya_P3_2_raw-009" ID="{24CD6CCA-36C1-4914-907C-1D70B7DECE69}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Ilya_P3_2_raw-010" ID="{CDE08072-40AF-4BD2-955A-00CC83A41D24}" ShortID="439446200">
+									<PropertyList>
+										<Property Name="Inclusion" Type="bool">
+											<ValueList>
+												<Value>False</Value>
+											</ValueList>
+										</Property>
+										<Property Name="IsVoice" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{910AC7EE-841B-4C93-A9B7-752C4BD6AD66}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D799538D-0932-442A-AAA6-5525C92EAF70}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Ilya_P3_2_raw-010" ID="{B3F864EE-3144-4970-9D76-097E6906AE3F}" ShortID="55426750">
+											<Language>English(US)</Language>
+											<AudioFile>Ilya_P3_2_raw-010.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Ilya_P3_2_raw-010" ID="{B3F864EE-3144-4970-9D76-097E6906AE3F}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Ilya_P3_2_raw-011" ID="{A1C2CBBB-2DEB-4E23-9A32-CADB13A13528}" ShortID="36615009">
+									<PropertyList>
+										<Property Name="Inclusion" Type="bool">
+											<ValueList>
+												<Value>False</Value>
+											</ValueList>
+										</Property>
+										<Property Name="IsVoice" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{910AC7EE-841B-4C93-A9B7-752C4BD6AD66}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D799538D-0932-442A-AAA6-5525C92EAF70}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Ilya_P3_2_raw-011" ID="{313CF4E1-140E-4DFD-AA0A-F2A70DCF1045}" ShortID="655386731">
+											<Language>English(US)</Language>
+											<AudioFile>Ilya_P3_2_raw-011.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Ilya_P3_2_raw-011" ID="{313CF4E1-140E-4DFD-AA0A-F2A70DCF1045}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Ilya_P3_2_raw-012" ID="{B34193A3-632E-4158-9A33-903337B5626D}" ShortID="672010237">
+									<PropertyList>
+										<Property Name="Inclusion" Type="bool">
+											<ValueList>
+												<Value>False</Value>
+											</ValueList>
+										</Property>
+										<Property Name="IsVoice" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{910AC7EE-841B-4C93-A9B7-752C4BD6AD66}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D799538D-0932-442A-AAA6-5525C92EAF70}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Ilya_P3_2_raw-012" ID="{DD375ECA-68C5-4998-BE13-FDB9AC624FF2}" ShortID="49885075">
+											<Language>English(US)</Language>
+											<AudioFile>Ilya_P3_2_raw-012.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Ilya_P3_2_raw-012" ID="{DD375ECA-68C5-4998-BE13-FDB9AC624FF2}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Ilya_P3_2_raw-013" ID="{EE956540-B3E4-437C-95E9-4244AE6C1AC4}" ShortID="870171257">
+									<PropertyList>
+										<Property Name="Inclusion" Type="bool">
+											<ValueList>
+												<Value>False</Value>
+											</ValueList>
+										</Property>
+										<Property Name="IsVoice" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{910AC7EE-841B-4C93-A9B7-752C4BD6AD66}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D799538D-0932-442A-AAA6-5525C92EAF70}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Ilya_P3_2_raw-013" ID="{480DE428-8CA0-4E3C-94CE-EAE8D1474A62}" ShortID="626549193">
+											<Language>English(US)</Language>
+											<AudioFile>Ilya_P3_2_raw-013.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Ilya_P3_2_raw-013" ID="{480DE428-8CA0-4E3C-94CE-EAE8D1474A62}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="GR1_I_01_SFX" ID="{D3A056A2-A3C3-49EE-973D-9BA3ACD3B03D}" ShortID="273098566">
+									<PropertyList>
+										<Property Name="IsVoice" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{910AC7EE-841B-4C93-A9B7-752C4BD6AD66}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D799538D-0932-442A-AAA6-5525C92EAF70}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Ilya_P3_2_raw-014" ID="{08828B30-159D-481B-A710-1970E4709B91}" ShortID="398799326">
+											<Language>English(US)</Language>
+											<AudioFile>Ilya_P3_2_raw-014.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Ilya_P3_2_raw-014" ID="{08828B30-159D-481B-A710-1970E4709B91}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="GR1_I_02_SFX" ID="{C2BE3333-512E-436A-B48C-731A5344B9F7}" ShortID="554110204">
+									<PropertyList>
+										<Property Name="IsVoice" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{910AC7EE-841B-4C93-A9B7-752C4BD6AD66}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D799538D-0932-442A-AAA6-5525C92EAF70}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Ilya_P3_2_raw-015" ID="{32ACFE94-1CCE-4158-80DE-11F83521C1C6}" ShortID="873248824">
+											<Language>English(US)</Language>
+											<AudioFile>Ilya_P3_2_raw-015.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Ilya_P3_2_raw-015" ID="{32ACFE94-1CCE-4158-80DE-11F83521C1C6}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Ilya_P3_2_raw-016" ID="{25412DC5-079D-4413-BB54-5BA70073119B}" ShortID="719371783">
+									<PropertyList>
+										<Property Name="Inclusion" Type="bool">
+											<ValueList>
+												<Value>False</Value>
+											</ValueList>
+										</Property>
+										<Property Name="IsVoice" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{910AC7EE-841B-4C93-A9B7-752C4BD6AD66}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D799538D-0932-442A-AAA6-5525C92EAF70}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Ilya_P3_2_raw-016" ID="{4F35D629-883B-44B3-8EEF-CC43FCE335B8}" ShortID="711120493">
+											<Language>English(US)</Language>
+											<AudioFile>Ilya_P3_2_raw-016.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Ilya_P3_2_raw-016" ID="{4F35D629-883B-44B3-8EEF-CC43FCE335B8}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Ilya_P3_2_raw-017" ID="{B9D6B6AB-15BA-405A-8C05-9533EAA40653}" ShortID="601648161">
+									<PropertyList>
+										<Property Name="Inclusion" Type="bool">
+											<ValueList>
+												<Value>False</Value>
+											</ValueList>
+										</Property>
+										<Property Name="IsVoice" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{910AC7EE-841B-4C93-A9B7-752C4BD6AD66}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D799538D-0932-442A-AAA6-5525C92EAF70}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Ilya_P3_2_raw-017" ID="{9BC34603-4082-4AA8-A01B-90D3D3E49BC9}" ShortID="964672486">
+											<Language>English(US)</Language>
+											<AudioFile>Ilya_P3_2_raw-017.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Ilya_P3_2_raw-017" ID="{9BC34603-4082-4AA8-A01B-90D3D3E49BC9}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="GR1_I_03_SFX" ID="{0EA5F358-5B1A-4C05-BE67-A75A3E97697B}" ShortID="245296246">
+									<PropertyList>
+										<Property Name="IsVoice" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{910AC7EE-841B-4C93-A9B7-752C4BD6AD66}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D799538D-0932-442A-AAA6-5525C92EAF70}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Ilya_P3_2_raw-018" ID="{140E8A1F-F76C-4E23-B71E-BB99D7ED488F}" ShortID="576437481">
+											<Language>English(US)</Language>
+											<AudioFile>Ilya_P3_2_raw-018.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Ilya_P3_2_raw-018" ID="{140E8A1F-F76C-4E23-B71E-BB99D7ED488F}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="GR1_I_04_SFX" ID="{9AB52AFC-9426-4E2E-8E46-19664087CA3F}" ShortID="797969385">
+									<PropertyList>
+										<Property Name="IsVoice" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{910AC7EE-841B-4C93-A9B7-752C4BD6AD66}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D799538D-0932-442A-AAA6-5525C92EAF70}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Ilya_P3_2_raw-019" ID="{0ED4B0F0-825B-42B7-AE20-DD5AEC30AFC0}" ShortID="538503602">
+											<Language>English(US)</Language>
+											<AudioFile>Ilya_P3_2_raw-019.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Ilya_P3_2_raw-019" ID="{0ED4B0F0-825B-42B7-AE20-DD5AEC30AFC0}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="GR1_I_05_SFX" ID="{AF5E2B2E-8861-49AE-A0B4-DB1BD590E93E}" ShortID="218548933">
+									<PropertyList>
+										<Property Name="IsVoice" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{910AC7EE-841B-4C93-A9B7-752C4BD6AD66}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D799538D-0932-442A-AAA6-5525C92EAF70}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Ilya_P3_2_raw-020" ID="{38D33A1A-E911-41A0-A8C5-758D57C13B5E}" ShortID="961112078">
+											<Language>English(US)</Language>
+											<AudioFile>Ilya_P3_2_raw-020.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Ilya_P3_2_raw-020" ID="{38D33A1A-E911-41A0-A8C5-758D57C13B5E}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="CP2_I_08_SFX" ID="{7BA145AB-F09E-4216-8571-5D6C122BA5CB}" ShortID="1003196270">
+									<PropertyList>
+										<Property Name="IsVoice" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{910AC7EE-841B-4C93-A9B7-752C4BD6AD66}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D799538D-0932-442A-AAA6-5525C92EAF70}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Ilya_P3_2_raw-021" ID="{B883C58A-B7FA-4D1D-BD9C-48504EB908BA}" ShortID="505856937">
+											<Language>English(US)</Language>
+											<AudioFile>Ilya_P3_2_raw-021.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Ilya_P3_2_raw-021" ID="{B883C58A-B7FA-4D1D-BD9C-48504EB908BA}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="CP2_I_09_SFX" ID="{C98C77EE-1BE2-4126-B840-A68DEAE2F12E}" ShortID="1061835472">
+									<PropertyList>
+										<Property Name="IsVoice" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{910AC7EE-841B-4C93-A9B7-752C4BD6AD66}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D799538D-0932-442A-AAA6-5525C92EAF70}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Ilya_P3_2_raw-022" ID="{51F77FA0-248A-4E11-9B85-DC73F0E16681}" ShortID="28988451">
+											<Language>English(US)</Language>
+											<AudioFile>Ilya_P3_2_raw-022.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Ilya_P3_2_raw-022" ID="{51F77FA0-248A-4E11-9B85-DC73F0E16681}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="CP2_I_10_SFX" ID="{78AA11EC-6CA9-4BF1-BD1A-246234BB2F00}" ShortID="189101060">
+									<PropertyList>
+										<Property Name="IsVoice" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{910AC7EE-841B-4C93-A9B7-752C4BD6AD66}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D799538D-0932-442A-AAA6-5525C92EAF70}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Ilya_P3_2_raw-023" ID="{55543679-A24D-4CD9-877F-584C9847D973}" ShortID="778037568">
+											<Language>English(US)</Language>
+											<AudioFile>Ilya_P3_2_raw-023.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Ilya_P3_2_raw-023" ID="{55543679-A24D-4CD9-877F-584C9847D973}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="CP2_I_11_SFX" ID="{482D20F7-DA2B-4980-9FCC-B281822A86B4}" ShortID="821993780">
+									<PropertyList>
+										<Property Name="IsVoice" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{910AC7EE-841B-4C93-A9B7-752C4BD6AD66}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D799538D-0932-442A-AAA6-5525C92EAF70}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Ilya_P3_2_raw-024" ID="{1DFB8B84-3F3A-4865-9D43-3B5462E35B7E}" ShortID="1021063851">
+											<Language>English(US)</Language>
+											<AudioFile>Ilya_P3_2_raw-024.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Ilya_P3_2_raw-024" ID="{1DFB8B84-3F3A-4865-9D43-3B5462E35B7E}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="CP2_I_12_SFX" ID="{97259C4C-5BC3-4EAE-9E95-85B9FFEE63A9}" ShortID="337943387">
+									<PropertyList>
+										<Property Name="Inclusion" Type="bool">
+											<ValueList>
+												<Value>False</Value>
+											</ValueList>
+										</Property>
+										<Property Name="IsVoice" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{910AC7EE-841B-4C93-A9B7-752C4BD6AD66}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D799538D-0932-442A-AAA6-5525C92EAF70}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Ilya_P3_2_raw-025" ID="{F8B9B8E4-F30D-4C33-B831-E4C2B6836611}" ShortID="5685">
+											<Language>English(US)</Language>
+											<AudioFile>Ilya_P3_2_raw-025.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Ilya_P3_2_raw-025" ID="{F8B9B8E4-F30D-4C33-B831-E4C2B6836611}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="CP2_I_13_SFX" ID="{4B3D8468-BD20-4958-AC3E-A1658BBCEADA}" ShortID="470652001">
+									<PropertyList>
+										<Property Name="Inclusion" Type="bool">
+											<ValueList>
+												<Value>False</Value>
+											</ValueList>
+										</Property>
+										<Property Name="IsVoice" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{910AC7EE-841B-4C93-A9B7-752C4BD6AD66}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D799538D-0932-442A-AAA6-5525C92EAF70}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Ilya_P3_2_raw-026" ID="{B9484D85-84E1-442E-AF98-62845E9D8E98}" ShortID="701468752">
+											<Language>English(US)</Language>
+											<AudioFile>Ilya_P3_2_raw-026.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Ilya_P3_2_raw-026" ID="{B9484D85-84E1-442E-AF98-62845E9D8E98}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<RandomSequenceContainer Name="CL1_IV_02_SFX" ID="{BB163C47-9360-4B08-920C-998CEB6710C2}" ShortID="790978041">
+									<PropertyList>
+										<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
+										<Property Name="PlayMechanismSpecialTransitionsType" Type="int16" Value="2"/>
+										<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+										<Property Name="RandomOrSequence" Type="int16" Value="0"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{910AC7EE-841B-4C93-A9B7-752C4BD6AD66}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D799538D-0932-442A-AAA6-5525C92EAF70}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="CL1_I_01_SFX" ID="{8CFAB100-E7A6-4F7E-8AB2-9DB812725256}" ShortID="212610736">
+											<PropertyList>
+												<Property Name="IsVoice" Type="bool" Value="True"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="SFX" ID="{47160828-E219-4078-8315-465919D5B629}" WorkUnitID="{910AC7EE-841B-4C93-A9B7-752C4BD6AD66}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D799538D-0932-442A-AAA6-5525C92EAF70}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Ilya_P3_2_raw-001" ID="{2E512E5B-77C3-4C5F-98ED-79EAEE999A16}" ShortID="709227756">
+													<Language>English(US)</Language>
+													<AudioFile>Ilya_P3_2_raw-001.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Ilya_P3_2_raw-001" ID="{2E512E5B-77C3-4C5F-98ED-79EAEE999A16}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="CL1_I_02_SFX" ID="{6124365A-C180-4435-BBDC-A5AD96EB1917}" ShortID="785214200">
+											<PropertyList>
+												<Property Name="IsVoice" Type="bool" Value="True"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="SFX" ID="{47160828-E219-4078-8315-465919D5B629}" WorkUnitID="{910AC7EE-841B-4C93-A9B7-752C4BD6AD66}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D799538D-0932-442A-AAA6-5525C92EAF70}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Ilya_P3_2_raw-002" ID="{9B63CAA6-0574-4F51-BDF3-1C9BF353C3E9}" ShortID="138273594">
+													<Language>English(US)</Language>
+													<AudioFile>Ilya_P3_2_raw-002.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Ilya_P3_2_raw-002" ID="{9B63CAA6-0574-4F51-BDF3-1C9BF353C3E9}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="CL1_V_02_SFX" ID="{657F7FDB-9A69-490C-A1FF-97434B08C49B}" ShortID="722823323">
+											<PropertyList>
+												<Property Name="IsVoice" Type="bool" Value="True"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="SFX" ID="{47160828-E219-4078-8315-465919D5B629}" WorkUnitID="{910AC7EE-841B-4C93-A9B7-752C4BD6AD66}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D799538D-0932-442A-AAA6-5525C92EAF70}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="P3_Volga_Mix-001" ID="{0A8FFD5B-00DD-4E81-8CF7-DADAADCF9C9A}" ShortID="26029393">
+													<Language>English(US)</Language>
+													<AudioFile>P3_Volga_Mix-001.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="P3_Volga_Mix-001" ID="{0A8FFD5B-00DD-4E81-8CF7-DADAADCF9C9A}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+									<Playlist>
+										<ItemRef Name="CL1_I_01_SFX" ID="{8CFAB100-E7A6-4F7E-8AB2-9DB812725256}"/>
+										<ItemRef Name="CL1_V_02_SFX" ID="{657F7FDB-9A69-490C-A1FF-97434B08C49B}"/>
+										<ItemRef Name="CL1_I_02_SFX" ID="{6124365A-C180-4435-BBDC-A5AD96EB1917}"/>
+									</Playlist>
+								</RandomSequenceContainer>
 							</ChildrenList>
 							<GroupingInfo>
 								<GroupingBehaviorList>
@@ -3138,7 +3823,10 @@
 										<ItemRef Name="T_P_SFX" ID="{0155D30E-FF97-4B21-89C5-14860020E1FF}"/>
 									</GroupingBehavior>
 									<GroupingBehavior>
-										<ItemRef Name="P3_Volga_Mix-015" ID="{058EFE12-64C7-4DBF-81A7-846B25D291D0}"/>
+										<ItemRef Name="CP2_V_07_SFX" ID="{058EFE12-64C7-4DBF-81A7-846B25D291D0}"/>
+									</GroupingBehavior>
+									<GroupingBehavior>
+										<ItemRef Name="GR1_I_05_SFX" ID="{AF5E2B2E-8861-49AE-A0B4-DB1BD590E93E}"/>
 									</GroupingBehavior>
 									<GroupingBehavior>
 										<ItemRef Name="A_I_SFX" ID="{E57DF12F-49E2-43D6-A57C-2735F483C682}"/>
@@ -3147,13 +3835,28 @@
 										<ItemRef Name="CP2_I_06_SFX" ID="{C967F231-BA10-41FA-B823-8BCC80A5185C}"/>
 									</GroupingBehavior>
 									<GroupingBehavior>
-										<ItemRef Name="P3_Volga_Mix-013" ID="{A3497632-0E96-4027-AC8C-3A0FCA303417}"/>
+										<ItemRef Name="CP2_V_05_SFX" ID="{A3497632-0E96-4027-AC8C-3A0FCA303417}"/>
+									</GroupingBehavior>
+									<GroupingBehavior>
+										<ItemRef Name="GR1_I_02_SFX" ID="{C2BE3333-512E-436A-B48C-731A5344B9F7}"/>
+									</GroupingBehavior>
+									<GroupingBehavior>
+										<ItemRef Name="Ilya_P3_2_raw-009" ID="{8F7A2934-B985-4BF1-83CD-AFE09CC4E496}"/>
 									</GroupingBehavior>
 									<GroupingBehavior>
 										<ItemRef Name="T_I_SFX" ID="{59E44035-7676-4870-88D8-9B644E60E691}"/>
 									</GroupingBehavior>
 									<GroupingBehavior>
-										<ItemRef Name="P3_Volga_Mix-010" ID="{E1B3C341-8830-42BF-AC61-B472E85A9697}"/>
+										<ItemRef Name="Ilya_P3_2_raw-013" ID="{EE956540-B3E4-437C-95E9-4244AE6C1AC4}"/>
+									</GroupingBehavior>
+									<GroupingBehavior>
+										<ItemRef Name="GR1_V_03_SFX" ID="{E1B3C341-8830-42BF-AC61-B472E85A9697}"/>
+									</GroupingBehavior>
+									<GroupingBehavior>
+										<ItemRef Name="CL1_IV_02_SFX" ID="{BB163C47-9360-4B08-920C-998CEB6710C2}"/>
+									</GroupingBehavior>
+									<GroupingBehavior>
+										<ItemRef Name="CP2_I_12_SFX" ID="{97259C4C-5BC3-4EAE-9E95-85B9FFEE63A9}"/>
 									</GroupingBehavior>
 									<GroupingBehavior>
 										<ItemRef Name="CP2_I_04_SFX" ID="{7928124D-1CD2-4193-983B-B7031F8E5738}"/>
@@ -3162,10 +3865,25 @@
 										<ItemRef Name="CP2_IV_02_SFX" ID="{25A5CE4D-85B4-43F7-B315-5C643D8AFA3D}"/>
 									</GroupingBehavior>
 									<GroupingBehavior>
-										<ItemRef Name="P3_Volga_Mix-014" ID="{F43BED6D-E11F-42FE-AD8F-754C43C9032A}"/>
+										<ItemRef Name="CP2_I_01_SFX" ID="{EBE40157-513D-48EF-BEA0-3402A7CFD32A}"/>
+									</GroupingBehavior>
+									<GroupingBehavior>
+										<ItemRef Name="GR1_I_03_SFX" ID="{0EA5F358-5B1A-4C05-BE67-A75A3E97697B}"/>
+									</GroupingBehavior>
+									<GroupingBehavior>
+										<ItemRef Name="CP2_I_13_SFX" ID="{4B3D8468-BD20-4958-AC3E-A1658BBCEADA}"/>
+									</GroupingBehavior>
+									<GroupingBehavior>
+										<ItemRef Name="CP2_V_06_SFX" ID="{F43BED6D-E11F-42FE-AD8F-754C43C9032A}"/>
+									</GroupingBehavior>
+									<GroupingBehavior>
+										<ItemRef Name="Ilya_P3_2_raw-010" ID="{CDE08072-40AF-4BD2-955A-00CC83A41D24}"/>
 									</GroupingBehavior>
 									<GroupingBehavior>
 										<ItemRef Name="P3_Volga_Mix" ID="{F671F689-EB4C-4569-8E72-DA6483DC7DDE}"/>
+									</GroupingBehavior>
+									<GroupingBehavior>
+										<ItemRef Name="Ilya_P3_2_raw-008" ID="{2DB35091-79ED-4575-AA5B-D6FF31C4334A}"/>
 									</GroupingBehavior>
 									<GroupingBehavior>
 										<ItemRef Name="M_P_SFX" ID="{A5062492-9E51-458B-A4A7-F653B21BEEF3}"/>
@@ -3174,7 +3892,7 @@
 										<ItemRef Name="A_RV1_01_SFX" ID="{5C646994-1217-40EF-8D63-06373A243E88}"/>
 									</GroupingBehavior>
 									<GroupingBehavior>
-										<ItemRef Name="P3_Volga_Mix-008" ID="{6D301995-A0C3-4B19-AFE7-5CD3447100B3}"/>
+										<ItemRef Name="GR1_V_01_SFX" ID="{6D301995-A0C3-4B19-AFE7-5CD3447100B3}"/>
 									</GroupingBehavior>
 									<GroupingBehavior>
 										<ItemRef Name="A_RV1_02_SFX" ID="{DE8A6396-8A89-4750-8C84-7FA13CAF496C}"/>
@@ -3189,31 +3907,58 @@
 										<ItemRef Name="G_P_SFX" ID="{0FA8D49E-42FC-48E4-B298-27628A6292A4}"/>
 									</GroupingBehavior>
 									<GroupingBehavior>
-										<ItemRef Name="P3_Volga_Mix-012" ID="{4FEC4DA0-D856-478A-A1C4-9BC1924FA137}"/>
+										<ItemRef Name="GR1_V_05_SFX" ID="{4FEC4DA0-D856-478A-A1C4-9BC1924FA137}"/>
+									</GroupingBehavior>
+									<GroupingBehavior>
+										<ItemRef Name="GR1_I_01_SFX" ID="{D3A056A2-A3C3-49EE-973D-9BA3ACD3B03D}"/>
+									</GroupingBehavior>
+									<GroupingBehavior>
+										<ItemRef Name="Ilya_P3_2_raw-012" ID="{B34193A3-632E-4158-9A33-903337B5626D}"/>
 									</GroupingBehavior>
 									<GroupingBehavior>
 										<ItemRef Name="P3_Volga_Mix-005" ID="{DD1D9AA5-0C46-4BA8-AEBB-D48798849AC6}"/>
 									</GroupingBehavior>
 									<GroupingBehavior>
-										<ItemRef Name="P3_Volga_Mix-009" ID="{CEE9B7AC-1841-488D-A5A3-37C1F6E26CDE}"/>
+										<ItemRef Name="CP2_I_08_SFX" ID="{7BA145AB-F09E-4216-8571-5D6C122BA5CB}"/>
+									</GroupingBehavior>
+									<GroupingBehavior>
+										<ItemRef Name="Ilya_P3_2_raw-017" ID="{B9D6B6AB-15BA-405A-8C05-9533EAA40653}"/>
+									</GroupingBehavior>
+									<GroupingBehavior>
+										<ItemRef Name="GR1_V_02_SFX" ID="{CEE9B7AC-1841-488D-A5A3-37C1F6E26CDE}"/>
+									</GroupingBehavior>
+									<GroupingBehavior>
+										<ItemRef Name="CP2_I_07_SFX" ID="{C66D53B7-4BB8-489D-A63C-D32323808D31}"/>
 									</GroupingBehavior>
 									<GroupingBehavior>
 										<ItemRef Name="CP2_I_05_SFX" ID="{09EB07BA-DAD0-45C6-8DF1-C5416F387687}"/>
 									</GroupingBehavior>
 									<GroupingBehavior>
+										<ItemRef Name="Ilya_P3_2_raw-011" ID="{A1C2CBBB-2DEB-4E23-9A32-CADB13A13528}"/>
+									</GroupingBehavior>
+									<GroupingBehavior>
 										<ItemRef Name="M_I_SFX" ID="{C4E9B5BC-52FD-4340-85B4-BDE6B64A772D}"/>
 									</GroupingBehavior>
 									<GroupingBehavior>
-										<ItemRef Name="P3_Volga_Mix-016" ID="{86018FCF-A94E-4DEE-80B3-6E7EA51E1554}"/>
+										<ItemRef Name="Ilya_P3_2_raw-007" ID="{DA4AC4C2-9623-4B6D-B4C0-15510E39EABC}"/>
+									</GroupingBehavior>
+									<GroupingBehavior>
+										<ItemRef Name="CP2_I_03_SFX" ID="{9B1DD9C3-2CE3-4763-AD8E-EB175D26C836}"/>
+									</GroupingBehavior>
+									<GroupingBehavior>
+										<ItemRef Name="Ilya_P3_2_raw-016" ID="{25412DC5-079D-4413-BB54-5BA70073119B}"/>
+									</GroupingBehavior>
+									<GroupingBehavior>
+										<ItemRef Name="CP2_V_08_SFX" ID="{86018FCF-A94E-4DEE-80B3-6E7EA51E1554}"/>
 									</GroupingBehavior>
 									<GroupingBehavior>
 										<ItemRef Name="P3_Volga_Mix-006" ID="{149762D2-A000-4D63-9CC5-D1622F8B1019}"/>
 									</GroupingBehavior>
 									<GroupingBehavior>
-										<ItemRef Name="P3_Volga_Mix-011" ID="{DF287BD6-3E31-4013-B72A-A7C7FB8285BF}"/>
+										<ItemRef Name="CP2_I_02_SFX" ID="{D23C52D3-5CFD-491B-88DF-D208C30B387E}"/>
 									</GroupingBehavior>
 									<GroupingBehavior>
-										<ItemRef Name="CL1_V_02_SFX" ID="{657F7FDB-9A69-490C-A1FF-97434B08C49B}"/>
+										<ItemRef Name="GR1_V_04_SFX" ID="{DF287BD6-3E31-4013-B72A-A7C7FB8285BF}"/>
 									</GroupingBehavior>
 									<GroupingBehavior>
 										<ItemRef Name="A_P_SFX" ID="{12322BE7-DA81-46F8-9D37-E26A5B976166}"/>
@@ -3222,13 +3967,25 @@
 										<ItemRef Name="CL1_IV_01_SFX" ID="{93BD54EB-110F-4B07-A33D-777784AD035B}"/>
 									</GroupingBehavior>
 									<GroupingBehavior>
+										<ItemRef Name="CP2_I_10_SFX" ID="{78AA11EC-6CA9-4BF1-BD1A-246234BB2F00}"/>
+									</GroupingBehavior>
+									<GroupingBehavior>
+										<ItemRef Name="CP2_I_09_SFX" ID="{C98C77EE-1BE2-4126-B840-A68DEAE2F12E}"/>
+									</GroupingBehavior>
+									<GroupingBehavior>
 										<ItemRef Name="CP2_V_03_SFX" ID="{FAB695EF-EC71-4CAE-9615-85E1A9F33C5A}"/>
 									</GroupingBehavior>
 									<GroupingBehavior>
 										<ItemRef Name="P3_Volga_Mix-004" ID="{AD8D5CF2-9811-45FE-AB62-824CD00728C2}"/>
 									</GroupingBehavior>
 									<GroupingBehavior>
+										<ItemRef Name="CP2_I_11_SFX" ID="{482D20F7-DA2B-4980-9FCC-B281822A86B4}"/>
+									</GroupingBehavior>
+									<GroupingBehavior>
 										<ItemRef Name="CP2_V_04_SFX" ID="{955C9BFA-55A2-48E1-A507-88343F10B09C}"/>
+									</GroupingBehavior>
+									<GroupingBehavior>
+										<ItemRef Name="GR1_I_04_SFX" ID="{9AB52AFC-9426-4E2E-8E46-19664087CA3F}"/>
 									</GroupingBehavior>
 								</GroupingBehaviorList>
 								<GroupingList>
@@ -3314,6 +4071,12 @@
 										<SwitchRef Name="A_I" ID="{DE7453DF-8138-46BD-B2B5-8E32D452A867}"/>
 										<ItemList>
 											<ItemRef Name="A_I_SFX" ID="{E57DF12F-49E2-43D6-A57C-2735F483C682}"/>
+										</ItemList>
+									</Grouping>
+									<Grouping>
+										<SwitchRef Name="CL1_IV_02" ID="{73A013EA-7F20-4193-BFC6-F8FC6C863A05}"/>
+										<ItemList>
+											<ItemRef Name="CL1_IV_02_SFX" ID="{BB163C47-9360-4B08-920C-998CEB6710C2}"/>
 										</ItemList>
 									</Grouping>
 								</GroupingList>

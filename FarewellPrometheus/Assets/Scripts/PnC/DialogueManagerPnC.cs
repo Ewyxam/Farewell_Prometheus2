@@ -6,18 +6,23 @@ using AK.Wwise;
 public class DialogueManagerPnC : MonoBehaviour
 {
     public int location;
-    public int visited;
+    public bool visited;
     public string objectClicked;
     public bool cisailleInInventory;
 
     public void ArrivalPanelDial()
     {
-        /* if pas déjà visité {
-        if location == x { ligne spécifique }
-        else if location == y ; etc
-        else { ligne global }
+        if (!visited)
+        {
+        if (location == 1)
+            {
+                AkSoundEngine.SetSwitch("Dial_PnC", "CL1_IV_02_SFX", gameObject);
+                AkSoundEngine.PostEvent("Dial_PnC_Event", gameObject);
+            }
+        //else if location == y ; etc
+        //else { ligne global }
         }
-        else if déjà visité {
+        /*else if déjà visité {
         if location == CP2 {random ligne de dial CP)
     
         */

@@ -37,6 +37,12 @@ public class SceneTransition : MonoBehaviour
 
     public void LoadNextScene()
     {
+        if(GameObject.Find("GameManager").GetComponent<GameManager>().elecClear==false && GameObject.Find("GameManager").GetComponent<GameManager>().numTab == 5)
+        {
+            StartCoroutine(LoadLevel(SceneManager.GetActiveScene().buildIndex + 2));
+            buildIndex = currentScene.buildIndex;
+        }
+        else
         StartCoroutine(LoadLevel(SceneManager.GetActiveScene().buildIndex + 1));
         buildIndex = currentScene.buildIndex;
         if (buildIndex == 1)
@@ -55,6 +61,11 @@ public class SceneTransition : MonoBehaviour
 
     public void LoadPreviousScene()
     {
+        if (currentScene.name == "TableauElectrique2")
+        {
+            StartCoroutine(LoadLevel(SceneManager.GetActiveScene().buildIndex - 2));
+            buildIndex = currentScene.buildIndex;
+        }else
         StartCoroutine(LoadLevel(SceneManager.GetActiveScene().buildIndex - 1));
         buildIndex = currentScene.buildIndex;
 

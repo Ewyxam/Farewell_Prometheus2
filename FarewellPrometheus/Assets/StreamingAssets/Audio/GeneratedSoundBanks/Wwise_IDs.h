@@ -131,6 +131,7 @@ namespace AK
                 static const AkUniqueID A_I = 278650550U;
                 static const AkUniqueID A_P = 278650543U;
                 static const AkUniqueID CL1_IV_01 = 3468854229U;
+                static const AkUniqueID CL1_IV_02 = 3468854230U;
                 static const AkUniqueID CP1_V_01 = 3083633036U;
                 static const AkUniqueID CP2_I_04 = 2053732353U;
                 static const AkUniqueID CP2_IV_01 = 2299339674U;

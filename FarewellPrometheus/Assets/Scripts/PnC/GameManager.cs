@@ -36,7 +36,16 @@ public class GameManager : MonoBehaviour
         transition = GameObject.Find("SceneTransition");
         collMan = GameObject.Find("CollisionManager");
             numTab = collMan.GetComponent<CollisionManager>().tabNum;
-            if (numTab == 5 && couvClear && test == true)
+
+        if (numTab == 5 && elecClear )
+        {
+            collMan.GetComponent<CollisionManager>().tab[0].SetActive(false);
+            collMan.GetComponent<CollisionManager>().tab[numTab].SetActive(true);
+            GameObject.Find("INT_BG").GetComponent<Image>().sprite = campVisual[1];
+            transition.GetComponent<SceneTransition>().tabNum = 5;
+            
+        }else
+        if (numTab == 5 && couvClear && test == true)
             {
                 collMan.GetComponent<CollisionManager>().tab[0].SetActive(false);
                 collMan.GetComponent<CollisionManager>().tab[numTab].SetActive(true);
@@ -60,5 +69,13 @@ public class GameManager : MonoBehaviour
         }
     }
 
-   
+    public void LaunchElec()
+    {
+        if (!elecClear)
+        {
+            transition.GetComponent<SceneTransition>().LoadNextScene();
+        }
+    }
+
+
 }

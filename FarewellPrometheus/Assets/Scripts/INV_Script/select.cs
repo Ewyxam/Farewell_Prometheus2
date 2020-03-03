@@ -21,7 +21,10 @@ public class select : MonoBehaviour
         render.enabled = false;
         Item.GetComponent<CastelDND>().enabled = false;
         //this.transform.parent.gameObject.SetActive(false);
-
+        /*switch (gameObject.name) {
+            case ():
+                break;
+    }*/
     }
 
 

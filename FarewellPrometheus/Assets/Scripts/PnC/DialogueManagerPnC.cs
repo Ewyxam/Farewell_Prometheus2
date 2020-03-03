@@ -10,18 +10,27 @@ public class DialogueManagerPnC : MonoBehaviour
     public string objectClicked;
     public bool cisailleInInventory;
 
-    public void ArrivalPanelDial()
+    public void LoadArrivalDial()
     {
-        if (!visited)
+        StartCoroutine(ArrivalDial(3f));
+    }
+
+    IEnumerator ArrivalDial (float waitTime)
+    {
+        yield return new WaitForSeconds(waitTime);
+
+        location = GameObject.Find("GameManager").GetComponent<GameManager>().numTab;
+
+        //if (!visited)
+        //{
+        if (location == 0)
         {
-        if (location == 1)
-            {
-                AkSoundEngine.SetSwitch("Dial_PnC", "CL1_IV_02_SFX", gameObject);
-                AkSoundEngine.PostEvent("Dial_PnC_Event", gameObject);
-            }
+            AkSoundEngine.SetSwitch("Dial_PnC", "CL1_IV_02", gameObject);
+            AkSoundEngine.PostEvent("Dial_PnC_Event", gameObject);
+        }
         //else if location == y ; etc
         //else { ligne global }
-        }
+        //}
         /*else if déjà visité {
         if location == CP2 {random ligne de dial CP)
     

@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class GameManager : MonoBehaviour
 {
@@ -9,7 +10,8 @@ public class GameManager : MonoBehaviour
     public bool couvClear, elecClear, grotteOk, combiOn, volgaAlive,test;
     public int day, campState,numTab;
     public Sprite[] campVisual;
-
+    int buildIndex;
+    private Scene currentScene;
 
     void Start()
     {
@@ -29,14 +31,19 @@ public class GameManager : MonoBehaviour
 
     void Update()
     {
-        collMan = GameObject.Find("CollisionManager");
-        numTab = collMan.GetComponent<CollisionManager>().tabNum;
-        if (numTab ==5 && couvClear && test ==true)
+        
+
+        if (transition.GetComponent<SceneTransition>().buildIndex == 1 )
         {
-            collMan.GetComponent<CollisionManager>().tab[0].SetActive(false);
-            collMan.GetComponent<CollisionManager>().tab[numTab].SetActive(true);
-            GameObject.Find("INT_BG").GetComponent<Image>().sprite = campVisual[2];
-            test = false;
+            collMan = GameObject.Find("CollisionManager");
+            numTab = collMan.GetComponent<CollisionManager>().tabNum;
+            if (numTab == 5 && couvClear && test == true)
+            {
+                collMan.GetComponent<CollisionManager>().tab[0].SetActive(false);
+                collMan.GetComponent<CollisionManager>().tab[numTab].SetActive(true);
+                GameObject.Find("INT_BG").GetComponent<Image>().sprite = campVisual[2];
+                test = false;
+            }
         }
 
     }

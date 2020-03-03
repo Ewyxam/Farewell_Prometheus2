@@ -39,7 +39,7 @@
 				<Event Id="896891632" Name="CP2_to_CP1_Event" ObjectPath="\Events\Default Work Unit\Environment\Transitions\CP2_to_CP1_Event" DurationType="OneShot" DurationMin="5.421333" DurationMax="5.421333"/>
 				<Event Id="4080305513" Name="CV_Gears_Moving_Event" ObjectPath="\Events\Default Work Unit\Element\CV\CV_Gears_Moving_Event" DurationType="OneShot" DurationMin="1.375506" DurationMax="1.635762"/>
 				<Event Id="1497348625" Name="CV_Gears_Right_Event" ObjectPath="\Events\Default Work Unit\Element\CV\CV_Gears_Right_Event" DurationType="OneShot" DurationMin="1.500000" DurationMax="1.500000"/>
-				<Event Id="274588646" Name="Dial_PnC_Event" ObjectPath="\Events\Default Work Unit\Vocal\Dial_PnC_Event" DurationType="OneShot" DurationMin="0.000000" DurationMax="9.082125"/>
+				<Event Id="274588646" Name="Dial_PnC_Event" ObjectPath="\Events\Default Work Unit\Vocal\Dial_PnC_Event" DurationType="OneShot" DurationMin="0.000000" DurationMax="15.000000"/>
 				<Event Id="3621126168" Name="GR1_to_RV1_Event" ObjectPath="\Events\Default Work Unit\Environment\Transitions\GR1_to_RV1_Event" DurationType="OneShot" DurationMin="3.247396" DurationMax="3.247396"/>
 				<Event Id="55565095" Name="Music_Event" ObjectPath="\Events\Default Work Unit\Ship\Music\Music_Event" DurationType="Infinite"/>
 				<Event Id="2063851173" Name="Password_Right" ObjectPath="\Events\Default Work Unit\Ship\Computer\Password\Password_Right" DurationType="OneShot" DurationMin="3.029375" DurationMax="3.029375"/>
@@ -68,6 +68,10 @@
 				<File Id="24977705" Language="SFX">
 					<ShortName>CL1_Lemur_02_AMB_SFX.wav</ShortName>
 					<Path>SFX\CL1_Lemur_02_AMB_SFX_6296B0F9.wem</Path>
+				</File>
+				<File Id="26029393" Language="English(US)">
+					<ShortName>P3_Volga_Mix-001.wav</ShortName>
+					<Path>Voices\English(US)\P3_Volga_Mix-001_6296B0F9.wem</Path>
 				</File>
 				<File Id="30271061" Language="English(US)">
 					<ShortName>G_I_V_03_SFX.wav</ShortName>
@@ -140,6 +144,10 @@
 				<File Id="132184454" Language="SFX">
 					<ShortName>Jungle_Birds_AMB_SFX_12.wav</ShortName>
 					<Path>SFX\Jungle_Birds_AMB_SFX_12_6296B0F9.wem</Path>
+				</File>
+				<File Id="138273594" Language="English(US)">
+					<ShortName>Ilya_P3_2_raw-002.wav</ShortName>
+					<Path>Voices\English(US)\Ilya_P3_2_raw-002_6296B0F9.wem</Path>
 				</File>
 				<File Id="140245505" Language="English(US)">
 					<ShortName>Volga_P1_Dial_06-03.wav</ShortName>
@@ -513,6 +521,10 @@
 					<ShortName>A_I_V_04_SFX.wav</ShortName>
 					<Path>Voices\English(US)\A_I_V_04_SFX_6296B0F9.wem</Path>
 				</File>
+				<File Id="709227756" Language="English(US)">
+					<ShortName>Ilya_P3_2_raw-001.wav</ShortName>
+					<Path>Voices\English(US)\Ilya_P3_2_raw-001_6296B0F9.wem</Path>
+				</File>
 				<File Id="713839033" Language="SFX">
 					<ShortName>Paper_Handle_ 01_SFX.wav</ShortName>
 					<Path>SFX\Paper_Handle_ 01_SFX_6296B0F9.wem</Path>
@@ -620,10 +632,6 @@
 				<File Id="852947000" Language="SFX">
 					<ShortName>JG1_Wind_01_AMB_SFX.wav</ShortName>
 					<Path>SFX\JG1_Wind_01_AMB_SFX_9B96ECC7.wem</Path>
-				</File>
-				<File Id="855105975" Language="English(US)">
-					<ShortName>CP2_V_03_SFX.wav</ShortName>
-					<Path>Voices\English(US)\CP2_V_03_SFX_6296B0F9.wem</Path>
 				</File>
 				<File Id="858750439" Language="English(US)">
 					<ShortName>M_P_I_02_SFX.wav</ShortName>

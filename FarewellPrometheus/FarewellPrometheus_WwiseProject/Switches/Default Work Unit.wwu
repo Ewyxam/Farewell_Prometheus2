@@ -66,6 +66,7 @@
 						<Switch Name="CP1_V_01" ID="{3A652923-468B-4E6B-BB4B-E6B8D8AF33C9}"/>
 						<Switch Name="CP2_I_04" ID="{39209180-7A86-4794-9300-34060F6DD0B6}"/>
 						<Switch Name="CP2_V_03" ID="{60BB171A-6001-490C-865D-368CFF2B9E28}"/>
+						<Switch Name="CL1_IV_02" ID="{73A013EA-7F20-4193-BFC6-F8FC6C863A05}"/>
 					</ChildrenList>
 				</SwitchGroup>
 			</ChildrenList>

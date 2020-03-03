@@ -10,8 +10,8 @@ public class GameManager : MonoBehaviour
     public bool couvClear, elecClear, grotteOk, combiOn, volgaAlive,test;
     public int day, campState,numTab;
     public Sprite[] campVisual;
-    int buildIndex;
-    private Scene currentScene;
+    
+    
 
     void Start()
     {
@@ -31,20 +31,22 @@ public class GameManager : MonoBehaviour
 
     void Update()
     {
-        
 
-        if (transition.GetComponent<SceneTransition>().buildIndex == 1 )
-        {
-            collMan = GameObject.Find("CollisionManager");
+        dialMan = GameObject.Find("DialogueManager");
+        transition = GameObject.Find("SceneTransition");
+        collMan = GameObject.Find("CollisionManager");
             numTab = collMan.GetComponent<CollisionManager>().tabNum;
             if (numTab == 5 && couvClear && test == true)
             {
                 collMan.GetComponent<CollisionManager>().tab[0].SetActive(false);
                 collMan.GetComponent<CollisionManager>().tab[numTab].SetActive(true);
                 GameObject.Find("INT_BG").GetComponent<Image>().sprite = campVisual[2];
+            transition.GetComponent<SceneTransition>().tabNum = 5;
                 test = false;
             }
-        }
+
+            //GIT BORDEL REPERE MON TRUC
+        
 
     }
 

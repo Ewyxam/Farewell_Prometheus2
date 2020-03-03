@@ -14,4 +14,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Couveuse.unity
     guid: ae1e885d2b7373846a5922abd0453a2b
+  - enabled: 1
+    path: Assets/Scenes/TableauElectrique2.unity
+    guid: 3994f2f30e0c889489b20a11f748807c
   m_configObjects: {}

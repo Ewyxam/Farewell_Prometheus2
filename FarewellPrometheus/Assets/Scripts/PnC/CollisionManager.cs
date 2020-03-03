@@ -123,5 +123,15 @@ public class CollisionManager : MonoBehaviour //Gerer les collisions et les tran
         AkSoundEngine.PostEvent("CP2_to_CP1_Event", gameObject);
     }
 
-
+    public void LaunchCouv1()
+    {
+        GameObject.Find("GameManager").GetComponent<GameManager>().LaunchCouv();
     }
+
+    public void LaunchElec1()
+    {
+        GameObject.Find("GameManager").GetComponent<GameManager>().LaunchElec();
+    }
+
+
+}

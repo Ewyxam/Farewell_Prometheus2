@@ -98,8 +98,6 @@ GameObject:
   m_Component:
   - component: {fileID: 7512095669666488827}
   - component: {fileID: 7512095669666488824}
-  - component: {fileID: 7512095669666488825}
-  - component: {fileID: 7512095669666488826}
   - component: {fileID: 7512095669666488830}
   - component: {fileID: 7512095669666488805}
   m_Layer: 0
@@ -145,74 +143,6 @@ MonoBehaviour:
     positionOffset: {x: 0, y: 0, z: 0}
   m_posOffsetData: {fileID: 0}
   listenerMask: 1
---- !u!114 &7512095669666488825
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7512095669666488831}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8d5958d47131f904682a66f1e7c6aac2, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  triggerList: 
-  useOtherObject: 0
-  actionOnEventType: 0
-  curveInterpolation: 4
-  enableActionOnEvent: 0
-  data:
-    idInternal: 0
-    valueGuidInternal: 
-    WwiseObjectReference: {fileID: 11400000, guid: 38ddd5d21cc07a04da878b1e76189f02,
-      type: 2}
-  useCallbacks: 0
-  Callbacks: []
-  playingId: 0
-  soundEmitterObject: {fileID: 0}
-  transitionDuration: 0
-  eventIdInternal: 0
-  valueGuidInternal: 
-  m_callbackDataInternal: {fileID: 0}
-  MultiPositionType: 1
-  multiPositionTypeLabel: 0
-  LargeModePositions: []
-  multiPositionArray: []
---- !u!114 &7512095669666488826
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7512095669666488831}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8d5958d47131f904682a66f1e7c6aac2, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  triggerList: 
-  useOtherObject: 0
-  actionOnEventType: 0
-  curveInterpolation: 4
-  enableActionOnEvent: 0
-  data:
-    idInternal: 0
-    valueGuidInternal: 
-    WwiseObjectReference: {fileID: 11400000, guid: b0a4edd2d0e6bdd4f9fc7f94b9d40b1d,
-      type: 2}
-  useCallbacks: 0
-  Callbacks: []
-  playingId: 0
-  soundEmitterObject: {fileID: 0}
-  transitionDuration: 0
-  eventIdInternal: 0
-  valueGuidInternal: 
-  m_callbackDataInternal: {fileID: 0}
-  MultiPositionType: 1
-  multiPositionTypeLabel: 0
-  LargeModePositions: []
-  multiPositionArray: []
 --- !u!114 &7512095669666488830
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -225,7 +155,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4599daeba4b0f124fb2ad3c036627d8d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  location: 0
 --- !u!114 &7512095669666488805
 MonoBehaviour:
   m_ObjectHideFlags: 0

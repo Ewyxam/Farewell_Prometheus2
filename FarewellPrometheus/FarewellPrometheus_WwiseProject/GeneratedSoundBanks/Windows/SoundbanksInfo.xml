@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="11" SoundbankVersion="134">
 	<RootPaths>
-		<ProjectRoot>D:\Farewell_Backup\Farewell_Prometheus2\FarewellPrometheus\FarewellPrometheus_WwiseProject\</ProjectRoot>
-		<SourceFilesRoot>D:\Farewell_Backup\Farewell_Prometheus2\FarewellPrometheus\FarewellPrometheus_WwiseProject\.cache\Windows\</SourceFilesRoot>
-		<SoundBanksRoot>D:\Farewell_Backup\Farewell_Prometheus2\FarewellPrometheus\FarewellPrometheus_WwiseProject\GeneratedSoundBanks\Windows\</SoundBanksRoot>
+		<ProjectRoot>D:\FP\Farewell_Prometheus2\FarewellPrometheus\FarewellPrometheus_WwiseProject\</ProjectRoot>
+		<SourceFilesRoot>D:\FP\Farewell_Prometheus2\FarewellPrometheus\FarewellPrometheus_WwiseProject\.cache\Windows\</SourceFilesRoot>
+		<SoundBanksRoot>D:\FP\Farewell_Prometheus2\FarewellPrometheus\FarewellPrometheus_WwiseProject\GeneratedSoundBanks\Windows\</SoundBanksRoot>
 		<ExternalSourcesInputFile></ExternalSourcesInputFile>
-		<ExternalSourcesOutputRoot>D:\Farewell_Backup\Farewell_Prometheus2\FarewellPrometheus\FarewellPrometheus_WwiseProject\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
+		<ExternalSourcesOutputRoot>D:\FP\Farewell_Prometheus2\FarewellPrometheus\FarewellPrometheus_WwiseProject\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<DialogueEvents/>
 	<StreamedFiles/>
@@ -336,10 +336,6 @@
 				<File Id="441012250" Language="English(US)">
 					<ShortName>G_P_I_01_SFX.wav</ShortName>
 					<Path>Voices\English(US)\G_P_I_01_SFX_6296B0F9.wem</Path>
-				</File>
-				<File Id="450707197" Language="SFX">
-					<ShortName>FP_Intro_V1_MIX.wav</ShortName>
-					<Path>SFX\FP_Intro_V1_MIX_9B96ECC7.wem</Path>
 				</File>
 				<File Id="453477331" Language="SFX">
 					<ShortName>Calendar_Handle_03_SFX.wav</ShortName>

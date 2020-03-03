@@ -23,10 +23,14 @@ public class activItem : MonoBehaviour
             GetComponent<SpriteRenderer>().enabled = true;
             GetComponent<BoxCollider2D>().enabled = true;
         }
-        if(scene.activeInHierarchy == false)
+
+        if (gameObject.GetComponent<TakeItem>().deposableTakeItem == false)
         {
-            GetComponent<SpriteRenderer>().enabled = false;
-            GetComponent<BoxCollider2D>().enabled = false;
+            if (scene.activeInHierarchy == false)
+            {
+                GetComponent<SpriteRenderer>().enabled = false;
+                GetComponent<BoxCollider2D>().enabled = false;
+            }
         }
     }
 }

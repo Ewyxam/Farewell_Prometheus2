@@ -16,6 +16,7 @@ public class SceneTransition : MonoBehaviour
     public GameObject nextPanel;
     public GameObject continueButton;
     public GameObject helmetUI;
+    public GameObject Inventaire;
 
     public int tabNum,transActive;
     private Scene currentScene;
@@ -122,6 +123,8 @@ public class SceneTransition : MonoBehaviour
         transActive = 1;
 
         transition.SetTrigger("End");
+        Inventaire.SetActive(false);
+
 
         yield return new WaitForSeconds(2f);
 
@@ -157,6 +160,8 @@ public class SceneTransition : MonoBehaviour
         transActive = 0; 
 
         transition.SetTrigger("End");
+        Inventaire.SetActive(true);
+
     }
 
     public void LoadPhasePnC()

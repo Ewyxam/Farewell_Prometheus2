@@ -351,12 +351,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   transition: {fileID: 0}
   transitionTime: 1
+  transitionPnC: 7
   manager: {fileID: 0}
   currentPanel: {fileID: 0}
   transitionPanel: {fileID: 0}
   nextPanel: {fileID: 0}
   continueButton: {fileID: 0}
+  helmetUI: {fileID: 0}
   tabNum: 0
+  transActive: 0
 --- !u!1 &7791333094528208764
 GameObject:
   m_ObjectHideFlags: 0

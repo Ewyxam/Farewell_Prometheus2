@@ -19,7 +19,7 @@ public class SceneTransition : MonoBehaviour
 
     public int tabNum,transActive;
     private Scene currentScene;
-    int buildIndex;
+    public int buildIndex;
     
 
     public void Start()

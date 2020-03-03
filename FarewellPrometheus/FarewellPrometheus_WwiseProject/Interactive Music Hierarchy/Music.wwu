@@ -219,6 +219,11 @@
 						<MusicSegment Name="Introduction" ID="{41003BC9-33B5-416A-A798-7EF7E5A80854}" ShortID="893965876">
 							<PropertyList>
 								<Property Name="EndPosition" Type="Real64" Value="58457.3304157549"/>
+								<Property Name="Inclusion" Type="bool">
+									<ValueList>
+										<Value>False</Value>
+									</ValueList>
+								</Property>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">

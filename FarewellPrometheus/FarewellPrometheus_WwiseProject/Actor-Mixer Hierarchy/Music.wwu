@@ -223,6 +223,11 @@
 								</RandomSequenceContainer>
 								<RandomSequenceContainer Name="Exploration_Theme_Octave_Up" ID="{2D532F59-1576-4A09-BED8-987234E33778}" ShortID="652768234">
 									<PropertyList>
+										<Property Name="Inclusion" Type="bool">
+											<ValueList>
+												<Value>False</Value>
+											</ValueList>
+										</Property>
 										<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
 										<Property Name="PlayMechanismSpecialTransitionsType" Type="int16" Value="1"/>
 										<Property Name="PlayMechanismSpecialTransitionsValue" Type="Real64" Value="3">

@@ -21,6 +21,7 @@ public class MiniMapDrag : MonoBehaviour, IDragHandler, IEndDragHandler
 
     public void OnDrag(PointerEventData eventData)                                          // lorsque l'on clique-maintien sur la map
     {
+        transform.position = Input.mousePosition + new Vector3(-120, 30, 0);
         if (ColMan.tabNum == 0)                                                             // on vérifie le tableau afin que lorsqu'on clique sur la minimap la souris se positionne au centre de la représentation du tableau sur la minimap
         {
             if (ColMan.discovered[1] == false)
@@ -30,7 +31,7 @@ public class MiniMapDrag : MonoBehaviour, IDragHandler, IEndDragHandler
         }
         if (ColMan.tabNum == 1)
         {
-            transform.position = Input.mousePosition + new Vector3(-120, 30, 0);
+
         }
     }
     public void OnEndDrag(PointerEventData eventData)                                       // lorsqu'on relache la minimap se repositionne automatiquement sur la position actuelle du joueur

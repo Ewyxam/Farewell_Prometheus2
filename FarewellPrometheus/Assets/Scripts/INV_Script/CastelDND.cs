@@ -29,7 +29,8 @@ public class CastelDND : MonoBehaviour                          // attacher se s
     }
     private void Update()
     {
-        transform.position = Camera.main.ScreenToWorldPoint(new Vector3(Input.mousePosition.x, Input.mousePosition.y, 13));
+        transform.position = Camera.main.ScreenToWorldPoint(new Vector3(Input.mousePosition.x, Input.mousePosition.y, 10
+            ));
     }
 
     void OnMouseDown()                                          // il faut ajouter un collider pour que cette méthode fonctionne (ne fonctionne pas sur IOS)

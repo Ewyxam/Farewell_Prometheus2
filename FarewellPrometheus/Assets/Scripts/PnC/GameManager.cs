@@ -31,28 +31,34 @@ public class GameManager : MonoBehaviour
 
     void Update()
     {
+        Scene currentScene = SceneManager.GetActiveScene();
 
         dialMan = GameObject.Find("DialogueManager");
         transition = GameObject.Find("SceneTransition");
         collMan = GameObject.Find("CollisionManager");
+        if (currentScene.name == "PhasePnC")
+        {
             numTab = collMan.GetComponent<CollisionManager>().tabNum;
 
-        if (numTab == 5 && elecClear )
-        {
-            collMan.GetComponent<CollisionManager>().tab[0].SetActive(false);
-            collMan.GetComponent<CollisionManager>().tab[numTab].SetActive(true);
-            GameObject.Find("INT_BG").GetComponent<Image>().sprite = campVisual[1];
-            transition.GetComponent<SceneTransition>().tabNum = 5;
-            
-        }else
-        if (numTab == 5 && couvClear && test == true)
+
+            if (numTab == 5 && elecClear)
+            {
+                collMan.GetComponent<CollisionManager>().tab[0].SetActive(false);
+                collMan.GetComponent<CollisionManager>().tab[numTab].SetActive(true);
+                GameObject.Find("INT_BG").GetComponent<Image>().sprite = campVisual[1];
+                transition.GetComponent<SceneTransition>().tabNum = 5;
+
+            }
+            else
+            if (numTab == 5 && couvClear && test == true)
             {
                 collMan.GetComponent<CollisionManager>().tab[0].SetActive(false);
                 collMan.GetComponent<CollisionManager>().tab[numTab].SetActive(true);
                 GameObject.Find("INT_BG").GetComponent<Image>().sprite = campVisual[2];
-            transition.GetComponent<SceneTransition>().tabNum = 5;
+                transition.GetComponent<SceneTransition>().tabNum = 5;
                 test = false;
             }
+        }
 
             //GIT BORDEL REPERE MON TRUC
         
@@ -77,5 +83,9 @@ public class GameManager : MonoBehaviour
         }
     }
 
+    public void ElecOk()
+    {
+        elecClear = true;
+    }
 
 }

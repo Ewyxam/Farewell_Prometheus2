@@ -5,6 +5,21 @@ TagManager:
   serializedVersion: 2
   tags:
   - Transition
+  - RecepteurTer
+  - Magenta
+  - RecepteurPri
+  - Cyan
+  - Jaune
+  - RecepteurSec
+  - Vert
+  - Violet
+  - Orange
+  - Soufre
+  - Safran
+  - Grenat
+  - Capucine
+  - Campanule
+  - Turquoise
   layers:
   - Default
   - TransparentFX

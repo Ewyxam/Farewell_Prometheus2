@@ -26,6 +26,7 @@ public class SoundManager : MonoBehaviour
             Debug.Log("CL1 AMB");
             AkSoundEngine.SetState("Music", "Exploration");
             AkSoundEngine.PostEvent("Music_Event", gameObject);
+            GameObject.Find("DialogueManagerPnC").GetComponent<DialogueManagerPnC>().LoadArrivalDial();
         }
         else if (buildIndex == 2)
         {
@@ -64,8 +65,40 @@ public class SoundManager : MonoBehaviour
     {
         AkSoundEngine.SetState("Location", "VS1");
     }
+    
+    void OnEnable()
+    {
+        //Tell our 'OnLevelFinishedLoading' function to start listening for a scene change as soon as this script is enabled.
+        SceneManager.sceneLoaded += OnLevelFinishedLoading;
+    }
 
-   
+    void OnDisable()
+    {
+        //Tell our 'OnLevelFinishedLoading' function to stop listening for a scene change as soon as this script is disabled. Remember to always have an unsubscription for every delegate you subscribe to!
+        SceneManager.sceneLoaded -= OnLevelFinishedLoading;
+    }
+
+    void OnLevelFinishedLoading(Scene PhasePnC, LoadSceneMode mode)
+    {
+        // Create a temporary reference to the current scene.
+        Scene currentScene = SceneManager.GetActiveScene();
+
+        // Retrieve the index of the scene in the project's build settings.
+        int buildIndex = currentScene.buildIndex;
+
+        if (buildIndex == 1)
+        {
+            Debug.Log("Level Loaded");
+            Debug.Log(mode);
+            GameObject.Find("DialogueManager").GetComponent<DialogueManagerPnC>().LoadArrivalDial();
+        }
+
+        if (buildIndex == 2)
+        {
+            Debug.Log("Couveuse loaded");
+        }
+            
+    }
 
 
 }
